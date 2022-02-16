@@ -1,7 +1,8 @@
 {
-  "name": "cmv2-boilerplate",
+  "name": "metaball-cmv2",
   "version": "0.1.0",
   "private": true,
+  "homepage": ".",
   "dependencies": {
     "@babel/runtime": "^7.16.7",
     "@bundlr-network/client": "^0.2.4",
