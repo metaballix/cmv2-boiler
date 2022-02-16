@@ -168,9 +168,9 @@ const App = () => {
         <header className="card" id="link1">
           <div style={{ padding: "0 24px 0 24px 0" }}>
             <h3 className="text-secondary-color">Welcome To Metaballix</h3>
-            <h1 className="pb-3">EXPERIENCE. EVOLVE. EARN.</h1>
-            <p className="text-secondary-color">
-            The PlasmaVerse is coming. Immersive yourself in an XR environment with unique gameplay physics. Build &amp; share income-generating Xone Microverses. Compete for $PLASMA density to unlock traits, assets and exclusive airdrops. Mint new variations of metaball NFTs to sell or trade.
+            <h1 className="pb-3">ENGAGE. EVOLVE. EARN.</h1>
+            <p className="text-secondary-color hero-text">
+            <em>The PlasmaVerse is coming.</em> Immersive yourself in an XR environment with unique gameplay physics. Build &amp; share income-generating Xone Microverses. Compete for $PLASMA density &amp; exclusive airdrops. Unlock traits &amp; mint new variations of metaball NFTs!
             </p>
           </div>
           <div>
