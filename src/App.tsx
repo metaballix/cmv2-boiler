@@ -117,18 +117,18 @@ const App = () => {
           <li>
             <div className="social-icons">
               <a href="https://twitter.com/metaballix" target="_blank" rel="noreferrer">
-                <img className="nav-social" src="/icons/twitter.svg" alt="" />
+              <i className="nav-social fa-brands fa-twitter"> </i>
+                {/* <img className="nav-social" src="/icons/twitter.svg" alt="" /> */}
               </a>
               <a href="https://discord.gg/AG2Y93emkf" target="_blank" rel="noreferrer">
-                <img className="nav-social" src="/icons/discord.svg" alt="" />
+              <i className="nav-social fa-brands fa-discord"> </i>
+                {/* <img className="nav-social" src="/icons/discord.svg" alt="" /> */}
               </a>
             </div>
           </li>
         </ul>
       </div>
-      <div className="mobile-menu-button" onClick={toggleMenu}>
-        <img src="/icons/menu.svg" alt="" />
-      </div>
+      <i className="mobile-menu-button fa-solid fa-ellipsis-vertical" onClick={toggleMenu}> </i>
       <nav>
         <div className="nav-container">
         <section className="stage"><figure className="4x1 ball bubble"></figure></section>
@@ -150,12 +150,16 @@ const App = () => {
           <a className="hide-800" href="/#link4">
             Mission
           </a>
+          <a className="hide-800" href="/">
+          </a>
           <div className="social-icons hide-800">
             <a href="https://twitter.com/metaballix" target="_blank" rel="noreferrer">
-              <img className="nav-social" src="/icons/twitter.svg" alt="" />
+              <i className="nav-social fa-brands fa-twitter"> </i>
+              {/* <img className="nav-social" src="/icons/twitter.svg" alt="" /> */}
             </a>
             <a href="https://discord.gg/AG2Y93emkf" target="_blank" rel="noreferrer">
-              <img className="nav-social" src="/icons/discord.svg" alt="" />
+              <i className="nav-social fa-brands fa-discord"> </i>
+              {/* <img className="nav-social" src="/icons/discord.svg" alt="" /> */}
             </a>
           </div>
         </div>
