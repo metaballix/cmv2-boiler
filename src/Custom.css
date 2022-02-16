@@ -1,0 +1,186 @@
+/* LOGO BALL */
+
+.ball {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    position: relative;
+    margin: auto 5px;
+    background: radial-gradient(circle at bottom, #81e8f6, #76deef 10%, #055194 80%, #062745 100%);
+  }
+  .ball:hover{cursor: pointer;}
+    .ball:before {
+      content: "";
+      position: absolute;
+      display:none;
+      top: 1%;
+      left: 5%;
+      width: 70%;
+      height: 70%;
+      border-radius: 100%;
+      background: radial-gradient(circle at top, white, rgba(255, 255, 255, 0) 58%);
+      -webkit-filter: blur(5px);
+      filter: blur(5px);
+      z-index: 2; }
+    .ball:after {
+      content: "";
+      position: absolute;
+      display: none;
+      top: 5%;
+      left: 10%;
+      width: 80%;
+      height: 80%;
+      border-radius: 100%;
+      -webkit-filter: blur(1px);
+      filter: blur(1px);
+      z-index: 2;
+      -webkit-transform: rotateZ(-30deg);
+      transform: rotateZ(-30deg); }
+    .ball .shadow {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: radial-gradient(circle, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0) 50%);
+      -webkit-transform: rotateX(90deg) translateZ(-160px);
+      transform: rotateX(90deg) translateZ(-160px);
+      z-index: 1; }
+    .ball.plain {
+      background: black; }
+      .ball.plain:before, .ball.plain:after {
+        display: none; }
+    .ball.bubble {
+      background-image: url("https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/mtblx_dark_72px.png?v=1642785332591"),radial-gradient(circle at 50% 55%, rgba(240, 245, 255, 0.9), rgba(240, 245, 255, 0.9) 40%, rgba(225, 238, 255, 0.8) 60%, rgba(43, 130, 255, 0.4));
+    background-size: 3rem 3rem;
+      -webkit-animation: bubble-anim 2s ease-out infinite;
+      animation: bubble-anim 2s ease-out infinite;
+      opacity:0.8;
+      transition: all 0.3s;
+    }
+    .mbmenu-ball.ball.bubble {
+      background-image: url("https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/ballmenu-icon.png?v=1643823631145"),radial-gradient(circle at 50% 55%, rgba(240, 245, 255, 0.9), rgba(240, 245, 255, 0.9) 40%, rgba(225, 238, 255, 0.8) 60%, rgba(113, 17, 161, 0.4));
+    }
+      .ball.bubble:hover,.ball.bubble:active {opacity:1;}
+      .ball.bubble:before {
+        -webkit-filter: blur(0);
+        filter: blur(0);
+        height: 80%;
+        width: 40%;
+        background: radial-gradient(circle at 130% 130%, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0) 46%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.8) 58%, rgba(255, 255, 255, 0) 60%, rgba(255, 255, 255, 0) 100%);
+        -webkit-transform: translateX(131%) translateY(58%) rotateZ(168deg) rotateX(10deg);
+        transform: translateX(131%) translateY(58%) rotateZ(168deg) rotateX(10deg); }
+      .ball.bubble:after {
+        display: block;
+        background: radial-gradient(circle at 50% 80%, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 74%, white 80%, white 84%, rgba(255, 255, 255, 0) 100%); }
+  
+  .stage {
+    width: 3rem;
+    height: 3rem;
+    margin: 0 auto;
+    -webkit-perspective: 384px;
+    -moz-perspective: 384px;
+    -ms-perspective: 384px;
+    -o-perspective: 384px;
+    perspective: 384px;
+    -webkit-perspective-origin: 50% 50%;
+    -moz-perspective-origin: 50% 50%;
+    -ms-perspective-origin: 50% 50%;
+    -o-perspective-origin: 50% 50%;
+    perspective-origin: 50% 50%;
+  }
+  
+  @-webkit-keyframes bubble-anim {
+    0% {
+      -webkit-transform: scale(1);
+      transform: scale(1); }
+  
+    20% {
+      -webkit-transform: scaleY(0.95) scaleX(1.05);
+      transform: scaleY(0.95) scaleX(1.05); }
+  
+    48% {
+      -webkit-transform: scaleY(1.1) scaleX(0.9);
+      transform: scaleY(1.1) scaleX(0.9); }
+  
+    68% {
+      -webkit-transform: scaleY(0.98) scaleX(1.02);
+      transform: scaleY(0.98) scaleX(1.02); }
+  
+    80% {
+      -webkit-transform: scaleY(1.02) scaleX(0.98);
+      transform: scaleY(1.02) scaleX(0.98); }
+  
+    97%, 100% {
+      -webkit-transform: scale(1);
+      transform: scale(1); } }
+  
+  @keyframes bubble-anim {
+    0% {
+      -webkit-transform: scale(1);
+      transform: scale(1); }
+  
+    20% {
+      -webkit-transform: scaleY(0.95) scaleX(1.05);
+      transform: scaleY(0.95) scaleX(1.05); }
+  
+    48% {
+      -webkit-transform: scaleY(1.1) scaleX(0.9);
+      transform: scaleY(1.1) scaleX(0.9); }
+  
+    68% {
+      -webkit-transform: scaleY(0.98) scaleX(1.02);
+      transform: scaleY(0.98) scaleX(1.02); }
+  
+    80% {
+      -webkit-transform: scaleY(1.02) scaleX(0.98);
+      transform: scaleY(1.02) scaleX(0.98); }
+  
+    97%, 100% {
+      -webkit-transform: scale(1);
+      transform: scale(1); } }
+  
+  
+  /* LOGO 3D TEXT */
+  .logo-3d-text {
+    padding:0;
+    vertical-align:top;
+    font-size: 22px;
+    letter-spacing: .05rem;
+    line-height:22px;
+    color: #1fc7dd;
+     font-family: 'Dosis', Gadget, sans-serif;
+     transition: all 0.2s;
+  
+   }
+  .logo-3d-text:hover {
+    color: #11ECF3;
+    letter-spacing: .06rem;
+    transform: translateX(5px) translateY(0px) scale(1);
+  }
+  .logo-3d-text:active {
+      text-shadow: 0px 0px 0 rgb(-17,180,187),
+                   0px 1px 0 rgb(-33,164,171),
+                   0px 2px 0 rgb(-50,147,154),
+                   0px 3px  0 rgb(-67,130,137),
+                   0px 4px 3px rgba(0,0,0,0.6),
+                   0px 4px 1px rgba(0,0,0,0.5),
+                   0px 0px 3px rgba(0,0,0,.2);
+  }
+  
+  /* effect-shine */
+  a.effect-shine {text-decoration: none;}
+  a.effect-shine:hover {
+    -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000000 50%, rgba(0,0,0,.6) 70%);
+    -webkit-mask-size: 200%;
+    animation: shine 2s infinite;
+  }
+  
+  @-webkit-keyframes shine {
+    from {
+      -webkit-mask-position: 150%;
+    }
+    
+    to {
+      -webkit-mask-position: -50%;
+    }
+  }
+  

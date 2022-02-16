@@ -56,15 +56,15 @@ export const welcomeSettings: WelcomeSettings = {
 
   // Countdown Timer
   countdownEnable: false,
-  countdownTo: date("2 Jan 2022 00:00:00 GMT"),
+  countdownTo: date("20 April 2022 00:00:00 GMT"),
   //Example date below
   // date('29 2021 00:00:00 GMT')
 
   // showprice
-  showPrice: false,
+  showPrice: true,
 
   //Enable Custom HTML
-  enableCustomHTML: false,
+  enableCustomHTML: true,
 };
 
 export class MintWelcomeCustomHTML extends React.Component {
@@ -74,7 +74,7 @@ export class MintWelcomeCustomHTML extends React.Component {
         {/* Add Custom HTML code for Welcome Here! */}
 
         
-        <p>Test 1</p>
+        <p>Welcome Player X!</p>
         
         
         {/* End */}
@@ -99,14 +99,14 @@ export const whitelistSettings: WhitelistSettings = {
   //If you want to use the whitelist feature enable it.
   enabled: true,
 
-  startDate: date("1 Jan 2022 00:00:00 GMT"),
-  endDate: date("8 Jan 2022 00:00:00 GMT"),
+  startDate: date("15 Mar 2022 00:00:00 GMT"),
+  endDate: date("31 Mar 2022 00:00:00 GMT"),
   countdown: true,
   //Example date below
   // date('29 2021 00:00:00 GMT')
 
   //Wallet Title and Description
-  title: "White List",
+  title: "Whitelist Sale",
   desc: undefined,
 
   //Enable Custom HTML Below
@@ -121,7 +121,7 @@ export class MintWhitelistCustomHTML extends React.Component {
         {/* Add Custom HTML code for Whitelist Stage Here! */}
 
         
-        <p>Test 2</p>
+        <p>Welcome Player X.</p>
         
         
         {/* End */}
@@ -138,7 +138,7 @@ export class MintWhitelistCustomHTML extends React.Component {
 export const publicSaleSettings: PublicSaleSettings = {
   //start date and end date must match your Candy Machine Config for public launch!
 
-  startDate: date("7 Jan 2022 00:00:00 GMT"),
+  startDate: date("6 Feb 2022 01:20:20 GMT"),
   endDate: undefined,
   countdown: false,
   //Example date below
@@ -159,7 +159,7 @@ export class MintPublicSaleCustomHTML extends React.Component {
         {/* Add Custom HTML code for Public Minting Here! */}
 
         
-        <p>Test 3</p>
+        <p>Welcome Player X! Ready to mint?</p>
         
         
         {/* End */}

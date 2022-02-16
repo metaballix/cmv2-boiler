@@ -1,4 +1,5 @@
 import "./App.css";
+import "./Custom.css";
 import { useMemo } from "react";
 
 import Minter from "./Minter";
@@ -8,8 +9,12 @@ import { clusterApiUrl } from "@solana/web3.js";
 import { WalletAdapterNetwork } from "@solana/wallet-adapter-base";
 import {
   getPhantomWallet,
+  getSlopeWallet,
   getSolflareWallet,
   getSolletWallet,
+  getSolletExtensionWallet,
+  getTorusWallet,
+  getLedgerWallet,
   getMathWallet,
 } from "@solana/wallet-adapter-wallets";
 
@@ -47,7 +52,17 @@ const App = () => {
     () => [
       getPhantomWallet(),
       getSolflareWallet(),
-      getSolletWallet(),
+      getSlopeWallet(),
+      getSolletWallet({ network }),
+      getSolletExtensionWallet({ network }),
+      getTorusWallet({
+        options: {
+            // TODO: Get your own tor.us wallet client Id
+            clientId:
+              "BPmlVobxM5YgrAepy0V76sxD3eVM52yqdYkxKHIiNVabPI30TJ2dsdZX9n8Fh3b2ONQUBMWWptM0jOVt1auXA6U",
+          },
+        }),
+      getLedgerWallet(),
       getMathWallet(),
     ],
     []
@@ -67,34 +82,44 @@ const App = () => {
         </div>
         <ul>
           <li>
-            <img className="mobile-nav-logo" src="/img/logo.png" alt="" />
+          <section className="stage"><figure className="4x1 ball bubble"></figure></section>
           </li>
           <li>
             <a href="/#link1" onClick={toggleMenu}>
-              Link 1
+              Metaballs
             </a>
           </li>
           <li>
             <a href="/#link2" onClick={toggleMenu}>
-              Link 2
+              PlasmaVerse
             </a>
           </li>
           <li>
             <a href="/#link3" onClick={toggleMenu}>
-              Link 3
+              Tokenomics
             </a>
           </li>
           <li>
             <a href="/#link4" onClick={toggleMenu}>
-              Link 4
+              Roadmap
+            </a>
+          </li>
+          <li>
+            <a href="/#link4" onClick={toggleMenu}>
+              Litepaper
+            </a>
+          </li>
+          <li>
+            <a href="/#link4" onClick={toggleMenu}>
+              Mission
             </a>
           </li>
           <li>
             <div className="social-icons">
-              <a href="https://twitter.com" target="_blank" rel="noreferrer">
+              <a href="https://twitter.com/metaballix" target="_blank" rel="noreferrer">
                 <img className="nav-social" src="/icons/twitter.svg" alt="" />
               </a>
-              <a href="https://discord.com" target="_blank" rel="noreferrer">
+              <a href="https://discord.gg/AG2Y93emkf" target="_blank" rel="noreferrer">
                 <img className="nav-social" src="/icons/discord.svg" alt="" />
               </a>
             </div>
@@ -106,24 +131,30 @@ const App = () => {
       </div>
       <nav>
         <div className="nav-container">
-          <img className="nav-logo" src="/img/logo.png" alt="" />
+        <section className="stage"><figure className="4x1 ball bubble"></figure></section>
           <a className="hide-800" href="/#link1">
-            Link 1
+            Metaballs
           </a>
           <a className="hide-800" href="/#link2">
-            Link 2
+            PlasmaVerse
           </a>
           <a className="hide-800" href="/#link3">
-            Link 3
+            Tokenomics
           </a>
           <a className="hide-800" href="/#link4">
-            Link 4
+            Roadmap
+          </a>
+          <a className="hide-800" href="/#link4">
+            Litepaper
+          </a>
+          <a className="hide-800" href="/#link4">
+            Mission
           </a>
           <div className="social-icons hide-800">
-            <a href="https://twitter.com" target="_blank" rel="noreferrer">
+            <a href="https://twitter.com/metaballix" target="_blank" rel="noreferrer">
               <img className="nav-social" src="/icons/twitter.svg" alt="" />
             </a>
-            <a href="https://discord.com" target="_blank" rel="noreferrer">
+            <a href="https://discord.gg/AG2Y93emkf" target="_blank" rel="noreferrer">
               <img className="nav-social" src="/icons/discord.svg" alt="" />
             </a>
           </div>
@@ -132,15 +163,10 @@ const App = () => {
       <div className="content-wrapper">
         <header className="card" id="link1">
           <div style={{ padding: "0 24px 0 24px 0" }}>
-            <h3 className="text-secondary-color">Welcome To</h3>
-            <h1 className="pb-3">The Boiler Plate</h1>
+            <h3 className="text-secondary-color">Welcome To Metaballix</h3>
+            <h1 className="pb-3">EXPERIENCE. EVOLVE. EARN.</h1>
             <p className="text-secondary-color">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-              scelerisque ipsum non est porta mollis. Donec sapien sapien,
-              dictum eget enim sed, hendrerit semper orci. Donec ante magna,
-              consequat at eros ac, eleifend dictum sem. Nam vitae condimentum
-              lorem. Vestibulum molestie dui turpis, tincidunt porta sem congue
-              nec.
+            The PlasmaVerse is coming. Immersive yourself in an XR environment with unique gameplay physics. Build &amp; share income-generating Xone Microverses. Compete for $PLASMA density to unlock traits, assets and exclusive airdrops. Mint new variations of metaball NFTs to sell or trade.
             </p>
           </div>
           <div>
