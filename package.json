@@ -2,7 +2,7 @@
   "name": "metaball-cmv2",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mball2.vercel.app/",
+  "homepage": "./public/index.html",
   "dependencies": {
     "@babel/runtime": "^7.16.7",
     "@bundlr-network/client": "^0.2.4",
