@@ -121,7 +121,7 @@ export class MintWhitelistCustomHTML extends React.Component {
         {/* Add Custom HTML code for Whitelist Stage Here! */}
 
         
-        <p>Welcome Player X.</p>
+        <p>Mint Metaball NFTs anytime using Whitelist Tokens!</p>
         
         
         {/* End */}
@@ -146,7 +146,7 @@ export const publicSaleSettings: PublicSaleSettings = {
 
   //Title and Description
   title: "Public Sale",
-  desc: "Sale is now live. Mint your NFT below",
+  desc: "Sale is live. Mint your Metaball NFTs now!",
 
   //Enable Custom HTML
   enableCustomHTML: false,
@@ -159,7 +159,7 @@ export class MintPublicSaleCustomHTML extends React.Component {
         {/* Add Custom HTML code for Public Minting Here! */}
 
         
-        <p>Welcome Player X! Ready to mint?</p>
+        <p>Begin your PlasmaVerse journey by minting a Metaball.</p>
         
         
         {/* End */}

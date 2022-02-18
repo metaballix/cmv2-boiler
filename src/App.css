@@ -63,7 +63,7 @@ nav a:hover {
 }
 
 .mobile-menu-button {
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: rgb(0, 196, 204);
   height: 30px;
   width: 30px;
@@ -72,7 +72,6 @@ nav a:hover {
   right: -50px;
   transition: right 0.2s ease-in-out;
   z-index: 45;
-  cursor: pointer;
 }
 
 

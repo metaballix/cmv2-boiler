@@ -53,6 +53,7 @@ const MintContainer = styled.div`
   width: 100%;
   left: 0px;
   bottom: 15px;
+  font-family: "Dosis", sans-serif;
 `; // add your styles here
 
 export interface HomeProps {

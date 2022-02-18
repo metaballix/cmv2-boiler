@@ -1,9 +1,7 @@
 import "./App.css";
 import "./Custom.css";
 import { useMemo } from "react";
-
 import Minter from "./Minter";
-
 import * as anchor from "@project-serum/anchor";
 import { clusterApiUrl } from "@solana/web3.js";
 import { WalletAdapterNetwork } from "@solana/wallet-adapter-base";
@@ -83,6 +81,12 @@ const App = () => {
         <ul>
           <li>
           <section className="stage"><figure className="4x1 ball bubble"></figure></section>
+          </li>
+          <li>
+          <span className="logo-3d-text">
+            <a href="https://metaballix.com/" target="_blank" rel="noreferrer" className="effect-shine">
+              <b>METABALLIX</b>
+            </a></span>
           </li>
           <li>
             <a href="/#link1" onClick={toggleMenu}>
@@ -167,10 +171,10 @@ const App = () => {
       <div className="content-wrapper">
         <header className="card" id="link1">
           <div style={{ padding: "0 24px 0 24px 0" }}>
-            <h3 className="text-secondary-color">Welcome To Metaballix</h3>
+            <h3 className="text-secondary-color">Welcome to the PlasmaVerse</h3>
             <h1 className="pb-3">ENGAGE. EVOLVE. EARN.</h1>
             <p className="text-secondary-color hero-text">
-            <em>The PlasmaVerse is coming.</em> Immersive yourself in an XR environment with unique gameplay physics. Build &amp; share income-generating Xone Microverses. Compete for $PLASMA density &amp; exclusive airdrops. Unlock traits &amp; mint new variations of metaball NFTs!
+            Metaballs are generative NFT personas that reside &amp; evolve on the <b>Metaballix PlasmaVerse</b> <em>(under development)</em>, and immersive XR environment with unique gameplay physics. Build &amp; share income-generating Xone Microverses. Compete for $PLASMA density &amp; exclusive airdrops. Unlock traits &amp; mint new variations of metaball NFTs!
             </p>
           </div>
           <div>
