@@ -31,11 +31,12 @@ export default function Footer(props) {
 
   const content = {
     'brand': { image: 'nereus-assets/img/nereus-light.png', width: 110 },
-    'copy': '© 2020 Nereus. All rights reserved.',
-    'link1': 'First Link',
-    'link2': 'Second Link',
-    'link3': 'Third Link',
-    'link4': 'Fourth Link',
+    'copy': '© 2022 Metaballix Foundation. All rights reserved.',
+    'link1': 'Metaball NFTs',
+    'link2': 'PlasmaVerse XR',
+    'link3': 'Xone Microverses',
+    'link4': 'Tokenomics',
+    'link5': 'Roadmap',
     ...props.content
   };
 

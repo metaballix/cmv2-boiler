@@ -1,5 +1,26 @@
 .hero-text {font-size: 1.2rem;font-weight:500;}
 
+.hero-section {
+  background: radial-gradient(ellipse at bottom, rgba(6, 23, 70, 0.6) 10%, rgba(49, 5, 71, 0.6) 100%), url(https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/mbtl-bg-trans33.png?v=1643647587600);
+  background-repeat: repeat;
+  height: 50vh;
+}
+
+p.MuiTypography-colorTextSecondary {color: rgb(255,255,255);}
+p.MuiTypography-body1 {font-family: "Dosis", sans-serif;}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 /* LOGO BALL */
 
 .ball {
@@ -55,13 +76,14 @@
       background-image: url("https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/mtblx_dark_72px.png?v=1642785332591"),radial-gradient(circle at 50% 55%, rgba(240, 245, 255, 0.9), rgba(240, 245, 255, 0.9) 40%, rgba(225, 238, 255, 0.8) 60%, rgba(43, 130, 255, 0.4));
       -webkit-animation: bubble-anim 2s ease-out infinite;
       animation: bubble-anim 2s ease-out infinite;
-      opacity:0.8;
+      opacity: 0.75;
       transition: all 0.3s;
+      cursor: pointer;
     }
     .mbmenu-ball.ball.bubble {
       background-image: url("https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/ballmenu-icon.png?v=1643823631145"),radial-gradient(circle at 50% 55%, rgba(240, 245, 255, 0.9), rgba(240, 245, 255, 0.9) 40%, rgba(225, 238, 255, 0.8) 60%, rgba(113, 17, 161, 0.4));
     }
-      .ball.bubble:hover,.ball.bubble:active {opacity:1;}
+      .ball.bubble:hover,.ball.bubble:active {opacity: 0.95;}
       .ball.bubble:before {
         -webkit-filter: blur(0);
         filter: blur(0);
@@ -88,6 +110,7 @@
     -ms-perspective-origin: 50% 50%;
     -o-perspective-origin: 50% 50%;
     perspective-origin: 50% 50%;
+    -webkit-tap-highlight-color: transparent;
   }
   
   @-webkit-keyframes bubble-anim {

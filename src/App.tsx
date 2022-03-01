@@ -213,14 +213,6 @@ const App = () => {
 
 <Features4 content={null} />
 
-<Testimonials1 content={null} />
-
-<Testimonials2 content={null} />
-
-<CallToAction2 content={null} />
-
-<Footer3 content={null} />
-
         <div id="link2" className="container">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac velit
           aliquet, semper sapien sed, ornare augue. Phasellus sed velit
@@ -276,8 +268,18 @@ const App = () => {
             <hr />
           </div>
         </div>
+
+<Testimonials1 content={null} />
+
+<Testimonials2 content={null} />
+
+<CallToAction2 content={null} />
+
+<Footer3 content={null} />
+
       </div>
     </div>
+    
   );
 };
 
