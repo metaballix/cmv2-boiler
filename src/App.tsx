@@ -34,6 +34,24 @@ import Testimonials2 from './components/testimonials/Testimonials2';
 import CallToAction2 from './components/call-to-action/CallToAction2';
 import Footer3 from './components/footers/Footer3';
 
+/* // splideJS - splidejs.com/integration/react-splide
+// import { Splide, SplideSlide } from '@splidejs/react-splide';
+// import { Splide } from '@splidejs/splide';
+// import { AutoScroll } from '@splidejs/splide-extension-auto-scroll';
+// import '@splidejs/splide/dist/css/themes/splide-sea-green.min.css';
+// const splide = new Splide( '.splide', {
+//   type   : 'loop',
+//   drag   : 'free',
+//   focus  : 'center',
+//   perPage: 3,
+//   autoScroll: {
+//     speed: 2,
+//   },
+// } );
+// splide.mount( {AutoScroll} ); */
+
+import Particles from 'react-tsparticles';
+
 const theme = createTheme({
   palette: {
     type: "dark",
@@ -82,9 +100,10 @@ const App = () => {
     console.log("pressed");
   }
 
+
   return (
-    <div>
-      <div id="mobileNavContainer" className="mobile-nav">
+    <div id="app-main">
+      <div id="mobileNavContainer" className="mobile-nav noselect">
         <div className="mobile-nav-close-button">
           <img src="/icons/close.svg" alt="" onClick={toggleMenu} />
         </div>
@@ -131,12 +150,10 @@ const App = () => {
           <li>
             <div className="social-icons">
               <a href="https://twitter.com/metaballix" target="_blank" rel="noreferrer">
-              <i className="nav-social fa-brands fa-twitter"> </i>
-                {/* <img className="nav-social" src="/icons/twitter.svg" alt="" /> */}
+              <i className="nav-social fa-brands fa-twitter"></i>
               </a>
               <a href="https://discord.gg/AG2Y93emkf" target="_blank" rel="noreferrer">
-              <i className="nav-social fa-brands fa-discord"> </i>
-                {/* <img className="nav-social" src="/icons/discord.svg" alt="" /> */}
+              <i className="nav-social fa-brands fa-discord"></i>
               </a>
             </div>
           </li>
@@ -205,6 +222,26 @@ const App = () => {
             </ThemeProvider>
           </div>
         </header>
+
+{/* Carousel 1 : Metaball NFTs Sample */}
+{/* SplideJS (splidejs.com/integration/react-splide) */}
+{/* module imported above, CSS Styles jsdeliver tag added to index.html */}
+{/* <div className="splide">
+  <div className="splide__track">
+		<ul className="splide__list">
+			<li className="splide__slide">Slide 01</li>
+			<li className="splide__slide">Slide 02</li>
+			<li className="splide__slide">Slide 03</li>
+      <li className="splide__slide">
+        <div className="splide__slide__container">
+          <img src="/metaballs/1.png" alt="Metaball Sample #1"/>
+        </div>
+        Lorem Ipsum Dolor Sit Amet
+      </li>
+		</ul>
+  </div>
+</div> */}
+
 <HowItWorksCustom2 />
 
 <Header1 content={null} />
@@ -230,7 +267,7 @@ const App = () => {
         </div>
 
         <div id="link3" className="container card">
-          <h1 className="pb-3">Lorem ipsum</h1>
+          <h1 className="pb-3 gradient-txt">Xone Microverses</h1>
         </div>
 
         <div id="link4" className="container faq">
@@ -277,9 +314,75 @@ const App = () => {
 
 <Footer3 content={null} />
 
+<Particles
+      id="tsparticles" 
+      options={{
+        background: { color: "none", },
+        fullScreen: { zIndex: -1, },
+        fpsLimit: 60,
+        interactivity: {
+          events: {
+            resize: true,
+            onClick: { enable: true, mode: "push", },
+            onHover: {
+              enable: true,
+              mode: "repulse",
+              parallax: { enable: false, force: 60, smooth: 10, },
+            },
+          },
+          modes: {
+            push: { quantity: 4, },
+            repulse: { distance: 50, duration: 0.7, },
+            bubble: {
+              distance: 400,
+              duration: 2,
+              opacity: 0.8,
+              size: 40,
+            },
+          },
+        },
+        particles: {
+          color: { value: "#ffffff", },
+          collisions: { enable: true, },
+          move: {
+            direction: "none",
+            enable: true,
+            outModes: "bounce",
+            random: false,
+            speed: 1,
+            straight: false,
+            path: {},
+            spin: {},
+          },
+          number: {
+            density: { enable: true, area: 1100, },
+            value: 100,
+          },
+          opacity: {
+            random: true,
+            value: { min: 0.25, max: 0.55, },
+            animation: {
+              enable: true,
+              speed: 1,
+              sync: false,
+              startValue: "random",
+              count: 1,
+              destroy: "none",
+            },
+          },
+          shape: { type: "circle", },
+          size: { 
+            random: true,
+            value: { min: 1, max: 7, },
+            animation: { enable: true, speed: 10, minimumValue: 2, },
+          },
+        },
+        detectRetina: true,
+      }}
+    />
+<div className="bg-overlay"> </div>
       </div>
     </div>
-    
   );
 };
 

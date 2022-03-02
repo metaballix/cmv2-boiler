@@ -1,0 +1,63 @@
+{
+  "name": "Metaball #1",
+  "symbol": "MBALL",
+  "description": "Metaballs are programmatically defined avatars that reside and evolve in the PlasmaVerse (plasmaver.se), a play-to-earn XR ecosystem developed by Metaballix and powered by Solana. Build & share income-generating Xone Microverses. Compete for $PLASMA density to earn assets and exclusive airdrops. Unlock traits to mint new variations of metaball NFTs. Vote on upcoming traits, platform features and in-game experiences. (Under development. Learn more at Metaballix.com.)",
+  "seller_fee_basis_points": 500,
+  "image": "1.png",
+  "external_url": "https://metaball.world/",
+  "edition": 1,
+  "Metaverse": "PlasmaVerse (plasmaver.se)",
+  "Token_Ecosystem": "PLASMA",
+  "Token_Whitelist": "MBALL",
+  "PLASMA_Initial": 1000,
+  "MBALL_Value": 1,
+  "attributes": [
+    {
+      "trait_type": "Backdrop",
+      "value": "Peachy"
+    },
+    {
+      "trait_type": "Scene",
+      "value": "Loot"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Ukraine"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Disturbed"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Blue_Twirl"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "1.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "672nFe4KV9QdNFFTJxZAbYzyJZ1mb1YoXy5RjuPohzdq",
+        "share": 50
+      },
+      {
+        "address": "EWN1nrUMqQzcx52rHLKXqLGrcPTUz1g3hNQAonpAxVdt",
+        "share": 20
+      },
+      {
+        "address": "7KRuFmGGsynSpbu5RLFpwkRY9E5uwLxbbyACWuKkz5D6",
+        "share": 20
+      },
+      {
+        "address": "C8pySVUyA3WZHBPFXk7b3ydGnxz8WWihoYV9SXny7vPX",
+        "share": 10
+      }
+    ]
+  }
+}

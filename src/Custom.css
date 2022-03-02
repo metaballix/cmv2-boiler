@@ -1,3 +1,17 @@
+/* ##################################### */
+/* ####### APP.TSX CUSTOM STYLES ####### */
+/* ##################################### */
+
+div.bg-overlay {position: fixed; left:0; top: 0; z-index: -1; width:100%; height:100%; background:rgba(0,0,0,0.4);}
+.content-wrapper section {border-radius: var(--card-border-radius);}
+
+h1.gradient-txt {
+  font-size: 4.2rem;
+  background: -webkit-linear-gradient(45deg, #09009f, #00ff95 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .hero-text {font-size: 1.2rem;font-weight:500;}
 
 .hero-section {

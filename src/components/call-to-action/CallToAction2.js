@@ -8,7 +8,7 @@ import Button from '@material-ui/core/Button';
 
 const useStyles = makeStyles((theme) => ({
   section: {
-    backgroundImage: 'url("nereus-assets/img/bg/pattern2.png")',
+    backgroundImage: 'url("/img/bg_darkcloud1.jpg")',
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
     backgroundColor: theme.palette.primary.dark,
@@ -23,7 +23,7 @@ const useStyles = makeStyles((theme) => ({
   },
   primaryAction: {
     marginRight: theme.spacing(2),
-    [theme.breakpoints.down('sm')]: {
+    [theme.breakpoints.down('md')]: {
       display: 'block',
       marginRight: theme.spacing(0),
       marginBottom: theme.spacing(2),
