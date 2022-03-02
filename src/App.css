@@ -1,11 +1,13 @@
-.App {
-  text-align: center;
-}
+/* body::before {
+  content: "METABALLIX";
+  color:rgb(65, 65, 65);
+  font-size: 8rem;
+  font-weight: 300;
+  font-style: normal;
+} */
 
-* {
-  margin: 0;
-  padding: 0;
-}
+.App { text-align: center; }
+* { margin: 0; padding: 0; }
 
 .noselect {
   -webkit-touch-callout: none; /* iOS Safari */

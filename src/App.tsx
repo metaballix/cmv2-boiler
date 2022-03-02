@@ -195,7 +195,9 @@ const App = () => {
           </div>
         </div>
       </nav>
-      <div className="content-wrapper">
+
+{/* Start of Original Content Wrapper */}
+<div className="content-wrapper">
         <header className="card" id="link1">
           <div style={{ padding: "0 24px 0 24px 0" }}>
             <h3 className="text-secondary-color">Welcome to the PlasmaVerse</h3>
@@ -243,6 +245,20 @@ const App = () => {
 </div> */}
 
 <HowItWorksCustom2 />
+
+</div>
+{/* End of Content Wrapper # 1 */}
+
+<div className="nft-hero">
+  <div className="nft-hero-text">
+    <h1>I am Jane Doe</h1>
+    <h3>And I'm a Photographer</h3>
+    <button>MINT METABALLS!</button>
+  </div>
+</div>
+
+{/* Start of Second Content Wrapper */}
+<div className="content-wrapper">
 
 <Header1 content={null} />
 
@@ -306,6 +322,7 @@ const App = () => {
           </div>
         </div>
 
+
 <Testimonials1 content={null} />
 
 <Testimonials2 content={null} />
@@ -313,10 +330,10 @@ const App = () => {
 <CallToAction2 content={null} />
 
 <Footer3 content={null} />
+</div>
+{/* End of Content Wrapper # 2 */}
 
-<Particles
-      id="tsparticles" 
-      options={{
+<Particles id="tsparticles" options={{
         background: { color: "none", },
         fullScreen: { zIndex: -1, },
         fpsLimit: 60,
@@ -381,7 +398,7 @@ const App = () => {
       }}
     />
 <div className="bg-overlay"> </div>
-      </div>
+
     </div>
   );
 };
