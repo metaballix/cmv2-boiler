@@ -75,19 +75,19 @@ nav a:hover {
 }
 
 .mobile-menu-button {
-  font-size: 1.7rem;
-  color: rgb(64, 2, 80);
+  font-size: 1.65rem;
+  color: rgba(255, 255, 255,0.5);
   height: 30px;
   width: 30px;
   position: fixed;
   top: 37px;
   right: -50px;
-  transition: all 0.4s ease-in-out;
+  transition: color 0.4s ease-in-out;
   z-index: 45;
 }
 
 .mobile-menu-button:hover {
-color: rgb(113, 17, 161);
+color: rgba(255, 255, 255,0.9);
 }
 
 .open-menu {
@@ -97,7 +97,7 @@ color: rgb(113, 17, 161);
 .mobile-nav {
   position: fixed;
   min-height: 100vh;
-  background: var(--mobile-nav-background-color, rgb(117, 69, 69));
+  background: var(--mobile-nav-background-color, rgb(113, 17, 161));
   left: -100%;
   z-index: 50;
   width: 100%;
@@ -169,6 +169,7 @@ color: rgb(113, 17, 161);
 
   .mobile-menu-button {
     right: 37px;
+    top: 30px;
   }
 
   .nav-logo {
@@ -177,6 +178,7 @@ color: rgb(113, 17, 161);
 
   nav {
     height: 100px;
+    margin-bottom: -47px; /* to bring basketball avatar up on mobile devices */
   }
 }
 
