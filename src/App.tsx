@@ -198,8 +198,9 @@ const App = () => {
 
 {/* Start of Original Content Wrapper */}
 <div className="content-wrapper">
+<div className="mball-avatar"> </div>
         <header className="card" id="link1">
-          <div style={{ padding: "0 24px 0 24px 0" }}>
+          <div className="text-center" style={{ padding: "0 24px 0 24px 0" }}>
             <h3 className="text-secondary-color">Welcome to the PlasmaVerse</h3>
             <h1 className="pb-3">ENGAGE. EVOLVE. EARN.</h1>
             <p className="text-secondary-color hero-text">
@@ -251,10 +252,22 @@ const App = () => {
 
 <div className="nft-hero">
   <div className="nft-hero-text">
-    <h1>I am Jane Doe</h1>
-    <h3>And I'm a Photographer</h3>
-    <button>MINT METABALLS!</button>
+    <h1>19,326,120</h1>
+    <h3>Unique Tokenized DNA Compositions</h3>
+    <button>MINT 1 of 11,111 METABALL NFTs!</button>
   </div>
+</div>
+<div className="nft-hero-2">
+<div className="nft-img-container" id="nft-ctn1">
+    <div className="nft-img-inner">
+        <img className="nft-img" alt="metaball nft variations" src="https://i.stack.imgur.com/FlK9o.jpg" />
+    </div>
+</div>
+<div className="nft-img-container" id="nft-ctn2">
+    <div className="nft-img-inner">
+        <img className="nft-img" alt="metaball nft variations" src="https://i.stack.imgur.com/FlK9o.jpg" />
+    </div>
+</div>
 </div>
 
 {/* Start of Second Content Wrapper */}
@@ -284,6 +297,9 @@ const App = () => {
 
         <div id="link3" className="container card">
           <h1 className="pb-3 gradient-txt">Xone Microverses</h1>
+          <p>
+Build and share fully functional, interactive and immersive web-based extended reality landing pages, or XONES. 
+            </p>
         </div>
 
         <div id="link4" className="container faq">
