@@ -202,7 +202,7 @@ const App = () => {
         <header className="card" id="link1">
           <div className="text-center" style={{ padding: "0 24px 0 24px 0" }}>
             <h3 className="text-secondary-color">Welcome to the PlasmaVerse</h3>
-            <h1 className="pb-3">ENGAGE. EVOLVE. EARN.</h1>
+            <h1 className="pb-3"><span style={{ color: "#7111A1" }}>ENGAGE. </span>EVOLVE. EARN.</h1>
             <p className="text-secondary-color hero-text">
             Metaballs are generative NFT personas that reside &amp; evolve on the <b>Metaballix PlasmaVerse</b> <em>(under development)</em>, and immersive XR environment with unique gameplay physics. Build &amp; share income-generating Xone Microverses. Compete for $PLASMA density &amp; exclusive airdrops. Unlock traits &amp; mint new variations of metaball NFTs!
             </p>

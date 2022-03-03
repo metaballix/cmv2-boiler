@@ -21,7 +21,7 @@
 
 body {
   position: relative; 
-  background: linear-gradient(-45deg, rgb(28, 141, 86), rgb(14, 101, 133), rgb(64, 15, 129), rgb(182, 73, 40), rgb(160, 39, 85));
+  background: linear-gradient(-45deg, rgb(28, 141, 86), rgb(14, 101, 133), rgb(64, 15, 129), rgb(160, 39, 85), rgb(182, 73, 40));
   background-size: 200% 200%;
   animation: gradient 10s ease infinite;
   margin: 0;
