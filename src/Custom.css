@@ -19,17 +19,20 @@ div.bg-overlay {position: fixed; left:0; top: 0; z-index: -1; width:100%; height
 
 .gradient-txt-green {
   background: -webkit-linear-gradient(45deg, #09009f, #00ff95 80%);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 700;
 }
 .gradient-txt-purple {
   background: -webkit-linear-gradient(45deg, indigo 40%, purple 80%);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .gradient-txt-orange {
   background: -webkit-linear-gradient(45deg, rgb(219, 107, 16) 40%, rgb(194, 10, 87) 100%);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -339,21 +342,23 @@ p.MuiTypography-body1 {font-family: "Dosis", sans-serif;}
   /* effect-shine */
   a.effect-shine {text-decoration: none;}
   a.effect-shine:hover {
+    mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000000 50%, rgba(0,0,0,.6) 70%);
     -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000000 50%, rgba(0,0,0,.6) 70%);
+    mask-size: 200%;
     -webkit-mask-size: 200%;
     animation: shine 2s infinite;
   }
   
-  @-webkit-keyframes shine {
+  @keyframes shine {
     from {
+      mask-position: 150%;
       -webkit-mask-position: 150%;
     }
-    
     to {
+      mask-position: -50%;
       -webkit-mask-position: -50%;
     }
   }
-
 
 /* NFT IMG - auto-scrolling image */
 

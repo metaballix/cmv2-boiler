@@ -53,6 +53,9 @@ import Footer3 from './components/footers/Footer3';
 import Particles from 'react-tsparticles';
 
 const theme = createTheme({
+  typography: {
+    fontFamily: '"Dosis", sans-serif',
+  },
   palette: {
     type: "dark",
   },
