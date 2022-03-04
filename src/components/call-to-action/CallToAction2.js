@@ -8,6 +8,7 @@ import Button from '@material-ui/core/Button';
 
 const useStyles = makeStyles((theme) => ({
   section: {
+    fontFamily: '"Dosis", sans-serif',
     backgroundImage: 'url("/img/bg_darkcloud1.jpg")',
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
