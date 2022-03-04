@@ -35,29 +35,82 @@ h1.gradient-txt {
 /* .hero-container { width:100%; height:100%; background: rgba(0,0,0,0.4); } */
 
 .nft-hero {
-  background: url("https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/mball-reel-1-sm.png?v=1646262877428") repeat 0 0;
-  -webkit-animation: slideright 2500s infinite linear; /* Safari 4+ */
-  -moz-animation: slideright 2500s infinite linear; /* Fx 5+ */
-  -o-animation: slideright 2500s infinite linear; /* Opera 12+ */
-  animation: slideright 2500s infinite linear; /* IE 10+ */
+  position: relative;
+  border-bottom:2px solid rgba(11, 218, 227, 0.8);
+  margin-bottom: 30px;
+  padding-top: 50px;
+  width: 100%;
+}
+
+.nft-reel-1, .nft-reel-2, .nft-reel-3, .nft-reel-4, .nft-reel-5, .nft-reel-6, .nft-reel-7 {
   -webkit-animation-timing-function: linear;
   -moz-animation-timing-function: linear;
   -o-animation-timing-function: linear;
   animation-timing-function: linear;
-  background-color: none;
-  height: 500px;
+  background-color: rgba(0, 0, 0, 0);
+  height: 71px;
   background-position: center;
   background-repeat: repeat-x;
   background-size: cover;
-  position: relative;
-  border-bottom:2px solid rgba(11, 218, 227, 0.8);
-  margin-bottom: 30px;
-  width: 100%;
+  opacity: 0.75;
+}
+.nft-reel-1{
+  background: url("https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/mball-reel-7500x71-001.png?v=1646421654800") repeat 0 0;
+  -webkit-animation: slideright 4200s infinite linear; /* Safari 4+ */
+  -moz-animation: slideright 4200s infinite linear; /* Fx 5+ */
+  -o-animation: slideright 4200s infinite linear; /* Opera 12+ */
+  animation: slideright 4200s infinite linear; /* IE 10+ */
+}
+.nft-reel-2{
+  background: url("https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/mball-reel-7500x71-002.png?v=1646421660656") repeat 0 0;
+  -webkit-animation: slideleft 3000s infinite linear; /* Safari 4+ */
+  -moz-animation: slideleft 3000s infinite linear; /* Fx 5+ */
+  -o-animation: slideleft 3000s infinite linear; /* Opera 12+ */
+  animation: slideleft 3000s infinite linear; /* IE 10+ */
+}
+.nft-reel-3{
+  background: url("https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/mball-reel-7500x71-003.png?v=1646421666787") repeat 0 0;
+  -webkit-animation: slideright 3500s infinite linear; /* Safari 4+ */
+  -moz-animation: slideright 3500s infinite linear; /* Fx 5+ */
+  -o-animation: slideright 3500s infinite linear; /* Opera 12+ */
+  animation: slideright 3500s infinite linear; /* IE 10+ */
+}
+.nft-reel-4{
+  background: url("https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/mball-reel-7500x71-004.png?v=1646421672214") repeat 0 0;
+  -webkit-animation: slideleft 4500s infinite linear; /* Safari 4+ */
+  -moz-animation: slideleft 4500s infinite linear; /* Fx 5+ */
+  -o-animation: slideleft 4500s infinite linear; /* Opera 12+ */
+  animation: slideleft 4500s infinite linear; /* IE 10+ */
+}
+.nft-reel-5{
+  background: url("https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/mball-reel-7500x71-005.png?v=1646421677746") repeat 0 0;
+  -webkit-animation: slideright 4500s infinite linear; /* Safari 4+ */
+  -moz-animation: slideright 4500s infinite linear; /* Fx 5+ */
+  -o-animation: slideright 4500s infinite linear; /* Opera 12+ */
+  animation: slideright 4500s infinite linear; /* IE 10+ */
+}
+.nft-reel-6{
+  background: url("https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/mball-reel-7500x71-006.png?v=1646421684898") repeat 0 0;
+  -webkit-animation: slideleft 2500s infinite linear; /* Safari 4+ */
+  -moz-animation: slideleft 2500s infinite linear; /* Fx 5+ */
+  -o-animation: slideleft 2500s infinite linear; /* Opera 12+ */
+  animation: slideleft 2500s infinite linear; /* IE 10+ */
+}
+.nft-reel-7{
+  background: url("https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/mball-reel-7500x71-007.png?v=1646421692824") repeat 0 0;
+  -webkit-animation: slideright 3500s infinite linear; /* Safari 4+ */
+  -moz-animation: slideright 3500s infinite linear; /* Fx 5+ */
+  -o-animation: slideright 3500s infinite linear; /* Opera 12+ */
+  animation: slideright 3500s infinite linear; /* IE 10+ */
 }
 
 @keyframes slideright {
   from { background-position: 0%; }
   to { background-position: -4700%; }
+}
+@keyframes slideleft {
+  from { background-position: 0%; }
+  to { background-position: 4700%; }
 }
 
 .nft-hero-text {

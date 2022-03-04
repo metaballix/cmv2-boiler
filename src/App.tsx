@@ -244,19 +244,28 @@ const App = () => {
 		</ul>
   </div>
 </div> */}
-
-<HowItWorksCustom2 />
-
 </div>
 {/* End of Content Wrapper # 1 */}
 
+{/* SCROLLING IMAGE REELS */}
 <div className="nft-hero">
+<div className="nft-reel-1"></div>
+<div className="nft-reel-2"></div>
+<div className="nft-reel-3"></div>
+<div className="nft-reel-4"></div>
+<div className="nft-reel-5"></div>
+<div className="nft-reel-6"></div>
+<div className="nft-reel-7"></div>
   <div className="nft-hero-text">
     <h1>19,326,120</h1>
     <h3>Unique Tokenized DNA Compositions</h3>
     <button>MINT 1 of 11,111 METABALL NFTs!</button>
   </div>
 </div>
+{/* End of img reels */}
+
+<HowItWorksCustom2 />
+
 <div className="nft-hero-2">
 <div className="nft-img-container" id="nft-ctn1">
     <div className="nft-img-inner">
@@ -269,6 +278,15 @@ const App = () => {
     </div>
 </div>
 </div>
+
+<figure className="text-center">
+  <blockquote className="blockquote">
+    <p>A well-known quote, contained in a blockquote element.</p>
+  </blockquote>
+  <figcaption className="blockquote-footer">
+    Someone famous in <cite title="Source Title">Source Title</cite>
+  </figcaption>
+</figure>
 
 {/* Start of Second Content Wrapper */}
 <div className="content-wrapper">
