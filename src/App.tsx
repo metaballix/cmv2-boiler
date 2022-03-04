@@ -257,27 +257,51 @@ const App = () => {
 <div className="nft-reel-6"></div>
 <div className="nft-reel-7"></div>
   <div className="nft-hero-text">
-    <h1>19,326,120</h1>
-    <h3>Unique Tokenized DNA Compositions</h3>
-    <button>MINT 1 of 11,111 METABALL NFTs!</button>
+  <h1 className="pb-3 gradient-txt-green" style={{ fontSize: "3.2rem", letterSpacing: "0.1em" }}>19,326,120</h1>
+    <h3>Tokenized DNA Compositions</h3>
+    <button className="btn btn-wide btn-info">MINT 1 of 11,111 METABALL NFTs!</button>
   </div>
+</div>
+<div className="nft-hero-base">
+<h1 className="pb-3 gradient-txt-green" style={{ fontSize: "4.2rem", letterSpacing: "0.1em" }}>19,326,120</h1>
+    <h2 style={{ letterSpacing: "0.1em" }}>Tokenized DNA Compositions</h2>
+    <button className="btn btn-wide btn-outline-info" type="button">MINT 1 of 11,111 METABALL NFTs!</button>
 </div>
 {/* End of img reels */}
 
 <HowItWorksCustom2 />
 
-<div className="nft-hero-2">
-<div className="nft-img-container" id="nft-ctn1">
-    <div className="nft-img-inner">
-        <img className="nft-img" alt="metaball nft variations" src="https://i.stack.imgur.com/FlK9o.jpg" />
+<Features4 content={null} />
+
+{/* Bootstrap Mix n Max containers */}
+<div className="container">
+
+  <div className="row">
+    <div className="col-md-8" style={{ verticalAlign: "middle", margin: "auto" }}>.col-md-8</div>
+    <div className="col-6 col-md-4">
+    <img className="illustration metaball-slide" alt="metaball avatars slideshow" style={{ width: "100%" }} 
+    src="https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/metaball-showcase-1.gif?v=1643398889757" />
     </div>
+  </div>
+
+  <div className="row">
+    <div className="col-6 col-md-4">.col-6 .col-md-4</div>
+    <div className="col-6 col-md-4">.col-6 .col-md-4</div>
+    <div className="col-6 col-md-4">.col-6 .col-md-4</div>
+  </div>
+
+  <div className="row">
+    <div className="col-6">.col-6</div>
+    <div className="col-6">.col-6</div>
+  </div>
 </div>
-<div className="nft-img-container" id="nft-ctn2">
-    <div className="nft-img-inner">
-        <img className="nft-img" alt="metaball nft variations" src="https://i.stack.imgur.com/FlK9o.jpg" />
-    </div>
-</div>
-</div>
+{/* End of bootstrap containers */}
+
+
+{/* Start of Second Content Wrapper */}
+<div className="content-wrapper">
+
+<Header1 content={null} />
 
 <figure className="text-center">
   <blockquote className="blockquote">
@@ -288,14 +312,7 @@ const App = () => {
   </figcaption>
 </figure>
 
-{/* Start of Second Content Wrapper */}
-<div className="content-wrapper">
-
-<Header1 content={null} />
-
 <Features6 content={null} />
-
-<Features4 content={null} />
 
         <div id="link2" className="container">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac velit
@@ -313,8 +330,23 @@ const App = () => {
           hendrerit interdum. Etiam at dictum nisi.
         </div>
 
+{/* Scrolling Frames - stackoverflow.com/questions/43744887/fullscreen-infinite-scrolling-background*/}
+<div className="nft-hero-2">
+<div className="nft-img-container" id="nft-ctn1">
+    <div className="nft-img-inner">
+        <img className="nft-img" alt="metaball nft variations" src="https://i.stack.imgur.com/FlK9o.jpg" />
+    </div>
+</div>
+<div className="nft-img-container" id="nft-ctn2">
+    <div className="nft-img-inner">
+        <img className="nft-img" alt="metaball nft variations" src="https://i.stack.imgur.com/FlK9o.jpg" />
+    </div>
+</div>
+</div>
+{/* End of Scrolling Frames */}
+
         <div id="link3" className="container card">
-          <h1 className="pb-3 gradient-txt">Xone Microverses</h1>
+          <h1 className="pb-3 gradient-txt" style={{ fontSize: "4.2rem" }}>Xone Microverses</h1>
           <p>
 Build and share fully functional, interactive and immersive web-based extended reality landing pages, or XONES. 
             </p>

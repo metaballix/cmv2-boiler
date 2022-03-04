@@ -32,6 +32,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   scroll-behaviour: smooth;
   font-size: 1.1rem;
+  color: white;
 }
 
 code {
