@@ -96,6 +96,7 @@ div.bg-overlay {position: fixed; left:0; top: 0; z-index: -1; width:100%; height
   background-repeat: repeat-x;
   background-size: cover;
   opacity: 0.75;
+  position: relative;
 }
 .nft-reel-1{
   background: url("https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/mball-reel-7500x71-001.png?v=1646421654800") repeat 0 0;
@@ -150,13 +151,13 @@ div.bg-overlay {position: fixed; left:0; top: 0; z-index: -1; width:100%; height
 }
 
 @keyframes slideright {
-  from { background-position: 0%; }
-  to { background-position: -1600%; }
+  from { background-position: -50%; }
+  to { background-position: -1400%; }
 }
 
 @keyframes slideleft {
   from { background-position: 0%; }
-  to { background-position: 1800%; }
+  to { background-position: 1600%; }
 }
 
 p.MuiTypography-colorTextSecondary {color: rgb(255,255,255);}
