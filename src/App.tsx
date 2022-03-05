@@ -30,8 +30,8 @@ import HowItWorksCustom2 from './components-custom/HowItWorksCustom2';
 import Header1 from './components/headers/Header1';
 import Features6 from './components/features/Features6';
 import Features4 from './components/features/Features4';
-import Testimonials1 from './components/testimonials/Testimonials1';
-import Testimonials2 from './components/testimonials/Testimonials2';
+// import Testimonials1 from './components/testimonials/Testimonials1';
+// import Testimonials2 from './components/testimonials/Testimonials2';
 import CallToAction2 from './components/call-to-action/CallToAction2';
 import Footer3 from './components/footers/Footer3';
 
