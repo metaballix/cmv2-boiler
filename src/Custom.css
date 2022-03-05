@@ -73,15 +73,16 @@ div.bg-overlay {position: fixed; left:0; top: 0; z-index: -1; width:100%; height
   color: white;
   width: 650px;
   border-radius: 7px;
-  padding: 36px 10px 0 10px;
-  height: 250px;
+  padding: 25px 10px 40px 10px;
   margin: auto;
   background: rgba(3, 24, 88,0.7);
   -webkit-tap-highlight-color: transparent;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 @media only screen and (max-width: 800px) {
-.nft-hero-text{ width: 100%; border-radius:0; }
+.nft-hero-text{ width: 100%; border-radius:0; padding: 25px 10px 40px 10px; }
 }
 
 .nft-reel-1, .nft-reel-2, .nft-reel-3, .nft-reel-4, .nft-reel-5, .nft-reel-6, .nft-reel-7 {
@@ -180,7 +181,7 @@ p.MuiTypography-body1 {font-family: "Dosis", sans-serif;}
     height: 100%;
     border-radius: 100%;
     position: relative;
-    margin: auto 5px;
+    margin: auto;
     background: radial-gradient(circle at bottom, #81e8f6, #76deef 10%, #055194 80%, #062745 100%);
   }
   .ball:hover{cursor: pointer;}
@@ -265,7 +266,7 @@ p.MuiTypography-body1 {font-family: "Dosis", sans-serif;}
     -webkit-tap-highlight-color: transparent;
   }
   @media only screen and (max-width: 800px) {
-    .stage {margin: 0 0 0 22px !important;}
+    .stage.ball-topleft {margin: 0 0 0 28px !important;}
   }
   
   @-webkit-keyframes bubble-anim {

@@ -1,5 +1,6 @@
 import "./App.css";
 import "./Custom.css";
+import "./Timeline.css";
 import { useMemo } from "react";
 import Minter from "./Minter";
 import * as anchor from "@project-serum/anchor";
@@ -112,7 +113,7 @@ const App = () => {
         </div>
         <ul>
           <li>
-          <section className="stage"><figure className="4x1 ball bubble"></figure></section>
+          <section className="stage" style={{ marginLeft: 0 }}><figure className="4x1 ball bubble"></figure></section>
           </li>
           <li>
           <span className="logo-3d-text">
@@ -165,7 +166,7 @@ const App = () => {
       <i className="mobile-menu-button fa-solid fa-ellipsis-vertical" onClick={toggleMenu}> </i>
       <nav>
         <div className="nav-container">
-        <section className="stage"><figure className="4x1 ball bubble"></figure></section>
+        <section className="stage ball-topleft"><figure className="4x1 ball bubble"></figure></section>
           <a className="hide-800" href="/#link1">
             Metaballs
           </a>
@@ -205,7 +206,7 @@ const App = () => {
         <header className="card" id="link1">
           <div className="text-center" style={{ padding: "0 24px 0 24px 0" }}>
             <h3 className="text-secondary-color">Welcome to the PlasmaVerse</h3>
-            <h1 className="pb-3"><span style={{ color: "#7111A1" }}>ENGAGE. </span>EVOLVE. EARN.</h1>
+            <h1 className="pb-3" style={{ fontWeight: 600 }}><span style={{ color: "rgb(25, 55, 130)" }}>ENGAGE. </span><span style={{ color: "rgb(77, 25, 130)" }}>EVOLVE. </span><span style={{ color: "rgb(121, 11, 121)" }}>EARN.</span></h1>
             <p className="text-secondary-color hero-text">
             Metaballs are generative NFT personas that reside &amp; evolve on the <b>Metaballix PlasmaVerse</b> <em>(under development)</em>, and immersive XR environment with unique gameplay physics. Build &amp; share income-generating Xone Microverses. Compete for $PLASMA density &amp; exclusive airdrops. Unlock traits &amp; mint new variations of metaball NFTs!
             </p>
@@ -269,18 +270,19 @@ const App = () => {
 <div className="nft-reel-6"></div>
 <div className="nft-reel-7"></div>
   <div className="nft-hero-text">
-  <h1 className="pb-3 gradient-txt-green" style={{ fontSize: "3.2rem", letterSpacing: "0.1em" }}>19,326,120</h1>
+  <h1 className="gradient-txt-green" style={{ fontSize: "3.2rem", letterSpacing: "0.1em" }}>19,326,120</h1>
     <h3>Tokenized DNA Compositions</h3>
-    <a href="https://explorer.solana.com/address/E359HKTV192s4kpg4QXTmj7eQ6fzvsL2KbU9QJGDrM3e">
-    <button className="btn btn-lg btn-dark pd-3" type="button">
-      <span style={{ letterSpacing: "0.05em", fontWeight: 500 }}>$MBALL ON </span><img alt="Solana Explorer" src="https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/solana-explorer-logo-dark.svg?v=1646454031603" style={{ height:"1rem", marginTop: "-6px", paddingLeft: "5px" }} />
+    <a href="https://explorer.solana.com/address/E359HKTV192s4kpg4QXTmj7eQ6fzvsL2KbU9QJGDrM3e" target="_blank" rel="noreferrer">
+      <button className="btn btn-lg btn-dark pd-3" type="button">
+        <span style={{ letterSpacing: "0.05em", fontWeight: 500 }}>$MBALL ON </span>
+        <img alt="Solana Explorer" src="https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/solana-explorer-logo-dark.svg?v=1646454031603" style={{ height:"1rem", marginTop: "-6px", paddingLeft: "5px" }} />
       </button></a>
   </div>
 </div>
 <div className="nft-hero-base">
 <h1 className="pb-3 gradient-txt-green" style={{ fontSize: "4.2rem", letterSpacing: "0.1em" }}>19,326,120</h1>
     <h2 style={{ letterSpacing: "0.1em" }}>Tokenized DNA Compositions</h2>
-    <button className="btn btn-wide btn-outline-info" type="button">MINT 1 of 11,111 METABALL NFTs!</button>
+    <button className="btn btn-lg btn-outline-info" type="button">MINT 1 of 11,111 METABALL NFTs!</button>
 </div>
 {/* End of img reels */}
 
@@ -288,7 +290,108 @@ const App = () => {
 
 <Features4 content={null} />
 
-{/* Bootstrap Mix n Max containers */}
+{/* Start of Bootstrap Timeline */}
+<div className="container">
+    <div className="page-header text-center">
+        <h1 id="roadmap pb-3" style={{ fontSize: "3.8rem", fontWeight: 600, letterSpacing: "0.05em" }}>
+          <span style={{ color: "rgb(25, 55, 130)" }}>ROAD</span><span style={{ color: "rgb(121, 11, 121)" }}>MAP</span></h1>
+    </div>
+    <ul className="timeline">
+        <li>
+          <div className="timeline-badge"><i className="glyphicon glyphicon-check"></i></div>
+          <div className="timeline-panel">
+            <div className="timeline-heading">
+              <h4 className="timeline-title">Mussum ipsum cacilds</h4>
+              <p><small className="text-muted"><i className="glyphicon glyphicon-time"></i> 11 hours ago via Twitter</small></p>
+            </div>
+            <div className="timeline-body">
+              <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+            </div>
+          </div>
+        </li>
+        <li className="timeline-inverted">
+          <div className="timeline-badge warning"><i className="glyphicon glyphicon-credit-card"></i></div>
+          <div className="timeline-panel">
+            <div className="timeline-heading">
+              <h4 className="timeline-title">Mussum ipsum cacilds</h4>
+            </div>
+            <div className="timeline-body">
+              <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+              <p>Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis. Interagi no mé, cursus quis, vehicula ac nisi. Aenean vel dui dui. Nullam leo erat, aliquet quis tempus a, posuere ut mi. Ut scelerisque neque et turpis posuere pulvinar pellentesque nibh ullamcorper. Pharetra in mattis molestie, volutpat elementum justo. Aenean ut ante turpis. Pellentesque laoreet mé vel lectus scelerisque interdum cursus velit auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac mauris lectus, non scelerisque augue. Aenean justo massa.</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div className="timeline-badge danger"><i className="glyphicon glyphicon-credit-card"></i></div>
+          <div className="timeline-panel">
+            <div className="timeline-heading">
+              <h4 className="timeline-title">Mussum ipsum cacilds</h4>
+            </div>
+            <div className="timeline-body">
+              <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+            </div>
+          </div>
+        </li>
+        <li className="timeline-inverted">
+          <div className="timeline-panel">
+            <div className="timeline-heading">
+              <h4 className="timeline-title">Mussum ipsum cacilds</h4>
+            </div>
+            <div className="timeline-body">
+              <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div className="timeline-badge info"><i className="glyphicon glyphicon-floppy-disk"></i></div>
+          <div className="timeline-panel">
+            <div className="timeline-heading">
+              <h4 className="timeline-title">Mussum ipsum cacilds</h4>
+            </div>
+            <div className="timeline-body">
+              <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+              <hr />
+              <div className="btn-group">
+                <button type="button" className="btn btn-primary btn-sm dropdown-toggle" data-toggle="dropdown">
+                  <i className="glyphicon glyphicon-cog"></i> <span className="caret"></span>
+                </button>
+                <ul className="dropdown-menu" role="menu">
+                  <li><a href="/#link1">Action</a></li>
+                  <li><a href="/#link2">Another action</a></li>
+                  <li><a href="/#link3">Something else here</a></li>
+                  <li className="divider"></li>
+                  <li><a href="/#link4">Separated link</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div className="timeline-panel">
+            <div className="timeline-heading">
+              <h4 className="timeline-title">Mussum ipsum cacilds</h4>
+            </div>
+            <div className="timeline-body">
+              <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+            </div>
+          </div>
+        </li>
+        <li className="timeline-inverted">
+          <div className="timeline-badge success"><i className="glyphicon glyphicon-thumbs-up"></i></div>
+          <div className="timeline-panel">
+            <div className="timeline-heading">
+              <h4 className="timeline-title">Mussum ipsum cacilds</h4>
+            </div>
+            <div className="timeline-body">
+              <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+            </div>
+          </div>
+        </li>
+    </ul>
+</div>
+{/* End of Bootstrap Timeline */}
+
+{/* Bootstrap MIX n MATCH containers */}
 <div className="container">
 
   <div className="row">
@@ -311,7 +414,6 @@ const App = () => {
   </div>
 </div>
 {/* End of bootstrap containers */}
-
 
 {/* Start of Second Content Wrapper */}
 <div className="content-wrapper">
