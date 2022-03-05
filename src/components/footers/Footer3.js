@@ -16,13 +16,13 @@ const useStyles = makeStyles((theme) => ({
     display: 'flex',
     flexWrap: 'wrap',
     justifyContent: 'center',
-    marginTop: theme.spacing(4),
-    marginBottom: theme.spacing(1)
+    marginTop: theme.spacing(2),
+    marginBottom: theme.spacing(4),
   },
   footerLink: {
     marginLeft: theme.spacing(3),
     marginRight: theme.spacing(3),
-    marginBottom: theme.spacing(2),
+    marginBottom: theme.spacing(0),
   }
 }));
 
@@ -57,13 +57,13 @@ export default function Footer(props) {
               <span style={{ padding: "0 5px 0 0" }}>READY TO MINT? </span>
               <span style={{ padding: "0 0 7px 5px" }}>{brand}</span>
               </Link></button>
-          <Box component="nav" className={classes.footerNav}>
-            <Link href="#" variant="body1" color="textPrimary" className={classes.footerLink}>{content['link1']}</Link>
-            <Link href="#" variant="body1" color="textPrimary" className={classes.footerLink}>{content['link2']}</Link>
-            <Link href="#" variant="body1" color="textPrimary" className={classes.footerLink}>{content['link3']}</Link>
-            <Link href="#" variant="body1" color="textPrimary" className={classes.footerLink}>{content['link4']}</Link>
+          <Box component="nav" className={classes.footerNav} mb={2}>
+            <Link href="/#mint" variant="body1" color="textPrimary" className={classes.footerLink}>{content['link1']}</Link>
+            <Link href="/#link2" variant="body1" color="textPrimary" className={classes.footerLink}>{content['link2']}</Link>
+            <Link href="/#link3" variant="body1" color="textPrimary" className={classes.footerLink}>{content['link3']}</Link>
+            <Link href="/#link4" variant="body1" color="textPrimary" className={classes.footerLink}>{content['link4']}</Link>
           </Box>
-          <Box mb={3}>
+          <Box mb={2}>
             <IconButton color="inherit" aria-label="Facebook">
               <FacebookIcon />
             </IconButton>

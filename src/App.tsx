@@ -410,10 +410,9 @@ Build and share fully functional, interactive and immersive web-based extended r
 <Footer3 content={null} />
 </div>
 {/* End of Content Wrapper # 2 */}
-
 <Particles id="tsparticles" options={{
         background: { color: "none", },
-        fullScreen: { zIndex: -1, },
+        fullScreen: { enable: true, zIndex: -1, },
         fpsLimit: 60,
         interactivity: {
           events: {
