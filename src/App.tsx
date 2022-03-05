@@ -265,8 +265,8 @@ const App = () => {
 <div className="nft-reel-1"></div>
 <div className="nft-reel-2"></div>
 <div className="nft-reel-3"></div>
-<div className="nft-reel-4"></div>
-<div className="nft-reel-5"></div>
+{/* <div className="nft-reel-4"></div> */}
+{/* <div className="nft-reel-5"></div> */}
 <div className="nft-reel-6"></div>
 <div className="nft-reel-7"></div>
   <div className="nft-hero-text">
