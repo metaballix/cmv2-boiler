@@ -132,74 +132,80 @@ margin-top: 5px;
 /* Bootstrap Timeline 2 */
 /* https://bootsnipp.com/snippets/O5q8E */
 
-.circle {
-padding: 13px 20px;
-border-radius: 50%;
-background-color: #ED8D8D;
-color: #fff;
-max-height: 50px;
-z-index: 2;
+.main-timeline2:after{
+    content: '';
+    display: block;
+    clear: both;
 }
-
-.how-it-works.row .col-2 {
-align-self: stretch;
+.main-timeline2 .timeline2{
+    width: 50%;
+    margin: 0 0 10px 5px;
+    float: right;
 }
-.how-it-works.row .col-2::after {
-content: "";
-position: absolute;
-border-left: 3px solid #ED8D8D;
-z-index: 1;
+.main-timeline2 a { text-decoration: none; }
+.main-timeline2 .timeline2-content{
+    color: #666;
+    background: linear-gradient(to right,#f1f1f1,transparent);
+    min-height: 120px;
+    padding: 15px;
+    border-radius: 10px;
+    display: block; 
 }
-.how-it-works.row .col-2.bottom::after {
-height: 50%;
-left: 50%;
-top: 50%;
+.main-timeline2 .timeline2-content:hover{ text-decoration: none; }
+.main-timeline2 .timeline2-year{
+    color: #DC8C3E;
+    font-size: 2.2rem;
+    line-height: 2.2rem;
+    font-weight: 600;
+    font-style: none;
+    padding-bottom: 5px;
 }
-.how-it-works.row .col-2.full::after {
-height: 100%;
-left: calc(50% - 3px);
+.main-timeline2 .title{
+    color: #fff;
+    background: linear-gradient(to right,#FC424A,#DC8C3E);
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    margin: 0 0 5px;
+    border-radius: 5px;
+    display: inline-block;
 }
-.how-it-works.row .col-2.top::after {
-height: 50%;
-left: 50%;
-top: 0;
+.main-timeline2 .description{
+    color:rgba(0, 0, 0, 0.75);
+    font-size: 1rem;
+    letter-spacing: 1px;
+    line-height: 20px;
+    margin: 0;
 }
-
-
-.timeline2 div {
-padding: 0;
-height: 40px;
+.main-timeline2 .timeline2:nth-child(even){
+    margin: 0 5px 10px 0;
+    float: left;
 }
-.timeline2 hr {
-border-top: 3px solid #ED8D8D;
-margin: 0;
-top: 17px;
-position: relative;
+.main-timeline2 .timeline2:nth-child(even) .timeline2-content{
+    background: linear-gradient(to left,#f1f1f1,transparent);
+    text-align: right;
 }
-.timeline2 .col-2 {
-display: flex;
-overflow: hidden;
+.main-timeline2 .timeline2:nth-child(even) .description{ text-align: left; }
+.main-timeline2 .timeline2:nth-child(4n+2) .timeline2-year{ color: #3BCD59; }
+.main-timeline2 .timeline2:nth-child(4n+2) .title{ background: linear-gradient(to right,#3BCD59,#8BD33B); }
+.main-timeline2 .timeline2:nth-child(4n+3) .timeline2-year{ color: #10A5D7; }
+.main-timeline2 .timeline2:nth-child(4n+3) .title{ background: linear-gradient(to right,#10A5D7,#69D4D7); }
+.main-timeline2 .timeline2:nth-child(4n+4) .timeline2-year{ color: #E31F9A; }
+.main-timeline2 .timeline2:nth-child(4n+4) .title{ background: linear-gradient(to right,#E31F9A,#CF21C2); }
+.main-timeline2 .timeline2:nth-child(4n+5) .timeline2-year{ color: #7111A1; }
+.main-timeline2 .timeline2:nth-child(4n+5) .title{ background: linear-gradient(to right,#7111A1,#7C2AE8); }
+@media screen and (max-width:767px){
+    .main-timeline2 .timeline2{ width: 100%; } 
 }
-.timeline2 .corner {
-border: 3px solid #ED8D8D;
-width: 100%;
-position: relative;
-border-radius: 15px;
-}
-.timeline2 .top-right {
-left: 50%;
-top: -50%;
-}
-.timeline2 .left-bottom {
-left: -50%;
-top: calc(50% - 3px);
-}
-.timeline2 .top-left {
-left: -50%;
-top: -50%;
-}
-.timeline2 .right-bottom {
-left: 50%;
-top: calc(50% - 3px);
+@media screen and (max-width:576px){
+    .main-timeline2 .timeline2-content,
+    .main-timeline2 .timeline2:nth-child(even) .timeline2-content{
+        background: linear-gradient(#f1f1f1,transparent);
+        text-align: center;
+    }
+    .main-timeline2 .timeline2:nth-child(even) .description{ text-align: center; }
 }
   
+/* 3d parallax cards - https://codepen.io/dazulu/pen/VVZrQv */

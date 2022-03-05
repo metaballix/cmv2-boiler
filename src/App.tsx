@@ -291,132 +291,97 @@ const App = () => {
 <Features4 content={null} />
 
 {/* Start of Bootstrap Timeline */}
-<div className="container">
-    <div className="page-header text-center">
-        <h1 id="roadmap pb-3" style={{ fontSize: "3.8rem", fontWeight: 600, letterSpacing: "0.05em" }}>
-          <span style={{ color: "rgb(25, 55, 130)" }}>ROAD</span><span style={{ color: "rgb(121, 11, 121)" }}>MAP</span></h1>
-    </div>
-    <ul className="timeline">
-        <li>
-          <div className="timeline-badge"><i className="glyphicon glyphicon-check"></i></div>
-          <div className="timeline-panel">
-            <div className="timeline-heading">
-              <h4 className="timeline-title">Mussum ipsum cacilds</h4>
-              <p><small className="text-muted"><i className="glyphicon glyphicon-time"></i> 11 hours ago via Twitter</small></p>
-            </div>
-            <div className="timeline-body">
-              <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-            </div>
-          </div>
-        </li>
-        <li className="timeline-inverted">
-          <div className="timeline-badge warning"><i className="glyphicon glyphicon-credit-card"></i></div>
-          <div className="timeline-panel">
-            <div className="timeline-heading">
-              <h4 className="timeline-title">Mussum ipsum cacilds</h4>
-            </div>
-            <div className="timeline-body">
-              <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-              <p>Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis. Interagi no mé, cursus quis, vehicula ac nisi. Aenean vel dui dui. Nullam leo erat, aliquet quis tempus a, posuere ut mi. Ut scelerisque neque et turpis posuere pulvinar pellentesque nibh ullamcorper. Pharetra in mattis molestie, volutpat elementum justo. Aenean ut ante turpis. Pellentesque laoreet mé vel lectus scelerisque interdum cursus velit auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac mauris lectus, non scelerisque augue. Aenean justo massa.</p>
-            </div>
-          </div>
-        </li>
-        <li>
-          <div className="timeline-badge danger"><i className="glyphicon glyphicon-credit-card"></i></div>
-          <div className="timeline-panel">
-            <div className="timeline-heading">
-              <h4 className="timeline-title">Mussum ipsum cacilds</h4>
-            </div>
-            <div className="timeline-body">
-              <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-            </div>
-          </div>
-        </li>
-        <li className="timeline-inverted">
-          <div className="timeline-panel">
-            <div className="timeline-heading">
-              <h4 className="timeline-title">Mussum ipsum cacilds</h4>
-            </div>
-            <div className="timeline-body">
-              <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-            </div>
-          </div>
-        </li>
-        <li>
-          <div className="timeline-badge success"><i className="glyphicon glyphicon-floppy-disk"></i></div>
-          <div className="timeline-panel">
-            <div className="timeline-heading">
-              <h4 className="timeline-title">Mussum ipsum cacilds</h4>
-            </div>
-            <div className="timeline-body">
-              <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-              <hr />
-              <div className="btn-group">
-                <button type="button" className="btn btn-primary btn-sm dropdown-toggle" data-toggle="dropdown">
-                  <i className="glyphicon glyphicon-cog"></i> <span className="caret"></span>
-                </button>
-                <ul className="dropdown-menu" role="menu">
-                  <li><a href="/#link1">Action</a></li>
-                  <li><a href="/#link2">Another action</a></li>
-                  <li><a href="/#link3">Something else here</a></li>
-                  <li className="divider"></li>
-                  <li><a href="/#link4">Separated link</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </li>
-        <li className="timeline-inverted">
-          <div className="timeline-panel">
-            <div className="timeline-heading">
-              <h4 className="timeline-title">Mussum ipsum cacilds</h4>
-            </div>
-            <div className="timeline-body">
-              <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-            </div>
-          </div>
-        </li>
-        <li>
-        <div className="timeline-badge info" style={{ background: 'url("https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/rocket-trans-50px-min.png?v=1646464428848") no-repeat'}}></div>
-          <div className="timeline-panel">
-            <div className="timeline-heading">
-              <h4 className="timeline-title">Mussum ipsum cacilds</h4>
-            </div>
-            <div className="timeline-body">
-              <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-            </div>
-          </div>
-        </li>
-    </ul>
-</div>
+
 {/* End of Bootstrap Timeline */}
 
-{/* Bootstrap MIX n MATCH containers */}
+{/* Start of Bootstrap Timeline 2 */}
 <div className="container">
-
-  <div className="row">
-    <div className="col-md-8" style={{ verticalAlign: "middle", margin: "auto" }}>.col-md-8</div>
-    <div className="col-6 col-md-4">
-    <img className="illustration metaball-slide" alt="metaball avatars slideshow" style={{ width: "100%" }} 
-    src="https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/metaball-showcase-1.gif?v=1643398889757" />
+    <div className="row">
+        <div className="col-md-12">
+            <div className="main-timeline2">
+                <div className="timeline2">
+                    <a id="tl2-1" href="/#tl2-1" className="timeline2-content">
+                        <div className="timeline2-year">Phase 1</div>
+                        <h3 className="title">Web Designing</h3>
+                        <p className="description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer males uada tellus lorem, et condimentum neque commodo Integer males uada tellus lorem, et condimentum neque commodo
+                        </p>
+                    </a>
+                </div>
+                <div className="timeline2">
+                    <a id="tl2-2" href="/#tl2-2" className="timeline2-content">
+                        <div className="timeline2-year">Phase 2</div>
+                        <h3 className="title">Web Development</h3>
+                        <p className="description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer males uada tellus lorem, et condimentum neque commodo Integer males uada tellus lorem, et condimentum neque commodo
+                        </p>
+                    </a>
+                </div>
+                <div className="timeline2">
+                    <a id="tl2-3" href="/#tl2-3" className="timeline2-content">
+                        <div className="timeline2-year">Phase 3</div>
+                        <h3 className="title">Web Development</h3>
+                        <p className="description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer males uada tellus lorem, et condimentum neque commodo Integer males uada tellus lorem, et condimentum neque commodo
+                        </p>
+                    </a>
+                </div>
+                <div className="timeline2">
+                    <a id="tl2-4" href="/#tl2-4" className="timeline2-content">
+                        <div className="timeline2-year">Phase 4</div>
+                        <h3 className="title">Web Development</h3>
+                        <p className="description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer males uada tellus lorem, et condimentum neque commodo Integer males uada tellus lorem, et condimentum neque commodo
+                        </p>
+                    </a>
+                </div>
+                <div className="timeline2">
+                    <a id="tl2-5" href="/#tl2-5" className="timeline2-content">
+                        <div className="timeline2-year">Phase 5</div>
+                        <h3 className="title">Web Development</h3>
+                        <p className="description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer males uada tellus lorem, et condimentum neque commodo Integer males uada tellus lorem, et condimentum neque commodo
+                        </p>
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-
-  <div className="row">
-    <div className="col-6 col-md-4">.col-6 .col-md-4</div>
-    <div className="col-6 col-md-4">.col-6 .col-md-4</div>
-    <div className="col-6 col-md-4">.col-6 .col-md-4</div>
-  </div>
-
-  <div className="row">
-    <div className="col-6">.col-6</div>
-    <div className="col-6">.col-6</div>
-  </div>
 </div>
-{/* End of bootstrap containers */}
+{/* End of Bootstrap Timeline 2 */}
 
 {/* Start of Second Content Wrapper */}
 <div className="content-wrapper">
+
+{/* Bootstrap MIX n MATCH containers */}
+<div className="container">
+  <div className="row">
+    <div className="col-md-8" style={{ verticalAlign: "middle", margin: "auto" }}>.col-md-8</div>
+    <div className="col-6 col-md-4">.col-6 .col-md-4</div>
+  </div>
+
+  <div className="row">
+    <div className="col-6 col-md-4">.col-6 .col-md-4</div>
+    <div className="col-6 col-md-4">.col-6 .col-md-4</div>
+    <div className="col-6 col-md-4">.col-6 .col-md-4</div>
+  </div>
+
+  <div className="row">
+    <div className="col-6" style={{ verticalAlign: "middle", margin: "auto" }}>
+    <img className="illustration metaball-slide" alt="metaball avatars slideshow" style={{ width: "100%" }} 
+    src="https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/metaball-showcase-1.gif?v=1643398889757" />
+    </div>
+    <div className="col-6" style={{ verticalAlign: "middle", margin: "auto" }}>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac velit
+      aliquet, semper sapien sed, ornare augue. Phasellus sed velit
+      interdum, sagittis metus quis, facilisis lectus. Cras sollicitudin
+      purus at magna eleifend maximus. Nulla nec nulla in nunc maximus
+      viverra in at mauris. Fusce dolor nisi, et orci porta
+      id. In nunc sed erat lacinia tincidunt.
+    </div>
+  </div>
+</div>
+{/* End of bootstrap containers */}
 
 <Header1 content={null} />
 
