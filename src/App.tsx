@@ -271,7 +271,10 @@ const App = () => {
   <div className="nft-hero-text">
   <h1 className="pb-3 gradient-txt-green" style={{ fontSize: "3.2rem", letterSpacing: "0.1em" }}>19,326,120</h1>
     <h3>Tokenized DNA Compositions</h3>
-    <button className="btn btn-wide btn-info" type="button">MINT 1 of 11,111 METABALL NFTs!</button>
+    <a href="https://explorer.solana.com/address/E359HKTV192s4kpg4QXTmj7eQ6fzvsL2KbU9QJGDrM3e">
+    <button className="btn btn-lg btn-dark pd-3" type="button">
+      <span style={{ letterSpacing: "0.05em", fontWeight: 500 }}>$MBALL ON </span><img alt="Solana Explorer" src="https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/solana-explorer-logo-dark.svg?v=1646454031603" style={{ height:"1rem", marginTop: "-6px", paddingLeft: "5px" }} />
+      </button></a>
   </div>
 </div>
 <div className="nft-hero-base">
