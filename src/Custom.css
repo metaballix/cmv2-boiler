@@ -77,61 +77,64 @@ div.bg-overlay {position: fixed; left:0; top: 0; z-index: -1; width:100%; height
 }
 .nft-reel-1{
   background: url("https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/mball-reel-7500x71-001.png?v=1646421654800") repeat 0 0;
-  -webkit-animation: slideright 4200s infinite linear; /* Safari 4+ */
-  -moz-animation: slideright 4200s infinite linear; /* Fx 5+ */
-  -o-animation: slideright 4200s infinite linear; /* Opera 12+ */
-  animation: slideright 4200s infinite linear; /* IE 10+ */
-}
-.nft-reel-2{
-  background: url("https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/mball-reel-7500x71-002.png?v=1646421660656") repeat 0 0;
-  -webkit-animation: slideleft 3000s infinite linear; /* Safari 4+ */
-  -moz-animation: slideleft 3000s infinite linear; /* Fx 5+ */
-  -o-animation: slideleft 3000s infinite linear; /* Opera 12+ */
-  animation: slideleft 3000s infinite linear; /* IE 10+ */
+  -webkit-animation: slideright 2100s infinite linear; /* Safari 4+ */
+  -moz-animation: slideright 2100s infinite linear; /* Fx 5+ */
+  -o-animation: slideright 2100s infinite linear; /* Opera 12+ */
+  animation: slideright 2100s infinite linear; /* IE 10+ */
 }
 .nft-reel-3{
   background: url("https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/mball-reel-7500x71-003.png?v=1646421666787") repeat 0 0;
-  -webkit-animation: slideright 3500s infinite linear; /* Safari 4+ */
-  -moz-animation: slideright 3500s infinite linear; /* Fx 5+ */
-  -o-animation: slideright 3500s infinite linear; /* Opera 12+ */
-  animation: slideright 3500s infinite linear; /* IE 10+ */
-}
-.nft-reel-4{
-  background: url("https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/mball-reel-7500x71-004.png?v=1646421672214") repeat 0 0;
-  -webkit-animation: slideleft 4500s infinite linear; /* Safari 4+ */
-  -moz-animation: slideleft 4500s infinite linear; /* Fx 5+ */
-  -o-animation: slideleft 4500s infinite linear; /* Opera 12+ */
-  animation: slideleft 4500s infinite linear; /* IE 10+ */
+  -webkit-animation: slideright 1700s infinite linear; /* Safari 4+ */
+  -moz-animation: slideright 1700s infinite linear; /* Fx 5+ */
+  -o-animation: slideright 1700s infinite linear; /* Opera 12+ */
+  animation: slideright 1700s infinite linear; /* IE 10+ */
 }
 .nft-reel-5{
   background: url("https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/mball-reel-7500x71-005.png?v=1646421677746") repeat 0 0;
-  -webkit-animation: slideright 4500s infinite linear; /* Safari 4+ */
-  -moz-animation: slideright 4500s infinite linear; /* Fx 5+ */
-  -o-animation: slideright 4500s infinite linear; /* Opera 12+ */
-  animation: slideright 4500s infinite linear; /* IE 10+ */
-}
-.nft-reel-6{
-  background: url("https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/mball-reel-7500x71-006.png?v=1646421684898") repeat 0 0;
-  -webkit-animation: slideleft 2500s infinite linear; /* Safari 4+ */
-  -moz-animation: slideleft 2500s infinite linear; /* Fx 5+ */
-  -o-animation: slideleft 2500s infinite linear; /* Opera 12+ */
-  animation: slideleft 2500s infinite linear; /* IE 10+ */
+  -webkit-animation: slideright 2300s infinite linear; /* Safari 4+ */
+  -moz-animation: slideright 2300s infinite linear; /* Fx 5+ */
+  -o-animation: slideright 2300s infinite linear; /* Opera 12+ */
+  animation: slideright 2300s infinite linear; /* IE 10+ */
 }
 .nft-reel-7{
   background: url("https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/mball-reel-7500x71-007.png?v=1646421692824") repeat 0 0;
-  -webkit-animation: slideright 3500s infinite linear; /* Safari 4+ */
-  -moz-animation: slideright 3500s infinite linear; /* Fx 5+ */
-  -o-animation: slideright 3500s infinite linear; /* Opera 12+ */
-  animation: slideright 3500s infinite linear; /* IE 10+ */
+  -webkit-animation: slideright 1800s infinite linear; /* Safari 4+ */
+  -moz-animation: slideright 1800s infinite linear; /* Fx 5+ */
+  -o-animation: slideright 1800s infinite linear; /* Opera 12+ */
+  animation: slideright 1800s infinite linear; /* IE 10+ */
+}
+.nft-reel-2{
+  background: url("https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/mball-reel-7500x71-002.png?v=1646421660656") repeat 0 0;
+  -webkit-animation: slideleft 1500s infinite linear; /* Safari 4+ */
+  -moz-animation: slideleft 1500s infinite linear; /* Fx 5+ */
+  -o-animation: slideleft 1500s infinite linear; /* Opera 12+ */
+  animation: slideleft 1500s infinite linear; /* IE 10+ */
+}
+
+.nft-reel-4{
+  background: url("https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/mball-reel-7500x71-004.png?v=1646421672214") repeat 0 0;
+  -webkit-animation: slideleft 2300s infinite linear; /* Safari 4+ */
+  -moz-animation: slideleft 2300s infinite linear; /* Fx 5+ */
+  -o-animation: slideleft 2300s infinite linear; /* Opera 12+ */
+  animation: slideleft 2300s infinite linear; /* IE 10+ */
+}
+
+.nft-reel-6{
+  background: url("https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/mball-reel-7500x71-006.png?v=1646421684898") repeat 0 0;
+  -webkit-animation: slideleft 1100s infinite linear; /* Safari 4+ */
+  -moz-animation: slideleft 1100s infinite linear; /* Fx 5+ */
+  -o-animation: slideleft 1100s infinite linear; /* Opera 12+ */
+  animation: slideleft 1100s infinite linear; /* IE 10+ */
 }
 
 @keyframes slideright {
   from { background-position: 0%; }
-  to { background-position: -4700%; }
+  to { background-position: -2300%; }
 }
+
 @keyframes slideleft {
   from { background-position: 0%; }
-  to { background-position: 4700%; }
+  to { background-position: 2300%; }
 }
 
 .nft-hero-text {
@@ -358,7 +361,8 @@ p.MuiTypography-body1 {font-family: "Dosis", sans-serif;}
   }
 }
 
-/* NFT IMG - auto-scrolling image */
+/* NFT IMG - auto-scrolling image containers */
+/* https://stackoverflow.com/questions/43744887/fullscreen-infinite-scrolling-background */
 
 @media screen and (max-aspect-ratio: 4/3) {
   .nft-img-inner {
@@ -415,6 +419,7 @@ from {transform: translateY(-100%);}
 
 }
 
+/* Footer Mint Btn */
 .btn-mint{
   transition: all 0.3s;
   padding: 15px 40px;
