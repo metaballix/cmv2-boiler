@@ -54,7 +54,7 @@ import Particles from 'react-tsparticles';
 
 const theme = createTheme({
   typography: {
-    fontFamily: '"Dosis", sans-serif',
+    fontFamily: '"Dosis", sans-serif !important',
   },
   palette: {
     type: "dark",
@@ -201,7 +201,7 @@ const App = () => {
 
 {/* Start of Original Content Wrapper */}
 <div className="content-wrapper">
-<div className="mball-avatar"> </div>
+<div id="mint" className="mball-avatar"></div>
         <header className="card" id="link1">
           <div className="text-center" style={{ padding: "0 24px 0 24px 0" }}>
             <h3 className="text-secondary-color">Welcome to the PlasmaVerse</h3>
@@ -250,6 +250,15 @@ const App = () => {
 </div>
 {/* End of Content Wrapper # 1 */}
 
+
+<div className="grid roadmap">
+  <div>Auto-column</div>
+  <div className="g-start-2" style={{ gridRow: "2" }}>Auto-column</div>
+  <div className="g-start-3" style={{ gridRow: "3" }}>Auto-column</div>
+  <div className="g-start-4" style={{ gridRow: "4" }}>Auto-column</div>
+  <div className="g-start-5" style={{ gridRow: "5" }}>Auto-column</div>
+</div>
+
 {/* SCROLLING IMAGE REELS */}
 <div className="nft-hero">
 <div className="nft-reel-1"></div>
@@ -262,7 +271,7 @@ const App = () => {
   <div className="nft-hero-text">
   <h1 className="pb-3 gradient-txt-green" style={{ fontSize: "3.2rem", letterSpacing: "0.1em" }}>19,326,120</h1>
     <h3>Tokenized DNA Compositions</h3>
-    <button className="btn btn-wide btn-info">MINT 1 of 11,111 METABALL NFTs!</button>
+    <button className="btn btn-wide btn-info" type="button">MINT 1 of 11,111 METABALL NFTs!</button>
   </div>
 </div>
 <div className="nft-hero-base">

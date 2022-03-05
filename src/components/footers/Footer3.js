@@ -30,7 +30,7 @@ export default function Footer(props) {
   const classes = useStyles();
 
   const content = {
-    'brand': { image: 'nereus-assets/img/nereus-light.png', width: 110 },
+    'brand': { image: 'logo192.png', width: 30 },
     'copy': '© 2022 Metaballix Foundation. All rights reserved.',
     'link1': 'Metaball NFTs',
     'link2': 'PlasmaVerse XR',
@@ -43,7 +43,7 @@ export default function Footer(props) {
   let brand;
 
   if (content.brand.image) {
-    brand = <img src={ content.brand.image } alt="" width={ content.brand.width } />;
+    brand = <img className="noselect" style={{ marginTop:"-5px" }} src={ content.brand.image } alt="Mint Metaballs Now!" width={ content.brand.width } />;
   } else {
     brand = content.brand.text || '';
   }
@@ -52,9 +52,11 @@ export default function Footer(props) {
     <footer>
       <Container maxWidth="lg">
         <Box py={6} textAlign="center">
-          <Link href="#" color="inherit" underline="none">
-            {brand}
-          </Link>
+            <button className="btn btn-outline-info btn-mint" type="button">
+            <Link href="/#mint" color="inherit" underline="none">
+              <span style={{ padding: "0 5px 0 0" }}>READY TO MINT? </span>
+              <span style={{ padding: "0 0 7px 5px" }}>{brand}</span>
+              </Link></button>
           <Box component="nav" className={classes.footerNav}>
             <Link href="#" variant="body1" color="textPrimary" className={classes.footerLink}>{content['link1']}</Link>
             <Link href="#" variant="body1" color="textPrimary" className={classes.footerLink}>{content['link2']}</Link>

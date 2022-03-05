@@ -2,6 +2,7 @@
 /* ####### APP.TSX CUSTOM STYLES ####### */
 /* ##################################### */
 
+.roadmap { --bs-rows: 5; --bs-columns: 5; }
 div.mball-avatar {
   width: auto;
   min-height: 180px;
@@ -144,6 +145,7 @@ div.bg-overlay {position: fixed; left:0; top: 0; z-index: -1; width:100%; height
   border-radius: 7px;
   padding: 20px 10px 30px 10px;
   background: rgba(3, 24, 88,0.7);
+  -webkit-tap-highlight-color: transparent;
 }
 
 @media only screen and (max-width: 800px) {
@@ -315,17 +317,16 @@ p.MuiTypography-body1 {font-family: "Dosis", sans-serif;}
   /* LOGO 3D TEXT */
   .logo-3d-text {
     padding:0;
-    vertical-align:top;
+    vertical-align:middle;
     font-size: 22px;
     letter-spacing: .05rem;
     line-height:22px;
     color: #1fc7dd;
      font-family: 'Dosis', Gadget, sans-serif;
      transition: all 0.2s;
-  
    }
-  .logo-3d-text:hover {
-    color: #11ECF3;
+  .logo-3d-text:hover, .logo-3d-text:active {
+    color: rgb(11, 218, 227);
     letter-spacing: .06rem;
     transform: translateX(5px) translateY(0px) scale(1);
   }
@@ -339,26 +340,23 @@ p.MuiTypography-body1 {font-family: "Dosis", sans-serif;}
                    0px 0px 3px rgba(0,0,0,.2);
   }
   
-  /* effect-shine */
-  a.effect-shine {text-decoration: none;}
-  a.effect-shine:hover {
-    mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000000 50%, rgba(0,0,0,.6) 70%);
-    -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000000 50%, rgba(0,0,0,.6) 70%);
-    mask-size: 200%;
-    -webkit-mask-size: 200%;
-    animation: shine 2s infinite;
+/* effect-shine */
+.effect-shine {text-decoration: none;}
+.effect-shine:hover {
+  -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000000 50%, rgba(0,0,0,.6) 70%);
+  -webkit-mask-size: 200%;
+  animation: shine 2s infinite;
+}
+
+@-webkit-keyframes shine {
+  from {
+    -webkit-mask-position: 150%;
   }
   
-  @keyframes shine {
-    from {
-      mask-position: 150%;
-      -webkit-mask-position: 150%;
-    }
-    to {
-      mask-position: -50%;
-      -webkit-mask-position: -50%;
-    }
+  to {
+    -webkit-mask-position: -50%;
   }
+}
 
 /* NFT IMG - auto-scrolling image */
 
@@ -415,4 +413,18 @@ width: 100%;
 from {transform: translateY(-100%);}
   to {transform: translateY(-200%);}
 
+}
+
+.btn-mint{
+  transition: all 0.3s;
+  padding: 15px 40px;
+  letter-spacing: 0.05rem;
+  margin: auto;
+  line-height: 30px;
+  font-size: 22px;
+  font-weight: 500;
+}
+.btn-mint:hover, .btn-mint:active {
+ letter-spacing: .1rem;
+ transform: translateX(0px) translateY(0px) scale(1);
 }
