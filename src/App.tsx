@@ -343,7 +343,7 @@ const App = () => {
           </div>
         </li>
         <li>
-          <div className="timeline-badge info"><i className="glyphicon glyphicon-floppy-disk"></i></div>
+          <div className="timeline-badge success"><i className="glyphicon glyphicon-floppy-disk"></i></div>
           <div className="timeline-panel">
             <div className="timeline-heading">
               <h4 className="timeline-title">Mussum ipsum cacilds</h4>
@@ -366,7 +366,7 @@ const App = () => {
             </div>
           </div>
         </li>
-        <li>
+        <li className="timeline-inverted">
           <div className="timeline-panel">
             <div className="timeline-heading">
               <h4 className="timeline-title">Mussum ipsum cacilds</h4>
@@ -376,8 +376,8 @@ const App = () => {
             </div>
           </div>
         </li>
-        <li className="timeline-inverted">
-          <div className="timeline-badge success"><i className="glyphicon glyphicon-thumbs-up"></i></div>
+        <li>
+        <div className="timeline-badge info" style={{ background: 'url("https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/rocket-trans-50px-min.png?v=1646464428848") no-repeat'}}></div>
           <div className="timeline-panel">
             <div className="timeline-heading">
               <h4 className="timeline-title">Mussum ipsum cacilds</h4>
