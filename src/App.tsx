@@ -291,11 +291,60 @@ const App = () => {
 <Features4 content={null} />
 
 {/* Start of Bootstrap Timeline */}
+<div className="section section-demo">
+  <div className="container">
+      <div className="row">
+          <div className="col-md-6" style={{ textAlign: "right" }}>
+          <h4 className="header-text">Easy to integrate</h4>
+              <p>
+                  With all the apps that users love! Make it easy for users to share, like, post and tweet their favourite things from the app. Be sure to let users know they continue to remain connected while using your app!
+              </p>
+              <a href="/#link1" id="Demo3" className="btn btn-fill btn-info" data-button="info">Get Free Demo</a>
+          </div>
+          <div className="col-md-6">
+              <h4 className="header-text">Easy to integrate</h4>
+              <p>
+                  With all the apps that users love! Make it easy for users to share, like, post and tweet their favourite things from the app. Be sure to let users know they continue to remain connected while using your app!
+              </p>
+              <a href="/#link1" id="Demo3" className="btn btn-fill btn-info" data-button="info">Get Free Demo</a>
+          </div>
+      </div>
+  </div>
+</div>
 
+<div className="section section-demo-2">
+  <div className="container">
+      <div className="row">
+          <div className="col-md-4">
+          <h4 className="header-text">Easy to integrate</h4>
+              <p>
+                  With all the apps that users love! Make it easy for users to share, like, post and tweet their favourite things from the app. Let users know to remain connected while using your app!
+              </p>
+              <a href="/#link1" id="Demo3" className="btn btn-fill btn-info" data-button="info">Get Free Demo</a>
+          </div>
+          <div className="col-md-4">
+              <h4 className="header-text">Easy to integrate</h4>
+              <p>
+                  With all the apps that users love! Make it easy for users to share, like, post and tweet their favourite things from the app. Let users know to remain connected while using your app!
+              </p>
+              <a href="/#link1" id="Demo3" className="btn btn-fill btn-info" data-button="info">Get Free Demo</a>
+          </div>
+          <div className="col-md-4">
+              <h4 className="header-text">Easy to integrate</h4>
+              <p>
+                  With all the apps that users love! Make it easy for users to share, like, post and tweet their favourite things from the app. Let users know to remain connected while using your app!
+              </p>
+              <a href="/#link1" id="Demo3" className="btn btn-fill btn-info" data-button="info">Get Free Demo</a>
+          </div>
+      </div>
+  </div>
+</div>
 {/* End of Bootstrap Timeline */}
 
 {/* Start of Bootstrap Timeline 2 */}
 <div className="container">
+  <hr />
+  <h1 className="pb-3 gradient-txt-green text-center" style={{ fontSize: "3.8rem", letterSpacing: "0.07em" }}>ROADMAP</h1>
     <div className="row">
         <div className="col-md-12">
             <div className="main-timeline2">
@@ -347,6 +396,7 @@ const App = () => {
             </div>
         </div>
     </div>
+  <hr />
 </div>
 {/* End of Bootstrap Timeline 2 */}
 
@@ -471,9 +521,9 @@ Build and share fully functional, interactive and immersive web-based extended r
         </div>
 
 
-<Testimonials1 content={null} />
+{/* <Testimonials1 content={null} /> */}
 
-<Testimonials2 content={null} />
+{/* <Testimonials2 content={null} /> */}
 
 <CallToAction2 content={null} />
 
