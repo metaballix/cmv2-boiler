@@ -140,14 +140,14 @@ div.bg-overlay {position: fixed; left:0; top: 0; z-index: -1; width:100%; height
 .nft-hero-text {
   text-align: center;
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
   width: 600px;
   border-radius: 7px;
-  padding: 51px 10px 0 10px;
-  height: 300px;
+  padding: 36px 10px 0 10px;
+  height: 250px;
   margin: auto;
   background: rgba(3, 24, 88,0.7);
   -webkit-tap-highlight-color: transparent;
