@@ -251,15 +251,6 @@ const App = () => {
 </div>
 {/* End of Content Wrapper # 1 */}
 
-
-<div className="grid roadmap">
-  <div>Auto-column</div>
-  <div className="g-start-2" style={{ gridRow: "2" }}>Auto-column</div>
-  <div className="g-start-3" style={{ gridRow: "3" }}>Auto-column</div>
-  <div className="g-start-4" style={{ gridRow: "4" }}>Auto-column</div>
-  <div className="g-start-5" style={{ gridRow: "5" }}>Auto-column</div>
-</div>
-
 {/* SCROLLING IMAGE REELS */}
 <div className="nft-hero">
 <div className="nft-reel-1"></div>
@@ -306,7 +297,7 @@ const App = () => {
               <p>
                   With all the apps that users love! Make it easy for users to share, like, post and tweet their favourite things from the app. Be sure to let users know they continue to remain connected while using your app!
               </p>
-              <a href="/#link1" id="Demo3" className="btn btn-fill btn-info" data-button="info">Get Free Demo</a>
+              <a href="/#link1" id="Demo3-2" className="btn btn-fill btn-info" data-button="info">Get Free Demo</a>
           </div>
       </div>
   </div>
@@ -320,21 +311,21 @@ const App = () => {
               <p>
                   With all the apps that users love! Make it easy for users to share, like, post and tweet their favourite things from the app. Let users know to remain connected while using your app!
               </p>
-              <a href="/#link1" id="Demo3" className="btn btn-fill btn-info" data-button="info">Get Free Demo</a>
+              <a href="/#link1" className="btn btn-fill btn-info" data-button="info">Mint Now</a>
           </div>
           <div className="col-md-4">
               <h4 className="header-text">Easy to integrate</h4>
               <p>
                   With all the apps that users love! Make it easy for users to share, like, post and tweet their favourite things from the app. Let users know to remain connected while using your app!
               </p>
-              <a href="/#link1" id="Demo3" className="btn btn-fill btn-info" data-button="info">Get Free Demo</a>
+              <a href="/#link1" className="btn btn-fill btn-info" data-button="info">Learn More</a>
           </div>
           <div className="col-md-4">
               <h4 className="header-text">Easy to integrate</h4>
               <p>
                   With all the apps that users love! Make it easy for users to share, like, post and tweet their favourite things from the app. Let users know to remain connected while using your app!
               </p>
-              <a href="/#link1" id="Demo3" className="btn btn-fill btn-info" data-button="info">Get Free Demo</a>
+              <a href="/#link1" className="btn btn-fill btn-info" data-button="info">View Demo</a>
           </div>
       </div>
   </div>
@@ -342,55 +333,225 @@ const App = () => {
 {/* End of Bootstrap Timeline */}
 
 {/* Start of Bootstrap Timeline 2 */}
-<div className="container">
+<div className="container tl-roadmap">
   <hr />
   <h1 className="pb-3 gradient-txt-green text-center" style={{ fontSize: "3.8rem", letterSpacing: "0.07em" }}>ROADMAP</h1>
     <div className="row">
         <div className="col-md-12">
             <div className="main-timeline2">
-                <div className="timeline2">
+                <div className="timeline2 tl-phase1">
                     <a id="tl2-1" href="/#tl2-1" className="timeline2-content">
                         <div className="timeline2-year">Phase 1</div>
                         <h3 className="title">Web Designing</h3>
                         <p className="description">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer males uada tellus lorem, et condimentum neque commodo Integer males uada tellus lorem, et condimentum neque commodo
+                            Integer males uada tellus lorem, et condimentum neque commodo Integer males uada tellus lorem, et condimentum neque commodo
                         </p>
+{/* Start of List Group : PHASE 1 */}
+<div className="list-group">
+  <a href="/#tl2-1" className="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+    <img src="https://github.com/twbs.png" alt="twbs" width="32" height="32" className="rounded-circle flex-shrink-0" />
+    <div className="d-flex gap-2 w-100 justify-content-between">
+      <div>
+        <h6 className="mb-0">List group item heading</h6>
+        <p className="mb-0 opacity-75">Some placeholder content in a paragraph.</p>
+      </div>
+      <small className="opacity-50 text-nowrap">now</small>
+    </div>
+  </a>
+  <a href="/#tl2-1" className="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+    <img src="https://github.com/twbs.png" alt="twbs" width="32" height="32" className="rounded-circle flex-shrink-0" />
+    <div className="d-flex gap-2 w-100 justify-content-between">
+      <div>
+        <h6 className="mb-0">Another title here</h6>
+        <p className="mb-0 opacity-75">Some placeholder content in a paragraph that goes a little longer so it wraps to a new line.</p>
+      </div>
+      <small className="opacity-50 text-nowrap">3d</small>
+    </div>
+  </a>
+  <a href="/#tl2-1" className="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+    <img src="https://github.com/twbs.png" alt="twbs" width="32" height="32" className="rounded-circle flex-shrink-0" />
+    <div className="d-flex gap-2 w-100 justify-content-between">
+      <div>
+        <h6 className="mb-0">Third heading</h6>
+        <p className="mb-0 opacity-75">Some placeholder content in a paragraph.</p>
+      </div>
+      <small className="opacity-50 text-nowrap">1w</small>
+    </div>
+  </a>
+</div>
+{/* End of PHASE 1 */}
                     </a>
                 </div>
-                <div className="timeline2">
+                <div className="timeline2 tl-phase2">
                     <a id="tl2-2" href="/#tl2-2" className="timeline2-content">
                         <div className="timeline2-year">Phase 2</div>
                         <h3 className="title">Web Development</h3>
                         <p className="description">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer males uada tellus lorem, et condimentum neque commodo Integer males uada tellus lorem, et condimentum neque commodo
+                            Integer males uada tellus lorem, et condimentum neque commodo Integer males uada tellus lorem, et condimentum neque commodo
                         </p>
+{/* Start of List Group : PHASE 2 */}
+<div className="list-group">
+  <a href="/#tl2-2" className="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+    <img src="https://github.com/twbs.png" alt="twbs" width="32" height="32" className="rounded-circle flex-shrink-0" />
+    <div className="d-flex gap-2 w-100 justify-content-between">
+      <div>
+        <h6 className="mb-0">List group item heading</h6>
+        <p className="mb-0 opacity-75">Some placeholder content in a paragraph.</p>
+      </div>
+      <small className="opacity-50 text-nowrap">now</small>
+    </div>
+  </a>
+  <a href="/#tl2-2" className="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+    <img src="https://github.com/twbs.png" alt="twbs" width="32" height="32" className="rounded-circle flex-shrink-0" />
+    <div className="d-flex gap-2 w-100 justify-content-between">
+      <div>
+        <h6 className="mb-0">Another title here</h6>
+        <p className="mb-0 opacity-75">Some placeholder content in a paragraph that goes a little longer so it wraps to a new line.</p>
+      </div>
+      <small className="opacity-50 text-nowrap">3d</small>
+    </div>
+  </a>
+  <a href="/#tl2-2" className="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+    <img src="https://github.com/twbs.png" alt="twbs" width="32" height="32" className="rounded-circle flex-shrink-0" />
+    <div className="d-flex gap-2 w-100 justify-content-between">
+      <div>
+        <h6 className="mb-0">Third heading</h6>
+        <p className="mb-0 opacity-75">Some placeholder content in a paragraph.</p>
+      </div>
+      <small className="opacity-50 text-nowrap">1w</small>
+    </div>
+  </a>
+</div>
+{/* End of PHASE 2 */}
                     </a>
                 </div>
-                <div className="timeline2">
+                <div className="timeline2 tl-phase3">
                     <a id="tl2-3" href="/#tl2-3" className="timeline2-content">
                         <div className="timeline2-year">Phase 3</div>
                         <h3 className="title">Web Development</h3>
                         <p className="description">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer males uada tellus lorem, et condimentum neque commodo Integer males uada tellus lorem, et condimentum neque commodo
+                            Integer males uada tellus lorem, et condimentum neque commodo Integer males uada tellus lorem, et condimentum neque commodo
                         </p>
+{/* Start of List Group : PHASE 3 */}
+<div className="list-group">
+  <a href="/#tl2-3" className="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+    <img src="https://github.com/twbs.png" alt="twbs" width="32" height="32" className="rounded-circle flex-shrink-0" />
+    <div className="d-flex gap-2 w-100 justify-content-between">
+      <div>
+        <h6 className="mb-0">List group item heading</h6>
+        <p className="mb-0 opacity-75">Some placeholder content in a paragraph.</p>
+      </div>
+      <small className="opacity-50 text-nowrap">now</small>
+    </div>
+  </a>
+  <a href="/#tl2-2" className="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+    <img src="https://github.com/twbs.png" alt="twbs" width="32" height="32" className="rounded-circle flex-shrink-0" />
+    <div className="d-flex gap-2 w-100 justify-content-between">
+      <div>
+        <h6 className="mb-0">Another title here</h6>
+        <p className="mb-0 opacity-75">Some placeholder content in a paragraph that goes a little longer so it wraps to a new line.</p>
+      </div>
+      <small className="opacity-50 text-nowrap">3d</small>
+    </div>
+  </a>
+  <a href="/#tl2-2" className="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+    <img src="https://github.com/twbs.png" alt="twbs" width="32" height="32" className="rounded-circle flex-shrink-0" />
+    <div className="d-flex gap-2 w-100 justify-content-between">
+      <div>
+        <h6 className="mb-0">Third heading</h6>
+        <p className="mb-0 opacity-75">Some placeholder content in a paragraph.</p>
+      </div>
+      <small className="opacity-50 text-nowrap">1w</small>
+    </div>
+  </a>
+</div>
+{/* End of PHASE 3 */}
                     </a>
                 </div>
-                <div className="timeline2">
+                <div className="timeline2 tl-phase4">
                     <a id="tl2-4" href="/#tl2-4" className="timeline2-content">
                         <div className="timeline2-year">Phase 4</div>
                         <h3 className="title">Web Development</h3>
                         <p className="description">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer males uada tellus lorem, et condimentum neque commodo Integer males uada tellus lorem, et condimentum neque commodo
+                            Integer males uada tellus lorem, et condimentum neque commodo Integer males uada tellus lorem, et condimentum neque commodo
                         </p>
+{/* Start of List Group : PHASE 4 */}
+<div className="list-group">
+  <a href="/#tl2-4" className="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+    <img src="https://github.com/twbs.png" alt="twbs" width="32" height="32" className="rounded-circle flex-shrink-0" />
+    <div className="d-flex gap-2 w-100 justify-content-between">
+      <div>
+        <h6 className="mb-0">List group item heading</h6>
+        <p className="mb-0 opacity-75">Some placeholder content in a paragraph.</p>
+      </div>
+      <small className="opacity-50 text-nowrap">now</small>
+    </div>
+  </a>
+  <a href="/#tl2-4" className="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+    <img src="https://github.com/twbs.png" alt="twbs" width="32" height="32" className="rounded-circle flex-shrink-0" />
+    <div className="d-flex gap-2 w-100 justify-content-between">
+      <div>
+        <h6 className="mb-0">Another title here</h6>
+        <p className="mb-0 opacity-75">Some placeholder content in a paragraph that goes a little longer so it wraps to a new line.</p>
+      </div>
+      <small className="opacity-50 text-nowrap">3d</small>
+    </div>
+  </a>
+  <a href="/#tl2-4" className="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+    <img src="https://github.com/twbs.png" alt="twbs" width="32" height="32" className="rounded-circle flex-shrink-0" />
+    <div className="d-flex gap-2 w-100 justify-content-between">
+      <div>
+        <h6 className="mb-0">Third heading</h6>
+        <p className="mb-0 opacity-75">Some placeholder content in a paragraph.</p>
+      </div>
+      <small className="opacity-50 text-nowrap">1w</small>
+    </div>
+  </a>
+</div>
+{/* End of PHASE 4 */}
                     </a>
                 </div>
-                <div className="timeline2">
+                <div className="timeline2 tl-phase5">
                     <a id="tl2-5" href="/#tl2-5" className="timeline2-content">
                         <div className="timeline2-year">Phase 5</div>
                         <h3 className="title">Web Development</h3>
                         <p className="description">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer males uada tellus lorem, et condimentum neque commodo Integer males uada tellus lorem, et condimentum neque commodo
+                            Integer males uada tellus lorem, et condimentum neque commodo Integer males uada tellus lorem, et condimentum neque commodo
                         </p>
+{/* Start of List Group : PHASE 5 */}
+<div className="list-group">
+  <a href="/#tl2-5" className="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+    <img src="https://github.com/twbs.png" alt="twbs" width="32" height="32" className="rounded-circle flex-shrink-0" />
+    <div className="d-flex gap-2 w-100 justify-content-between">
+      <div>
+        <h6 className="mb-0">List group item heading</h6>
+        <p className="mb-0 opacity-75 text-left">Some placeholder content in a paragraph.</p>
+      </div>
+      <small className="opacity-50 text-nowrap">now</small>
+    </div>
+  </a>
+  <a href="/#tl2-5" className="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+    <img src="https://github.com/twbs.png" alt="twbs" width="32" height="32" className="rounded-circle flex-shrink-0" />
+    <div className="d-flex gap-2 w-100 justify-content-between">
+      <div>
+        <h6 className="mb-0">Another title here</h6>
+        <p className="mb-0 opacity-75 text-left">Some placeholder content in a paragraph that goes a little longer so it wraps to a new line.</p>
+      </div>
+      <small className="opacity-50 text-nowrap">3d</small>
+    </div>
+  </a>
+  <a href="/#tl2-5" className="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+    <img src="https://github.com/twbs.png" alt="twbs" width="32" height="32" className="rounded-circle flex-shrink-0" />
+    <div className="d-flex gap-2 w-100 justify-content-between">
+      <div>
+        <h6 className="mb-0">Third heading</h6>
+        <p className="mb-0 opacity-75 text-left">Some placeholder content in a paragraph.</p>
+      </div>
+      <small className="opacity-50 text-nowrap">1w</small>
+    </div>
+  </a>
+</div>
+{/* End of PHASE 5 */}
                     </a>
                 </div>
             </div>
@@ -422,12 +583,11 @@ const App = () => {
     src="https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/metaball-showcase-1.gif?v=1643398889757" />
     </div>
     <div className="col-6" style={{ verticalAlign: "middle", margin: "auto" }}>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac velit
-      aliquet, semper sapien sed, ornare augue. Phasellus sed velit
-      interdum, sagittis metus quis, facilisis lectus. Cras sollicitudin
-      purus at magna eleifend maximus. Nulla nec nulla in nunc maximus
-      viverra in at mauris. Fusce dolor nisi, et orci porta
-      id. In nunc sed erat lacinia tincidunt.
+
+{/* START OF Bootstrap List Groups */}
+
+{/* END OF Bootstrap List Groups */}
+
     </div>
   </div>
 </div>

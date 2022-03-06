@@ -2,7 +2,6 @@
 /* ####### APP.TSX CUSTOM STYLES ####### */
 /* ##################################### */
 
-.roadmap { --bs-rows: 5; --bs-columns: 5; }
 div.mball-avatar {
   width: auto;
   min-height: 180px;
@@ -48,14 +47,20 @@ div.bg-overlay {position: fixed; left:0; top: 0; z-index: -1; width:100%; height
 
 /* .hero-container { width:100%; height:100%; background: rgba(0,0,0,0.4); } */
 
-/* nft hero scrolling reel */
+
+/* NFT FULL-WIDTH SCROLLING REEL */
+
 .nft-hero {
   width: 100%;
   position: relative;
-  border-bottom:2px solid rgba(11, 218, 227, 0.8);
+  border-bottom:1px solid rgba(11, 228, 228, 0.8);
   margin-bottom: 0;
   padding-top: 50px;
+/*   -webkit-box-shadow: 0 8px 6px -2px rgba(11, 228, 228, 0.75);
+   -moz-box-shadow: 0 8px 6px -2px  rgba(11, 228, 228, 0.75);
+        box-shadow: 0 8px 6px -2px rgba(11, 228, 228, 0.75); */
 }
+
 .nft-hero-base {
   width: 100%;
   margin-bottom: 30px;
@@ -126,6 +131,7 @@ div.bg-overlay {position: fixed; left:0; top: 0; z-index: -1; width:100%; height
   -o-animation: slideright 2300s infinite linear; /* Opera 12+ */
   animation: slideright 2300s infinite linear; /* IE 10+ */
 }
+
 .nft-reel-2{
   background: url("https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/mball-reel-7500x71-002.png?v=1646421660656") repeat 0 0;
   -webkit-animation: slideleft 2200s infinite linear; /* Safari 4+ */

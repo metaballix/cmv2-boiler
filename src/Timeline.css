@@ -145,7 +145,7 @@ margin-top: 5px;
 .main-timeline2 a { text-decoration: none; }
 .main-timeline2 .timeline2-content{
     color: #666;
-    background: linear-gradient(to right,#f1f1f1,transparent);
+    background: linear-gradient(to right,#f1f1f1,rgba(255,255,255,0.2));
     min-height: 120px;
     padding: 15px;
     border-radius: 10px;
@@ -167,16 +167,17 @@ margin-top: 5px;
     font-weight: 600;
     letter-spacing: 1px;
     text-transform: uppercase;
-    padding: 5px 10px;
+    padding: 7px 15px;
     margin: 0 0 5px;
-    border-radius: 5px;
+    border-radius: 4px;
     display: inline-block;
 }
 .main-timeline2 .description{
-    color:rgba(0, 0, 0, 0.75);
+    color:rgba(0, 0, 0, 0.8);
     font-size: 1rem;
     letter-spacing: 1px;
     line-height: 20px;
+    padding: 5px 5px 10px 5px;
     margin: 0;
 }
 .main-timeline2 .timeline2:nth-child(even){
@@ -184,7 +185,7 @@ margin-top: 5px;
     float: left;
 }
 .main-timeline2 .timeline2:nth-child(even) .timeline2-content{
-    background: linear-gradient(to left,#f1f1f1,transparent);
+    background: linear-gradient(to left,#f1f1f1,rgba(255,255,255,0.2));
     text-align: right;
 }
 .main-timeline2 .timeline2:nth-child(even) .description{ text-align: left; }
@@ -196,16 +197,32 @@ margin-top: 5px;
 .main-timeline2 .timeline2:nth-child(4n+4) .title{ background: linear-gradient(to right,#E31F9A,#CF21C2); }
 .main-timeline2 .timeline2:nth-child(4n+5) .timeline2-year{ color: #7111A1; }
 .main-timeline2 .timeline2:nth-child(4n+5) .title{ background: linear-gradient(to right,#7111A1,#7C2AE8); }
-@media screen and (max-width:767px){
+@media screen and (max-width: 800px){
     .main-timeline2 .timeline2{ width: 100%; } 
 }
 @media screen and (max-width:576px){
     .main-timeline2 .timeline2-content,
     .main-timeline2 .timeline2:nth-child(even) .timeline2-content{
         background: linear-gradient(#f1f1f1,transparent);
-        text-align: center;
+        text-align: left;
     }
-    .main-timeline2 .timeline2:nth-child(even) .description{ text-align: center; }
+    .main-timeline2 .timeline2:nth-child(even) .description{ 
+        text-align: left;
+    }
 }
-  
+
+/* Timeline 2 - metaballix roadmap CSS extensions */
+.roadmap { --bs-rows: 5; --bs-columns: 5; }
+.tl-roadmap .list-group { padding-bottom: 5px; }
+.tl-roadmap .list-group-item{ background-color: rgba(255,255,255,0.75); }
+.tl-roadmap .tl-phase1 .list-group-item:hover{ background-color: rgba(255, 197, 142, 0.75); }
+.tl-roadmap .tl-phase1 .list-group-item:active{ background-color: rgba(245, 156, 121, 0.75); }
+.tl-roadmap .tl-phase2 .list-group-item:hover{ background-color: rgba(142, 255, 185, 0.75); }
+.tl-roadmap .tl-phase2 .list-group-item:active{ background-color: rgba(110, 228, 147, 0.75); }
+.tl-roadmap .tl-phase3 .list-group-item:hover{ background-color: rgba(164, 242, 253, 0.75); }
+.tl-roadmap .tl-phase3 .list-group-item:active{ background-color: rgba(119, 218, 228, 0.75); }
+@media screen and (max-width: 800px){
+    .tl-roadmap .list-group { padding-bottom: 15px; }
+}
+
 /* 3d parallax cards - https://codepen.io/dazulu/pen/VVZrQv */
