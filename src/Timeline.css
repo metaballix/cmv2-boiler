@@ -233,6 +233,6 @@ margin-top: 5px;
 
 /* FAQ section bs 4.1 - codepen.io/moso/pen/vKGxMx */
 
-/* FAQ section */
-.faqsection.card.contentcard { background: rgba(146, 74, 173, 0.65); }
+/* FAQ Section - Bootstrap 5 Accordion */
+/* .faqsection.card.contentcard { background: rgba(146, 74, 173, 0.65); } */
 #faq .accordion-body { color: #212529; }

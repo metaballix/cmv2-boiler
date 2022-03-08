@@ -289,9 +289,10 @@ header {
 .card.contentcard {
   align-items: center;
   border-radius: var(--card-border-radius);
-  padding: 40px;
+  padding: 35px;
   background: var(--card-background-color);
   box-shadow: var(--card-shadow);
+  border: none;
 }
 
 .container {
