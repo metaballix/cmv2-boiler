@@ -356,7 +356,9 @@ p.MuiTypography-body1 {font-family: "Dosis", sans-serif;}
 /* effect-shine */
 .effect-shine {text-decoration: none;}
 .effect-shine:hover {
+  mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000000 50%, rgba(0,0,0,.6) 70%);
   -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000000 50%, rgba(0,0,0,.6) 70%);
+  mask-size: 200%;
   -webkit-mask-size: 200%;
   animation: shine 2s infinite;
 }
@@ -441,7 +443,7 @@ from {transform: translateY(-100%);}
 
 /* ATROPOS my-atropos */
 
-.container.atropos-wrap {
+/* .container.atropos-wrap {
   padding: 0px 40px;
   max-width: 600px;
   margin: 32px auto;
@@ -492,4 +494,4 @@ from {transform: translateY(-100%);}
   top: 0%;
 }
 .atropos-active .atropos-banner-text {
-}
+} */

@@ -262,18 +262,18 @@ header {
   box-shadow: 0 0 20px -13px white;
 }
 
-.faq {
+.faq2 {
   max-width: 900px;
   margin: auto;
   align-items: center;
   padding: 20px;
 }
 
-.faq div {
+.faq2 div {
   margin-bottom: 20px;
 }
 
-.faq p {
+.faq2 p {
   padding: 20px;
 }
 
@@ -286,7 +286,7 @@ header {
   width: 100%;
 }
 
-.card {
+.card.contentcard {
   align-items: center;
   border-radius: var(--card-border-radius);
   padding: 40px;

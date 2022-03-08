@@ -53,6 +53,8 @@ import Footer3 from './components/footers/Footer3';
 
 import Particles from 'react-tsparticles';
 
+import 'bootstrap';
+
 const theme = createTheme({
   typography: {
     fontFamily: '"Dosis", sans-serif !important',
@@ -203,7 +205,7 @@ const App = () => {
 {/* Start of Original Content Wrapper */}
 <div className="content-wrapper">
 <div id="mint" className="mball-avatar"></div>
-        <header className="card" id="link1">
+        <header className="card contentcard" id="link1">
           <div className="text-center" style={{ padding: "0 24px 0 24px 0" }}>
             <h3 className="text-secondary-color">Welcome to the PlasmaVerse</h3>
             <h1 className="pb-3" style={{ fontWeight: 600 }}><span style={{ color: "rgb(25, 55, 130)" }}>ENGAGE. </span><span style={{ color: "rgb(77, 25, 130)" }}>EVOLVE. </span><span style={{ color: "rgb(121, 11, 121)" }}>EARN.</span></h1>
@@ -281,7 +283,7 @@ const App = () => {
 
 <Features4 content={null} />
 
-{/* Start of Bootstrap Timeline */}
+{/* Start of Bootstrap Features grid 1 */}
 <div className="section section-demo">
   <div className="container">
       <div className="row">
@@ -330,11 +332,79 @@ const App = () => {
       </div>
   </div>
 </div>
-{/* End of Bootstrap Timeline */}
+{/* End of Bootstrap Features Grid */}
 
-{/* Start of Bootstrap Timeline 2 */}
+
+{/* Start of Second Content Wrapper */}
+<div className="content-wrapper">
+
+{/* Bootstrap MIX n MATCH containers */}
+<div className="container">
+  <div className="row">
+    <div className="col-md-8" style={{ verticalAlign: "middle", margin: "auto" }}>.col-md-8</div>
+    <div className="col-6 col-md-4">.col-6 .col-md-4</div>
+  </div>
+
+  <div className="row">
+    <div className="col-6 col-md-4">.col-6 .col-md-4</div>
+    <div className="col-6 col-md-4">.col-6 .col-md-4</div>
+    <div className="col-6 col-md-4">.col-6 .col-md-4</div>
+  </div>
+
+  <div className="row">
+    <div className="col-6" style={{ verticalAlign: "middle", margin: "auto" }}>
+    <img className="illustration metaball-slide" alt="metaball avatars slideshow" style={{ width: "100%" }} 
+    src="https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/metaball-showcase-1.gif?v=1643398889757" />
+    </div>
+    <div className="col-6" style={{ verticalAlign: "middle", margin: "auto" }}>
+
+{/* START OF Bootstrap List Groups */}
+
+{/* END OF Bootstrap List Groups */}
+
+    </div>
+  </div>
+</div>
+{/* End of bootstrap containers */}
+
+<Header1 content={null} />
+
+<figure className="text-center">
+  <blockquote className="blockquote">
+    <p>A well-known quote, contained in a blockquote element.</p>
+  </blockquote>
+  <figcaption className="blockquote-footer">
+    Someone famous in <cite title="Source Title">Source Title</cite>
+  </figcaption>
+</figure>
+
+<Features6 content={null} />
+
+{/* Scrolling Frames - stackoverflow.com/questions/43744887/fullscreen-infinite-scrolling-background*/}
+<div className="nft-hero-2">
+<div className="nft-img-container" id="nft-ctn1">
+    <div className="nft-img-inner">
+        <img className="nft-img" alt="metaball nft variations" src="https://i.stack.imgur.com/FlK9o.jpg" />
+    </div>
+</div>
+<div className="nft-img-container" id="nft-ctn2">
+    <div className="nft-img-inner">
+        <img className="nft-img" alt="metaball nft variations" src="https://i.stack.imgur.com/FlK9o.jpg" />
+    </div>
+</div>
+</div>
+{/* End of Scrolling Frames */}
+
+        <div id="link3" className="container card contentcard">
+          <h1 className="pb-3 gradient-txt" style={{ fontSize: "4.2rem" }}>Xone Microverses</h1>
+          <p>
+Build and share fully functional, interactive and immersive web-based extended reality landing pages, or XONES. 
+            </p>
+        </div>
+
+{/* Start of Bootstrap Timeline */}
 <div className="container tl-roadmap">
-  <hr />
+  <hr style={{ margin: "60px 0 45px 0" }} />
   <h1 className="pb-3 gradient-txt-green text-center" style={{ fontSize: "3.8rem", letterSpacing: "0.07em" }}>ROADMAP</h1>
     <div className="row">
         <div className="col-md-12">
@@ -552,104 +622,66 @@ const App = () => {
   </a>
 </div>
 {/* End of PHASE 5 */}
+
                     </a>
                 </div>
             </div>
         </div>
     </div>
-  <hr />
+  <hr style={{ margin: "60px 0 45px 0" }} />
 </div>
-{/* End of Bootstrap Timeline 2 */}
+{/* End of Bootstrap Timeline */}
 
-{/* Start of Second Content Wrapper */}
-<div className="content-wrapper">
+{/* Start of FAQ Section */}
 
-{/* Bootstrap MIX n MATCH containers */}
-<div className="container">
-  <div className="row">
-    <div className="col-md-8" style={{ verticalAlign: "middle", margin: "auto" }}>.col-md-8</div>
-    <div className="col-6 col-md-4">.col-6 .col-md-4</div>
-  </div>
-
-  <div className="row">
-    <div className="col-6 col-md-4">.col-6 .col-md-4</div>
-    <div className="col-6 col-md-4">.col-6 .col-md-4</div>
-    <div className="col-6 col-md-4">.col-6 .col-md-4</div>
-  </div>
-
-  <div className="row">
-    <div className="col-6" style={{ verticalAlign: "middle", margin: "auto" }}>
-    <img className="illustration metaball-slide" alt="metaball avatars slideshow" style={{ width: "100%" }} 
-    src="https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/metaball-showcase-1.gif?v=1643398889757" />
-    </div>
-    <div className="col-6" style={{ verticalAlign: "middle", margin: "auto" }}>
-
-{/* START OF Bootstrap List Groups */}
-
-{/* END OF Bootstrap List Groups */}
-
+<div id="faqsection" className="faqsection container card contentcard">
+<h1 className="pb-3 gradient-txt-green text-center" style={{ fontSize: "3.8rem", letterSpacing: "0.07em" }}>FAQs</h1>
+<div className="accordion" id="faq">
+  <div className="accordion-item">
+    <h2 className="accordion-header" id="heading-faq-nfts">
+      <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq-nfts" aria-controls="faq-nfts" aria-expanded="true">
+        NFTs &amp; Metaballs
+      </button>
+    </h2>
+    <div id="faq-nfts" className="accordion-collapse collapse show" aria-labelledby="heading-faq-nfts" data-bs-parent="#faq">
+      <div className="accordion-body">
+        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
     </div>
   </div>
-</div>
-{/* End of bootstrap containers */}
-
-<Header1 content={null} />
-
-<figure className="text-center">
-  <blockquote className="blockquote">
-    <p>A well-known quote, contained in a blockquote element.</p>
-  </blockquote>
-  <figcaption className="blockquote-footer">
-    Someone famous in <cite title="Source Title">Source Title</cite>
-  </figcaption>
-</figure>
-
-<Features6 content={null} />
-
-        <div id="link2" className="container">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac velit
-          aliquet, semper sapien sed, ornare augue. Phasellus sed velit
-          interdum, sagittis metus quis, facilisis lectus. Cras sollicitudin
-          purus at magna eleifend maximus. Nulla nec nulla in nunc maximus
-          viverra in at mauris. Fusce sodales dolor nisi, et vehicula orci porta
-          id. In placerat nunc sed erat lacinia tincidunt. Interdum et malesuada
-          fames ac ante ipsum primis in faucibus. Vestibulum commodo eget metus
-          vitae tempus. Aliquam pharetra mi at efficitur accumsan. Curabitur
-          venenatis libero a ex porttitor, at auctor turpis hendrerit. Nam
-          commodo, risus non consequat pretium, erat ante auctor purus, a cursus
-          dolor erat at velit. Maecenas dignissim, dolor sed laoreet aliquam,
-          tortor lacus faucibus urna, eget mattis massa sem ac dui. Nam semper
-          hendrerit interdum. Etiam at dictum nisi.
-        </div>
-
-{/* Scrolling Frames - stackoverflow.com/questions/43744887/fullscreen-infinite-scrolling-background*/}
-<div className="nft-hero-2">
-<div className="nft-img-container" id="nft-ctn1">
-    <div className="nft-img-inner">
-        <img className="nft-img" alt="metaball nft variations" src="https://i.stack.imgur.com/FlK9o.jpg" />
+  <div className="accordion-item">
+    <h2 className="accordion-header" id="heading-faq-tokens">
+      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-tokens" aria-controls="faq-tokens" aria-expanded="false">
+        Ecosystem Tokens
+      </button>
+    </h2>
+    <div id="faq-tokens" className="accordion-collapse collapse" aria-labelledby="heading-faq-tokens" data-bs-parent="#faq">
+      <div className="accordion-body">
+        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
     </div>
-</div>
-<div className="nft-img-container" id="nft-ctn2">
-    <div className="nft-img-inner">
-        <img className="nft-img" alt="metaball nft variations" src="https://i.stack.imgur.com/FlK9o.jpg" />
+  </div>
+  <div className="accordion-item">
+    <h2 className="accordion-header" id="heading-faq-tech">
+      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-tech" aria-controls="faq-tech" aria-expanded="false">
+        Platform Technologies
+      </button>
+    </h2>
+    <div id="faq-tech" className="accordion-collapse collapse" aria-labelledby="heading-faq-tech" data-bs-parent="#faq">
+      <div className="accordion-body">
+        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
     </div>
+  </div>
 </div>
 </div>
-{/* End of Scrolling Frames */}
 
-        <div id="link3" className="container card">
-          <h1 className="pb-3 gradient-txt" style={{ fontSize: "4.2rem" }}>Xone Microverses</h1>
-          <p>
-Build and share fully functional, interactive and immersive web-based extended reality landing pages, or XONES. 
-            </p>
-        </div>
-
-        <div id="link4" className="container faq">
-          <h1 style={{ padding: "0 0 24px 0" }}>FAQ</h1>
+{/* Original FAQs Section */}
+        <div id="link4" className="container faq2">
+          <h1 style={{ padding: "0 0 24px 0" }}>Our Team</h1>
           <div>
             <h4>Lorem ipsum?</h4>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Suspendisse id metus id mauris tincidunt posuere. Vivamus neque
               odio, imperdiet vitae.
             </p>
@@ -660,18 +692,6 @@ Build and share fully functional, interactive and immersive web-based extended r
           <div>
             <h4>Lorem ipsum?</h4>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse id metus id mauris tincidunt posuere. Vivamus neque
-              odio, imperdiet vitae.
-            </p>
-
-            <hr />
-          </div>
-
-          <div>
-            <h4>Lorem ipsum?</h4>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Suspendisse id metus id mauris tincidunt posuere. Vivamus neque
               odio, imperdiet vitae.
             </p>
@@ -680,6 +700,7 @@ Build and share fully functional, interactive and immersive web-based extended r
           </div>
         </div>
 
+{/* End of FAQs */}
 
 {/* <Testimonials1 content={null} /> */}
 

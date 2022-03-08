@@ -221,8 +221,18 @@ margin-top: 5px;
 .tl-roadmap .tl-phase2 .list-group-item:active{ background-color: rgba(110, 228, 147, 0.75); }
 .tl-roadmap .tl-phase3 .list-group-item:hover{ background-color: rgba(164, 242, 253, 0.75); }
 .tl-roadmap .tl-phase3 .list-group-item:active{ background-color: rgba(119, 218, 228, 0.75); }
+.tl-roadmap .tl-phase4 .list-group-item:hover{ background-color: rgba(253, 164, 223, 0.75); }
+.tl-roadmap .tl-phase4 .list-group-item:active{ background-color: rgba(228, 119, 182, 0.75); }
+.tl-roadmap .tl-phase5 .list-group-item:hover{ background-color: rgba(225, 164, 253, 0.75); }
+.tl-roadmap .tl-phase5 .list-group-item:active{ background-color: rgba(206, 119, 228, 0.75); }
 @media screen and (max-width: 800px){
     .tl-roadmap .list-group { padding-bottom: 15px; }
 }
 
-/* 3d parallax cards - https://codepen.io/dazulu/pen/VVZrQv */
+/* 3d parallax cards - codepen.io/dazulu/pen/VVZrQv */
+
+/* FAQ section bs 4.1 - codepen.io/moso/pen/vKGxMx */
+
+/* FAQ section */
+.faqsection.card.contentcard { background: rgba(146, 74, 173, 0.65); }
+#faq .accordion-body { color: #212529; }
