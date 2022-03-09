@@ -134,28 +134,28 @@ div.bg-overlay {position: fixed; left:0; top: 0; z-index: -1; width:100%; height
   /* transform: translate3d(0,0,0); */
 }
 .nft-reel-1{
-  background: url("https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/mball-reel-7500x71-001.png?v=1646421654800") transparent repeat-x 0 0;
+  background: url("assets/mball-reel-7500x71-001.png") transparent repeat-x 0 0;
   -webkit-animation: slideright 600s infinite linear; /* Safari 4+ */
   -moz-animation: slideright 600s infinite linear; /* Fx 5+ */
   -o-animation: slideright 600s infinite linear; /* Opera 12+ */
   animation: slideright 600s infinite linear; /* IE 10+ */
 }
 .nft-reel-3{
-  background: url("https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/mball-reel-7500x71-003.png?v=1646421666787") transparent repeat-x 0 0;
+  background: url("assets/mball-reel-7500x71-003.png") transparent repeat-x 0 0;
   -webkit-animation: slideright 666s infinite linear; /* Safari 4+ */
   -moz-animation: slideright 666s infinite linear; /* Fx 5+ */
   -o-animation: slideright 666s infinite linear; /* Opera 12+ */
   animation: slideright 666s infinite linear; /* IE 10+ */
 }
 .nft-reel-5{
-  background: url("https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/mball-reel-7500x71-005.png?v=1646421677746") transparent repeat-x 0 0;
+  background: url("assets/mball-reel-7500x71-005.png") transparent repeat-x 0 0;
   -webkit-animation: slideright 750s infinite linear; /* Safari 4+ */
   -moz-animation: slideright 750s infinite linear; /* Fx 5+ */
   -o-animation: slideright 750s infinite linear; /* Opera 12+ */
   animation: slideright 750s infinite linear; /* IE 10+ */
 }
 .nft-reel-7{
-  background: url("https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/mball-reel-7500x71-007.png?v=1646421692824") transparent repeat-x 0 0;
+  background: url("assets/mball-reel-7500x71-007.png") transparent repeat-x 0 0;
   -webkit-animation: slideright 800s infinite linear; /* Safari 4+ */
   -moz-animation: slideright 800s infinite linear; /* Fx 5+ */
   -o-animation: slideright 800s infinite linear; /* Opera 12+ */
