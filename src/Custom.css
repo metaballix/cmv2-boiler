@@ -22,7 +22,7 @@ html {
 /* Custom Cards */
 /* .card.contentcard.faqcard { background: rgba(146, 74, 173, 0.65); } */
 .card.contentcard.xonecard {
-  background: radial-gradient(ellipse at bottom, rgba(38, 74, 172, 0.5) 10%, rgba(121, 33, 165, 0.5) 100%), url(https://cdn.glitch.global/f535e99a-aa99-49b0-888f-ab86e79ca548/mtbl-bg1.jpg?v=1645634708211);
+  background: radial-gradient(ellipse at bottom, rgba(28, 57, 128, 0.5) 0%, rgba(121, 33, 165, 0.5) 100%), url(https://cdn.glitch.global/f535e99a-aa99-49b0-888f-ab86e79ca548/mtbl-bg1.jpg?v=1645634708211);
   background-repeat: repeat;
   text-align: center;
   margin-bottom: 0;

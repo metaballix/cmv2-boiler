@@ -399,9 +399,10 @@ const App = () => {
 
 {/* START OF XONE SECTION */}
 <div className="mask2">
+<div className="mask1">
 <div id="link3" className="container card contentcard xonecard">
 <h1 className="pb-3 gradient-txt" style={{ fontSize: "3.8rem" }}>Xone Microverses</h1>
-  <div className="row align-items-start w-100">
+  <div className="row align-items-center w-100">
     <div className="col">
       <p>Build and share fully functional, interactive and immersive web-based extended reality landing pages, or XONES.</p>
     </div>
@@ -409,7 +410,7 @@ const App = () => {
       <p>Build and share fully functional, interactive and immersive web-based extended reality landing pages, or XONES.</p>
     </div>
   </div>
-  <div className="row align-items-start w-100">
+  <div className="row align-items-center w-100">
     <div className="col">
     <p>1 of 3</p>
     </div>
@@ -421,7 +422,7 @@ const App = () => {
     </div>
   </div>
 </div>
-<div className="row align-items-start">
+<div className="row align-items-center">
 <div className="col">
   <div className="container card contentcard xonecard">
   <p>2 of 5</p>
@@ -446,6 +447,7 @@ const App = () => {
   <div className="container card contentcard xonecard">
   <p>2 of 5</p>
   </div>
+</div>
 </div>
 </div>
 </div>
