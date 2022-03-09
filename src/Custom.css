@@ -19,6 +19,20 @@ html {
   color: #eeeeee;
 }
 
+/* Custom Cards */
+/* .card.contentcard.faqcard { background: rgba(146, 74, 173, 0.65); } */
+.card.contentcard.xonecard {
+  background: radial-gradient(ellipse at bottom, rgba(38, 74, 172, 0.5) 10%, rgba(121, 33, 165, 0.5) 100%), url(https://cdn.glitch.global/f535e99a-aa99-49b0-888f-ab86e79ca548/mtbl-bg1.jpg?v=1645634708211);
+  background-repeat: repeat;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 25px;
+}
+.mask2 {
+  -webkit-mask-image: radial-gradient(circle, rgb(255, 255, 255) 70%, rgba(255, 255, 255, 0.5) 70%);
+  mask-image: radial-gradient(circle, rgb(255, 255, 255) 70%, rgba(0, 0, 0, 0.5) 70%);
+}
+
 /* B-BALL Hero Avatar */
 div.mball-avatar {
   width: auto;

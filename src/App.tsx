@@ -259,11 +259,11 @@ const App = () => {
 <div className="nft-reel-2"></div>
 <div className="nft-reel-3"></div>
 {/* <div className="nft-reel-4"></div> */}
-{/* <div className="nft-reel-5"></div> */}
+{/* <div className="nft-reel-7"></div> */}
 <div className="nft-reel-6"></div>
-<div className="nft-reel-7"></div>
+<div className="nft-reel-5"></div>
   <div className="nft-hero-text">
-  <h1 className="gradient-txt-green" style={{ fontSize: "3.2rem", letterSpacing: "0.1em" }}>19,326,120</h1>
+  <h1 className="gradient-txt-green" style={{ fontSize: "2.8rem", letterSpacing: "0.1em" }}>19,326,120</h1>
     <h3>Tokenized DNA Compositions</h3>
     <a href="https://explorer.solana.com/address/E359HKTV192s4kpg4QXTmj7eQ6fzvsL2KbU9QJGDrM3e" target="_blank" rel="noreferrer">
       <button className="btn btn-lg btn-dark pd-3" type="button">
@@ -273,7 +273,7 @@ const App = () => {
   </div>
 </div>
 <div className="nft-hero-base">
-<h1 className="pb-3 gradient-txt-green" style={{ fontSize: "4.2rem", letterSpacing: "0.1em" }}>19,326,120</h1>
+<h1 className="pb-3 gradient-txt-green" style={{ fontSize: "3.8rem", letterSpacing: "0.1em" }}>19,326,120</h1>
     <h2 style={{ letterSpacing: "0.1em" }}>Tokenized DNA Compositions</h2>
     <button className="btn btn-lg btn-outline-info" type="button">MINT 1 of 11,111 METABALL NFTs!</button>
 </div>
@@ -362,7 +362,6 @@ const App = () => {
 {/* START OF Bootstrap List Groups */}
 
 {/* END OF Bootstrap List Groups */}
-
     </div>
   </div>
 </div>
@@ -397,12 +396,61 @@ const App = () => {
 </div>
 {/* End of Scrolling Frames */}
 
-        <div id="link3" className="container card contentcard">
-          <h1 className="pb-3 gradient-txt" style={{ fontSize: "4.2rem" }}>Xone Microverses</h1>
-          <p>
-Build and share fully functional, interactive and immersive web-based extended reality landing pages, or XONES. 
-            </p>
-        </div>
+
+{/* START OF XONE SECTION */}
+<div className="mask2">
+<div id="link3" className="container card contentcard xonecard">
+<h1 className="pb-3 gradient-txt" style={{ fontSize: "3.8rem" }}>Xone Microverses</h1>
+  <div className="row align-items-start w-100">
+    <div className="col">
+      <p>Build and share fully functional, interactive and immersive web-based extended reality landing pages, or XONES.</p>
+    </div>
+    <div className="col">
+      <p>Build and share fully functional, interactive and immersive web-based extended reality landing pages, or XONES.</p>
+    </div>
+  </div>
+  <div className="row align-items-start w-100">
+    <div className="col">
+    <p>1 of 3</p>
+    </div>
+    <div className="col-6">
+    <p>-- 2 of 3 --</p>
+    </div>
+    <div className="col">
+    <p>3 of 3</p>
+    </div>
+  </div>
+</div>
+<div className="row align-items-start">
+<div className="col">
+  <div className="container card contentcard xonecard">
+  <p>2 of 5</p>
+  </div>
+</div>
+<div className="col">
+  <div className="container card contentcard xonecard">
+  <p>2 of 5</p>
+  </div>
+</div>
+<div className="col">
+  <div className="container card contentcard xonecard">
+  <p>2 of 5</p>
+  </div>
+</div>
+<div className="col">
+  <div className="container card contentcard xonecard">
+  <p>2 of 5</p>
+  </div>
+</div>
+<div className="col">
+  <div className="container card contentcard xonecard">
+  <p>2 of 5</p>
+  </div>
+</div>
+</div>
+</div>
+{/* End of XONE SECTION */}
+
 
 {/* Start of Bootstrap Timeline */}
 <div className="container tl-roadmap">
