@@ -260,8 +260,8 @@ const App = () => {
 <div className="nft-reel-3"></div>
 {/* <div className="nft-reel-4"></div> */}
 {/* <div className="nft-reel-7"></div> */}
-<div className="nft-reel-6"></div>
 <div className="nft-reel-5"></div>
+<div className="nft-reel-6"></div>
   <div className="nft-hero-text">
   <h1 className="gradient-txt-green" style={{ fontSize: "2.8rem", letterSpacing: "0.1em" }}>19,326,120</h1>
     <h3>Tokenized DNA Compositions</h3>
