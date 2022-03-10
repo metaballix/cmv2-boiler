@@ -425,7 +425,7 @@ const App = () => {
 <div className="row align-items-center">
 <div className="col">
   <div className="container card contentcard xonecard">
-  <p>2 of 5</p>
+  <p>1 of 5</p>
   </div>
 </div>
 <div className="col">
@@ -435,17 +435,12 @@ const App = () => {
 </div>
 <div className="col">
   <div className="container card contentcard xonecard">
-  <p>2 of 5</p>
+  <p>3 of 5</p>
   </div>
 </div>
 <div className="col">
   <div className="container card contentcard xonecard">
-  <p>2 of 5</p>
-  </div>
-</div>
-<div className="col">
-  <div className="container card contentcard xonecard">
-  <p>2 of 5</p>
+  <p>4 of 5</p>
   </div>
 </div>
 </div>
@@ -767,6 +762,92 @@ const App = () => {
 </div>
 {/* End of Content Wrapper # 2 */}
 
+
+{/* Start of Feature Squares Grid 4x2 */}
+<div className="py-5 service-24">
+    <div className="container">
+
+        <div className="row wrap-service-24">
+
+            <div className="col-lg-3 col-md-6">
+                <div className="card rounded card-shadow border-0 mb-4">
+                    <div className="card-hover py-4 text-center d-block rounded"> 
+												<span className="bg-success-grediant">R</span>
+                        <h6 className="ser-title">Retargeting Market</h6>
+                    </div>
+                </div>
+            </div>
+
+            <div className="col-lg-3 col-md-6">
+                <div className="card card-shadow border-0 mb-4">
+                    <div className="card-hover py-4 text-center d-block rounded"> 
+												<span className="bg-success-grediant">D</span>
+                        <h6 className="ser-title">Digital Marketing</h6>
+                    </div>
+                </div>
+            </div>
+
+            <div className="col-lg-3 col-md-6">
+                <div className="card card-shadow border-0 mb-4">
+                    <div className="card-hover py-4 text-center d-block rounded"> 
+												<span className="bg-success-grediant">S</span>
+                        <h6 className="ser-title">SEO Techniques</h6>
+                    </div>
+                </div>
+            </div>
+
+            <div className="col-lg-3 col-md-6">
+                <div className="card card-shadow border-0 mb-4">
+                    <div className="card-hover py-4 text-center d-block rounded"> 
+												<span className="bg-success-grediant">C</span>
+                        <h6 className="ser-title">Client Management</h6>
+                    </div>
+                </div>
+            </div>
+
+            <div className="col-lg-3 col-md-6">
+                <div className="card card-shadow border-0 mb-4">
+                    <div className="card-hover py-4 text-center d-block rounded"> 
+												<span className="bg-success-grediant">E</span>
+                        <h6 className="ser-title">Email Campaign</h6>
+                    </div>
+                </div>
+            </div>
+
+            <div className="col-lg-3 col-md-6">
+                <div className="card card-shadow border-0 mb-4">
+                    <div className="card-hover py-4 text-center d-block rounded"> 
+												<span className="bg-success-grediant">W</span>
+                        <h6 className="ser-title">Website Strategy</h6>
+                    </div>
+                </div>
+            </div>
+
+            <div className="col-lg-3 col-md-6">
+                <div className="card card-shadow border-0 mb-4">
+                    <div className="card-hover py-4 text-center d-block rounded"> 
+												<span className="bg-success-grediant">E</span>
+                        <h6 className="ser-title">eCommerce Shop</h6>
+                    </div>
+                </div>
+            </div>
+
+            <div className="col-lg-3 col-md-6">
+                <div className="card card-shadow border-0 mb-4">
+                    <div className="card-hover py-4 text-center d-block rounded"> 
+												<span className="bg-success-grediant">C</span>
+                        <h6 className="ser-title">Cloud Hosting</h6>
+                    </div>
+                </div>
+            </div>
+						<div className="col-md-12 mt-3 text-center">
+              <div className="btn btn-outline-success btn-md"><span>View Details</span></div>
+            </div>
+        </div>
+    </div>
+</div>
+{/* End of 4x2 Features Grid */}
+{/* Figma Slider */}
 <div aria-hidden="true" className="figslide-1">
   <div className="figma-1n7ea00">
     Community
@@ -813,7 +894,7 @@ const App = () => {
     <svg fill="none" viewBox="0 0 63 56" className="figma-1vyk1t4"><path fill="#FF8577" stroke="#000" stroke-width="2" d="M1.7 1.8v52.5l18.7-9.6 11.3 9.5 11.2-9.5 18.8 9.5V1.8l-18.8 10-11.2-10-11.3 10-18.7-10z"></path></svg>
   </div>
 </div>
-
+{/* End of Figma Slider */}
 
 <Particles id="tsparticles" options={{
         background: { color: "none", },

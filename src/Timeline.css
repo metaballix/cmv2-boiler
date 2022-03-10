@@ -229,6 +229,91 @@ margin-top: 5px;
     .tl-roadmap .list-group { padding-bottom: 15px; }
 }
 
+
+/* 4x2 Features Grid - snippets.wrappixel.com/multiple-services-cards-section */
+.service-24 {
+color: #8d97ad;
+font-weight: 300;
+}
+
+.service-24 h1, .service-24 h2, .service-24 h3, .service-24 h4, .service-24 h5, .service-24 h6 {
+color: #3e4555;
+}
+
+.service-24 .card.card-shadow {
+    -webkit-box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+    box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+}
+
+.service-24 a {
+    text-decoration: none;
+}
+
+.service-24 .card-hover:hover {
+    background: #2cdd9b;
+    background: -webkit-linear-gradient(legacy-direction(to right), #2cdd9b 0%, #1dc8cc 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#2cdd9b), to(#1dc8cc));
+    background: -webkit-linear-gradient(left, #2cdd9b 0%, #1dc8cc 100%);
+    background: -o-linear-gradient(left, #2cdd9b 0%, #1dc8cc 100%);
+    background: linear-gradient(to right, #2cdd9b 0%, #1dc8cc 100%);
+}
+
+.service-24 .card-hover:hover .bg-success-grediant {
+    color: #ffffff;
+    text-fill-color: #ffffff;
+    -webkit-text-fill-color: #ffffff;
+}
+
+.service-24 .card-hover:hover .ser-title {
+    color: #ffffff;
+}
+
+.service-24 .bg-success-grediant {
+    background: #2cdd9b;
+    background: -webkit-linear-gradient(legacy-direction(to right), #2cdd9b 0%, #1dc8cc 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#2cdd9b), to(#1dc8cc));
+    background: -webkit-linear-gradient(left, #2cdd9b 0%, #1dc8cc 100%);
+    background: -o-linear-gradient(left, #2cdd9b 0%, #1dc8cc 100%);
+    background: linear-gradient(to right, #2cdd9b 0%, #1dc8cc 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.service-24 .wrap-service-24 .card {
+    transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.service-24 .wrap-service-24 .card:hover {
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+}
+
+.service-24 .btn-outline-success {
+    color: #2cdd9b !important;
+    background-color: transparent;
+    border-color: #2cdd9b;
+}
+
+.service-24 .btn-outline-success:hover {
+        background: #2cdd9b;
+    border-color: #2cdd9b;
+    color: #ffffff !important;
+}
+
+.service-24 .btn-md {
+    padding: 15px 45px;
+    font-size: 16px;
+}
+
 /* 3d parallax cards - codepen.io/dazulu/pen/VVZrQv */
 
 /* FAQ section bs 4.1 - codepen.io/moso/pen/vKGxMx */
