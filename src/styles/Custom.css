@@ -19,6 +19,27 @@ html {
   color: #eeeeee;
 }
 
+/* xtrood */
+#xtrood .xtrood-logo {
+  width: 360px;
+  position: absolute !important;
+  top: -30px;
+  left: 50%;
+  z-index: 1;
+  transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  filter: drop-shadow(0 0 0.5rem crimson);
+  -o-filter: drop-shadow(0 0 0.5rem crimson);
+  -ms-filter: drop-shadow(0 0 0.5rem crimson);
+  -moz-filter: drop-shadow(0 0 0.5rem crimson);
+  -webkit-filter: drop-shadow(0 0 0.5rem crimson);
+
+}
+
 /* bootstrap templates */
 .b-divider {
   height: 3rem;
@@ -85,7 +106,8 @@ div.bg-overlay {position: fixed; left:0; top: 0; z-index: -1; width:100%; height
   font-weight:500; 
   line-height: 2rem; 
   letter-spacing: 0.05em; 
-  padding: 10px 0 0 10px; 
+  vertical-align: center;
+  text-align: center;
 }
 
 .hero-section {

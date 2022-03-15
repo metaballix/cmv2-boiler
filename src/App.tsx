@@ -207,17 +207,16 @@ const App = () => {
 <div className="content-wrapper">
 <div id="mint" className="mball-avatar"></div>
         <header className="card contentcard" id="link1">
-          <div className="text-center" style={{ padding: "0 24px 0 24px 0" }}>
+          <div className="text-center" style={{ padding: "0 24px 0 24px" }}>
             <h3 className="text-secondary-color">Welcome to the PlasmaVerse</h3>
-            <h1 className="pb-3" style={{ fontWeight: 600 }}><span style={{ color: "rgb(25, 55, 130)" }}>ENGAGE. </span><span style={{ color: "rgb(77, 25, 130)" }}>EVOLVE. </span><span style={{ color: "rgb(121, 11, 121)" }}>EARN.</span></h1>
-          </div>
+            <h1 className="pb-3" style={{ fontWeight: 600, fontSize: "calc(1.38rem + 1.55vw)" }}><span style={{ color: "rgb(25, 55, 130)" }}>ENGAGE. </span><span style={{ color: "rgb(77, 25, 130)" }}>EVOLVE. </span><span style={{ color: "rgb(121, 11, 121)" }}>EARN.</span></h1>
           <div className="row align-items-center">
-          <div className="col-6">
-          <p className="text-secondary-color hero-text">
+          <div className="col-md-6 col-12">
+          <p className="text-secondary-color hero-text pb-3">
             Your Metaball NFT avatar grants you creator access to the PlasmaVerse, an extended reality GameFi ecosystem of immersive, interconnected Xones.
             </p>
           </div>
-          <div className="col-6">
+          <div className="col-md-6 col-12">
             <ThemeProvider theme={theme}>
               <ConnectionProvider endpoint={endpoint}>
                 <WalletProvider wallets={wallets} autoConnect>
@@ -233,6 +232,7 @@ const App = () => {
                 </WalletProvider>
               </ConnectionProvider>
             </ThemeProvider>
+          </div>
           </div>
           </div>
         </header>
@@ -256,8 +256,10 @@ const App = () => {
   </div>
 </div> */}
 </div>
+{/* End of Original Content Wrapper */}
 
-{/* START of XONE CARDS 3x1 */}
+
+{/* START of Features XONE CARDS 3x1 */}
 <section id="features">
 <div className="container">
   <div className="row align-items-center">
@@ -273,10 +275,8 @@ const App = () => {
   </div>
 </div>
 </section>
-{/* End of Hero Features */}
+{/* End of Features XONE CARDS 3x1 */}
 
-{/* End of Content Wrapper # 1 */}
-{/* ************************** */}
 
 {/* SCROLLING IMAGE REELS */}
 <div className="nft-hero">
@@ -297,11 +297,6 @@ const App = () => {
       </button></a>
   </div>
 </div>
-<div className="nft-hero-base">
-<h1 className="pb-3 gradient-txt-green" style={{ fontSize: "3.8rem", letterSpacing: "0.1em" }}>19,326,120</h1>
-    <h2 style={{ letterSpacing: "0.1em" }}>Tokenized DNA Compositions</h2>
-    <button className="btn btn-lg btn-outline-info" type="button">MINT 1 of 11,111 METABALL NFTs!</button>
-</div>
 {/* End of img reels */}
 
 {/* 
@@ -309,59 +304,7 @@ const App = () => {
 <Features4 content={null} /> 
 */}
 
-{/* Start of Bootstrap Features grid 1 */}
-<div className="section section-demo">
-  <div className="container">
-      <div className="row">
-          <div className="col-md-6" style={{ textAlign: "right" }}>
-          <h4 className="header-text">Easy to integrate</h4>
-              <p>
-                  With all the apps that users love! Make it easy for users to share, like, post and tweet their favourite things from the app. Be sure to let users know they continue to remain connected while using your app!
-              </p>
-              <a href="/#link1" id="Demo3" className="btn btn-fill btn-info" data-button="info">Get Free Demo</a>
-          </div>
-          <div className="col-md-6">
-              <h4 className="header-text">Easy to integrate</h4>
-              <p>
-                  With all the apps that users love! Make it easy for users to share, like, post and tweet their favourite things from the app. Be sure to let users know they continue to remain connected while using your app!
-              </p>
-              <a href="/#link1" id="Demo3-2" className="btn btn-fill btn-info" data-button="info">Get Free Demo</a>
-          </div>
-      </div>
-  </div>
-</div>
-
-<div className="section section-demo-2">
-  <div className="container">
-      <div className="row">
-          <div className="col-md-4">
-          <h4 className="header-text">Easy to integrate</h4>
-              <p>
-                  With all the apps that users love! Make it easy for users to share, like, post and tweet their favourite things from the app. Let users know to remain connected while using your app!
-              </p>
-              <a href="/#link1" className="btn btn-fill btn-info" data-button="info">Mint Now</a>
-          </div>
-          <div className="col-md-4">
-              <h4 className="header-text">Easy to integrate</h4>
-              <p>
-                  With all the apps that users love! Make it easy for users to share, like, post and tweet their favourite things from the app. Let users know to remain connected while using your app!
-              </p>
-              <a href="/#link1" className="btn btn-fill btn-info" data-button="info">Learn More</a>
-          </div>
-          <div className="col-md-4">
-              <h4 className="header-text">Easy to integrate</h4>
-              <p>
-                  With all the apps that users love! Make it easy for users to share, like, post and tweet their favourite things from the app. Let users know to remain connected while using your app!
-              </p>
-              <a href="/#link1" className="btn btn-fill btn-info" data-button="info">View Demo</a>
-          </div>
-      </div>
-  </div>
-</div>
-{/* End of Bootstrap Features Grid */}
-
-
-{/* Start of Second Content Wrapper */}
+{/* START OF CONTENT WRAPPER # 2 */}
 <div className="content-wrapper">
 
 {/* Bootstrap MIX n MATCH containers */}
@@ -392,35 +335,16 @@ const App = () => {
 </div>
 {/* End of bootstrap containers */}
 
-<figure className="text-center">
-  <blockquote className="blockquote">
-    <p>A well-known quote, contained in a blockquote element.</p>
-  </blockquote>
-  <figcaption className="blockquote-footer">
-    Someone famous in <cite title="Source Title">Source Title</cite>
-  </figcaption>
-</figure>
-
 {/* 
 <Header1 content={null} /> 
 <Features6 content={null} /> 
 */}
 
-{/* Scrolling Frames - stackoverflow.com/questions/43744887/fullscreen-infinite-scrolling-background*/}
-<div className="nft-hero-2">
-<div className="nft-img-container" id="nft-ctn1">
-    <div className="nft-img-inner">
-        <img className="nft-img" alt="metaball nft variations" src="https://i.stack.imgur.com/FlK9o.jpg" />
-    </div>
+<div className="nft-hero-base">
+<h1 className="pb-3 gradient-txt-green" style={{ fontSize: "3.8rem", letterSpacing: "0.1em" }}>19,326,120</h1>
+    <h2 style={{ letterSpacing: "0.1em" }}>Tokenized DNA Compositions</h2>
+    <button className="btn btn-lg btn-outline-info" type="button">MINT 1 of 11,111 METABALL NFTs!</button>
 </div>
-<div className="nft-img-container" id="nft-ctn2">
-    <div className="nft-img-inner">
-        <img className="nft-img" alt="metaball nft variations" src="https://i.stack.imgur.com/FlK9o.jpg" />
-    </div>
-</div>
-</div>
-{/* End of Scrolling Frames */}
-
 
 {/* START OF XONE SECTION */}
 <div className="mask2">
@@ -473,6 +397,172 @@ const App = () => {
 </div>
 {/* End of XONE SECTION */}
 
+</div>
+{/* End of Content Wrapper # 2 */}
+
+
+{/* Start of Feature Squares Grid 4x2 */}
+<div className="py-5 service-24">
+    <div className="container">
+
+        <div className="row wrap-service-24">
+
+            <div className="col-lg-3 col-md-6">
+                <div className="card rounded card-shadow border-0 mb-4">
+                    <div className="card-hover py-4 text-center d-block rounded"> 
+												<span className="bg-success-grediant">R</span>
+                        <h6 className="ser-title">Retargeting Market</h6>
+                    </div>
+                </div>
+            </div>
+
+            <div className="col-lg-3 col-md-6">
+                <div className="card card-shadow border-0 mb-4">
+                    <div className="card-hover py-4 text-center d-block rounded"> 
+												<span className="bg-success-grediant">D</span>
+                        <h6 className="ser-title">Digital Marketing</h6>
+                    </div>
+                </div>
+            </div>
+
+            <div className="col-lg-3 col-md-6">
+                <div className="card card-shadow border-0 mb-4">
+                    <div className="card-hover py-4 text-center d-block rounded"> 
+												<span className="bg-success-grediant">S</span>
+                        <h6 className="ser-title">SEO Techniques</h6>
+                    </div>
+                </div>
+            </div>
+
+            <div className="col-lg-3 col-md-6">
+                <div className="card card-shadow border-0 mb-4">
+                    <div className="card-hover py-4 text-center d-block rounded"> 
+												<span className="bg-success-grediant">C</span>
+                        <h6 className="ser-title">Client Management</h6>
+                    </div>
+                </div>
+            </div>
+
+            <div className="col-lg-3 col-md-6">
+                <div className="card card-shadow border-0 mb-4">
+                    <div className="card-hover py-4 text-center d-block rounded"> 
+												<span className="bg-success-grediant">E</span>
+                        <h6 className="ser-title">Email Campaign</h6>
+                    </div>
+                </div>
+            </div>
+
+            <div className="col-lg-3 col-md-6">
+                <div className="card card-shadow border-0 mb-4">
+                    <div className="card-hover py-4 text-center d-block rounded"> 
+												<span className="bg-success-grediant">W</span>
+                        <h6 className="ser-title">Website Strategy</h6>
+                    </div>
+                </div>
+            </div>
+
+            <div className="col-lg-3 col-md-6">
+                <div className="card card-shadow border-0 mb-4">
+                    <div className="card-hover py-4 text-center d-block rounded"> 
+												<span className="bg-success-grediant">E</span>
+                        <h6 className="ser-title">eCommerce Shop</h6>
+                    </div>
+                </div>
+            </div>
+
+            <div className="col-lg-3 col-md-6">
+                <div className="card card-shadow border-0 mb-4">
+                    <div className="card-hover py-4 text-center d-block rounded"> 
+												<span className="bg-success-grediant">C</span>
+                        <h6 className="ser-title">Cloud Hosting</h6>
+                    </div>
+                </div>
+            </div>
+						<div className="col-md-12 mt-3 text-center">
+              <div className="btn btn-outline-success btn-md"><span>View Details</span></div>
+            </div>
+        </div>
+    </div>
+</div>
+{/* End of 4x2 Features Grid */}
+
+<div className="b-divider"></div>
+
+{/* START OF XTROOD Section */}
+<section id="xtrood">
+<div className="px-4 pt-5 my-5 text-center border-bottom">
+    <h1 className="display-4 fw-bold">Build Immersive Spaces</h1>
+    <div className="col-lg-6 mx-auto">
+      <p className="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world's most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+      <div className="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+        <button type="button" className="btn btn-info btn-lg px-4 me-sm-3">SOLOS XONE</button>
+        <button type="button" className="btn btn-danger btn-lg px-4">PLASMAVERSE</button>
+      </div>
+    </div>
+    <div className="overflow-hidden" style={{ maxHeight: "56vh", paddingTop: "5vh" }}>
+      <div className="container px-1">
+        <img src="https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/xtrood_logo_text.png?v=1647382314441" className="xtrood-logo img-fluid px-5 pt-5" alt="xtrood xone builder logo" width="400" height="auto" loading="lazy" />
+        <img src="https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/xone-builder-aframe-inspector-registry.gif?v=1647314963979" className="img-fluid border rounded-3 shadow-lg mb-4 p-1" style={{ background: "rgba(255,255,255,0.11)" }} alt="aframe inspector xtrood xone builder" width="800" height="650" loading="lazy" />
+      </div>
+    </div>
+  </div>
+</section>
+{/* End of Xtrood*/}
+
+
+{/* START OF CONTENT WRAPPER # 3 */}
+<div className="content-wrapper">
+
+{/* Start of Bootstrap Features grid 1 */}
+<div className="section section-demo">
+  <div className="container">
+      <div className="row">
+          <div className="col-md-6" style={{ textAlign: "right" }}>
+          <h4 className="header-text">Easy to integrate</h4>
+              <p>
+                  With all the apps that users love! Make it easy for users to share, like, post and tweet their favourite things from the app. Be sure to let users know they continue to remain connected while using your app!
+              </p>
+              <a href="/#link1" id="Demo3" className="btn btn-fill btn-info" data-button="info">Get Free Demo</a>
+          </div>
+          <div className="col-md-6">
+              <h4 className="header-text">Easy to integrate</h4>
+              <p>
+                  With all the apps that users love! Make it easy for users to share, like, post and tweet their favourite things from the app. Be sure to let users know they continue to remain connected while using your app!
+              </p>
+              <a href="/#link1" id="Demo3-2" className="btn btn-fill btn-info" data-button="info">Get Free Demo</a>
+          </div>
+      </div>
+  </div>
+</div>
+
+<div className="section section-demo-2">
+  <div className="container">
+      <div className="row">
+          <div className="col-md-4">
+          <h4 className="header-text">Easy to integrate</h4>
+              <p>
+                  With all the apps that users love! Make it easy for users to share, like, post and tweet their favourite things from the app. Let users know to remain connected while using your app!
+              </p>
+              <a href="/#link1" className="btn btn-fill btn-info" data-button="info">Mint Now</a>
+          </div>
+          <div className="col-md-4">
+              <h4 className="header-text">Easy to integrate</h4>
+              <p>
+                  With all the apps that users love! Make it easy for users to share, like, post and tweet their favourite things from the app. Let users know to remain connected while using your app!
+              </p>
+              <a href="/#link1" className="btn btn-fill btn-info" data-button="info">Learn More</a>
+          </div>
+          <div className="col-md-4">
+              <h4 className="header-text">Easy to integrate</h4>
+              <p>
+                  With all the apps that users love! Make it easy for users to share, like, post and tweet their favourite things from the app. Let users know to remain connected while using your app!
+              </p>
+              <a href="/#link1" className="btn btn-fill btn-info" data-button="info">View Demo</a>
+          </div>
+      </div>
+  </div>
+</div>
+{/* End of Bootstrap Features Grid */}
 
 {/* Start of Bootstrap Timeline */}
 <div className="container tl-roadmap">
@@ -774,6 +864,30 @@ const App = () => {
 
 {/* End of FAQs */}
 
+<figure className="text-center">
+  <blockquote className="blockquote">
+    <p>A well-known quote, contained in a blockquote element.</p>
+  </blockquote>
+  <figcaption className="blockquote-footer">
+    Someone famous in <cite title="Source Title">Source Title</cite>
+  </figcaption>
+</figure>
+
+{/* Scrolling Frames - stackoverflow.com/questions/43744887/fullscreen-infinite-scrolling-background*/}
+<div className="nft-hero-2">
+<div className="nft-img-container" id="nft-ctn1">
+    <div className="nft-img-inner">
+        <img className="nft-img" alt="metaball nft variations" src="https://i.stack.imgur.com/FlK9o.jpg" />
+    </div>
+</div>
+<div className="nft-img-container" id="nft-ctn2">
+    <div className="nft-img-inner">
+        <img className="nft-img" alt="metaball nft variations" src="https://i.stack.imgur.com/FlK9o.jpg" />
+    </div>
+</div>
+</div>
+{/* End of Scrolling Frames */}
+
 {/* 
 <Testimonials1 content={null} /> 
 <Testimonials2 content={null} /> 
@@ -783,113 +897,9 @@ const App = () => {
 <CallToAction2 content={null} /> 
 <Footer3 content={null} /> 
  */}
-
 </div>
-{/* End of Content Wrapper # 2 */}
+{/* End of Content Wrapper # 3 */}
 
-
-{/* Start of Feature Squares Grid 4x2 */}
-<div className="py-5 service-24">
-    <div className="container">
-
-        <div className="row wrap-service-24">
-
-            <div className="col-lg-3 col-md-6">
-                <div className="card rounded card-shadow border-0 mb-4">
-                    <div className="card-hover py-4 text-center d-block rounded"> 
-												<span className="bg-success-grediant">R</span>
-                        <h6 className="ser-title">Retargeting Market</h6>
-                    </div>
-                </div>
-            </div>
-
-            <div className="col-lg-3 col-md-6">
-                <div className="card card-shadow border-0 mb-4">
-                    <div className="card-hover py-4 text-center d-block rounded"> 
-												<span className="bg-success-grediant">D</span>
-                        <h6 className="ser-title">Digital Marketing</h6>
-                    </div>
-                </div>
-            </div>
-
-            <div className="col-lg-3 col-md-6">
-                <div className="card card-shadow border-0 mb-4">
-                    <div className="card-hover py-4 text-center d-block rounded"> 
-												<span className="bg-success-grediant">S</span>
-                        <h6 className="ser-title">SEO Techniques</h6>
-                    </div>
-                </div>
-            </div>
-
-            <div className="col-lg-3 col-md-6">
-                <div className="card card-shadow border-0 mb-4">
-                    <div className="card-hover py-4 text-center d-block rounded"> 
-												<span className="bg-success-grediant">C</span>
-                        <h6 className="ser-title">Client Management</h6>
-                    </div>
-                </div>
-            </div>
-
-            <div className="col-lg-3 col-md-6">
-                <div className="card card-shadow border-0 mb-4">
-                    <div className="card-hover py-4 text-center d-block rounded"> 
-												<span className="bg-success-grediant">E</span>
-                        <h6 className="ser-title">Email Campaign</h6>
-                    </div>
-                </div>
-            </div>
-
-            <div className="col-lg-3 col-md-6">
-                <div className="card card-shadow border-0 mb-4">
-                    <div className="card-hover py-4 text-center d-block rounded"> 
-												<span className="bg-success-grediant">W</span>
-                        <h6 className="ser-title">Website Strategy</h6>
-                    </div>
-                </div>
-            </div>
-
-            <div className="col-lg-3 col-md-6">
-                <div className="card card-shadow border-0 mb-4">
-                    <div className="card-hover py-4 text-center d-block rounded"> 
-												<span className="bg-success-grediant">E</span>
-                        <h6 className="ser-title">eCommerce Shop</h6>
-                    </div>
-                </div>
-            </div>
-
-            <div className="col-lg-3 col-md-6">
-                <div className="card card-shadow border-0 mb-4">
-                    <div className="card-hover py-4 text-center d-block rounded"> 
-												<span className="bg-success-grediant">C</span>
-                        <h6 className="ser-title">Cloud Hosting</h6>
-                    </div>
-                </div>
-            </div>
-						<div className="col-md-12 mt-3 text-center">
-              <div className="btn btn-outline-success btn-md"><span>View Details</span></div>
-            </div>
-        </div>
-    </div>
-</div>
-{/* End of 4x2 Features Grid */}
-
-<div className="px-4 pt-5 my-5 text-center border-bottom">
-    <h1 className="display-4 fw-bold">Build Immersive Spaces</h1>
-    <div className="col-lg-6 mx-auto">
-      <p className="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world's most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-      <div className="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-        <button type="button" className="btn btn-primary btn-lg px-4 me-sm-3">Primary button</button>
-        <button type="button" className="btn btn-outline-secondary btn-lg px-4">Secondary</button>
-      </div>
-    </div>
-    <div className="overflow-hidden" style={{ maxHeight: "47vh" }}>
-      <div className="container px-5">
-        <img src="https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/xone-builder-aframe-inspector-registry.gif?v=1647314963979" className="img-fluid border rounded-3 shadow-lg mb-4 p-1" alt="xtrood xone builder aframe" width="800" height="650" loading="lazy" />
-      </div>
-    </div>
-  </div>
-
-  <div className="b-divider"></div>
 
 {/* START OF Argon sections */}
 {/* argsec: plasma */}
@@ -931,7 +941,7 @@ const App = () => {
     </section>
 
 {/* argsec: xr */}
-<section id="xr" className="argsec section-content section-brand bg-dark">
+<section id="xr" className="argsec section-content section-brand">
       <div className="container">
         <div className="row">
           <div className="col-lg-6 mt-md-5 order-md-2 order-lg-1 d-none d-lg-block">
@@ -946,7 +956,7 @@ const App = () => {
               <div className="icon icon-shape icon-shape-white shadow rounded-circle mb-4 mt--3">
                 <i className="ni ni-atom text-white"></i>
               </div>
-              <h3 className="display-3 text-white">Customize the brand<span className="text-danger"> Choosing colors and fonts</span></h3>
+              <h3 className="display-3 text-white">Customize your Xone<span className="text-danger"> with unique colors and fonts</span></h3>
               <p className="lead text-gray">We know how valuable your time is. That is why we worked hard on the development of a tool that would be easy to use and which you could make use of without the need for any training. Customize anything without
                 touching the codebase.</p>
               <a href="/#" className="text-danger">Try for Free! <i className="fas fa-arrow-alt-circle-right"></i></a>
