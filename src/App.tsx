@@ -1,6 +1,7 @@
-import "./App.css";
-import "./Custom.css";
-import "./Timeline.css";
+import "./styles/App.css";
+import "./styles/Custom.css";
+import "./styles/Timeline.css";
+import "./styles/Animation.css";
 import { useMemo } from "react";
 import Minter from "./Minter";
 import * as anchor from "@project-serum/anchor";
@@ -209,11 +210,14 @@ const App = () => {
           <div className="text-center" style={{ padding: "0 24px 0 24px 0" }}>
             <h3 className="text-secondary-color">Welcome to the PlasmaVerse</h3>
             <h1 className="pb-3" style={{ fontWeight: 600 }}><span style={{ color: "rgb(25, 55, 130)" }}>ENGAGE. </span><span style={{ color: "rgb(77, 25, 130)" }}>EVOLVE. </span><span style={{ color: "rgb(121, 11, 121)" }}>EARN.</span></h1>
-            <p className="text-secondary-color hero-text">
-            Metaballs are generative NFT personas that reside &amp; evolve on the <b>Metaballix PlasmaVerse</b> <em>(under development)</em>, and immersive XR environment with unique gameplay physics. Build &amp; share income-generating Xone Microverses. Compete for $PLASMA density &amp; exclusive airdrops. Unlock traits &amp; mint new variations of metaball NFTs!
+          </div>
+          <div className="row align-items-center">
+          <div className="col-6">
+          <p className="text-secondary-color hero-text">
+            Your Metaball NFT avatar grants you creator access to the PlasmaVerse, an extended reality GameFi ecosystem of immersive, interconnected Xones.
             </p>
           </div>
-          <div>
+          <div className="col-6">
             <ThemeProvider theme={theme}>
               <ConnectionProvider endpoint={endpoint}>
                 <WalletProvider wallets={wallets} autoConnect>
@@ -229,6 +233,7 @@ const App = () => {
                 </WalletProvider>
               </ConnectionProvider>
             </ThemeProvider>
+          </div>
           </div>
         </header>
 
@@ -251,7 +256,27 @@ const App = () => {
   </div>
 </div> */}
 </div>
+
+{/* START of XONE CARDS 3x1 */}
+<section id="features">
+<div className="container">
+  <div className="row align-items-center">
+    <div className="feat-1 col-4 col-md-12 order-last">
+     <p className="">First in DOM, ordered last</p>
+    </div>
+    <div className="feat-2 col-4 col-md-12">
+    <p className="">Second in DOM, unordered</p>
+    </div>
+    <div className="feat-3 col-4 col-md-12 order-first">
+    <p className="">Third in DOM, ordered first</p>
+    </div>
+  </div>
+</div>
+</section>
+{/* End of Hero Features */}
+
 {/* End of Content Wrapper # 1 */}
+{/* ************************** */}
 
 {/* SCROLLING IMAGE REELS */}
 <div className="nft-hero">
@@ -847,6 +872,200 @@ const App = () => {
     </div>
 </div>
 {/* End of 4x2 Features Grid */}
+
+<div className="px-4 pt-5 my-5 text-center border-bottom">
+    <h1 className="display-4 fw-bold">Build Immersive Spaces</h1>
+    <div className="col-lg-6 mx-auto">
+      <p className="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world's most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+      <div className="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+        <button type="button" className="btn btn-primary btn-lg px-4 me-sm-3">Primary button</button>
+        <button type="button" className="btn btn-outline-secondary btn-lg px-4">Secondary</button>
+      </div>
+    </div>
+    <div className="overflow-hidden" style={{ maxHeight: "47vh" }}>
+      <div className="container px-5">
+        <img src="https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/xone-builder-aframe-inspector-registry.gif?v=1647314963979" className="img-fluid border rounded-3 shadow-lg mb-4 p-1" alt="xtrood xone builder aframe" width="800" height="650" loading="lazy" />
+      </div>
+    </div>
+  </div>
+
+  <div className="b-divider"></div>
+
+{/* START OF Argon sections */}
+{/* argsec: plasma */}
+<section id="plasma" className="argsec section-basic-components">
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-6 col-md-10 mb-md-5 pr-5">
+            <div className="icon icon-shape icon-shape-primary shadow rounded-circle mb-4 mt--3">
+              <i className="ni ni-app"></i>
+            </div>
+            <h2 className="display-3 font-weight-bolder">Choose from 100+ blocks<span className="text-primary"> Using Drag & Drop</span></h2>
+            <p className="lead">We re-styled every Bootstrap element to match the Argon Design System style.
+              All the Bootstrap components that you need in a development have been re-design with the new look.</p>
+            <span className="badge badge-pill badge-default">Headers</span>
+            <span className="badge badge-pill badge-default">Features</span>
+            <span className="badge badge-pill badge-default">Blogs</span>
+            <span className="badge badge-pill badge-default">Teams</span>
+            <span className="badge badge-pill badge-default">Projects</span>
+            <span className="badge badge-pill badge-default">Pricing</span>
+            <span className="badge badge-pill badge-default">Testimonials</span>
+            <span className="badge badge-pill badge-default">Contact Us</span>
+            <span className="badge badge-pill badge-default">Tables</span>
+          </div>
+          <div className="col-lg-5 col-md-12 d-none d-lg-block">
+            <div className="image-container">
+              <img className="table-img shaddow" src="https://www.creative-tim.com/builder/assets/img/presentation-page/sections/feature-3.jpg" alt="" />
+              <img className="coloured-card-btn-img shadow" src="https://www.creative-tim.com/builder/assets/img/presentation-page/sections/contact-1.jpg" alt="" />
+              <img className="linkedin-btn-img shadow-lg" src="https://www.creative-tim.com/builder/assets/img/presentation-page/sections/header-2.jpg" alt="" />
+              <img className="coloured-card-img shadow" src="https://www.creative-tim.com/builder/assets/img/presentation-page/sections/feature-1.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="separator separator-bottom separator-skew">
+        <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
+          <polygon className="fill-dark" points="2560 0 2560 100 0 100"></polygon>
+        </svg>
+      </div>
+    </section>
+
+{/* argsec: xr */}
+<section id="xr" className="argsec section-content section-brand bg-dark">
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-6 mt-md-5 order-md-2 order-lg-1 d-none d-lg-block">
+            <div className="image-container">
+              <img alt="" className="img shadow rounded img-theme-colors w-100" src="https://www.creative-tim.com/builder/assets/img/presentation-page/theme-colors.png" />
+              <img alt="" className="img shadow rounded img-theme-fonts mt-5 w-100" src="https://www.creative-tim.com/builder/assets/img/presentation-page/theme-fonts.png" />
+              <img alt="" className="img shadow rounded img-theme-css mt-5 w-100" src="https://www.creative-tim.com/builder/assets/img/presentation-page/theme-custom-css.png" />
+            </div>
+          </div>
+          <div className="col-lg-6 mx-auto order-md-1">
+            <div className="section-description">
+              <div className="icon icon-shape icon-shape-white shadow rounded-circle mb-4 mt--3">
+                <i className="ni ni-atom text-white"></i>
+              </div>
+              <h3 className="display-3 text-white">Customize the brand<span className="text-danger"> Choosing colors and fonts</span></h3>
+              <p className="lead text-gray">We know how valuable your time is. That is why we worked hard on the development of a tool that would be easy to use and which you could make use of without the need for any training. Customize anything without
+                touching the codebase.</p>
+              <a href="/#" className="text-danger">Try for Free! <i className="fas fa-arrow-alt-circle-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="separator separator-bottom separator-skew">
+        <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
+          <polygon className="fill-white" points="2560 0 2560 100 0 100"></polygon>
+        </svg>
+      </div>
+    </section>
+
+{/* argsec: gamefi 2x2 overlapping grid */}
+    <section id="gamefi" className="argsec section features-2 section-content section-download">
+      <div className="container">
+        <div className="row align-items-center">
+          <div className="col-lg-6 col-md-12 text-left">
+            <div className="icon icon-shape icon-shape-primary shadow rounded-circle mb-4 mt-4">
+              <i className="ni ni-cloud-download-95"></i>
+            </div>
+            <h2 className="display-3 font-weight-bolder">Download<span className="text-primary"> The Source Code</span></h2>
+            <p className="lead">When you select the appropriate components and Bootstrap settings,
+              you can download source files in order to start combining front-end with back‑end.
+            </p>
+
+            <ul className="list-unstyled mt-5">
+              <li className="py-2">
+                <div className="d-flex align-items-center">
+                  <div>
+                    <div className="badge badge-circle badge-primary mr-3">
+                      <i className="ni ni-check-bold"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <h6 className="mb-0">Bootstrap 4.x.x</h6>
+                  </div>
+                </div>
+              </li>
+
+              <li className="py-2">
+                <div className="d-flex align-items-center">
+                  <div>
+                    <div className="badge badge-circle badge-primary mr-3">
+                      <i className="ni ni-check-bold"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <h6 className="mb-0">SASS Variables</h6>
+                  </div>
+                </div>
+              </li>
+
+              <li className="py-2">
+                <div className="d-flex align-items-center">
+                  <div>
+                    <div className="badge badge-circle badge-primary mr-3">
+                      <i className="ni ni-check-bold"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <h6 className="mb-0">Access to HTML, JS and SCSS Files</h6>
+                  </div>
+                </div>
+              </li>
+
+            </ul>
+          </div>
+          <div className="col-lg-6 col-md-12 ml-auto">
+            <div className="row">
+              <div className="col-lg-6 col-12">
+                <div className="info text-left bg-info shadow">
+                  <div className="icon icon-shape bg-gradient-white shadow rounded-circle text-primary">
+                    <i className="ni ni-mobile-button text-info"></i>
+                  </div>
+                  <h5 className="info-title text-white">Optimized for Mobile</h5>
+                  <p className="description">All the pages and sections work perfectly on mobile, tablets and desktops.</p>
+                </div>
+              </div>
+              <div className="col-lg-6 col-12">
+                <div className="info text-left bg-danger info-raised shadow">
+                  <div className="icon icon-shape bg-gradient-white shadow rounded-circle text-primary">
+                    <i className="ni ni-laptop text-danger"></i>
+                  </div>
+                  <h5 className="info-title text-white">Retina Ready</h5>
+                  <p className="description">All the elements and icons that we used in the production look gorgeous on any type of screen.</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="row">
+              <div className="col-lg-6 col-12">
+                <div className="info text-left bg-primary shadow">
+                  <div className="icon icon-shape bg-gradient-white shadow rounded-circle text-primary">
+                    <i className="ni ni-books text-primary"></i>
+                  </div>
+                  <h5 className="info-title text-white">Complex Documentation</h5>
+                  <p className="description">For those who want to digg deeper, we offer a full elements' documentation. </p>
+                </div>
+              </div>
+              <div className="col-lg-6 col-12">
+                <div className="info text-left bg-warning info-raised shadow">
+                  <div className="icon icon-shape bg-gradient-white shadow rounded-circle text-primary">
+                    <i className="ni ni-single-copy-04 text-warning"></i>
+                  </div>
+                  <h5 className="info-title text-white">Optimized Code</h5>
+                  <p className="description">This product was built by developers for developers. All the classes and HTML elements are easy to be used.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+{/* End of Argon */}
+
+
 {/* Figma Slider */}
 <div aria-hidden="true" className="figslide-1">
   <div className="figma-1n7ea00">

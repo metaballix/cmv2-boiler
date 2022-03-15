@@ -19,6 +19,15 @@ html {
   color: #eeeeee;
 }
 
+/* bootstrap templates */
+.b-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 0.5em 1.5em rgb(0 0 0 / 10%), inset 0 0.125em 0.5em rgb(0 0 0 / 15%);
+}
+
 /* Custom Cards */
 /* .card.contentcard.faqcard { background: rgba(146, 74, 173, 0.65); } */
 .card.contentcard.xonecard {
@@ -70,7 +79,14 @@ div.bg-overlay {position: fixed; left:0; top: 0; z-index: -1; width:100%; height
   -webkit-text-fill-color: transparent;
 }
 
-.hero-text {font-size: 1.2rem;font-weight:500;}
+.hero-text { 
+  color: rgb(56, 56, 56); 
+  font-size: 1.4rem; 
+  font-weight:500; 
+  line-height: 2rem; 
+  letter-spacing: 0.05em; 
+  padding: 10px 0 0 10px; 
+}
 
 .hero-section {
   background: radial-gradient(ellipse at bottom, rgba(6, 23, 70, 0.6) 10%, rgba(49, 5, 71, 0.6) 100%), url(https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/mbtl-bg-trans33.png?v=1643647587600);
@@ -148,28 +164,28 @@ div.bg-overlay {position: fixed; left:0; top: 0; z-index: -1; width:100%; height
   /* transform: translate3d(0,0,0); */
 }
 .nft-reel-1{
-  background: url("assets/mball-reel-7500x71-001.png") transparent repeat-x 0 0;
+  background: url("../assets/mball-reel-7500x71-001.png") transparent repeat-x 0 0;
   -webkit-animation: slideright 600s infinite linear; /* Safari 4+ */
   -moz-animation: slideright 600s infinite linear; /* Fx 5+ */
   -o-animation: slideright 600s infinite linear; /* Opera 12+ */
   animation: slideright 600s infinite linear; /* IE 10+ */
 }
 .nft-reel-3{
-  background: url("assets/mball-reel-7500x71-003.png") transparent repeat-x 0 0;
+  background: url("../assets/mball-reel-7500x71-003.png") transparent repeat-x 0 0;
   -webkit-animation: slideright 666s infinite linear; /* Safari 4+ */
   -moz-animation: slideright 666s infinite linear; /* Fx 5+ */
   -o-animation: slideright 666s infinite linear; /* Opera 12+ */
   animation: slideright 666s infinite linear; /* IE 10+ */
 }
 .nft-reel-5{
-  background: url("assets/mball-reel-7500x71-005.png") transparent repeat-x 0 0;
+  background: url("../assets/mball-reel-7500x71-005.png") transparent repeat-x 0 0;
   -webkit-animation: slideright 750s infinite linear; /* Safari 4+ */
   -moz-animation: slideright 750s infinite linear; /* Fx 5+ */
   -o-animation: slideright 750s infinite linear; /* Opera 12+ */
   animation: slideright 750s infinite linear; /* IE 10+ */
 }
 .nft-reel-7{
-  background: url("assets/mball-reel-7500x71-007.png") transparent repeat-x 0 0;
+  background: url("../assets/mball-reel-7500x71-007.png") transparent repeat-x 0 0;
   -webkit-animation: slideright 800s infinite linear; /* Safari 4+ */
   -moz-animation: slideright 800s infinite linear; /* Fx 5+ */
   -o-animation: slideright 800s infinite linear; /* Opera 12+ */
@@ -200,30 +216,8 @@ div.bg-overlay {position: fixed; left:0; top: 0; z-index: -1; width:100%; height
   animation: slideleft 800s infinite linear; /* IE 10+ */
 }
 
-@keyframes slideright {
-  from { background-position: 0 0; }
-  to { background-position: -500% 0; }
-}
-
-@keyframes slideleft {
-  from { background-position: 0 0; }
-  to { background-position: 600% 0; }
-}
-
 p.MuiTypography-colorTextSecondary {color: rgb(255,255,255);}
 p.MuiTypography-body1 {font-family: "Dosis", sans-serif;}
-
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
 
 /* LOGO BALL */
 
@@ -320,57 +314,7 @@ p.MuiTypography-body1 {font-family: "Dosis", sans-serif;}
     .stage.ball-topleft {margin: 0 0 0 28px !important;}
   }
   
-  @-webkit-keyframes bubble-anim {
-    0% {
-      -webkit-transform: scale(1);
-      transform: scale(1); }
-  
-    20% {
-      -webkit-transform: scaleY(0.95) scaleX(1.05);
-      transform: scaleY(0.95) scaleX(1.05); }
-  
-    48% {
-      -webkit-transform: scaleY(1.1) scaleX(0.9);
-      transform: scaleY(1.1) scaleX(0.9); }
-  
-    68% {
-      -webkit-transform: scaleY(0.98) scaleX(1.02);
-      transform: scaleY(0.98) scaleX(1.02); }
-  
-    80% {
-      -webkit-transform: scaleY(1.02) scaleX(0.98);
-      transform: scaleY(1.02) scaleX(0.98); }
-  
-    97%, 100% {
-      -webkit-transform: scale(1);
-      transform: scale(1); } }
-  
-  @keyframes bubble-anim {
-    0% {
-      -webkit-transform: scale(1);
-      transform: scale(1); }
-  
-    20% {
-      -webkit-transform: scaleY(0.95) scaleX(1.05);
-      transform: scaleY(0.95) scaleX(1.05); }
-  
-    48% {
-      -webkit-transform: scaleY(1.1) scaleX(0.9);
-      transform: scaleY(1.1) scaleX(0.9); }
-  
-    68% {
-      -webkit-transform: scaleY(0.98) scaleX(1.02);
-      transform: scaleY(0.98) scaleX(1.02); }
-  
-    80% {
-      -webkit-transform: scaleY(1.02) scaleX(0.98);
-      transform: scaleY(1.02) scaleX(0.98); }
-  
-    97%, 100% {
-      -webkit-transform: scale(1);
-      transform: scale(1); } }
-  
-  
+
   /* LOGO 3D TEXT */
   .logo-3d-text {
     padding:0;
