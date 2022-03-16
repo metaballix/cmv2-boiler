@@ -216,7 +216,7 @@ const App = () => {
             Your <b style={{ color: "rgb(77, 25, 130)" }}>Metaball</b> NFT avatar gives you creator access to the <b style={{ color: "rgb(121, 11, 121)" }}>PlasmaVerse</b>, a Solana-based extended reality <b style={{ color: "rgb(121, 11, 121)" }}>GameFi</b> ecosystem of interactive, interconnected <b style={{ color: "rgb(77, 25, 130)" }}>Xones</b>.
             </p>
           </div>
-          <div className="col-md-6 col-12">
+          <div className="col-md-6 col-12 px-0">
             <ThemeProvider theme={theme}>
               <ConnectionProvider endpoint={endpoint}>
                 <WalletProvider wallets={wallets} autoConnect>
@@ -255,27 +255,88 @@ const App = () => {
 		</ul>
   </div>
 </div> */}
+
+{/* START OF 4x1 INFO GRID - snippets.wrappixel.com/colorful-3-column-cards */}
+<div className="pb-5 service-6">
+    <div className="container">
+
+        <div className="row">
+
+            <div className="col-md-3 wrap-service6-box">
+                <div className="card border-0 bg-yellow-gradient text-white mb-4">
+                    <div className="card-body">
+                        <h6 className="font-weight-medium text-white">Powerful Techniques</h6>
+                        <p className="mt-3">Lorem ipsum dolor sit amet, consecte tuam porttitor, nunc et fringilla.</p>
+                        <a href="#f4" className="linking">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div className="col-md-3 wrap-service6-box">
+                <div className="card border-0 bg-green-gradient text-white mb-4">
+                    <div className="card-body">
+                        <h6 className="font-weight-medium text-white">Retargeting Market</h6>
+                        <p className="mt-3">Lorem ipsum dolor sit amet, consecte tuam porttitor, nunc et fringilla.</p>
+                        <a href="#f4" className="linking">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div className="col-md-3 wrap-service6-box">
+                <div className="card border-0 bg-blue-gradient text-white mb-4">
+                    <div className="card-body">
+                        <h6 className="font-weight-medium text-white">Instant Solutions</h6>
+                        <p className="mt-3">Lorem ipsum dolor sit amet, consecte tuam porttitor, nunc et fringilla.</p>
+                        <a href="#f4" className="linking">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div className="col-md-3 wrap-service6-box">
+                <div className="card border-0 bg-red-gradient text-white mb-4">
+                    <div className="card-body">
+                        <h6 className="font-weight-medium text-white">Powerful Techniques</h6>
+                        <p className="mt-3">Lorem ipsum dolor sit amet, consecte tuam porttitor, nunc et fringilla.</p>
+                        <a href="#f4" className="linking">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+						<div className="col-md-12 mt-3 text-center">
+                <button className="btn btn-outline-success btn-md"><span>View Details</span></button>
+            </div>
+        </div>
+    </div>
+</div>
+{/* End of 4x1 Info Grid (Snippet) */}
+
 </div>
 {/* End of Original Content Wrapper */}
 
+<div className="b-divider"></div>
 
-{/* START of Features XONE CARDS 3x1 */}
-<section id="features">
-<div className="container">
-  <div className="row align-items-center">
-    <div className="feat-1 col-4 col-md-12 order-last">
-     <p className="">First in DOM, ordered last</p>
+{/* START OF XTROOD Section */}
+<section id="xtrood">
+<div className="px-4 pt-5 my-5 text-center border-bottom">
+    <h1 className="display-4 fw-bold">Build Immersive Spaces</h1>
+    <div className="col-lg-6 mx-auto">
+      <p className="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world's most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+      <div className="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+        <button type="button" className="btn btn-info btn-lg px-4 me-sm-3">SOLOS XONE</button>
+        <button type="button" className="btn btn-danger btn-lg px-4">PLASMAVERSE</button>
+      </div>
     </div>
-    <div className="feat-2 col-4 col-md-12">
-    <p className="">Second in DOM, unordered</p>
-    </div>
-    <div className="feat-3 col-4 col-md-12 order-first">
-    <p className="">Third in DOM, ordered first</p>
+    <div className="overflow-hidden" style={{ maxHeight: "56vh", paddingTop: "5vh" }}>
+      <div className="container px-1">
+        <img src="https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/xtrood_logo_text.png?v=1647382314441" className="xtrood-logo img-fluid px-5 pt-5" alt="xtrood xone builder logo" width="400" height="auto" loading="lazy" />
+        <img src="https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/xone-builder-aframe-inspector-registry.gif?v=1647314963979" className="img-fluid border rounded-3 shadow-lg mb-4 p-1" style={{ background: "rgba(255,255,255,0.11)" }} alt="aframe inspector xtrood xone builder" width="800" height="650" loading="lazy" />
+      </div>
     </div>
   </div>
-</div>
 </section>
-{/* End of Features XONE CARDS 3x1 */}
+{/* End of Xtrood*/}
+
+<div className="b-divider"></div>
 
 
 {/* SCROLLING IMAGE REELS */}
@@ -487,27 +548,6 @@ const App = () => {
 {/* End of 4x2 Features Grid */}
 
 <div className="b-divider"></div>
-
-{/* START OF XTROOD Section */}
-<section id="xtrood">
-<div className="px-4 pt-5 my-5 text-center border-bottom">
-    <h1 className="display-4 fw-bold">Build Immersive Spaces</h1>
-    <div className="col-lg-6 mx-auto">
-      <p className="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world's most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-      <div className="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-        <button type="button" className="btn btn-info btn-lg px-4 me-sm-3">SOLOS XONE</button>
-        <button type="button" className="btn btn-danger btn-lg px-4">PLASMAVERSE</button>
-      </div>
-    </div>
-    <div className="overflow-hidden" style={{ maxHeight: "56vh", paddingTop: "5vh" }}>
-      <div className="container px-1">
-        <img src="https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/xtrood_logo_text.png?v=1647382314441" className="xtrood-logo img-fluid px-5 pt-5" alt="xtrood xone builder logo" width="400" height="auto" loading="lazy" />
-        <img src="https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/xone-builder-aframe-inspector-registry.gif?v=1647314963979" className="img-fluid border rounded-3 shadow-lg mb-4 p-1" style={{ background: "rgba(255,255,255,0.11)" }} alt="aframe inspector xtrood xone builder" width="800" height="650" loading="lazy" />
-      </div>
-    </div>
-  </div>
-</section>
-{/* End of Xtrood*/}
 
 
 {/* START OF CONTENT WRAPPER # 3 */}
@@ -900,7 +940,6 @@ const App = () => {
 </div>
 {/* End of Content Wrapper # 3 */}
 
-
 {/* START OF Argon sections */}
 {/* argsec: plasma */}
 <section id="plasma" className="argsec section-basic-components">
@@ -1075,6 +1114,76 @@ const App = () => {
     </section>
 {/* End of Argon */}
 
+{/* START of Features XONE CARDS 3x1 */}
+<section id="feature-cards">
+<div className="container">
+  <div className="row align-items-center">
+    <div className="feat-1 col-4 col-md-12 order-last">
+     <p className="">First in DOM, ordered last</p>
+    </div>
+    <div className="feat-2 col-4 col-md-12">
+    <p className="">Second in DOM, unordered</p>
+    </div>
+    <div className="feat-3 col-4 col-md-12 order-first">
+    <p className="">Third in DOM, ordered first</p>
+    </div>
+  </div>
+</div>
+</section>
+{/* End of Features XONE CARDS 3x1 */}
+
+{/* START of NFT GRID 8x2 - jsfiddle.net/webtiki/MpXYr/2/ */}
+
+<section id="nft-display">
+<div className="container-fluid shadow text-center mx-auto pb-2">
+  {/* 1st row verticaly centered text in the square columns */}
+  <div className="nft-square img_1-1">
+    <div className="mask nft-mask"></div>
+  </div>
+  <div className="nft-square img_1-2">
+  <div className="mask nft-mask"></div>
+  </div>
+  <div className="nft-square img_1-3">
+  <div className="mask nft-mask"></div>
+  </div>
+  <div className="nft-square img_1-4">
+  <div className="mask nft-mask"></div>
+  </div>
+  <div className="nft-square img_1-5">
+  <div className="mask nft-mask"></div>
+  </div>
+  <div className="nft-square img_1-6">
+  <div className="mask nft-mask"></div>
+  </div>
+  <div className="nft-square img_blank">
+  <div className="mask nft-mask"></div>
+  </div>
+  <div className="nft-square img_blank">
+  <div className="mask nft-mask"></div>
+  </div>
+  {/* 2nd row verticaly centered images in square columns */}
+  <div className="nft-square img_2-1">
+  <div className="mask nft-mask"></div>
+  </div>
+  <div className="nft-square img_2-2">
+  <div className="mask nft-mask"></div>
+  </div>
+  <div className="nft-square img_2-3">
+  <div className="mask nft-mask"></div>
+  </div>
+  <div className="nft-square img_2-4">
+  <div className="mask nft-mask"></div>
+  </div>
+  <div className="nft-square img_2-5">
+  <div className="mask nft-mask"></div>
+  </div>
+  <div className="nft-square img_2-6">
+  <div className="mask nft-mask"></div>
+  </div>
+</div>
+</section>
+
+{/* End of NFT Grid 8x2 */}
 
 {/* Figma Slider */}
 <div aria-hidden="true" className="figslide-1">
