@@ -146,7 +146,7 @@ export const publicSaleSettings: PublicSaleSettings = {
 
   //Title and Description
   title: "METABALL MINTER",
-  desc: "currently active : click to mint",
+  desc: "active : click to mint",
 
   //Enable Custom HTML
   enableCustomHTML: false,
