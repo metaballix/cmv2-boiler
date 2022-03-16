@@ -37,7 +37,21 @@ html {
   -ms-filter: drop-shadow(0 0 0.5rem crimson);
   -moz-filter: drop-shadow(0 0 0.5rem crimson);
   -webkit-filter: drop-shadow(0 0 0.5rem crimson);
-
+  animation: animate-shadow 1s linear infinite;
+}
+@media (max-width: 800px) {
+  #xtrood .xtrood-logo { width: 250px; }
+}
+@keyframes animate-shadow {
+  0% {
+    filter: drop-shadow(0 0 0.5rem rgb(220, 20, 97)); 
+  }
+  50% { 
+    filter: drop-shadow(0 0 0.5rem rgb(144, 17, 194));
+  }
+  100% {
+    filter: drop-shadow(0 0 0.5rem rgb(79, 17, 194)); 
+  }
 }
 
 /* bootstrap templates */
