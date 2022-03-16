@@ -207,13 +207,13 @@ const App = () => {
 <div className="content-wrapper">
 <div id="mint" className="mball-avatar"></div>
         <header className="card contentcard" id="link1">
-          <div className="text-center" style={{ padding: "0 24px 0 24px" }}>
-            <h3 className="text-secondary-color">Welcome to the PlasmaVerse</h3>
-            <h1 className="pb-3" style={{ fontWeight: 600, fontSize: "calc(1.38rem + 1.55vw)" }}><span style={{ color: "rgb(25, 55, 130)" }}>ENGAGE. </span><span style={{ color: "rgb(77, 25, 130)" }}>EVOLVE. </span><span style={{ color: "rgb(121, 11, 121)" }}>EARN.</span></h1>
+          <div className="text-center" style={{ padding: "20px 2px" }}>
+            <h3 className="hero-text text-secondary-color" style={{ fontSize: "calc(1rem + 0.47vw + 0.47px)" }}>Welcome to the PlasmaVerse</h3>
+            <h1 className="pb-5" style={{ fontWeight: 600, fontSize: "calc(1.3rem + 1.5vw)" }}><span style={{ color: "rgb(25, 55, 130)" }}>ENGAGE. </span><span style={{ color: "rgb(77, 25, 130)" }}>EVOLVE. </span><span style={{ color: "rgb(121, 11, 121)" }}>EARN.</span></h1>
           <div className="row align-items-center">
           <div className="col-md-6 col-12">
-          <p className="text-secondary-color hero-text pb-3">
-            Your Metaball NFT avatar grants you creator access to the PlasmaVerse, an extended reality GameFi ecosystem of immersive, interconnected Xones.
+          <p className="hero-desc hero-text pb-3 pl-1">
+            Your <b style={{ color: "rgb(77, 25, 130)" }}>Metaball</b> NFT avatar gives you creator access to the <b style={{ color: "rgb(121, 11, 121)" }}>PlasmaVerse</b>, a Solana-based extended reality <b style={{ color: "rgb(121, 11, 121)" }}>GameFi</b> ecosystem of interactive, interconnected <b style={{ color: "rgb(77, 25, 130)" }}>Xones</b>.
             </p>
           </div>
           <div className="col-md-6 col-12">

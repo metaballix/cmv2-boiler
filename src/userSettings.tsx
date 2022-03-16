@@ -121,7 +121,7 @@ export class MintWhitelistCustomHTML extends React.Component {
         {/* Add Custom HTML code for Whitelist Stage Here! */}
 
         
-        <p>Mint Metaball NFTs anytime using Whitelist Tokens!</p>
+        <p>Mint Metaballs anytime with $MBALL Tokens!</p>
         
         
         {/* End */}
@@ -138,15 +138,15 @@ export class MintWhitelistCustomHTML extends React.Component {
 export const publicSaleSettings: PublicSaleSettings = {
   //start date and end date must match your Candy Machine Config for public launch!
 
-  startDate: date("6 Feb 2022 01:20:20 GMT"),
+  startDate: date("29 Feb 2022 00:00:00 GMT"),
   endDate: undefined,
   countdown: false,
   //Example date below
   // date('29 2021 00:00:00 GMT')
 
   //Title and Description
-  title: "Public Sale",
-  desc: "Sale is live. Mint your Metaball NFTs now!",
+  title: "METABALL MINTER",
+  desc: "currently active : click to mint",
 
   //Enable Custom HTML
   enableCustomHTML: false,
