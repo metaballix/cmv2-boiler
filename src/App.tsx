@@ -368,23 +368,21 @@ const App = () => {
 {/* START OF XTROOD Section */}
 <section id="xtrood">
   <div className="container my-5 rounded-3 border shadow-lg" style={{ background: "rgba(255,255,255,0.11)" }} >
-    <div className="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center text-center">
-
-      <div className="col-lg-7 p-3 p-lg-5 pt-lg-3">
+    <div className="row p-4 pb-4 pe-lg-0 pt-lg-5 align-items-center text-center">
+      <div className="col-lg-7 p-4 p-lg-5 pt-lg-3">
         <h1 className="display-4 fw-bold lh-1">Build &amp; Share Immersive Xones</h1>
-        <p className="lead">Quickly design and customize Web3-enabled A-Frame landing spaces in <b className="badge" style={{ background: "#662D91", letterSpacing: "0.02em" }}>XtrOOd</b> Xone Builder, an open-source <b>A-Frame WebXR scene creator</b> platform with prebuilt objects and powerful JS components.</p>
+        <p className="lead">Quickly design and customize Web3-enabled A-Frame landing spaces in <b className="badge" style={{ background: "#662D91", letterSpacing: "0.02em" }}>XtrOOd</b> Xone Builder, an intuitive <b>open-source A-Frame WebXR scene designer</b> app with prebuilt objects and powerful JS components.</p>
       </div>
 
       <div className="xtrood-img-col col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
           <img className="xtrood-img rounded-lg-3" src="https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/xtrood-mockup-1-nomargin-min.png?v=1647557553264" alt="" width="720" />
       </div>
-      
     </div>
 
-    <div className="container-fluid pt-5 my-5 text-center border-bottom">
-    <h1 className="display-4 fw-bold px-4">Deliver On-Chain Value</h1>
+    <div className="container-fluid p-4 p-lg-5 pt-lg-3 pt-5 mb-5 text-center border-bottom">
+    <h1 className="display-4 fw-bold">Deliver On-Chain Value</h1>
     <div className="col-lg-7 mx-auto">
-      <p className="lead mb-4">Visit <b className="badge" style={{ background: "#662D91", letterSpacing: "0.02em" }}>XONERATOR</b> to add integrations, Xone traversals, and functional automatons to engage with your visitors, gather information, and automate workflows. Earn $PLASMA through <b>monetized traffic</b> and <b>automaton transactions</b>.</p>
+      <p className="lead mb-4">Add integrations, Xone traversals, and interactive automatons in <b className="badge" style={{ background: "#662D91", letterSpacing: "0.02em" }}>XONERATOR</b>. Engage with Xone visitors, gather information, and automate workflows. Earn $PLASMA through <b>monetized traffic</b> and <b>automaton transactions</b>.</p>
     </div>
     <div className="overflow-hidden" style={{ maxHeight: "56vh", paddingTop: "5vh" }}>
       <div className="container px-1">
@@ -394,10 +392,10 @@ const App = () => {
     </div>
     </div>
 
-    <div className="col-lg-7 mx-auto">
-      <div className="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-        <a href="https://xone.land/" target="_blank" rel="noreferrer"><button type="button" className="btn btn-info btn-lg px-4 me-sm-3">XONE DEMO [ SOLOS ]</button></a>
-        <a href="https://plasmaver.se/" target="_blank" rel="noreferrer"><button type="button" className="btn btn-danger btn-lg px-4">PLASMAVERSE DEMO</button></a>
+    <div className="col-lg-7 mx-auto text-center">
+      <div className="d-grid gap-2 d-sm-flex justify-content-sm-center align-items-center mb-5">
+        <a href="https://xone.land/" target="_blank" rel="noreferrer"><button type="button" className="btn btn-info btn-lg px-4 me-sm-3 w-100">XONE DEMO [ SOLOS ]</button></a>
+        <a href="https://plasmaver.se/" target="_blank" rel="noreferrer"><button type="button" className="btn btn-danger btn-lg px-4 w-100">PLASMAVERSE DEMO</button></a>
       </div>
     </div>
 
