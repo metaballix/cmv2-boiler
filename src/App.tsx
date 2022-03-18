@@ -396,7 +396,7 @@ const App = () => {
 
     <div className="col-lg-7 mx-auto">
       <div className="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-        <a href="https://xone.land/" target="_blank" rel="noreferrer"><button type="button" className="btn btn-info btn-lg px-4 me-sm-3">XONE DEMO | SOLOS</button></a>
+        <a href="https://xone.land/" target="_blank" rel="noreferrer"><button type="button" className="btn btn-info btn-lg px-4 me-sm-3">XONE DEMO [ SOLOS ]</button></a>
         <a href="https://plasmaver.se/" target="_blank" rel="noreferrer"><button type="button" className="btn btn-danger btn-lg px-4">PLASMAVERSE DEMO</button></a>
       </div>
     </div>
