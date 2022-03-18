@@ -363,6 +363,74 @@ color: #3e4555;
     background: #00C4CC;
 }
 
+/* SERVICE SECTIONS - snippets.wrappixel.com */
+.service-btn {
+    background: #2cdd9b;
+    background: -webkit-linear-gradient(legacy-direction(to right), #2cdd9b 0%, #1dc8cc 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#2cdd9b), to(#1dc8cc));
+    background: -webkit-linear-gradient(left, #2cdd9b 0%, #1dc8cc 100%);
+    background: -o-linear-gradient(left, #2cdd9b 0%, #1dc8cc 100%);
+    background: linear-gradient(to right, #2cdd9b 0%, #1dc8cc 100%);
+    border: 0px;
+    color: rgba(255,255,255,0.92);
+    transition: all 0.2s ease-in-out;
+  }
+
+.service-btn:hover {
+    background: #1dc8cc;
+    background: -webkit-linear-gradient(legacy-direction(to right), #1dc8cc 0%, #2cdd9b 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#1dc8cc), to(#2cdd9b));
+    background: -webkit-linear-gradient(left, #1dc8cc 0%, #2cdd9b 100%);
+    background: -o-linear-gradient(left, #1dc8cc 0%, #2cdd9b 100%);
+    background: linear-gradient(to right, #1dc8cc 0%, #2cdd9b 100%);
+    color: white;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  
+  .service-btn.btn-md {
+    padding: 15px 45px;
+    font-size: 1.1rem;
+  }
+
+/* Service1 3x1 */
+.service-1 {
+    color: #8d97ad;
+    font-weight: 300;
+  }
+  
+  .service-1 h1,
+  .service-1 h2,
+  .service-1 h3,
+  .service-1 h4,
+  .service-1 h5,
+  .service-1 h6 {
+    color: #3e4555;
+  }
+  
+  .service-1 .font-weight-medium {
+    font-weight: 500;
+  }
+  
+  .service-1 .bg-light {
+    background-color: #f4f8fa !important;
+  }
+  
+  .service-1 .subtitle {
+    color: #8d97ad;
+    line-height: 24px;
+  }
+  
+  .service-1 .card.card-shadow {
+    -webkit-box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+    box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+  }
+  
+  .service-1 .wrap-service1-box .card-body {
+    padding: 40px;
+  }
+
 /* Service6 4x1 - */
 .service-6 h1, .service-6 h2, .service-6 h3, .service-6 h4, .service-6 h5, .service-6 h6 {
     color: #3e4555;
@@ -382,13 +450,13 @@ color: #3e4555;
   }
   
   .service-6 .wrap-service6-box {
-    -webkit-transition: 0.2s ease-in;
-    -o-transition: 0.2s ease-in;
-    transition: 0.2s ease-in;
+    -webkit-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
   }
   
   .service-6 .wrap-service6-box .card-body {
-    padding: 30px;
+    padding: 1.1em;
   }
   
   .service-6 .wrap-service6-box .card-body .linking {
@@ -409,7 +477,7 @@ color: #3e4555;
     transform: scale(1.1);
   }
 
-  .service-6 .bg-yellow-gradient {
+.service-6 .bg-yellow-gradient {
     background-color: #ffc107;
     background: linear-gradient(to top right, #ffa43c 0%, #ffce3c 90%);
     background: -webkit-linear-gradient(to top right, #ffa43c 0%, #ffce3c 90%);
@@ -418,17 +486,31 @@ color: #3e4555;
 
 .service-6 .bg-green-gradient {
     background-color: #22c777;
-    background: linear-gradient(to top right, #22c777 0%, #29cec9 90%);
-    background: -webkit-linear-gradient(to top right, #22c777 0%, #29cec9 90%);
-    background: -o-linear-gradient(to top right, #22c777 0%, #29cec9 90%);
+    background: linear-gradient(to top right, #22c777 0%, #00b6ce 90%);
+    background: -webkit-linear-gradient(to top right, #22c777 0%, #00b6ce 90%);
+    background: -o-linear-gradient(to top right, #22c777 0%, #00b6ce 90%);
 }
 
   .service-6 .bg-blue-gradient {
       background-color: #188ef4;
-      background: linear-gradient(to top right, #7031e0 0%, #188ef4 90%);
-      background: -webkit-linear-gradient(to top right, #7031e0 0%, #188ef4 90%);
-      background: -o-linear-gradient(to top right, #7031e0 0%, #188ef4 90%);
+      background: linear-gradient(to top right, #188ef4 0%, #782ccf 90%);
+      background: -webkit-linear-gradient(to top right, #188ef4 0%, #782ccf 90%);
+      background: -o-linear-gradient(to top right, #188ef4 0%, #782ccf 90%);
   }
+
+  .service-6 .bg-purple-gradient {
+    background-color: #662D91;
+    background: linear-gradient(to top right, #662D91 0%, #b80b70 90%);
+    background: -webkit-linear-gradient(to top right, #662D91 0%, #b80b70 90%);
+    background: -o-linear-gradient(to top right, #662D91 0%, #b80b70 90%);
+}
+
+.service-6 .bg-pink-gradient {
+    background-color: #be0069;
+    background: linear-gradient(to top right, #be0069 0%, #ff6a5b 100%);
+    background: -webkit-linear-gradient(to top right, #be0069 0%, #ff6a5b 100%);
+    background: -o-linear-gradient(to top right, #be0069 0%, #ff6a5b 100%);
+}
 
   .service-6 .bg-red-gradient {
       background-color: #ff4d7e;
@@ -443,7 +525,7 @@ color: #3e4555;
       border-color: #2cdd9b !important;
   }
   
-  .service-6 .btn-outline-success:hover {
+  /* .service-6 .btn-outline-success:hover {
         background: #2cdd9b;
       border-color: #2cdd9b;
       color: #ffffff !important;
@@ -453,7 +535,8 @@ color: #3e4555;
       padding: 15px 45px;
       font-size: 16px;
   }
-  
+   */
+
 /* FEATURE CARDS (XONE CARDS) 3x1 */
 
 #feature-cards .feat-1, #feature-cards .feat-2, #feature-cards .feat-3 {

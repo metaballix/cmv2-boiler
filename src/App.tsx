@@ -258,12 +258,11 @@ const App = () => {
 
 {/* START OF 4x1 INFO GRID - snippets.wrappixel.com/colorful-3-column-cards */}
 <div className="pb-5 service-6">
-    <div className="container">
-
+    <div className="card contentcard">
         <div className="row">
-
-            <div className="col-md-3 wrap-service6-box">
-                <div className="card border-0 bg-yellow-gradient text-white mb-4">
+          
+            <div className="col-md-3 wrap-service6-box mb-2">
+                <div className="card h-100 border-0 bg-green-gradient text-white mb-2 shadow">
                     <div className="card-body">
                         <h6 className="font-weight-medium text-white">Powerful Techniques</h6>
                         <p className="mt-3">Lorem ipsum dolor sit amet, consecte tuam porttitor, nunc et fringilla.</p>
@@ -272,8 +271,8 @@ const App = () => {
                 </div>
             </div>
 
-            <div className="col-md-3 wrap-service6-box">
-                <div className="card border-0 bg-green-gradient text-white mb-4">
+            <div className="col-md-3 wrap-service6-box mb-2">
+                <div className="card h-100 border-0 bg-blue-gradient text-white mb-2 shadow">
                     <div className="card-body">
                         <h6 className="font-weight-medium text-white">Retargeting Market</h6>
                         <p className="mt-3">Lorem ipsum dolor sit amet, consecte tuam porttitor, nunc et fringilla.</p>
@@ -282,8 +281,8 @@ const App = () => {
                 </div>
             </div>
 
-            <div className="col-md-3 wrap-service6-box">
-                <div className="card border-0 bg-blue-gradient text-white mb-4">
+            <div className="col-md-3 wrap-service6-box mb-2">
+                <div className="card h-100 border-0 bg-purple-gradient text-white mb-2 shadow">
                     <div className="card-body">
                         <h6 className="font-weight-medium text-white">Instant Solutions</h6>
                         <p className="mt-3">Lorem ipsum dolor sit amet, consecte tuam porttitor, nunc et fringilla.</p>
@@ -292,8 +291,8 @@ const App = () => {
                 </div>
             </div>
 
-            <div className="col-md-3 wrap-service6-box">
-                <div className="card border-0 bg-red-gradient text-white mb-4">
+            <div className="col-md-3 wrap-service6-box mb-2">
+                <div className="card h-100 border-0 bg-pink-gradient text-white mb-2 shadow">
                     <div className="card-body">
                         <h6 className="font-weight-medium text-white">Powerful Techniques</h6>
                         <p className="mt-3">Lorem ipsum dolor sit amet, consecte tuam porttitor, nunc et fringilla.</p>
@@ -303,7 +302,7 @@ const App = () => {
             </div>
 
 						<div className="col-md-12 mt-3 text-center">
-                <button className="btn btn-outline-success btn-md"><span>View Details</span></button>
+                <button className="btn btn-success btn-md service-btn rounded-circle shadow"><span>View Details</span></button>
             </div>
         </div>
     </div>
@@ -315,16 +314,77 @@ const App = () => {
 
 <div className="b-divider"></div>
 
+{/* START OF Service1 3x1 GRID */}
+<div className="bg-light py-4 service-1">
+  <div className="container">
+    
+  <div className="hero-header mb-5">
+    <h1 className="pb-3 gradient-txt-green" style={{ fontSize: "3.8rem", letterSpacing: "0.1em" }}>19,326,120</h1>
+    <h2 style={{ letterSpacing: "0.1em" }}>Tokenized DNA Compositions</h2>
+    <button className="btn btn-lg btn-outline-info" type="button">MINT 1 of 11,111 METABALL NFTs!</button>
+    </div>
+
+    <div className="row">
+
+      <div className="col-md-4 wrap-service1-box">
+        <div className="card border-0 card-shadow mb-4">
+          <div className="card-body text-center">
+            <div className="my-3"><img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/features/feature1/market.png" alt="wrapkit" /></div>
+            <h6 className="font-weight-medium">Retargeting Market</h6>
+            <p className="mt-3">You can relay on our amazing features list and also our customer services will be great experience.</p>
+          </div>
+        </div>
+      </div>
+
+      <div className="col-md-4 wrap-service1-box">
+        <div className="card border-0 card-shadow mb-4">
+          <div className="card-body text-center">
+            <div className="my-3"><img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/features/feature1/fruit.png" alt="wrapkit" /></div>
+            <h6 className="font-weight-medium">Fruitful Results</h6>
+            <p className="mt-3">You can relay on our amazing features list and also our customer services will be great experience.</p>
+          </div>
+        </div>
+      </div>
+
+      <div className="col-md-4 wrap-service1-box">
+        <div className="card border-0 card-shadow mb-4">
+          <div className="card-body text-center">
+            <div className="my-3"><img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/features/feature1/instant.png" alt="wrapkit" /></div>
+            <h6 className="font-weight-medium">Instant Solutions</h6>
+            <p className="mt-3">You can relay on our amazing features list and also our customer services will be great experience.</p>
+          </div>
+        </div>
+      </div>
+      <div className="col-md-12 mt-3 text-center">
+        <a className="btn btn-success-gradiant text-white btn-md border-0" href="#f1"><span>View Details</span></a>
+      </div>
+    </div>
+  </div>
+</div>
+{/* End of Service1 3x1 Grid (Snippet) */}
+
+<div className="b-divider"></div>
+
 {/* START OF XTROOD Section */}
 <section id="xtrood">
-<div className="px-4 pt-5 my-5 text-center border-bottom">
-    <h1 className="display-4 fw-bold">Build Immersive Spaces</h1>
-    <div className="col-lg-6 mx-auto">
-      <p className="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world's most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-      <div className="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-        <button type="button" className="btn btn-info btn-lg px-4 me-sm-3">SOLOS XONE</button>
-        <button type="button" className="btn btn-danger btn-lg px-4">PLASMAVERSE</button>
+  <div className="container my-5 rounded-3 border shadow-lg" style={{ background: "rgba(255,255,255,0.11)" }} >
+    <div className="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center text-center">
+
+      <div className="col-lg-7 p-3 p-lg-5 pt-lg-3">
+        <h1 className="display-4 fw-bold lh-1">Build &amp; Share Immersive Xones</h1>
+        <p className="lead">Quickly design and customize Web3-enabled A-Frame landing spaces in <b className="badge" style={{ background: "#662D91", letterSpacing: "0.02em" }}>XtrOOd</b> Xone Builder, an open-source <b>A-Frame WebXR scene creator</b> platform with prebuilt objects and powerful JS components.</p>
       </div>
+
+      <div className="xtrood-img-col col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+          <img className="xtrood-img rounded-lg-3" src="https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/xtrood-mockup-1-nomargin-min.png?v=1647557553264" alt="" width="720" />
+      </div>
+      
+    </div>
+
+    <div className="container-fluid pt-5 my-5 text-center border-bottom">
+    <h1 className="display-4 fw-bold px-4">Deliver On-Chain Value</h1>
+    <div className="col-lg-7 mx-auto">
+      <p className="lead mb-4">Visit <b className="badge" style={{ background: "#662D91", letterSpacing: "0.02em" }}>XONERATOR</b> to add integrations, Xone traversals, and functional automatons to engage with your visitors, gather information, and automate workflows. Earn $PLASMA through <b>monetized traffic</b> and <b>automaton transactions</b>.</p>
     </div>
     <div className="overflow-hidden" style={{ maxHeight: "56vh", paddingTop: "5vh" }}>
       <div className="container px-1">
@@ -332,22 +392,15 @@ const App = () => {
         <img src="https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/xone-builder-aframe-inspector-registry.gif?v=1647314963979" className="img-fluid border rounded-3 shadow-lg mb-4 p-1" style={{ background: "rgba(255,255,255,0.11)" }} alt="aframe inspector xtrood xone builder" width="800" height="650" loading="lazy" />
       </div>
     </div>
-  </div>
+    </div>
 
-  <div className="container my-5" style={{ background: "rgba(255,255,255,0.11)" }} >
-    <div className="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
-      <div className="col-lg-7 p-3 p-lg-5 pt-lg-3">
-        <h1 className="display-4 fw-bold lh-1">Border hero with cropped image and shadows</h1>
-        <p className="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-        <div className="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
-          <button type="button" className="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Primary</button>
-          <button type="button" className="btn btn-outline-secondary btn-lg px-4">Default</button>
-        </div>
-      </div>
-      <div className="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
-          <img className="rounded-lg-3" src="https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/xtrood-mockup-1-nomargin-min.png?v=1647557553264" alt="" width="720" />
+    <div className="col-lg-7 mx-auto">
+      <div className="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+        <a href="https://xone.land/" target="_blank" rel="noreferrer"><button type="button" className="btn btn-info btn-lg px-4 me-sm-3">XONE DEMO : SOLOS</button></a>
+        <button type="button" className="btn btn-danger btn-lg px-4">PLASMAVERSE DEMO</button>
       </div>
     </div>
+
   </div>
 </section>
 {/* End of Xtrood*/}
@@ -390,11 +443,6 @@ const App = () => {
 <Features6 content={null} /> 
 */}
 
-<div className="nft-hero-base">
-<h1 className="pb-3 gradient-txt-green" style={{ fontSize: "3.8rem", letterSpacing: "0.1em" }}>19,326,120</h1>
-    <h2 style={{ letterSpacing: "0.1em" }}>Tokenized DNA Compositions</h2>
-    <button className="btn btn-lg btn-outline-info" type="button">MINT 1 of 11,111 METABALL NFTs!</button>
-</div>
 
 {/* START OF XONE SECTION */}
 <div className="mask2">
