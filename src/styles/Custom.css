@@ -39,6 +39,7 @@ html {
   -webkit-filter: drop-shadow(0 0 0.5rem crimson);
   animation: animate-shadow 1s linear infinite;
 }
+
 @media (max-width: 800px) {
   #xtrood .xtrood-logo { width: 250px; }
 }
@@ -46,7 +47,6 @@ html {
   #xtrood { padding: 0 22px; }
   .xtrood-img-col { margin-left: 22%; }
   .xtrood-img-col, .xtrood-img { width: 121% !important; }
-  
 }
 
 @keyframes animate-shadow {

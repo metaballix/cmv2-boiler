@@ -379,15 +379,15 @@ const App = () => {
       </div>
     </div>
 
-    <div className="container-fluid p-4 p-lg-5 pt-lg-3 pt-5 mb-5 text-center border-bottom">
+    <div className="container-fluid p-4 pb-0 pt-lg-3 pt-5 mb-5 text-center border-bottom">
     <h1 className="display-4 fw-bold">Deliver On-Chain Value</h1>
     <div className="col-lg-7 mx-auto">
       <p className="lead mb-4">Add integrations, Xone traversals, and interactive automatons in <b className="badge" style={{ background: "#662D91", letterSpacing: "0.02em" }}>XONERATOR</b>. Engage with Xone visitors, gather information, and automate workflows. Earn $PLASMA through <b>monetized traffic</b> and <b>automaton transactions</b>.</p>
     </div>
     <div className="overflow-hidden" style={{ maxHeight: "56vh", paddingTop: "5vh" }}>
       <div className="container px-1">
-        <img src="https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/xtrood_logo_text.png?v=1647382314441" className="xtrood-logo img-fluid px-5 pt-5" alt="xtrood xone builder logo" width="400" height="auto" loading="lazy" />
-        <img src="https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/xone-builder-aframe-inspector-registry.gif?v=1647314963979" className="img-fluid border rounded-3 shadow-lg mb-4 p-1" style={{ background: "rgba(255,255,255,0.11)" }} alt="aframe inspector xtrood xone builder" width="800" height="650" loading="lazy" />
+        <img src="https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/xtrood_logo_text.png?v=1647382314441" className="xtrood-logo img-fluid p-5 pb-0" alt="xtrood xone builder logo" width="400" height="auto" loading="lazy" />
+        <img src="https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/xone-builder-aframe-inspector-registry.gif?v=1647314963979" className="img-fluid border border-info rounded-3 shadow mb-4 p-1" style={{ background: "rgba(255,255,255,0.11)" }} alt="aframe inspector xtrood xone builder" width="800" height="650" loading="lazy" />
       </div>
     </div>
     </div>
