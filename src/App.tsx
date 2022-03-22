@@ -112,7 +112,7 @@ const App = () => {
     <div id="app-main">
 
 {/* START of TOP HERO GROUP (with video bg) */}
-<div id="mball-hero">
+<section id="mball-hero">
     <video autoPlay muted loop id="vid-xone">
     <source src="https://cdn.glitch.global/84180755-58e4-4c80-b543-77cacf869330/xone-bg-14s.mp4?v=1647881876712" type="video/mp4" />
     </video>
@@ -227,7 +227,7 @@ const App = () => {
           <div className="row align-items-center">
           <div className="col-md-6 col-12">
           <p className="hero-desc hero-text pb-3 pl-1">
-            Your <b style={{ color: "rgb(77, 25, 130)" }}>Metaball</b> NFT avatar gives you creator access to the <b style={{ color: "rgb(121, 11, 121)" }}>PlasmaVerse</b>, a Solana-based extended reality <b style={{ color: "rgb(121, 11, 121)" }}>GameFi</b> ecosystem of interactive, interconnected <b style={{ color: "rgb(77, 25, 130)" }}>Xones</b>.
+            Your <b style={{ color: "rgb(77, 25, 130)" }}>Metaball</b> NFT avatar gives you creator access to a <b style={{ color: "rgb(121, 11, 121)" }}>Web3</b>-enabled extended reality ecosystem of interactive interconnected microverses called '<b style={{ color: "rgb(77, 25, 130)" }}>Xones</b>'.
             </p>
           </div>
 
@@ -276,7 +276,7 @@ const App = () => {
 
 {/* START OF 4x1 INFO GRID - snippets.wrappixel.com/colorful-3-column-cards */}
 <div className="pb-5 service-6">
-    <div className="card contentcard">
+    <div className="grid">
         <div className="row">
           
             <div className="col-md-3 wrap-service6-box mb-2">
@@ -335,15 +335,15 @@ const App = () => {
 {/* End of Original Content Wrapper */}
 
 <div className="b-divider"></div>
-</div>
+</section>
 {/* End of TOP HERO GROUP (with video bg) */}
 
 {/* START OF MBALL-MAIN GROUP (with animated gradient bg) */}
 <div id="mball-main">
 
 {/* START OF XTROOD Section */}
-<section id="xones">
-  <div className="container my-5 rounded-3 border shadow-lg" style={{ background: "rgba(255,255,255,0.11)" }} >
+<section id="xones" className="py-5">
+  <div className="container my-0 rounded-3 border shadow-lg" style={{ background: "rgba(255,255,255,0.11)" }} >
     <div className="row p-4 pb-4 pe-lg-0 pt-lg-5 align-items-center text-center">
       <div className="col-lg-7 p-4 p-lg-5 pt-lg-3">
         <h1 className="display-4 fw-bold lh-1">Build &amp; Share Immersive Xones</h1>
