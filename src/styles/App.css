@@ -28,9 +28,10 @@
 
 body {
   position: relative; 
-  background: linear-gradient(45deg, rgb(11, 146, 92), rgb(14, 101, 133), rgb(64, 15, 129), rgb(160, 39, 124), rgb(182, 7, 95));
+  background: rgb(5, 5, 5);
+  /* background: linear-gradient(45deg, rgb(11, 146, 92), rgb(14, 101, 133), rgb(64, 15, 129), rgb(160, 39, 124), rgb(182, 7, 95));
   background-size: 200% 200%;
-  /* animation: gradient 10s ease infinite; */
+  animation: gradient 10s ease infinite; */
   margin: 0;
   font-family: "Dosis", "Dongle", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
    "Fira Sans", "Droid Sans", "Helvetica Neue", -apple-system, BlinkMacSystemFont, sans-serif;
