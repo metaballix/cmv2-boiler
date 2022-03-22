@@ -110,6 +110,13 @@ const App = () => {
 
   return (
     <div id="app-main">
+
+{/* START of TOP HERO GROUP (with video bg) */}
+<div id="mball-hero">
+    <video autoPlay muted loop id="vid-xone">
+    <source src="https://cdn.glitch.global/84180755-58e4-4c80-b543-77cacf869330/xone-bg-14s.mp4?v=1647881876712" type="video/mp4" />
+    </video>
+
       <div id="mobileNavContainer" className="mobile-nav noselect">
         <div className="mobile-nav-close-button">
           <img src="/icons/close.svg" alt="" onClick={toggleMenu} />
@@ -125,33 +132,38 @@ const App = () => {
             </a></span>
           </li>
           <li>
-            <a href="/#link1" onClick={toggleMenu}>
+            <a href="/#nft" onClick={toggleMenu}>
               Metaballs
             </a>
           </li>
           <li>
-            <a href="/#link2" onClick={toggleMenu}>
+            <a href="/#xones" onClick={toggleMenu}>
+              Xones
+            </a>
+          </li>
+          <li>
+            <a href="/#plasmaverse" onClick={toggleMenu}>
               PlasmaVerse
             </a>
           </li>
           <li>
-            <a href="/#link3" onClick={toggleMenu}>
+            <a href="/#tokens" onClick={toggleMenu}>
               Tokenomics
             </a>
           </li>
           <li>
-            <a href="/#link4" onClick={toggleMenu}>
+            <a href="/#roadmap" onClick={toggleMenu}>
               Roadmap
             </a>
           </li>
           <li>
-            <a href="/#link4" onClick={toggleMenu}>
-              Litepaper
+            <a href="/#team" onClick={toggleMenu}>
+              Team
             </a>
           </li>
           <li>
-            <a href="/#link4" onClick={toggleMenu}>
-              Mission
+            <a href="/#faq" onClick={toggleMenu}>
+              FAQs
             </a>
           </li>
           <li>
@@ -170,26 +182,28 @@ const App = () => {
       <nav>
         <div className="nav-container">
         <section className="stage ball-topleft"><figure className="4x1 ball bubble"></figure></section>
-          <a className="hide-800" href="/#link1">
-            Metaballs
+        <a className="hide-800" href="/#nft">
+            NFTs
           </a>
-          <a className="hide-800" href="/#link2">
+          <a className="hide-800" href="/#xones">
+            Xones
+          </a>
+          <a className="hide-800" href="/#plasmaverse">
             PlasmaVerse
           </a>
-          <a className="hide-800" href="/#link3">
+          <a className="hide-800" href="/#tokens">
             Tokenomics
           </a>
-          <a className="hide-800" href="/#link4">
+          <a className="hide-800" href="/#roadmap">
             Roadmap
           </a>
-          <a className="hide-800" href="/#link4">
-            Litepaper
+          <a className="hide-800" href="/#team">
+            Team
           </a>
-          <a className="hide-800" href="/#link4">
-            Mission
+          <a className="hide-800" href="/#faq">
+            FAQs
           </a>
-          <a className="hide-800" href="/">
-          </a>
+          {/* <a className="hide-800" href="/"> </a> */}
           <div className="social-icons hide-800">
             <a href="https://twitter.com/metaballix" target="_blank" rel="noreferrer">
               <i className="nav-social fa-brands fa-twitter"> </i>
@@ -206,7 +220,7 @@ const App = () => {
 {/* Start of Original Content Wrapper */}
 <div className="content-wrapper">
 <div id="mint" className="mball-avatar"></div>
-        <header className="card contentcard" id="link1">
+        <header className="card contentcard" id="hero-minter">
           <div className="text-center" style={{ padding: "20px 2px" }}>
             <h3 className="hero-text text-secondary-color" style={{ fontSize: "calc(1rem + 0.47vw + 0.47px)" }}>Welcome to the PlasmaVerse</h3>
             <h1 className="pb-5" style={{ fontWeight: 600, fontSize: "calc(1.3rem + 1.5vw)" }}><span style={{ color: "rgb(25, 55, 130)" }}>ENGAGE. </span><span style={{ color: "rgb(77, 25, 130)" }}>EVOLVE. </span><span style={{ color: "rgb(121, 11, 121)" }}>EARN.</span></h1>
@@ -216,6 +230,8 @@ const App = () => {
             Your <b style={{ color: "rgb(77, 25, 130)" }}>Metaball</b> NFT avatar gives you creator access to the <b style={{ color: "rgb(121, 11, 121)" }}>PlasmaVerse</b>, a Solana-based extended reality <b style={{ color: "rgb(121, 11, 121)" }}>GameFi</b> ecosystem of interactive, interconnected <b style={{ color: "rgb(77, 25, 130)" }}>Xones</b>.
             </p>
           </div>
+
+{/* METABALL MINTER v1.1 (cmv2) - Hero Dialog Box */}
           <div className="col-md-6 col-12 px-0">
             <ThemeProvider theme={theme}>
               <ConnectionProvider endpoint={endpoint}>
@@ -233,6 +249,8 @@ const App = () => {
               </ConnectionProvider>
             </ThemeProvider>
           </div>
+{/* End of METABALL MINTER Dialog Box */}
+
           </div>
           </div>
         </header>
@@ -263,6 +281,7 @@ const App = () => {
           
             <div className="col-md-3 wrap-service6-box mb-2">
                 <div className="card h-100 border-0 bg-green-gradient text-white mb-2 shadow">
+                <div className="card-header">XONE MICROVERSES</div>
                     <div className="card-body">
                         <h6 className="font-weight-medium text-white">Powerful Techniques</h6>
                         <p className="mt-3">Lorem ipsum dolor sit amet, consecte tuam porttitor, nunc et fringilla.</p>
@@ -273,6 +292,7 @@ const App = () => {
 
             <div className="col-md-3 wrap-service6-box mb-2">
                 <div className="card h-100 border-0 bg-blue-gradient text-white mb-2 shadow">
+                <div className="card-header">PLASMAVERSE XR</div>
                     <div className="card-body">
                         <h6 className="font-weight-medium text-white">Retargeting Market</h6>
                         <p className="mt-3">Lorem ipsum dolor sit amet, consecte tuam porttitor, nunc et fringilla.</p>
@@ -283,6 +303,7 @@ const App = () => {
 
             <div className="col-md-3 wrap-service6-box mb-2">
                 <div className="card h-100 border-0 bg-purple-gradient text-white mb-2 shadow">
+                <div className="card-header">NFT ECOSYSTEM</div>
                     <div className="card-body">
                         <h6 className="font-weight-medium text-white">Instant Solutions</h6>
                         <p className="mt-3">Lorem ipsum dolor sit amet, consecte tuam porttitor, nunc et fringilla.</p>
@@ -293,6 +314,7 @@ const App = () => {
 
             <div className="col-md-3 wrap-service6-box mb-2">
                 <div className="card h-100 border-0 bg-pink-gradient text-white mb-2 shadow">
+                <div className="card-header">PASSIVE INCOME</div>
                     <div className="card-body">
                         <h6 className="font-weight-medium text-white">Powerful Techniques</h6>
                         <p className="mt-3">Lorem ipsum dolor sit amet, consecte tuam porttitor, nunc et fringilla.</p>
@@ -302,7 +324,7 @@ const App = () => {
             </div>
 
 						<div className="col-md-12 mt-3 text-center">
-                <button className="btn btn-success btn-md service-btn rounded-circle shadow"><span>View Details</span></button>
+                <button className="btn btn-dark btn-md service-btn rounded-circle shadow"><span>View Details</span></button>
             </div>
         </div>
     </div>
@@ -313,60 +335,14 @@ const App = () => {
 {/* End of Original Content Wrapper */}
 
 <div className="b-divider"></div>
-
-{/* START OF Service1 3x1 GRID */}
-<div className="bg-light py-4 service-1">
-  <div className="container">
-    
-  <div className="hero-header mb-5">
-    <h1 className="pb-3 gradient-txt-green" style={{ fontSize: "3.8rem", letterSpacing: "0.1em" }}>19,326,120</h1>
-    <h2 style={{ letterSpacing: "0.1em" }}>Tokenized DNA Compositions</h2>
-    <button className="btn btn-lg btn-outline-info" type="button">MINT 1 of 11,111 METABALL NFTs!</button>
-    </div>
-
-    <div className="row">
-
-      <div className="col-md-4 wrap-service1-box">
-        <div className="card border-0 card-shadow mb-4">
-          <div className="card-body text-center">
-            <div className="my-3"><img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/features/feature1/market.png" alt="wrapkit" /></div>
-            <h6 className="font-weight-medium">Retargeting Market</h6>
-            <p className="mt-3">You can relay on our amazing features list and also our customer services will be great experience.</p>
-          </div>
-        </div>
-      </div>
-
-      <div className="col-md-4 wrap-service1-box">
-        <div className="card border-0 card-shadow mb-4">
-          <div className="card-body text-center">
-            <div className="my-3"><img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/features/feature1/fruit.png" alt="wrapkit" /></div>
-            <h6 className="font-weight-medium">Fruitful Results</h6>
-            <p className="mt-3">You can relay on our amazing features list and also our customer services will be great experience.</p>
-          </div>
-        </div>
-      </div>
-
-      <div className="col-md-4 wrap-service1-box">
-        <div className="card border-0 card-shadow mb-4">
-          <div className="card-body text-center">
-            <div className="my-3"><img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/features/feature1/instant.png" alt="wrapkit" /></div>
-            <h6 className="font-weight-medium">Instant Solutions</h6>
-            <p className="mt-3">You can relay on our amazing features list and also our customer services will be great experience.</p>
-          </div>
-        </div>
-      </div>
-      <div className="col-md-12 mt-3 text-center">
-        <a className="btn btn-success-gradiant text-white btn-md border-0" href="#f1"><span>View Details</span></a>
-      </div>
-    </div>
-  </div>
 </div>
-{/* End of Service1 3x1 Grid (Snippet) */}
+{/* End of TOP HERO GROUP (with video bg) */}
 
-<div className="b-divider"></div>
+{/* START OF MBALL-MAIN GROUP (with animated gradient bg) */}
+<div id="mball-main">
 
 {/* START OF XTROOD Section */}
-<section id="xtrood">
+<section id="xones">
   <div className="container my-5 rounded-3 border shadow-lg" style={{ background: "rgba(255,255,255,0.11)" }} >
     <div className="row p-4 pb-4 pe-lg-0 pt-lg-5 align-items-center text-center">
       <div className="col-lg-7 p-4 p-lg-5 pt-lg-3">
@@ -405,7 +381,6 @@ const App = () => {
 
 <div className="b-divider"></div>
 
-
 {/* SCROLLING IMAGE REELS */}
 <div className="nft-hero">
 <div className="nft-reel-1"></div>
@@ -427,7 +402,6 @@ const App = () => {
 </div>
 {/* End of img reels */}
 
-
 {/* 
 <HowItWorksCustom2 />
 <Features4 content={null} /> 
@@ -435,12 +409,10 @@ const App = () => {
 
 {/* START OF CONTENT WRAPPER # 2 */}
 <div className="content-wrapper">
-
 {/* 
 <Header1 content={null} /> 
 <Features6 content={null} /> 
 */}
-
 
 {/* START OF XONE SECTION */}
 <div className="mask2">
@@ -496,6 +468,57 @@ const App = () => {
 </div>
 {/* End of Content Wrapper # 2 */}
 
+<div className="b-divider"></div>
+
+{/* START OF Service1 3x1 GRID */}
+<div className="bg-light py-4 service-1">
+    <div className="container">
+    <div className="hero-header mb-5">
+      <h1 className="pb-3 gradient-txt-green" style={{ fontSize: "3.8rem", letterSpacing: "0.1em" }}>19,326,120</h1>
+      <h2 style={{ letterSpacing: "0.1em" }}>Tokenized DNA Compositions</h2>
+      <button className="btn btn-lg btn-outline-info" type="button">MINT 1 of 11,111 METABALL NFTs!</button>
+      </div>
+
+      <div className="row">
+
+        <div className="col-md-4 wrap-service1-box">
+          <div className="card border-0 card-shadow mb-4">
+            <div className="card-body text-center">
+              <div className="my-3"><img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/features/feature1/market.png" alt="wrapkit" /></div>
+              <h6 className="font-weight-medium">Retargeting Market</h6>
+              <p className="mt-3">You can relay on our amazing features list and also our customer services will be great experience.</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="col-md-4 wrap-service1-box">
+          <div className="card border-0 card-shadow mb-4">
+            <div className="card-body text-center">
+              <div className="my-3"><img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/features/feature1/fruit.png" alt="wrapkit" /></div>
+              <h6 className="font-weight-medium">Fruitful Results</h6>
+              <p className="mt-3">You can relay on our amazing features list and also our customer services will be great experience.</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="col-md-4 wrap-service1-box">
+          <div className="card border-0 card-shadow mb-4">
+            <div className="card-body text-center">
+              <div className="my-3"><img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/features/feature1/instant.png" alt="wrapkit" /></div>
+              <h6 className="font-weight-medium">Instant Solutions</h6>
+              <p className="mt-3">You can relay on our amazing features list and also our customer services will be great experience.</p>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-12 mt-3 text-center">
+          <a className="btn service-btn text-white btn-md border-0" href="#f1"><span>View Details</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+{/* End of Service1 3x1 Grid (Snippet) */}
+
+<div className="b-divider"></div>
 
 {/* Start of Feature Squares Grid 4x2 */}
 <div className="py-5 service-24">
@@ -584,7 +607,6 @@ const App = () => {
 
 <div className="b-divider"></div>
 
-
 {/* START OF CONTENT WRAPPER # 3 */}
 <div className="content-wrapper">
 
@@ -640,9 +662,9 @@ const App = () => {
 {/* End of Bootstrap Features Grid */}
 
 {/* Start of Bootstrap Timeline */}
-<div className="container tl-roadmap">
-  <hr style={{ margin: "60px 0 45px 0" }} />
-  <h1 className="pb-3 gradient-txt-green text-center" style={{ fontSize: "3.8rem", letterSpacing: "0.07em" }}>ROADMAP</h1>
+<div className="container tl-roadmap rounded-3 border shadow-lg" style={{ background: "rgba(255,255,255,0.11)" }}>
+  <h1 className="my-3 gradient-txt-green text-center" style={{ fontSize: "3.8rem", letterSpacing: "0.07em" }}>ROADMAP</h1>
+  <hr style={{ margin: "11px 0" }} />
     <div className="row">
         <div className="col-md-12">
             <div className="main-timeline2">
@@ -1001,179 +1023,8 @@ const App = () => {
 </div>
 {/* End of Content Wrapper # 3 */}
 
-{/* START OF Argon sections */}
-{/* argsec: plasma */}
-<section id="plasma" className="argsec section-basic-components">
-      <div className="container">
-        <div className="row">
-          <div className="col-lg-6 col-md-10 mb-md-5 pr-5">
-            <div className="icon icon-shape icon-shape-primary shadow rounded-circle mb-4 mt--3">
-              <i className="ni ni-app"></i>
-            </div>
-            <h2 className="display-3 font-weight-bolder">Choose from 100+ blocks<span className="text-primary"> Using Drag & Drop</span></h2>
-            <p className="lead">We re-styled every Bootstrap element to match the Argon Design System style.
-              All the Bootstrap components that you need in a development have been re-design with the new look.</p>
-            <span className="badge badge-pill badge-default">Headers</span>
-            <span className="badge badge-pill badge-default">Features</span>
-            <span className="badge badge-pill badge-default">Blogs</span>
-            <span className="badge badge-pill badge-default">Teams</span>
-            <span className="badge badge-pill badge-default">Projects</span>
-            <span className="badge badge-pill badge-default">Pricing</span>
-            <span className="badge badge-pill badge-default">Testimonials</span>
-            <span className="badge badge-pill badge-default">Contact Us</span>
-            <span className="badge badge-pill badge-default">Tables</span>
-          </div>
-          <div className="col-lg-5 col-md-12 d-none d-lg-block">
-            <div className="image-container">
-              <img className="table-img shaddow" src="https://www.creative-tim.com/builder/assets/img/presentation-page/sections/feature-3.jpg" alt="" />
-              <img className="coloured-card-btn-img shadow" src="https://www.creative-tim.com/builder/assets/img/presentation-page/sections/contact-1.jpg" alt="" />
-              <img className="linkedin-btn-img shadow-lg" src="https://www.creative-tim.com/builder/assets/img/presentation-page/sections/header-2.jpg" alt="" />
-              <img className="coloured-card-img shadow" src="https://www.creative-tim.com/builder/assets/img/presentation-page/sections/feature-1.jpg" alt="" />
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="separator separator-bottom separator-skew">
-        <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
-          <polygon className="fill-dark" points="2560 0 2560 100 0 100"></polygon>
-        </svg>
-      </div>
-    </section>
-
-{/* argsec: xr */}
-<section id="xr" className="argsec section-content section-brand">
-      <div className="container">
-        <div className="row">
-          <div className="col-lg-6 mt-md-5 order-md-2 order-lg-1 d-none d-lg-block">
-            <div className="image-container">
-              <img alt="" className="img shadow rounded img-theme-colors w-100" src="https://www.creative-tim.com/builder/assets/img/presentation-page/theme-colors.png" />
-              <img alt="" className="img shadow rounded img-theme-fonts mt-5 w-100" src="https://www.creative-tim.com/builder/assets/img/presentation-page/theme-fonts.png" />
-              <img alt="" className="img shadow rounded img-theme-css mt-5 w-100" src="https://www.creative-tim.com/builder/assets/img/presentation-page/theme-custom-css.png" />
-            </div>
-          </div>
-          <div className="col-lg-6 mx-auto order-md-1">
-            <div className="section-description">
-              <div className="icon icon-shape icon-shape-white shadow rounded-circle mb-4 mt--3">
-                <i className="ni ni-atom text-white"></i>
-              </div>
-              <h3 className="display-3 text-white">Customize your Xone<span className="text-danger"> with unique colors and fonts</span></h3>
-              <p className="lead text-gray">We know how valuable your time is. That is why we worked hard on the development of a tool that would be easy to use and which you could make use of without the need for any training. Customize anything without
-                touching the codebase.</p>
-              <a href="/#" className="text-danger">Try for Free! <i className="fas fa-arrow-alt-circle-right"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="separator separator-bottom separator-skew">
-        <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
-          <polygon className="fill-white" points="2560 0 2560 100 0 100"></polygon>
-        </svg>
-      </div>
-    </section>
-
-{/* argsec: gamefi 2x2 overlapping grid */}
-    <section id="gamefi" className="argsec section features-2 section-content section-download">
-      <div className="container">
-        <div className="row align-items-center">
-          <div className="col-lg-6 col-md-12 text-left">
-            <div className="icon icon-shape icon-shape-primary shadow rounded-circle mb-4 mt-4">
-              <i className="ni ni-cloud-download-95"></i>
-            </div>
-            <h2 className="display-3 font-weight-bolder">Download<span className="text-primary"> The Source Code</span></h2>
-            <p className="lead">When you select the appropriate components and Bootstrap settings,
-              you can download source files in order to start combining front-end with back‑end.
-            </p>
-
-            <ul className="list-unstyled mt-5">
-              <li className="py-2">
-                <div className="d-flex align-items-center">
-                  <div>
-                    <div className="badge badge-circle badge-primary mr-3">
-                      <i className="ni ni-check-bold"></i>
-                    </div>
-                  </div>
-                  <div>
-                    <h6 className="mb-0">Bootstrap 4.x.x</h6>
-                  </div>
-                </div>
-              </li>
-
-              <li className="py-2">
-                <div className="d-flex align-items-center">
-                  <div>
-                    <div className="badge badge-circle badge-primary mr-3">
-                      <i className="ni ni-check-bold"></i>
-                    </div>
-                  </div>
-                  <div>
-                    <h6 className="mb-0">SASS Variables</h6>
-                  </div>
-                </div>
-              </li>
-
-              <li className="py-2">
-                <div className="d-flex align-items-center">
-                  <div>
-                    <div className="badge badge-circle badge-primary mr-3">
-                      <i className="ni ni-check-bold"></i>
-                    </div>
-                  </div>
-                  <div>
-                    <h6 className="mb-0">Access to HTML, JS and SCSS Files</h6>
-                  </div>
-                </div>
-              </li>
-
-            </ul>
-          </div>
-          <div className="col-lg-6 col-md-12 ml-auto">
-            <div className="row">
-              <div className="col-lg-6 col-12">
-                <div className="info text-left bg-info shadow">
-                  <div className="icon icon-shape bg-gradient-white shadow rounded-circle text-primary">
-                    <i className="ni ni-mobile-button text-info"></i>
-                  </div>
-                  <h5 className="info-title text-white">Optimized for Mobile</h5>
-                  <p className="description">All the pages and sections work perfectly on mobile, tablets and desktops.</p>
-                </div>
-              </div>
-              <div className="col-lg-6 col-12">
-                <div className="info text-left bg-danger info-raised shadow">
-                  <div className="icon icon-shape bg-gradient-white shadow rounded-circle text-primary">
-                    <i className="ni ni-laptop text-danger"></i>
-                  </div>
-                  <h5 className="info-title text-white">Retina Ready</h5>
-                  <p className="description">All the elements and icons that we used in the production look gorgeous on any type of screen.</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="row">
-              <div className="col-lg-6 col-12">
-                <div className="info text-left bg-primary shadow">
-                  <div className="icon icon-shape bg-gradient-white shadow rounded-circle text-primary">
-                    <i className="ni ni-books text-primary"></i>
-                  </div>
-                  <h5 className="info-title text-white">Complex Documentation</h5>
-                  <p className="description">For those who want to digg deeper, we offer a full elements' documentation. </p>
-                </div>
-              </div>
-              <div className="col-lg-6 col-12">
-                <div className="info text-left bg-warning info-raised shadow">
-                  <div className="icon icon-shape bg-gradient-white shadow rounded-circle text-primary">
-                    <i className="ni ni-single-copy-04 text-warning"></i>
-                  </div>
-                  <h5 className="info-title text-white">Optimized Code</h5>
-                  <p className="description">This product was built by developers for developers. All the classes and HTML elements are easy to be used.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-{/* End of Argon */}
+</div>
+{/* END OF GROUP MBALL-MAIN */}
 
 {/* START of Features XONE CARDS 3x1 */}
 <section id="feature-cards">

@@ -321,47 +321,6 @@ color: #3e4555;
 /* FAQ Section - Bootstrap 5 Accordion */
 #faq .accordion-body { color: #212529; }
 
-/* Argon Sections - */
-/* .argsec .features-2 .info.info-raised { margin-top: -10px !important; } */
-
-.argsec .bg-danger {
-    background-color: #f5365c!important;
-}
-.argsec .bg-info {
-    background-color: #11cdef!important;
-}
-.argsec .bg-warning {
-    background-color: #fb6340!important;
-}
-.argsec .bg-primary {
-    background-color: #5e72e4!important;
-}
-
-.argsec .shadow {
-    box-shadow: 0 15px 35px rgba(50,50,93,.1),0 5px 15px rgba(0,0,0,.07)!important;
-}
-
-.argsec .info {
-    max-width: 360px;
-    padding: 1.5rem;
-    margin: 0 auto;
-    border-radius: 0.25rem;
-    transition: all .5s;
-    position: relative;
-    text-align: center;
-    box-sizing: border-box;
-}
-
-.argsec [class*=shadow] {
-    transition: all .15s ease;
-}
-.argsec .text-left {
-    text-align: left !important;
-}
-
-.argsec .badge-default {
-    background: #00C4CC;
-}
 
 /* SERVICE SECTIONS - snippets.wrappixel.com */
 .service-btn {
@@ -375,6 +334,13 @@ color: #3e4555;
     color: rgba(255,255,255,0.92);
     transition: all 0.2s ease-in-out;
   }
+
+.service-btn.btn-dark {
+    background: #212029;
+}
+.service-btn.btn-dark:hover {
+    background: #575757;
+}
 
 .service-btn:hover {
     background: #1dc8cc;
@@ -394,7 +360,7 @@ color: #3e4555;
     font-size: 1.1rem;
   }
 
-/* Service1 3x1 */
+/* XONE.LAND SECTION :: Service1 3x1 */
 .service-1 {
     color: #8d97ad;
     font-weight: 300;

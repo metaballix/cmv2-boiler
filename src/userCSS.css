@@ -28,7 +28,7 @@
   --card-shadow: none; /* Default: 1px 1px 20px -13px rgba(255, 255, 255, 0.8) */
 
   /* Minting Area */
-  --minting-box-color: #212029;
+  --minting-box-color: rgb(3, 24, 80);;
   --minting-box-heading-color: white;
   --minting-box-info-box-color: rgb(75, 78, 99);
   --minting-box-text-color: rgba(222,222,222);

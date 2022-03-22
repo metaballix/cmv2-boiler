@@ -84,3 +84,15 @@
     transform: translate(50px,0);
 }
 }
+
+@keyframes animate-shadow {
+    0% {
+      filter: drop-shadow(0 0 0.5rem rgb(220, 20, 97)); 
+    }
+    50% { 
+      filter: drop-shadow(0 0 0.5rem rgb(144, 17, 194));
+    }
+    100% {
+      filter: drop-shadow(0 0 0.5rem rgb(79, 17, 194)); 
+    }
+  }
