@@ -227,7 +227,7 @@ const App = () => {
           <div className="row align-items-center">
           <div className="col-md-6 col-12">
           <p className="hero-desc hero-text pb-3 pl-1">
-            Your <b style={{ color: "rgb(77, 25, 130)" }}>Metaball</b> NFT avatar gives you creator access to a <b style={{ color: "rgb(121, 11, 121)" }}>Web3</b>-enabled extended reality ecosystem of interactive interconnected microverses called '<b style={{ color: "rgb(77, 25, 130)" }}>Xones</b>'.
+            Your <b style={{ color: "rgb(77, 25, 130)" }}>Metaball</b> NFT avatar gives you creator access to a <b style={{ color: "rgb(121, 11, 121)" }}>Web3-enabled</b> ecosystem of interactive, <b style={{ color: "rgb(121, 11, 121)" }}>extended reality</b> microverses called '<b style={{ color: "rgb(77, 25, 130)" }}>Xones</b>'.
             </p>
           </div>
 
