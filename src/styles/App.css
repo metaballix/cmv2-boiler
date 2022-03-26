@@ -9,7 +9,7 @@
   font-style: normal;
 } */
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 992px) {
   body, html { width: 100%; overflow-x: hidden; }
 }
 
@@ -36,12 +36,12 @@ body {
   font-family: "Dosis", "Dongle", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
    "Fira Sans", "Droid Sans", "Helvetica Neue", -apple-system, BlinkMacSystemFont, sans-serif;
   --bs-font-sans-serif: "Dosis", "Dongle",system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",
-  Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   scroll-behaviour: smooth;
-  font-size: 1.1rem;
-  color: white;
+  font-size: 1.2rem !important;
+  color: var(--text-primary-color) !important;
 }
 
 code {
@@ -172,7 +172,7 @@ color: rgba(255, 255, 255,0.9);
   display: flex;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 992px) {
   .hide-800 {
     display: none;
   }
@@ -233,7 +233,7 @@ header {
   gap: 20px;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 992px) {
   header {
     grid-template-columns: 1fr 1fr;
     padding: 40px;
@@ -300,10 +300,10 @@ header {
 
 .container {
   position: relative;
-  margin-top: 40px;
+  /* margin-top: 40px;
   margin-bottom: 40px;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto; */
   max-width: 900px;
 }
 

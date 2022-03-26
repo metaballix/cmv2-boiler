@@ -2,6 +2,11 @@ import "./styles/App.css";
 import "./styles/Custom.css";
 import "./styles/Timeline.css";
 import "./styles/Animation.css";
+import "./assets/css/animate.min.css";
+import "./assets/css/swiper.min.css";
+import "./assets/css/color5.css";
+import "./assets/css/bootstrap.css";
+
 import { useMemo } from "react";
 import Minter from "./Minter";
 import * as anchor from "@project-serum/anchor";
@@ -111,8 +116,17 @@ const App = () => {
   return (
     <div id="app-main">
 
+{/* Loader ::  
+<div className="loader-wrapper">
+      <div id="loader">
+        <div id="shadow"></div>
+        <div id="box"></div>
+      </div>
+    </div>
+*/}
+
 {/* START of TOP HERO GROUP (with video bg) */}
-<section id="mball-hero">
+<section id="mball-hero" className="pt-0">
     <video autoPlay muted loop id="vid-xone">
     <source src="https://cdn.glitch.global/84180755-58e4-4c80-b543-77cacf869330/xone-bg-14s.mp4?v=1647881876712" type="video/mp4" />
     </video>
@@ -123,7 +137,7 @@ const App = () => {
         </div>
         <ul>
           <li>
-          <section className="stage" style={{ marginLeft: 0 }}><figure className="4x1 ball bubble"></figure></section>
+          <div className="stage" style={{ marginLeft: 0 }}><figure className="4x1 ball bubble"></figure></div>
           </li>
           <li>
           <span className="logo-3d-text">
@@ -181,7 +195,7 @@ const App = () => {
       <i className="mobile-menu-button fa-solid fa-ellipsis-vertical" onClick={toggleMenu}> </i>
       <nav>
         <div className="nav-container">
-        <section className="stage ball-topleft"><figure className="4x1 ball bubble"></figure></section>
+        <div className="stage ball-topleft hide-800"><figure className="4x1 ball bubble"></figure></div>
         <a className="hide-800" href="/#nft">
             NFTs
           </a>
@@ -218,42 +232,42 @@ const App = () => {
       </nav>
 
 {/* Start of Original Content Wrapper */}
-<div className="content-wrapper">
+<div className="container">
 <div id="mint" className="mball-avatar"></div>
-        <header className="card contentcard" id="hero-minter">
-          <div className="text-center" style={{ padding: "20px 2px" }}>
-            <h3 className="hero-text text-secondary-color" style={{ fontSize: "calc(1rem + 0.47vw + 0.47px)" }}>Welcome to the PlasmaVerse</h3>
-            <h1 className="pb-5" style={{ fontWeight: 600, fontSize: "calc(1.3rem + 1.5vw)" }}><span style={{ color: "rgb(25, 55, 130)" }}>ENGAGE. </span><span style={{ color: "rgb(77, 25, 130)" }}>EVOLVE. </span><span style={{ color: "rgb(121, 11, 121)" }}>EARN.</span></h1>
-          <div className="row align-items-center">
-          <div className="col-md-6 col-12">
-          <p className="hero-desc hero-text pb-3 pl-1">
-            Your <b style={{ color: "rgb(77, 25, 130)" }}>Metaball</b> NFT avatar gives you creator access to a <b style={{ color: "rgb(121, 11, 121)" }}>Web3-enabled</b> ecosystem of interactive, <b style={{ color: "rgb(121, 11, 121)" }}>extended reality</b> microverses called '<b style={{ color: "rgb(77, 25, 130)" }}>Xones</b>'.
-            </p>
-          </div>
+<header className="card contentcard" id="hero-minter">
+  <div className="text-center" style={{ padding: "20px 2px" }}>
+    <h3 className="hero-text text-secondary-color" style={{ fontSize: "calc(1rem + 0.47vw + 0.47px)" }}>Welcome to the PlasmaVerse</h3>
+    <h1 className="pb-5" style={{ fontWeight: 600, fontSize: "calc(1.3rem + 1.5vw)" }}><span style={{ color: "rgb(25, 55, 130)" }}>ENGAGE. </span><span style={{ color: "rgb(77, 25, 130)" }}>EVOLVE. </span><span style={{ color: "rgb(121, 11, 121)" }}>EARN.</span></h1>
+  <div className="row align-items-center">
+  <div className="col-md-6 col-12">
+  <p className="hero-desc hero-text pb-3 pl-1">
+    <b style={{ color: "rgb(77, 25, 130)" }}>Metaball NFT avatars</b> give you creator access to a <b style={{ color: "rgb(121, 11, 121)" }}>Web3-enabled</b> ecosystem of <b style={{ color: "rgb(77, 25, 130)" }}>extended reality microverses</b> called '<b style={{ color: "rgb(25, 55, 130)" }}>XONES</b>'.
+    </p>
+  </div>
 
 {/* METABALL MINTER v1.1 (cmv2) - Hero Dialog Box */}
-          <div className="col-md-6 col-12 px-0">
-            <ThemeProvider theme={theme}>
-              <ConnectionProvider endpoint={endpoint}>
-                <WalletProvider wallets={wallets} autoConnect>
-                  <WalletDialogProvider>
-                    <Minter
-                      candyMachineId={candyMachineId}
-                      connection={connection}
-                      startDate={startDateSeed}
-                      txTimeout={txTimeout}
-                      rpcHost={rpcHost}
-                    />
-                  </WalletDialogProvider>
-                </WalletProvider>
-              </ConnectionProvider>
-            </ThemeProvider>
-          </div>
+  <div className="col-md-6 col-12 px-0">
+    <ThemeProvider theme={theme}>
+      <ConnectionProvider endpoint={endpoint}>
+        <WalletProvider wallets={wallets} autoConnect>
+          <WalletDialogProvider>
+            <Minter
+              candyMachineId={candyMachineId}
+              connection={connection}
+              startDate={startDateSeed}
+              txTimeout={txTimeout}
+              rpcHost={rpcHost}
+            />
+          </WalletDialogProvider>
+        </WalletProvider>
+      </ConnectionProvider>
+    </ThemeProvider>
+  </div>
 {/* End of METABALL MINTER Dialog Box */}
 
-          </div>
-          </div>
-        </header>
+  </div>
+  </div>
+</header>
 
 {/* Carousel 1 : Metaball NFTs Sample */}
 {/* SplideJS (splidejs.com/integration/react-splide) */}
@@ -278,7 +292,6 @@ const App = () => {
 <div className="pb-5 service-6">
     <div className="grid">
         <div className="row">
-          
             <div className="col-md-3 wrap-service6-box mb-2">
                 <div className="card h-100 border-0 bg-green-gradient text-white mb-2 shadow">
                 <div className="card-header">XONE MICROVERSES</div>
@@ -334,19 +347,16 @@ const App = () => {
 </div>
 {/* End of Original Content Wrapper */}
 
-<div className="b-divider"></div>
 </section>
+<div className="b-divider"></div>
 {/* End of TOP HERO GROUP (with video bg) */}
 
-{/* START OF MBALL-MAIN GROUP (with animated gradient bg) */}
-<div id="mball-main">
-
-{/* START OF XTROOD Section */}
-<section id="xones" className="py-5">
-  <div className="container my-0 rounded-3 border shadow-lg" style={{ background: "rgba(255,255,255,0.11)" }} >
-    <div className="row p-4 pb-4 pe-lg-0 pt-lg-5 align-items-center text-center">
-      <div className="col-lg-7 p-4 p-lg-5 pt-lg-3">
-        <h1 className="display-4 fw-bold lh-1">Build &amp; Share Immersive Xones</h1>
+{/* START OF XONERATOR Section */}
+<section id="xonerator" className="py-5" style={{ background: "rgba(11, 218, 227,0.11)" }} >
+  <div className="container w-99 mx-auto my-5 py-4 border-none rounded-3 rounded-sm-0 shadow-lg" style={{ background: "linear-gradient(-11deg, rgba(0, 196, 204,0.33), rgba(3, 24, 88,0.55))" }} >
+    <div className="row p-md-4 pt-lg-5 pe-lg-0 align-items-center text-center">
+      <div className="col-lg-7 p-5 p-lg-5 pt-lg-3">
+        <h1 className="display-4 fw-bold lh-2">Build &amp; Share Functional Virtual Spaces</h1>
         <p className="lead">Quickly design and customize Web3-enabled A-Frame landing spaces in <b className="badge" style={{ background: "#662D91", letterSpacing: "0.02em" }}>XtrOOd</b> Xone Builder, an intuitive <b>open-source A-Frame WebXR scene designer</b> app with prebuilt objects and powerful JS components.</p>
       </div>
 
@@ -355,67 +365,169 @@ const App = () => {
       </div>
     </div>
 
-    <div className="container-fluid p-4 pb-0 pt-lg-3 pt-5 mb-5 text-center border-bottom">
-    <h1 className="display-4 fw-bold">Deliver On-Chain Value</h1>
+    <div className="container-fluid p-4 pb-0 my-5 text-center">
+    <h1 className="display-4 fw-bold lh-2">Deliver Value, Earn From Your Traffic</h1>
     <div className="col-lg-7 mx-auto">
-      <p className="lead mb-4">Add integrations, Xone traversals, and interactive automatons in <b className="badge" style={{ background: "#662D91", letterSpacing: "0.02em" }}>XONERATOR</b>. Engage with Xone visitors, gather information, and automate workflows. Earn $PLASMA through <b>monetized traffic</b> and <b>automaton transactions</b>.</p>
+      <p className="lead mb-2">Add areas, artifacts and automatons to your Xone in <b className="badge" style={{ background: "#662D91", letterSpacing: "0.02em" }}>XONERATOR</b>. Engage with Xone visitors, gather information, and automate workflows. Earn $PLASMA through <b>monetized traffic</b> and <b>automaton transactions</b>.</p>
     </div>
-    <div className="overflow-hidden" style={{ maxHeight: "56vh", paddingTop: "5vh" }}>
-      <div className="container px-1">
-        <img src="https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/xtrood_logo_text.png?v=1647382314441" className="xtrood-logo img-fluid p-5 pb-0" alt="xtrood xone builder logo" width="400" height="auto" loading="lazy" />
-        <img src="https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/xone-builder-aframe-inspector-registry.gif?v=1647314963979" className="img-fluid border border-info rounded-3 shadow mb-4 p-1" style={{ background: "rgba(255,255,255,0.11)" }} alt="aframe inspector xtrood xone builder" width="800" height="650" loading="lazy" />
+    <div className="mt-5">
+      <div className="container px-0 px-md-2 px-lg-5">
+        <img src="https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/xtrood_logo_text.png?v=1647382314441" className="xtrood-logo img-fluid p-5 pb-0 mt-5" alt="xtrood xone builder logo" width="400" height="auto" loading="lazy" />
+        <img src="https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/xone-builder-aframe-inspector-registry.gif?v=1647314963979" className="img-fluid border border-info rounded-3 shadow p-1 mt-5" style={{ background: "rgba(255,255,255,0.11)" }} alt="aframe inspector xtrood xone builder" width="800" height="650" loading="lazy" />
       </div>
     </div>
     </div>
 
     <div className="col-lg-7 mx-auto text-center">
-      <div className="d-grid gap-2 d-sm-flex justify-content-sm-center align-items-center mb-5">
+      <div className="d-grid gap-2 d-sm-flex justify-content-sm-center align-items-center mt-3 mb-5">
         <a href="https://xone.land/" target="_blank" rel="noreferrer"><button type="button" className="btn btn-info btn-lg px-4 me-sm-3 w-100">XONE DEMO [ SOLOS ]</button></a>
         <a href="https://plasmaver.se/" target="_blank" rel="noreferrer"><button type="button" className="btn btn-danger btn-lg px-4 w-100">PLASMAVERSE DEMO</button></a>
       </div>
     </div>
-
   </div>
 </section>
-{/* End of Xtrood*/}
-
 <div className="b-divider"></div>
+{/* End of Xonerator */}
 
-{/* SCROLLING IMAGE REELS */}
-<div className="nft-hero">
-<div className="nft-reel-1"></div>
-<div className="nft-reel-2"></div>
-<div className="nft-reel-3"></div>
-{/* <div className="nft-reel-4"></div> */}
-{/* <div className="nft-reel-7"></div> */}
-<div className="nft-reel-5"></div>
-<div className="nft-reel-6"></div>
-  <div className="nft-hero-text">
-  <h1 className="gradient-txt-green" style={{ fontSize: "2.8rem", letterSpacing: "0.1em" }}>19,326,120</h1>
-    <h3>Tokenized DNA Compositions</h3>
-    <a href="https://explorer.solana.com/address/E359HKTV192s4kpg4QXTmj7eQ6fzvsL2KbU9QJGDrM3e" target="_blank" rel="noreferrer">
-      <button className="btn btn-lg btn-dark pd-3" type="button">
-        <span style={{ letterSpacing: "0.05em", fontWeight: 500 }}>$MBALL ON </span>
-        <img alt="Solana Explorer" src="https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/solana-explorer-logo-dark.svg?v=1646454031603" style={{ height:"1rem", marginTop: "-6px", paddingLeft: "5px" }} />
-      </button></a>
-  </div>
+
+
+{/* Start of NFTs Section - ChatLoop */}
+<section id="nft" className="slide-bg">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-6">
+            <div className="d-flex-1">
+              <div className="slide-text">
+                <div className="px-sm-4">
+                  <em>Solana-Powered NFT Ecosystem</em>
+                  <h1>Collect, swap &amp; sell Metaball NFTs with your preferred 
+                    <span className="main-title" style={{ color: "rgba(3, 24, 88, 0.88)", paddingLeft: "7px" }}> 
+  <svg
+    width="47"
+    height="38"
+    xmlns="http://www.w3.org/2000/svg"
+    className="inline"
+  >
+    <defs>
+      <linearGradient
+        x1="90.737%"
+        y1="34.776%"
+        x2="35.509%"
+        y2="55.415%"
+        id="a"
+      >
+        <stop stopColor="#00FFA3" offset="0%" />
+        <stop stopColor="#DC1FFF" offset="100%" />
+      </linearGradient>
+      <linearGradient x1="66.588%" y1="43.8%" x2="11.36%" y2="64.439%" id="b">
+        <stop stopColor="#00FFA3" offset="0%" />
+        <stop stopColor="#DC1FFF" offset="100%" />
+      </linearGradient>
+      <linearGradient
+        x1="78.586%"
+        y1="39.317%"
+        x2="23.358%"
+        y2="59.956%"
+        id="c"
+      >
+        <stop stopColor="#00FFA3" offset="0%" />
+        <stop stopColor="#DC1FFF" offset="100%" />
+      </linearGradient>
+    </defs>
+    <g fillRule="nonzero" fill="none">
+      <path
+        d="M7.256 26.713c.27-.27.64-.427 1.033-.427h35.64a.73.73 0 0 1 .517 1.247l-7.04 7.04c-.27.27-.64.427-1.034.427H.732a.73.73 0 0 1-.516-1.246l7.04-7.04Z"
+        fill="url(#a)"
+        transform="translate(.98)"
+      />
+      <path
+        d="M7.256.427C7.536.157 7.907 0 8.289 0h35.64a.73.73 0 0 1 .517 1.246l-7.04 7.04c-.27.27-.64.428-1.034.428H.732a.73.73 0 0 1-.516-1.247l7.04-7.04Z"
+        fill="url(#b)"
+        transform="translate(.98)"
+      />
+      <path
+        d="M37.405 13.486c-.27-.27-.64-.427-1.033-.427H.732a.73.73 0 0 0-.516 1.246l7.04 7.04c.27.27.64.428 1.033.428h35.64a.73.73 0 0 0 .517-1.247l-7.04-7.04Z"
+        fill="url(#c)"
+        transform="translate(.98)"
+      />
+    </g>
+  </svg>olana</span> wallet.</h1>
+                  <h3 style={{ fontStyle: "italic", color: "rgba(255,255,255,0.75)" }}>Access your digital assets on the go: Try SolFlare on Android, or Phantom on iOS. Torus, Sollet, Slope, Solong and Ledger wallets are also supported.</h3>
+                  <div className="slid-btn">
+                    <a href="/#"><img className="img-fluid" src="images/app1.png" alt="app1" data-tilt="" data-tilt-perspective="50" data-tilt-speed="350" data-tilt-max="1.8" /></a>
+                      <a href="/#"><img className="img-fluid" src="images/app2.png" alt="app2" data-tilt="" data-tilt-perspective="50" data-tilt-speed="350" data-tilt-max="1.8" /></a>
+                      </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-6">
+            <div className="home-right">
+              <div className="mobile-slid"><img className="img-fluid" src="images/top-mobile.png" alt="top1" /></div>
+              <div className="profile-msg"><img className="img-fluid" src="images/top2.png" alt="top2" /></div>
+              <div className="awesome"><img className="img-fluid" src="images/top3.png" alt="top3" /></div>
+              <div className="profile-1"><img className="img-fluid" src="images/top4.png" alt="top4" /></div>
+              <div className="emoji"><img className="img-fluid" src="images/top5.png" alt="top5" /></div>
+              <div className="profile-2"><img className="img-fluid" src="images/top1.png" alt="top1" /></div>
+            </div>
+          </div>
+        </div>
+      </div>
+</section>
+<div className="animation-circle" style={{ zIndex: 3, marginTop: "-38px" }}><i></i><i></i><i></i></div>
+{/* End of NFTs section (ChatLoop) */}
+
+{/* START OF Service1 3x1 GRID */}
+<div className="service-1 py-5 bg-gradient-white-tr">
+    <div className="container">
+    <div className="hero-header my-5">
+      <h1 className="pb-3 gradient-txt-green" style={{ fontSize: "3.8rem", letterSpacing: "0.1em" }}>19,326,120</h1>
+      <h2 style={{ letterSpacing: "0.1em" }}>Tokenized DNA Compositions</h2>
+      <button className="btn btn-lg btn-outline-info" type="button">MINT 1 of 11,111 METABALL NFTs!</button>
+      </div>
+
+      <div className="row">
+        <div className="col-md-4 wrap-service1-box">
+          <div className="card border-0 card-shadow mb-4">
+            <div className="card-body text-center">
+              <div className="my-3"><img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/features/feature1/market.png" alt="wrapkit" /></div>
+              <h6 className="font-weight-medium">Retargeting Market</h6>
+              <p className="mt-3">You can relay on our amazing features list and also our customer services will be great experience.</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="col-md-4 wrap-service1-box">
+          <div className="card border-0 card-shadow mb-4">
+            <div className="card-body text-center">
+              <div className="my-3"><img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/features/feature1/fruit.png" alt="wrapkit" /></div>
+              <h6 className="font-weight-medium">Fruitful Results</h6>
+              <p className="mt-3">You can relay on our amazing features list and also our customer services will be great experience.</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="col-md-4 wrap-service1-box">
+          <div className="card border-0 card-shadow mb-4">
+            <div className="card-body text-center">
+              <div className="my-3"><img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/features/feature1/instant.png" alt="wrapkit" /></div>
+              <h6 className="font-weight-medium">Instant Solutions</h6>
+              <p className="mt-3">You can relay on our amazing features list and also our customer services will be great experience.</p>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-12 mt-3 text-center">
+          <a className="btn service-btn text-white btn-md border-0" href="#f1"><span>View Details</span></a>
+        </div>
+      </div>
+    </div>
 </div>
-{/* End of img reels */}
+<div className="b-divider"></div>
+{/* End of Service1 3x1 Grid (Snippet) */}
 
-{/* 
-<HowItWorksCustom2 />
-<Features4 content={null} /> 
-*/}
-
-{/* START OF CONTENT WRAPPER # 2 */}
-<div className="content-wrapper">
-{/* 
-<Header1 content={null} /> 
-<Features6 content={null} /> 
-*/}
-
-{/* START OF XONE SECTION */}
-<div className="mask2">
+{/* START OF XTROOD Section */}
+<section id="xtrood" className="p-3 py-5">
+<div className="container-fluid mask2">
 <div className="mask1">
 <div id="link3" className="container card contentcard xonecard">
 <h1 className="pb-3 gradient-txt" style={{ fontSize: "3.8rem" }}>Xone Microverses</h1>
@@ -463,62 +575,6 @@ const App = () => {
 </div>
 </div>
 </div>
-{/* End of XONE SECTION */}
-
-</div>
-{/* End of Content Wrapper # 2 */}
-
-<div className="b-divider"></div>
-
-{/* START OF Service1 3x1 GRID */}
-<div className="bg-light py-4 service-1">
-    <div className="container">
-    <div className="hero-header mb-5">
-      <h1 className="pb-3 gradient-txt-green" style={{ fontSize: "3.8rem", letterSpacing: "0.1em" }}>19,326,120</h1>
-      <h2 style={{ letterSpacing: "0.1em" }}>Tokenized DNA Compositions</h2>
-      <button className="btn btn-lg btn-outline-info" type="button">MINT 1 of 11,111 METABALL NFTs!</button>
-      </div>
-
-      <div className="row">
-
-        <div className="col-md-4 wrap-service1-box">
-          <div className="card border-0 card-shadow mb-4">
-            <div className="card-body text-center">
-              <div className="my-3"><img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/features/feature1/market.png" alt="wrapkit" /></div>
-              <h6 className="font-weight-medium">Retargeting Market</h6>
-              <p className="mt-3">You can relay on our amazing features list and also our customer services will be great experience.</p>
-            </div>
-          </div>
-        </div>
-
-        <div className="col-md-4 wrap-service1-box">
-          <div className="card border-0 card-shadow mb-4">
-            <div className="card-body text-center">
-              <div className="my-3"><img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/features/feature1/fruit.png" alt="wrapkit" /></div>
-              <h6 className="font-weight-medium">Fruitful Results</h6>
-              <p className="mt-3">You can relay on our amazing features list and also our customer services will be great experience.</p>
-            </div>
-          </div>
-        </div>
-
-        <div className="col-md-4 wrap-service1-box">
-          <div className="card border-0 card-shadow mb-4">
-            <div className="card-body text-center">
-              <div className="my-3"><img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/features/feature1/instant.png" alt="wrapkit" /></div>
-              <h6 className="font-weight-medium">Instant Solutions</h6>
-              <p className="mt-3">You can relay on our amazing features list and also our customer services will be great experience.</p>
-            </div>
-          </div>
-        </div>
-        <div className="col-md-12 mt-3 text-center">
-          <a className="btn service-btn text-white btn-md border-0" href="#f1"><span>View Details</span></a>
-        </div>
-      </div>
-    </div>
-  </div>
-{/* End of Service1 3x1 Grid (Snippet) */}
-
-<div className="b-divider"></div>
 
 {/* Start of Feature Squares Grid 4x2 */}
 <div className="py-5 service-24">
@@ -597,72 +653,38 @@ const App = () => {
                     </div>
                 </div>
             </div>
-						<div className="col-md-12 mt-3 text-center">
-              <div className="btn btn-outline-success btn-md"><span>View Details</span></div>
-            </div>
         </div>
     </div>
 </div>
 {/* End of 4x2 Features Grid */}
 
+{/* Scrolling img reels */}
+<div className="nft-hero">
+<div className="nft-reel-1"></div>
+<div className="nft-reel-2"></div>
+<div className="nft-reel-3"></div>
+{/* <div className="nft-reel-4"></div> */}
+{/* <div className="nft-reel-7"></div> */}
+<div className="nft-reel-5"></div>
+<div className="nft-reel-6"></div>
+  <div className="nft-hero-text">
+  <h1 className="gradient-txt-green" style={{ fontSize: "2.8rem", letterSpacing: "0.1em" }}>19,326,120</h1>
+    <h3>Tokenized DNA Compositions</h3>
+    <a href="https://explorer.solana.com/address/E359HKTV192s4kpg4QXTmj7eQ6fzvsL2KbU9QJGDrM3e" target="_blank" rel="noreferrer">
+      <button className="btn btn-lg btn-dark pd-3" type="button">
+        <span style={{ letterSpacing: "0.05em", fontWeight: 500 }}>$MBALL ON </span>
+        <img alt="Solana Explorer" src="https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/solana-explorer-logo-dark.svg?v=1646454031603" style={{ height:"1rem", marginTop: "-6px", paddingLeft: "5px" }} />
+      </button></a>
+  </div>
+</div>
 <div className="b-divider"></div>
+{/* End of img reels */}
+</section>
+{/* End of XTROOD Section */}
 
-{/* START OF CONTENT WRAPPER # 3 */}
-<div className="content-wrapper">
-
-{/* Start of Bootstrap Features grid 1 */}
-<div className="section section-demo">
-  <div className="container">
-      <div className="row">
-          <div className="col-md-6" style={{ textAlign: "right" }}>
-          <h4 className="header-text">Easy to integrate</h4>
-              <p>
-                  With all the apps that users love! Make it easy for users to share, like, post and tweet their favourite things from the app. Be sure to let users know they continue to remain connected while using your app!
-              </p>
-              <a href="/#link1" id="Demo3" className="btn btn-fill btn-info" data-button="info">Get Free Demo</a>
-          </div>
-          <div className="col-md-6">
-              <h4 className="header-text">Easy to integrate</h4>
-              <p>
-                  With all the apps that users love! Make it easy for users to share, like, post and tweet their favourite things from the app. Be sure to let users know they continue to remain connected while using your app!
-              </p>
-              <a href="/#link1" id="Demo3-2" className="btn btn-fill btn-info" data-button="info">Get Free Demo</a>
-          </div>
-      </div>
-  </div>
-</div>
-
-<div className="section section-demo-2">
-  <div className="container">
-      <div className="row">
-          <div className="col-md-4">
-          <h4 className="header-text">Easy to integrate</h4>
-              <p>
-                  With all the apps that users love! Make it easy for users to share, like, post and tweet their favourite things from the app. Let users know to remain connected while using your app!
-              </p>
-              <a href="/#link1" className="btn btn-fill btn-info" data-button="info">Mint Now</a>
-          </div>
-          <div className="col-md-4">
-              <h4 className="header-text">Easy to integrate</h4>
-              <p>
-                  With all the apps that users love! Make it easy for users to share, like, post and tweet their favourite things from the app. Let users know to remain connected while using your app!
-              </p>
-              <a href="/#link1" className="btn btn-fill btn-info" data-button="info">Learn More</a>
-          </div>
-          <div className="col-md-4">
-              <h4 className="header-text">Easy to integrate</h4>
-              <p>
-                  With all the apps that users love! Make it easy for users to share, like, post and tweet their favourite things from the app. Let users know to remain connected while using your app!
-              </p>
-              <a href="/#link1" className="btn btn-fill btn-info" data-button="info">View Demo</a>
-          </div>
-      </div>
-  </div>
-</div>
-{/* End of Bootstrap Features Grid */}
-
-{/* Start of Bootstrap Timeline */}
-<div className="container tl-roadmap rounded-3 border shadow-lg" style={{ background: "rgba(255,255,255,0.11)" }}>
+{/* Start of ROADMAP Section */}
+<section id="roadmap" className="py-4 m-3 mb-0">
+<div className="container tl-roadmap rounded-3 border border-info shadow-lg mb-0 p-3" style={{ background: "linear-gradient(11deg, rgba(202, 44, 182,0.33), rgba(113, 17, 161,0.33))" }}>
   <h1 className="my-3 gradient-txt-green text-center" style={{ fontSize: "3.8rem", letterSpacing: "0.07em" }}>ROADMAP</h1>
   <hr style={{ margin: "11px 0" }} />
     <div className="row">
@@ -889,12 +911,14 @@ const App = () => {
     </div>
   <hr style={{ margin: "60px 0 45px 0" }} />
 </div>
-{/* End of Bootstrap Timeline */}
+</section>
+{/* End of Roadmap Section */}
 
 {/* START OF FAQs ACCORDION SECTION */}
+<section id="faq" className="m-3 mt-0">
 <div id="faqsection" className="faqsection container card contentcard">
 <h1 className="pb-3 gradient-txt-green text-center" style={{ fontSize: "3.8rem", letterSpacing: "0.07em" }}>FAQs</h1>
-<div className="accordion" id="faq">
+<div className="accordion w-100" id="faq">
   <div className="accordion-item">
     <h2 className="accordion-header" id="heading-faq-nfts">
       <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq-nfts" aria-controls="faq-nfts" aria-expanded="true">
@@ -933,61 +957,18 @@ const App = () => {
   </div>
 </div>
 </div>
-
-{/* Original FAQs Section */}
-        <div id="link4" className="container faq2">
-          <h1 style={{ padding: "0 0 24px 0" }}>Our Team</h1>
-          <div>
-            <h4>Lorem ipsum?</h4>
-            <p>
-              Suspendisse id metus id mauris tincidunt posuere. Vivamus neque
-              odio, imperdiet vitae.
-            </p>
-
-            <hr />
-          </div>
-
-          <div>
-            <h4>Lorem ipsum?</h4>
-            <p>
-              Suspendisse id metus id mauris tincidunt posuere. Vivamus neque
-              odio, imperdiet vitae.
-            </p>
-
-            <hr />
-          </div>
-        </div>
+</section>
 {/* END of FAQs Section */}
 
-{/* Bootstrap MIX n MATCH containers */}
-<div className="container">
-  <div className="row">
-    <div className="col-md-8" style={{ verticalAlign: "middle", margin: "auto" }}>.col-md-8</div>
-    <div className="col-6 col-md-4">.col-6 .col-md-4</div>
-  </div>
+<div className="b-divider"></div>
 
-  <div className="row">
-    <div className="col-6 col-md-4">.col-6 .col-md-4</div>
-    <div className="col-6 col-md-4">.col-6 .col-md-4</div>
-    <div className="col-6 col-md-4">.col-6 .col-md-4</div>
-  </div>
+{/* START OF MBALL-MAIN GROUP (with animated gradient bg) */}
+<div id="mball-main">
 
-  <div className="row">
-    <div className="col-6" style={{ verticalAlign: "middle", margin: "auto" }}>
-    <img className="illustration metaball-slide" alt="metaball avatars slideshow" style={{ width: "100%" }} 
-    src="https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/metaball-showcase-1.gif?v=1643398889757" />
-    </div>
-    <div className="col-6" style={{ verticalAlign: "middle", margin: "auto" }}>
+{/* START OF CONTENT WRAPPER # 3 */}
+<div className="content-wrapper">
 
-{/* START OF Bootstrap List Groups */}
-
-{/* END OF Bootstrap List Groups */}
-    </div>
-  </div>
-</div>
-{/* End of bootstrap containers */}
-
-<figure className="text-center">
+<figure className="text-center my-5">
   <blockquote className="blockquote">
     <p>A well-known quote, contained in a blockquote element.</p>
   </blockquote>
@@ -1213,6 +1194,7 @@ const App = () => {
 <div className="bg-overlay"> </div>
 
     </div>
+    
   );
 };
 

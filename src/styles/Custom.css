@@ -22,6 +22,21 @@ html {
 /* General Customizations */
 div.bg-overlay {position: fixed; left:0; top: 0; z-index: -1; width:100%; height:100%; background:radial-gradient(ellipse farthest-corner at 50% 70%, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6));}
 .content-wrapper section {border-radius: var(--card-border-radius);}
+
+.bg-gradient-white-tr { 
+  background: linear-gradient(-11deg, rgba(255,255,255,0.3), rgba(255,255,255,0.65), rgba(255,255,255,0.83), rgba(255,255,255,0.92)) !important;
+}
+.bg-gradient-purple-tr { 
+  background: linear-gradient(-11deg, rgba(88, 0, 254, 0.3), rgba(88, 0, 254,0.65), rgba(88, 0, 254,0.83), rgba(88, 0, 254,0.92)) !important;
+}
+.bg-blue-gradient-tr {
+  background-color: #188ef4;
+  background: linear-gradient(to top right, rgba(24, 142, 244,0.5) 0%, rgba(120, 44, 207,0.5) 90%);
+  background: -webkit-linear-gradient(to top right, rgba(24, 142, 244,0.5) 0%, rgba(120, 44, 207,0.5) 90%);
+  background: -o-linear-gradient(to top right, rgba(24, 142, 244,0.5) 0%, rgba(120, 44, 207,0.5) 90%);
+}
+
+
 /* #mball-main {
   background: linear-gradient(45deg, rgb(11, 146, 92), rgb(14, 101, 133), rgb(64, 15, 129), rgb(160, 39, 124), rgb(182, 7, 95));
   background-size: 200% 200%;
@@ -82,12 +97,13 @@ div.bg-overlay {position: fixed; left:0; top: 0; z-index: -1; width:100%; height
   background-size: 200% 200%;
   animation: gradient 10s ease infinite;
 }
-#xones .xtrood-logo {
+#xonerator .lead { font-size: 1.4rem !important; }
+#xonerator .xtrood-logo {
   width: 360px;
   position: absolute !important;
   top: -30px;
   left: 50%;
-  z-index: 1;
+  z-index: 3;
   transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -102,8 +118,8 @@ div.bg-overlay {position: fixed; left:0; top: 0; z-index: -1; width:100%; height
   animation: animate-shadow 1s linear infinite;
 }
 
-@media (max-width: 800px) {
-  #xones .xtrood-logo { width: 250px; }
+@media (max-width: 992px) {
+  #xonerator .xtrood-logo { width: 250px; }
 }
 @media (max-width: 992px) {
   #xones { padding: 0 22px; }
@@ -229,7 +245,7 @@ div.mball-avatar {
   vertical-align: middle;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 992px) {
 .nft-hero-text{ width: 100%; border-radius:0; padding: 15px 10px 30px 10px; }
 }
 
@@ -258,28 +274,28 @@ div.mball-avatar {
   /* transform: translate3d(0,0,0); */
 }
 .nft-reel-1{
-  background: url("../assets/mball-reel-7500x71-001.png") transparent repeat-x 0 0;
+  background: url(../assets/mball-reel-7500x71-001.png) transparent repeat-x 0 0;
   -webkit-animation: slideright 600s infinite linear; /* Safari 4+ */
   -moz-animation: slideright 600s infinite linear; /* Fx 5+ */
   -o-animation: slideright 600s infinite linear; /* Opera 12+ */
   animation: slideright 600s infinite linear; /* IE 10+ */
 }
 .nft-reel-3{
-  background: url("../assets/mball-reel-7500x71-003.png") transparent repeat-x 0 0;
+  background: url(../assets/mball-reel-7500x71-003.png) transparent repeat-x 0 0;
   -webkit-animation: slideright 666s infinite linear; /* Safari 4+ */
   -moz-animation: slideright 666s infinite linear; /* Fx 5+ */
   -o-animation: slideright 666s infinite linear; /* Opera 12+ */
   animation: slideright 666s infinite linear; /* IE 10+ */
 }
 .nft-reel-5{
-  background: url("../assets/mball-reel-7500x71-005.png") transparent repeat-x 0 0;
+  background: url(../assets/mball-reel-7500x71-005.png) transparent repeat-x 0 0;
   -webkit-animation: slideright 750s infinite linear; /* Safari 4+ */
   -moz-animation: slideright 750s infinite linear; /* Fx 5+ */
   -o-animation: slideright 750s infinite linear; /* Opera 12+ */
   animation: slideright 750s infinite linear; /* IE 10+ */
 }
 .nft-reel-7{
-  background: url("../assets/mball-reel-7500x71-007.png") transparent repeat-x 0 0;
+  background: url(../assets/mball-reel-7500x71-007.png) transparent repeat-x 0 0;
   -webkit-animation: slideright 800s infinite linear; /* Safari 4+ */
   -moz-animation: slideright 800s infinite linear; /* Fx 5+ */
   -o-animation: slideright 800s infinite linear; /* Opera 12+ */
@@ -287,7 +303,7 @@ div.mball-avatar {
 }
 
 .nft-reel-2{
-  background: url("https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/mball-reel-7500x71-002.png?v=1646421660656") transparent repeat-x 0 0;
+  background: url(https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/mball-reel-7500x71-002.png?v=1646421660656) transparent repeat-x 0 0;
   -webkit-animation: slideleft 700s infinite linear; /* Safari 4+ */
   -moz-animation: slideleft 700s infinite linear; /* Fx 5+ */
   -o-animation: slideleft 700s infinite linear; /* Opera 12+ */
@@ -295,7 +311,7 @@ div.mball-avatar {
 }
 
 .nft-reel-4{
-  background: url("https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/mball-reel-7500x71-004.png?v=1646421672214") transparent repeat-x 0 0;
+  background: url(https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/mball-reel-7500x71-004.png?v=1646421672214) transparent repeat-x 0 0;
   -webkit-animation: slideleft 800s infinite linear; /* Safari 4+ */
   -moz-animation: slideleft 800s infinite linear; /* Fx 5+ */
   -o-animation: slideleft 800s infinite linear; /* Opera 12+ */
@@ -303,7 +319,7 @@ div.mball-avatar {
 }
 
 .nft-reel-6{
-  background: url("https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/mball-reel-7500x71-006.png?v=1646421684898") transparent repeat-x 0 0;
+  background: url(https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/mball-reel-7500x71-006.png?v=1646421684898) transparent repeat-x 0 0;
   -webkit-animation: slideleft 800s infinite linear; /* Safari 4+ */
   -moz-animation: slideleft 800s infinite linear; /* Fx 5+ */
   -o-animation: slideleft 800s infinite linear; /* Opera 12+ */
@@ -404,7 +420,7 @@ p.MuiTypography-body1 {font-family: "Dosis", sans-serif;}
     perspective-origin: 50% 50%;
     -webkit-tap-highlight-color: transparent;
   }
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 992px) {
     .stage.ball-topleft {margin: 0 0 0 28px !important;}
   }
   
@@ -446,6 +462,11 @@ p.MuiTypography-body1 {font-family: "Dosis", sans-serif;}
 }
 
 @-webkit-keyframes shine {
+  from { -webkit-mask-position: 150%; }
+  to { -webkit-mask-position: -50%; }
+}
+
+@keyframes shine {
   from { -webkit-mask-position: 150%; }
   to { -webkit-mask-position: -50%; }
 }
