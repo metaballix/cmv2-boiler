@@ -575,6 +575,8 @@ const App = () => {
 </div>
 </div>
 </div>
+</section>
+{/* End of XTROOD Section */}
 
 {/* Start of Feature Squares Grid 4x2 */}
 <div className="py-5 service-24">
@@ -679,12 +681,10 @@ const App = () => {
 </div>
 <div className="b-divider"></div>
 {/* End of img reels */}
-</section>
-{/* End of XTROOD Section */}
 
 {/* Start of ROADMAP Section */}
 <section id="roadmap" className="py-4 m-3 mb-0">
-<div className="container tl-roadmap rounded-3 border border-info shadow-lg mb-0 p-3" style={{ background: "linear-gradient(11deg, rgba(202, 44, 182,0.33), rgba(113, 17, 161,0.33))" }}>
+<div className="container tl-roadmap rounded-3 border border-info mb-0 p-3 shadow" style={{ background: "linear-gradient(11deg, rgba(202, 44, 182, 0.3), rgba(113, 17, 161, 0.3))" }}>
   <h1 className="my-3 gradient-txt-green text-center" style={{ fontSize: "3.8rem", letterSpacing: "0.07em" }}>ROADMAP</h1>
   <hr style={{ margin: "11px 0" }} />
     <div className="row">
