@@ -1,6 +1,6 @@
 {
   "short_name": "Metaballix",
-  "name": "Metaball NFT Minter",
+  "name": "Metaball Minter",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +20,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#031850",
-  "background_color": "#001529"
+  "theme_color": "#662d92",
+  "background_color": "#662d92"
 }

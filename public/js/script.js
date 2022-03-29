@@ -8,7 +8,7 @@
 
  -----------------------------------------------------------------------------------*/
 "use strict";
-$(document).ready(function(){
+$(function() {
 
     /*------------------------
      loader
@@ -49,7 +49,7 @@ $(document).ready(function(){
     /*------------------------
      darkheader
      --------------------------*/
-    $(window).scroll(function() {
+    $(window).on('scroll', function() {
         var scroll = $(window).scrollTop();
         if (scroll >= 60) {
             $(".navbar").addClass("darkHeader");

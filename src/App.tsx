@@ -1,11 +1,13 @@
 import "./styles/App.css";
-import "./styles/Custom.css";
-import "./styles/Timeline.css";
-import "./styles/Animation.css";
+import "./assets/css/bootstrap.css";
 import "./assets/css/animate.min.css";
 import "./assets/css/swiper.min.css";
 import "./assets/css/color5.css";
-import "./assets/css/bootstrap.css";
+import "./styles/Custom.css";
+import "./styles/Timeline.css";
+import "./styles/Animation.css";
+import Particles from 'react-tsparticles';
+// import 'bootstrap';
 
 import { useMemo } from "react";
 import Minter from "./Minter";
@@ -57,9 +59,6 @@ import { ThemeProvider, createTheme } from "@material-ui/core";
 // } );
 // splide.mount( {AutoScroll} ); */
 
-import Particles from 'react-tsparticles';
-
-import 'bootstrap';
 
 const theme = createTheme({
   typography: {
@@ -106,17 +105,18 @@ const App = () => {
     []
   );
 
+/* 
   function toggleMenu() {
     const menu = document.getElementById("mobileNavContainer")!;
     menu.classList.toggle("open-menu");
     console.log("pressed");
   }
-
+*/
 
   return (
     <div id="app-main">
 
-{/* Loader ::  
+{/* CL Loader ::  
 <div className="loader-wrapper">
       <div id="loader">
         <div id="shadow"></div>
@@ -125,13 +125,17 @@ const App = () => {
     </div>
 */}
 
-{/* START of TOP HERO GROUP (with video bg) */}
-<section id="mball-hero" className="pt-0">
+{/* Video BG ::  
     <video autoPlay muted loop id="vid-xone">
     <source src="https://cdn.glitch.global/84180755-58e4-4c80-b543-77cacf869330/xone-bg-14s.mp4?v=1647881876712" type="video/mp4" />
     </video>
+*/}
 
-      <div id="mobileNavContainer" className="mobile-nav noselect">
+<header>
+
+{/* ORIGINAL NAV */}
+{/* 
+<div id="mobileNavContainer" className="mobile-nav noselect">
         <div className="mobile-nav-close-button">
           <img src="/icons/close.svg" alt="" onClick={toggleMenu} />
         </div>
@@ -217,20 +221,43 @@ const App = () => {
           <a className="hide-800" href="/#faq">
             FAQs
           </a>
-          {/* <a className="hide-800" href="/"> </a> */}
           <div className="social-icons hide-800">
             <a href="https://twitter.com/metaballix" target="_blank" rel="noreferrer">
               <i className="nav-social fa-brands fa-twitter"> </i>
-              {/* <img className="nav-social" src="/icons/twitter.svg" alt="" /> */}
             </a>
             <a href="https://discord.gg/AG2Y93emkf" target="_blank" rel="noreferrer">
               <i className="nav-social fa-brands fa-discord"> </i>
-              {/* <img className="nav-social" src="/icons/discord.svg" alt="" /> */}
             </a>
           </div>
         </div>
-      </nav>
+      </nav> 
+    */}
+{/* End of ORIGINAL NAV */}
 
+  <nav className="navbar navbar-expand-lg theme-nav fixed-top">
+    <div className="container"><a className="navbar-brand" href="/"><img className="cl-nav-logo" src="images/logo.png" alt="logo" /></a>
+      <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainmenu" aria-controls="mainmenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span className="navbar-toggler-icon"><i className="fa fa-align-justify" aria-hidden="true"></i></span></button>
+      <div className="navbar-collapse collapse" id="mainmenu">
+        <ul className="navbar-nav ms-auto" id="mymenu">
+          <li className="nav-item"><a className="nav-link" href="/#home">Home</a></li>
+          <li className="nav-item dropdown">
+            <a className="nav-link dropdown-toggle" href="/#xones" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Xones</a>
+            <ul className="dropdown-menu shadow">
+              <li className="nav-item"><a className="nav-link" href="/#xones">Microverses</a></li>
+              <li className="nav-item"><a className="nav-link" href="/#xonerator">Xonerator</a></li>
+              <li className="nav-item"><a className="nav-link" href="/#xones">leftsidebar</a></li>
+            </ul>
+          </li>
+          <li className="nav-item"><a className="nav-link" href="/#plasmaverse">PlasmaVerse</a></li>
+          <li className="nav-item"><a className="nav-link" href="/#screenshots">NFTs</a></li>
+          <li className="nav-item"><a className="nav-link" href="/#tokenomics">Tokenomics</a></li>
+          <li className="nav-item"><a className="nav-link" href="/#about">About Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
 {/* Start of Original Content Wrapper */}
 <div className="container">
 <div id="mint" className="mball-avatar"></div>
@@ -347,9 +374,7 @@ const App = () => {
 </div>
 {/* End of Original Content Wrapper */}
 
-</section>
 <div className="b-divider"></div>
-{/* End of TOP HERO GROUP (with video bg) */}
 
 {/* START OF XONERATOR Section */}
 <section id="xonerator" className="py-5" style={{ background: "rgba(11, 218, 227,0.11)" }} >
@@ -918,7 +943,7 @@ const App = () => {
 <section id="faq" className="m-3 mt-0">
 <div id="faqsection" className="faqsection container card contentcard">
 <h1 className="pb-3 gradient-txt-green text-center" style={{ fontSize: "3.8rem", letterSpacing: "0.07em" }}>FAQs</h1>
-<div className="accordion w-100" id="faq">
+<div className="accordion w-100">
   <div className="accordion-item">
     <h2 className="accordion-header" id="heading-faq-nfts">
       <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq-nfts" aria-controls="faq-nfts" aria-expanded="true">
@@ -1082,47 +1107,47 @@ const App = () => {
 <div aria-hidden="true" className="figslide-1">
   <div className="figma-1n7ea00">
     Community
-    <svg fill="none" viewBox="0 0 77 52" className="figma-1vyk1t4"><path fill="#FF8577" stroke="#000" stroke-width="2" d="M1 51V26C1 9 9 1 22 1c17 0 25 17 37 17 9 0 13-4 13-17h4v25c0 17-8 25-21 25-16 0-25-17-37-17-8 0-13 5-13 17H1z"></path></svg>
+    <svg fill="none" viewBox="0 0 77 52" className="figma-1vyk1t4"><path fill="#FF8577" stroke="#000" strokeWidth="2" d="M1 51V26C1 9 9 1 22 1c17 0 25 17 37 17 9 0 13-4 13-17h4v25c0 17-8 25-21 25-16 0-25-17-37-17-8 0-13 5-13 17H1z"></path></svg>
     Community
-    <svg fill="none" viewBox="0 0 60 60" className="figma-1vyk1t4"><path fill="#FF8577" stroke="#000" stroke-width="2" d="M23.93 32.75h-7.05a15.88 15.88 0 1115.87-15.88v7.05a3.33 3.33 0 003.33 3.33h7.05a15.88 15.88 0 11-15.88 15.88v-7.05a3.33 3.33 0 00-3.32-3.33z"></path></svg>
-    Community
-    <svg fill="none" viewBox="0 0 67 50" className="figma-1vyk1t4"><mask id="a" fill="#fff"><path d="M12.5 0H0v50h12.5c8.7 0 16.35-4.44 20.83-11.18A24.98 24.98 0 0054.17 50h12.5V0h-12.5c-8.7 0-16.36 4.44-20.84 11.18A24.98 24.98 0 0012.5 0z"></path></mask><path fill="#FF8577" d="M12.5 0H0v50h12.5c8.7 0 16.35-4.44 20.83-11.18A24.98 24.98 0 0054.17 50h12.5V0h-12.5c-8.7 0-16.36 4.44-20.84 11.18A24.98 24.98 0 0012.5 0z"></path><path fill="#000" d="M0 0v-2h-2v2h2zm0 50h-2v2h2v-2zm33.33-11.18l1.67-1.1-1.67-2.5-1.66 2.5 1.66 1.1zM66.67 50v2h2v-2h-2zm0-50h2v-2h-2v2zm-12.5 0v-2 2zM33.33 11.18l-1.66 1.1 1.66 2.5 1.67-2.5-1.67-1.1zM0 2h12.5v-4H0v4zm2 48V0h-4v50h4zm10.5-2H0v4h12.5v-4zm19.17-10.28A22.98 22.98 0 0112.5 48v4c9.4 0 17.66-4.8 22.5-12.07l-3.33-2.21zM54.17 48c-8 0-15.05-4.08-19.17-10.28l-3.33 2.21A26.98 26.98 0 0054.17 52v-4zm12.5 0h-12.5v4h12.5v-4zm-2-48v50h4V0h-4zm-10.5 2h12.5v-4h-12.5v4zM35 12.28A22.98 22.98 0 0154.17 2v-4c-9.4 0-17.67 4.8-22.5 12.07L35 12.28zM12.5 2c8 0 15.04 4.08 19.17 10.28L35 10.07A26.98 26.98 0 0012.5-2v4z" mask="url(#a)"></path></svg>
-    Community
-    <svg fill="none" viewBox="0 0 63 62" className="figma-1vyk1t4"><path fill="#FF8577" stroke="#000" stroke-width="2" d="M49.87 2.4L8.32 32.13a15.92 15.92 0 1022.21 22.22L60.3 12.83A7.47 7.47 0 0049.87 2.4z"></path></svg>
-    Community
-    <svg fill="none" viewBox="0 0 63 56" className="figma-1vyk1t4"><path fill="#FF8577" stroke="#000" stroke-width="2" d="M1.7 1.8v52.5l18.7-9.6 11.3 9.5 11.2-9.5 18.8 9.5V1.8l-18.8 10-11.2-10-11.3 10-18.7-10z"></path></svg>
-    Community
-    <svg fill="none" viewBox="0 0 77 52" className="figma-1vyk1t4"><path fill="#FF8577" stroke="#000" stroke-width="2" d="M1 51V26C1 9 9 1 22 1c17 0 25 17 37 17 9 0 13-4 13-17h4v25c0 17-8 25-21 25-16 0-25-17-37-17-8 0-13 5-13 17H1z"></path></svg>
-    Community
-    <svg fill="none" viewBox="0 0 60 60" className="figma-1vyk1t4"><path fill="#FF8577" stroke="#000" stroke-width="2" d="M23.93 32.75h-7.05a15.88 15.88 0 1115.87-15.88v7.05a3.33 3.33 0 003.33 3.33h7.05a15.88 15.88 0 11-15.88 15.88v-7.05a3.33 3.33 0 00-3.32-3.33z"></path></svg>
+    <svg fill="none" viewBox="0 0 60 60" className="figma-1vyk1t4"><path fill="#FF8577" stroke="#000" strokeWidth="2" d="M23.93 32.75h-7.05a15.88 15.88 0 1115.87-15.88v7.05a3.33 3.33 0 003.33 3.33h7.05a15.88 15.88 0 11-15.88 15.88v-7.05a3.33 3.33 0 00-3.32-3.33z"></path></svg>
     Community
     <svg fill="none" viewBox="0 0 67 50" className="figma-1vyk1t4"><mask id="a" fill="#fff"><path d="M12.5 0H0v50h12.5c8.7 0 16.35-4.44 20.83-11.18A24.98 24.98 0 0054.17 50h12.5V0h-12.5c-8.7 0-16.36 4.44-20.84 11.18A24.98 24.98 0 0012.5 0z"></path></mask><path fill="#FF8577" d="M12.5 0H0v50h12.5c8.7 0 16.35-4.44 20.83-11.18A24.98 24.98 0 0054.17 50h12.5V0h-12.5c-8.7 0-16.36 4.44-20.84 11.18A24.98 24.98 0 0012.5 0z"></path><path fill="#000" d="M0 0v-2h-2v2h2zm0 50h-2v2h2v-2zm33.33-11.18l1.67-1.1-1.67-2.5-1.66 2.5 1.66 1.1zM66.67 50v2h2v-2h-2zm0-50h2v-2h-2v2zm-12.5 0v-2 2zM33.33 11.18l-1.66 1.1 1.66 2.5 1.67-2.5-1.67-1.1zM0 2h12.5v-4H0v4zm2 48V0h-4v50h4zm10.5-2H0v4h12.5v-4zm19.17-10.28A22.98 22.98 0 0112.5 48v4c9.4 0 17.66-4.8 22.5-12.07l-3.33-2.21zM54.17 48c-8 0-15.05-4.08-19.17-10.28l-3.33 2.21A26.98 26.98 0 0054.17 52v-4zm12.5 0h-12.5v4h12.5v-4zm-2-48v50h4V0h-4zm-10.5 2h12.5v-4h-12.5v4zM35 12.28A22.98 22.98 0 0154.17 2v-4c-9.4 0-17.67 4.8-22.5 12.07L35 12.28zM12.5 2c8 0 15.04 4.08 19.17 10.28L35 10.07A26.98 26.98 0 0012.5-2v4z" mask="url(#a)"></path></svg>
     Community
-    <svg fill="none" viewBox="0 0 63 62" className="figma-1vyk1t4"><path fill="#FF8577" stroke="#000" stroke-width="2" d="M49.87 2.4L8.32 32.13a15.92 15.92 0 1022.21 22.22L60.3 12.83A7.47 7.47 0 0049.87 2.4z"></path></svg>
+    <svg fill="none" viewBox="0 0 63 62" className="figma-1vyk1t4"><path fill="#FF8577" stroke="#000" strokeWidth="2" d="M49.87 2.4L8.32 32.13a15.92 15.92 0 1022.21 22.22L60.3 12.83A7.47 7.47 0 0049.87 2.4z"></path></svg>
     Community
-    <svg fill="none" viewBox="0 0 63 56" className="figma-1vyk1t4"><path fill="#FF8577" stroke="#000" stroke-width="2" d="M1.7 1.8v52.5l18.7-9.6 11.3 9.5 11.2-9.5 18.8 9.5V1.8l-18.8 10-11.2-10-11.3 10-18.7-10z"></path></svg>  
+    <svg fill="none" viewBox="0 0 63 56" className="figma-1vyk1t4"><path fill="#FF8577" stroke="#000" strokeWidth="2" d="M1.7 1.8v52.5l18.7-9.6 11.3 9.5 11.2-9.5 18.8 9.5V1.8l-18.8 10-11.2-10-11.3 10-18.7-10z"></path></svg>
+    Community
+    <svg fill="none" viewBox="0 0 77 52" className="figma-1vyk1t4"><path fill="#FF8577" stroke="#000" strokeWidth="2" d="M1 51V26C1 9 9 1 22 1c17 0 25 17 37 17 9 0 13-4 13-17h4v25c0 17-8 25-21 25-16 0-25-17-37-17-8 0-13 5-13 17H1z"></path></svg>
+    Community
+    <svg fill="none" viewBox="0 0 60 60" className="figma-1vyk1t4"><path fill="#FF8577" stroke="#000" strokeWidth="2" d="M23.93 32.75h-7.05a15.88 15.88 0 1115.87-15.88v7.05a3.33 3.33 0 003.33 3.33h7.05a15.88 15.88 0 11-15.88 15.88v-7.05a3.33 3.33 0 00-3.32-3.33z"></path></svg>
+    Community
+    <svg fill="none" viewBox="0 0 67 50" className="figma-1vyk1t4"><mask id="a" fill="#fff"><path d="M12.5 0H0v50h12.5c8.7 0 16.35-4.44 20.83-11.18A24.98 24.98 0 0054.17 50h12.5V0h-12.5c-8.7 0-16.36 4.44-20.84 11.18A24.98 24.98 0 0012.5 0z"></path></mask><path fill="#FF8577" d="M12.5 0H0v50h12.5c8.7 0 16.35-4.44 20.83-11.18A24.98 24.98 0 0054.17 50h12.5V0h-12.5c-8.7 0-16.36 4.44-20.84 11.18A24.98 24.98 0 0012.5 0z"></path><path fill="#000" d="M0 0v-2h-2v2h2zm0 50h-2v2h2v-2zm33.33-11.18l1.67-1.1-1.67-2.5-1.66 2.5 1.66 1.1zM66.67 50v2h2v-2h-2zm0-50h2v-2h-2v2zm-12.5 0v-2 2zM33.33 11.18l-1.66 1.1 1.66 2.5 1.67-2.5-1.67-1.1zM0 2h12.5v-4H0v4zm2 48V0h-4v50h4zm10.5-2H0v4h12.5v-4zm19.17-10.28A22.98 22.98 0 0112.5 48v4c9.4 0 17.66-4.8 22.5-12.07l-3.33-2.21zM54.17 48c-8 0-15.05-4.08-19.17-10.28l-3.33 2.21A26.98 26.98 0 0054.17 52v-4zm12.5 0h-12.5v4h12.5v-4zm-2-48v50h4V0h-4zm-10.5 2h12.5v-4h-12.5v4zM35 12.28A22.98 22.98 0 0154.17 2v-4c-9.4 0-17.67 4.8-22.5 12.07L35 12.28zM12.5 2c8 0 15.04 4.08 19.17 10.28L35 10.07A26.98 26.98 0 0012.5-2v4z" mask="url(#a)"></path></svg>
+    Community
+    <svg fill="none" viewBox="0 0 63 62" className="figma-1vyk1t4"><path fill="#FF8577" stroke="#000" strokeWidth="2" d="M49.87 2.4L8.32 32.13a15.92 15.92 0 1022.21 22.22L60.3 12.83A7.47 7.47 0 0049.87 2.4z"></path></svg>
+    Community
+    <svg fill="none" viewBox="0 0 63 56" className="figma-1vyk1t4"><path fill="#FF8577" stroke="#000" strokeWidth="2" d="M1.7 1.8v52.5l18.7-9.6 11.3 9.5 11.2-9.5 18.8 9.5V1.8l-18.8 10-11.2-10-11.3 10-18.7-10z"></path></svg>  
   </div>
   <div className="figma-1n7ea00">
     Community
-    <svg fill="none" viewBox="0 0 77 52" className="figma-1vyk1t4"><path fill="#FF8577" stroke="#000" stroke-width="2" d="M1 51V26C1 9 9 1 22 1c17 0 25 17 37 17 9 0 13-4 13-17h4v25c0 17-8 25-21 25-16 0-25-17-37-17-8 0-13 5-13 17H1z"></path></svg>
+    <svg fill="none" viewBox="0 0 77 52" className="figma-1vyk1t4"><path fill="#FF8577" stroke="#000" strokeWidth="2" d="M1 51V26C1 9 9 1 22 1c17 0 25 17 37 17 9 0 13-4 13-17h4v25c0 17-8 25-21 25-16 0-25-17-37-17-8 0-13 5-13 17H1z"></path></svg>
     Community
-    <svg fill="none" viewBox="0 0 60 60" className="figma-1vyk1t4"><path fill="#FF8577" stroke="#000" stroke-width="2" d="M23.93 32.75h-7.05a15.88 15.88 0 1115.87-15.88v7.05a3.33 3.33 0 003.33 3.33h7.05a15.88 15.88 0 11-15.88 15.88v-7.05a3.33 3.33 0 00-3.32-3.33z"></path></svg>
-    Community
-    <svg fill="none" viewBox="0 0 67 50" className="figma-1vyk1t4"><mask id="a" fill="#fff"><path d="M12.5 0H0v50h12.5c8.7 0 16.35-4.44 20.83-11.18A24.98 24.98 0 0054.17 50h12.5V0h-12.5c-8.7 0-16.36 4.44-20.84 11.18A24.98 24.98 0 0012.5 0z"></path></mask><path fill="#FF8577" d="M12.5 0H0v50h12.5c8.7 0 16.35-4.44 20.83-11.18A24.98 24.98 0 0054.17 50h12.5V0h-12.5c-8.7 0-16.36 4.44-20.84 11.18A24.98 24.98 0 0012.5 0z"></path><path fill="#000" d="M0 0v-2h-2v2h2zm0 50h-2v2h2v-2zm33.33-11.18l1.67-1.1-1.67-2.5-1.66 2.5 1.66 1.1zM66.67 50v2h2v-2h-2zm0-50h2v-2h-2v2zm-12.5 0v-2 2zM33.33 11.18l-1.66 1.1 1.66 2.5 1.67-2.5-1.67-1.1zM0 2h12.5v-4H0v4zm2 48V0h-4v50h4zm10.5-2H0v4h12.5v-4zm19.17-10.28A22.98 22.98 0 0112.5 48v4c9.4 0 17.66-4.8 22.5-12.07l-3.33-2.21zM54.17 48c-8 0-15.05-4.08-19.17-10.28l-3.33 2.21A26.98 26.98 0 0054.17 52v-4zm12.5 0h-12.5v4h12.5v-4zm-2-48v50h4V0h-4zm-10.5 2h12.5v-4h-12.5v4zM35 12.28A22.98 22.98 0 0154.17 2v-4c-9.4 0-17.67 4.8-22.5 12.07L35 12.28zM12.5 2c8 0 15.04 4.08 19.17 10.28L35 10.07A26.98 26.98 0 0012.5-2v4z" mask="url(#a)"></path></svg>
-    Community
-    <svg fill="none" viewBox="0 0 63 62" className="figma-1vyk1t4"><path fill="#FF8577" stroke="#000" stroke-width="2" d="M49.87 2.4L8.32 32.13a15.92 15.92 0 1022.21 22.22L60.3 12.83A7.47 7.47 0 0049.87 2.4z"></path></svg>
-    Community
-    <svg fill="none" viewBox="0 0 63 56" className="figma-1vyk1t4"><path fill="#FF8577" stroke="#000" stroke-width="2" d="M1.7 1.8v52.5l18.7-9.6 11.3 9.5 11.2-9.5 18.8 9.5V1.8l-18.8 10-11.2-10-11.3 10-18.7-10z"></path></svg>
-    Community
-    <svg fill="none" viewBox="0 0 77 52" className="figma-1vyk1t4"><path fill="#FF8577" stroke="#000" stroke-width="2" d="M1 51V26C1 9 9 1 22 1c17 0 25 17 37 17 9 0 13-4 13-17h4v25c0 17-8 25-21 25-16 0-25-17-37-17-8 0-13 5-13 17H1z"></path></svg>
-    Community
-    <svg fill="none" viewBox="0 0 60 60" className="figma-1vyk1t4"><path fill="#FF8577" stroke="#000" stroke-width="2" d="M23.93 32.75h-7.05a15.88 15.88 0 1115.87-15.88v7.05a3.33 3.33 0 003.33 3.33h7.05a15.88 15.88 0 11-15.88 15.88v-7.05a3.33 3.33 0 00-3.32-3.33z"></path></svg>
+    <svg fill="none" viewBox="0 0 60 60" className="figma-1vyk1t4"><path fill="#FF8577" stroke="#000" strokeWidth="2" d="M23.93 32.75h-7.05a15.88 15.88 0 1115.87-15.88v7.05a3.33 3.33 0 003.33 3.33h7.05a15.88 15.88 0 11-15.88 15.88v-7.05a3.33 3.33 0 00-3.32-3.33z"></path></svg>
     Community
     <svg fill="none" viewBox="0 0 67 50" className="figma-1vyk1t4"><mask id="a" fill="#fff"><path d="M12.5 0H0v50h12.5c8.7 0 16.35-4.44 20.83-11.18A24.98 24.98 0 0054.17 50h12.5V0h-12.5c-8.7 0-16.36 4.44-20.84 11.18A24.98 24.98 0 0012.5 0z"></path></mask><path fill="#FF8577" d="M12.5 0H0v50h12.5c8.7 0 16.35-4.44 20.83-11.18A24.98 24.98 0 0054.17 50h12.5V0h-12.5c-8.7 0-16.36 4.44-20.84 11.18A24.98 24.98 0 0012.5 0z"></path><path fill="#000" d="M0 0v-2h-2v2h2zm0 50h-2v2h2v-2zm33.33-11.18l1.67-1.1-1.67-2.5-1.66 2.5 1.66 1.1zM66.67 50v2h2v-2h-2zm0-50h2v-2h-2v2zm-12.5 0v-2 2zM33.33 11.18l-1.66 1.1 1.66 2.5 1.67-2.5-1.67-1.1zM0 2h12.5v-4H0v4zm2 48V0h-4v50h4zm10.5-2H0v4h12.5v-4zm19.17-10.28A22.98 22.98 0 0112.5 48v4c9.4 0 17.66-4.8 22.5-12.07l-3.33-2.21zM54.17 48c-8 0-15.05-4.08-19.17-10.28l-3.33 2.21A26.98 26.98 0 0054.17 52v-4zm12.5 0h-12.5v4h12.5v-4zm-2-48v50h4V0h-4zm-10.5 2h12.5v-4h-12.5v4zM35 12.28A22.98 22.98 0 0154.17 2v-4c-9.4 0-17.67 4.8-22.5 12.07L35 12.28zM12.5 2c8 0 15.04 4.08 19.17 10.28L35 10.07A26.98 26.98 0 0012.5-2v4z" mask="url(#a)"></path></svg>
     Community
-    <svg fill="none" viewBox="0 0 63 62" className="figma-1vyk1t4"><path fill="#FF8577" stroke="#000" stroke-width="2" d="M49.87 2.4L8.32 32.13a15.92 15.92 0 1022.21 22.22L60.3 12.83A7.47 7.47 0 0049.87 2.4z"></path></svg>
+    <svg fill="none" viewBox="0 0 63 62" className="figma-1vyk1t4"><path fill="#FF8577" stroke="#000" strokeWidth="2" d="M49.87 2.4L8.32 32.13a15.92 15.92 0 1022.21 22.22L60.3 12.83A7.47 7.47 0 0049.87 2.4z"></path></svg>
     Community
-    <svg fill="none" viewBox="0 0 63 56" className="figma-1vyk1t4"><path fill="#FF8577" stroke="#000" stroke-width="2" d="M1.7 1.8v52.5l18.7-9.6 11.3 9.5 11.2-9.5 18.8 9.5V1.8l-18.8 10-11.2-10-11.3 10-18.7-10z"></path></svg>
+    <svg fill="none" viewBox="0 0 63 56" className="figma-1vyk1t4"><path fill="#FF8577" stroke="#000" strokeWidth="2" d="M1.7 1.8v52.5l18.7-9.6 11.3 9.5 11.2-9.5 18.8 9.5V1.8l-18.8 10-11.2-10-11.3 10-18.7-10z"></path></svg>
+    Community
+    <svg fill="none" viewBox="0 0 77 52" className="figma-1vyk1t4"><path fill="#FF8577" stroke="#000" strokeWidth="2" d="M1 51V26C1 9 9 1 22 1c17 0 25 17 37 17 9 0 13-4 13-17h4v25c0 17-8 25-21 25-16 0-25-17-37-17-8 0-13 5-13 17H1z"></path></svg>
+    Community
+    <svg fill="none" viewBox="0 0 60 60" className="figma-1vyk1t4"><path fill="#FF8577" stroke="#000" strokeWidth="2" d="M23.93 32.75h-7.05a15.88 15.88 0 1115.87-15.88v7.05a3.33 3.33 0 003.33 3.33h7.05a15.88 15.88 0 11-15.88 15.88v-7.05a3.33 3.33 0 00-3.32-3.33z"></path></svg>
+    Community
+    <svg fill="none" viewBox="0 0 67 50" className="figma-1vyk1t4"><mask id="a" fill="#fff"><path d="M12.5 0H0v50h12.5c8.7 0 16.35-4.44 20.83-11.18A24.98 24.98 0 0054.17 50h12.5V0h-12.5c-8.7 0-16.36 4.44-20.84 11.18A24.98 24.98 0 0012.5 0z"></path></mask><path fill="#FF8577" d="M12.5 0H0v50h12.5c8.7 0 16.35-4.44 20.83-11.18A24.98 24.98 0 0054.17 50h12.5V0h-12.5c-8.7 0-16.36 4.44-20.84 11.18A24.98 24.98 0 0012.5 0z"></path><path fill="#000" d="M0 0v-2h-2v2h2zm0 50h-2v2h2v-2zm33.33-11.18l1.67-1.1-1.67-2.5-1.66 2.5 1.66 1.1zM66.67 50v2h2v-2h-2zm0-50h2v-2h-2v2zm-12.5 0v-2 2zM33.33 11.18l-1.66 1.1 1.66 2.5 1.67-2.5-1.67-1.1zM0 2h12.5v-4H0v4zm2 48V0h-4v50h4zm10.5-2H0v4h12.5v-4zm19.17-10.28A22.98 22.98 0 0112.5 48v4c9.4 0 17.66-4.8 22.5-12.07l-3.33-2.21zM54.17 48c-8 0-15.05-4.08-19.17-10.28l-3.33 2.21A26.98 26.98 0 0054.17 52v-4zm12.5 0h-12.5v4h12.5v-4zm-2-48v50h4V0h-4zm-10.5 2h12.5v-4h-12.5v4zM35 12.28A22.98 22.98 0 0154.17 2v-4c-9.4 0-17.67 4.8-22.5 12.07L35 12.28zM12.5 2c8 0 15.04 4.08 19.17 10.28L35 10.07A26.98 26.98 0 0012.5-2v4z" mask="url(#a)"></path></svg>
+    Community
+    <svg fill="none" viewBox="0 0 63 62" className="figma-1vyk1t4"><path fill="#FF8577" stroke="#000" strokeWidth="2" d="M49.87 2.4L8.32 32.13a15.92 15.92 0 1022.21 22.22L60.3 12.83A7.47 7.47 0 0049.87 2.4z"></path></svg>
+    Community
+    <svg fill="none" viewBox="0 0 63 56" className="figma-1vyk1t4"><path fill="#FF8577" stroke="#000" strokeWidth="2" d="M1.7 1.8v52.5l18.7-9.6 11.3 9.5 11.2-9.5 18.8 9.5V1.8l-18.8 10-11.2-10-11.3 10-18.7-10z"></path></svg>
   </div>
 </div>
 {/* End of Figma Slider */}
@@ -1191,7 +1216,8 @@ const App = () => {
         detectRetina: true,
       }}
     />
-<div className="bg-overlay"> </div>
+
+{/* <div className="bg-overlay"> </div> */}
 
     </div>
     
