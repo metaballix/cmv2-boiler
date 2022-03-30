@@ -58,8 +58,8 @@ div.bg-overlay {position: fixed; left:0; top: 0; z-index: -1; width:100%; height
 } */
 
 #hero-minter .minting-box {
-    background: linear-gradient(-228deg, rgb(121,0,182), rgb(121,0,121));
-    background-size: 300% 300%;
+    background: linear-gradient(-228deg, rgb(74, 0, 182), rgb(182,0,182));
+    background-size: 250% 250%;
     -webkit-animation: mintbox-gradient 11s ease infinite;
     -moz-animation: mintbox-gradient 11s ease infinite;
     animation: mintbox-gradient 11s ease infinite;

@@ -261,7 +261,7 @@ const App = () => {
   </nav>
   <div className="container text-center align-items-center p-1 my-auto pt-5">
   <div className="row align-items-center my-auto">
-  <div className="col-md-6 col-12 px-1 pt-3">
+  <div className="col-md-6 col-12 px-1 pt-3 pb-1">
   <h3 className="hero-text text-secondary-color">Welcome to the PlasmaVerse</h3>
     <h1 className="hero-title pb-3" style={{ fontWeight: 600, fontSize: "calc(1.3rem + 1.5vw)" }}><span style={{ color: "rgb(25, 55, 130)" }}>ENGAGE. </span><span style={{ color: "rgb(77, 25, 130)" }}>EVOLVE. </span><span style={{ color: "rgb(121, 11, 121)" }}>EARN.</span></h1>
   <p className="hero-desc pb-0 pl-1 px-2">
