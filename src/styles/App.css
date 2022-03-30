@@ -55,7 +55,7 @@ body {
   color: var(--text-primary-color) !important;
 }
 
-body:after {
+/* body:after {
   position: fixed;
   top: 0;
   left: 0;
@@ -75,12 +75,12 @@ body:after {
   width: 100%;
   opacity: 1;
   z-index: -1;
-}
+} */
 
 /* #app-main { backdrop-filter: blur(2px); } */
 
 header {
-  background: linear-gradient(180deg,rgba(49,24,87,.5),rgba(70,57,87,0));
+  background: linear-gradient(-180deg,rgba(29,0,55,.55) 0%, rgba(29,0,55,0) 38%, rgba(29,0,55,0) 74%, rgba(29,0,55,0.75) 100%);
   width: 100%;
   margin: auto;
   align-items: center;
@@ -90,6 +90,11 @@ header {
   padding: 35px;
   flex-direction: column;
 }
+
+nav {
+  background: linear-gradient(-180deg,rgba(29,0,55,.55) 0%, rgba(29,0,55,0) 38%, rgba(29,0,55,0) 74%, rgba(29,0,55,0.75) 100%);
+}
+
 .mintHeader {
   flex-direction: column;
   gap: 20px;

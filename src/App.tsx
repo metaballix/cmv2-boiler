@@ -131,7 +131,7 @@ const App = () => {
     </video>
 */}
 
-<header>
+<header className="card text-center align-items-center" id="hero-minter">
 
 {/* ORIGINAL NAV */}
 {/* 
@@ -259,23 +259,19 @@ const App = () => {
       </div>
     </div>
   </nav>
-</header>
-{/* Start of Original Content Wrapper */}
-<div className="container">
-<div id="mint" className="mball-avatar"></div>
-<header className="card contentcard" id="hero-minter">
-  <div className="text-center" style={{ padding: "20px 2px" }}>
-    <h3 className="hero-text text-secondary-color" style={{ fontSize: "calc(1rem + 0.47vw + 0.47px)" }}>Welcome to the PlasmaVerse</h3>
-    <h1 className="pb-5" style={{ fontWeight: 600, fontSize: "calc(1.3rem + 1.5vw)" }}><span style={{ color: "rgb(25, 55, 130)" }}>ENGAGE. </span><span style={{ color: "rgb(77, 25, 130)" }}>EVOLVE. </span><span style={{ color: "rgb(121, 11, 121)" }}>EARN.</span></h1>
-  <div className="row align-items-center">
-  <div className="col-md-6 col-12">
-  <p className="hero-desc hero-text pb-3 pl-1">
-    <b style={{ color: "rgb(77, 25, 130)" }}>Metaball NFT avatars</b> give you creator access to a <b style={{ color: "rgb(121, 11, 121)" }}>Web3-enabled</b> ecosystem of <b style={{ color: "rgb(77, 25, 130)" }}>extended reality microverses</b> called '<b style={{ color: "rgb(25, 55, 130)" }}>XONES</b>'.
+  <div className="container text-center align-items-center p-1 my-auto pt-5">
+  <div className="row align-items-center my-auto">
+  <div className="col-md-6 col-12 px-1 pt-3">
+  <h3 className="hero-text text-secondary-color">Welcome to the PlasmaVerse</h3>
+    <h1 className="hero-title pb-3" style={{ fontWeight: 600, fontSize: "calc(1.3rem + 1.5vw)" }}><span style={{ color: "rgb(25, 55, 130)" }}>ENGAGE. </span><span style={{ color: "rgb(77, 25, 130)" }}>EVOLVE. </span><span style={{ color: "rgb(121, 11, 121)" }}>EARN.</span></h1>
+  <p className="hero-desc pb-0 pl-1 px-2">
+  Mint a <b style={{ animation: "animate-shadow 11s ease infinite" }}>Metaball NFT avatar</b> to unlock your own <b style={{ animation: "animate-shadow 11s ease infinite" }}>Solana</b>-powered <b style={{ animation: "animate-shadow 11s ease infinite" }}>eXtended Reality </b>landing space, or <b className="badge hero-xone-badge" style={{ background: "linear-gradient(45deg, indigo 30%, purple 80%)", letterSpacing: "0.02em" }}>XONE</b>
     </p>
   </div>
 
 {/* METABALL MINTER v1.1 (cmv2) - Hero Dialog Box */}
   <div className="col-md-6 col-12 px-0">
+  <div id="mint" className="mball-avatar"></div>
     <ThemeProvider theme={theme}>
       <ConnectionProvider endpoint={endpoint}>
         <WalletProvider wallets={wallets} autoConnect>
@@ -297,6 +293,9 @@ const App = () => {
   </div>
   </div>
 </header>
+{/* Start of Original Content Wrapper / CONTAINER */}
+<div className="container">
+
 
 {/* Carousel 1 : Metaball NFTs Sample */}
 {/* SplideJS (splidejs.com/integration/react-splide) */}
@@ -374,7 +373,7 @@ const App = () => {
 {/* End of 4x1 Info Grid (Snippet) */}
 
 </div>
-{/* End of Original Content Wrapper */}
+{/* End of Original Content Wrapper / CONTAINER */}
 
 <div className="b-divider"></div>
 

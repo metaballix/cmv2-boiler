@@ -87,15 +87,39 @@
 
 @keyframes animate-shadow {
     0% {
-      filter: drop-shadow(0 0 0.5rem rgb(220, 20, 97)); 
+      filter: drop-shadow(0 0 0.5rem rgb(202, 51, 182)); 
     }
-    50% { 
-      filter: drop-shadow(0 0 0.5rem rgb(144, 17, 194));
+    50% {
+      filter: drop-shadow(0 0 0.5rem rgb(151, 51, 240)); 
     }
     100% {
-      filter: drop-shadow(0 0 0.5rem rgb(79, 17, 194)); 
+      filter: drop-shadow(0 0 0.5rem rgb(202, 51, 182)); 
     }
   }
+
+@keyframes animate-shadow-ocean {
+  0% {
+    filter: drop-shadow(0 0 0.5rem rgba(22, 222, 222, 0.65)); 
+  }
+  50% {
+      filter: drop-shadow(0 0 0.5rem rgba(252, 101, 252, 0.75)); 
+  }
+  100% {
+    filter: drop-shadow(0 0 0.5rem rgba(22, 222, 222, 0.65)); 
+  }
+}
+
+@keyframes animate-shadow-white {
+  0% {
+    filter: drop-shadow(1px 5px 1.88rem rgba(172, 255, 255, 1)); 
+  }
+  50% {
+      filter: drop-shadow(1px 5px 1.88rem rgba(255, 255, 255, 1)); 
+  }
+  100% {
+    filter: drop-shadow(1px 5px 1.88rem rgba(172, 255, 255, 1)); 
+  }
+}
 
 @keyframes gradient-txt-change {
   0% { color: red; }
