@@ -414,7 +414,60 @@ const App = () => {
 <div className="b-divider"></div>
 {/* End of Xonerator */}
 
+{/* START OF XTROOD Section */}
+<section id="plasmaverse" className="p-3 py-5">
+<div className="container-fluid mask2">
+<div className="mask1">
+<div id="link3" className="container card contentcard xonecard">
+<h1 className="pb-3 gradient-txt" style={{ fontSize: "3.8rem" }}>Xone Microverses</h1>
+  <div className="row align-items-center w-100">
+    <div className="col">
+      <p>Build and share fully functional, interactive and immersive web-based extended reality landing pages, or XONES.</p>
+    </div>
+    <div className="col">
+      <p>Build and share fully functional, interactive and immersive web-based extended reality landing pages, or XONES.</p>
+    </div>
+  </div>
+  <div className="row align-items-center w-100">
+    <div className="col">
+    <p>1 of 3</p>
+    </div>
+    <div className="col-6">
+    <p>-- 2 of 3 --</p>
+    </div>
+    <div className="col">
+    <p>3 of 3</p>
+    </div>
+  </div>
+</div>
+<div className="row align-items-center">
+<div className="col">
+  <div className="container card contentcard xonecard">
+  <p>1 of 5</p>
+  </div>
+</div>
+<div className="col">
+  <div className="container card contentcard xonecard">
+  <p>2 of 5</p>
+  </div>
+</div>
+<div className="col">
+  <div className="container card contentcard xonecard">
+  <p>3 of 5</p>
+  </div>
+</div>
+<div className="col">
+  <div className="container card contentcard xonecard">
+  <p>4 of 5</p>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+{/* End of XTROOD Section */}
 
+<div className="b-divider"></div>
 
 {/* Start of NFTs Section - ChatLoop */}
 <section id="nft" className="slide-bg">
@@ -503,12 +556,14 @@ const App = () => {
 {/* End of NFTs section (ChatLoop) */}
 
 {/* START OF Service1 3x1 GRID */}
-<div className="service-1 py-5 bg-gradient-white-tr">
+<div id="xtrood" className="service-1 py-5 bg-gradient-white-tr">
     <div className="container">
     <div className="hero-header my-5">
-      <h1 className="pb-3 gradient-txt-green" style={{ fontSize: "3.8rem", letterSpacing: "0.1em" }}>19,326,120</h1>
-      <h2 style={{ letterSpacing: "0.1em" }}>Tokenized DNA Compositions</h2>
-      <button className="btn btn-lg btn-outline-info" type="button">MINT 1 of 11,111 METABALL NFTs!</button>
+      <h1 className="pb-3 gradient-txt-green xtrood-h1">MINT IN XTR<span className="xtrood-h1-oo gradient-txt-green">OO</span>D</h1>
+      <h2 style={{ letterSpacing: "0.1em" }}>Imagine. Create. Expand.</h2>
+      <button className="btn btn-lg btn-outline-info" type="button" disabled>UNDER DEVELOPMENT
+      <div className="badge bg-info text-wrap" style={{ width: "95%" }}>Projected Launch : Phase 5</div>
+      </button>
       </div>
 
       <div className="row">
@@ -516,8 +571,8 @@ const App = () => {
           <div className="card border-0 card-shadow mb-4">
             <div className="card-body text-center">
               <div className="my-3"><img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/features/feature1/market.png" alt="wrapkit" /></div>
-              <h6 className="font-weight-medium">Retargeting Market</h6>
-              <p className="mt-3">You can relay on our amazing features list and also our customer services will be great experience.</p>
+              <h6 className="font-weight-medium">Compose NFTs</h6>
+              <p className="mt-3">Compose one of the 19,304,120 remaining Metaballs using traits that you unlock in the PlasmaVerse.</p>
             </div>
           </div>
         </div>
@@ -526,7 +581,7 @@ const App = () => {
           <div className="card border-0 card-shadow mb-4">
             <div className="card-body text-center">
               <div className="my-3"><img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/features/feature1/fruit.png" alt="wrapkit" /></div>
-              <h6 className="font-weight-medium">Fruitful Results</h6>
+              <h6 className="font-weight-medium">Mint Artifacts</h6>
               <p className="mt-3">You can relay on our amazing features list and also our customer services will be great experience.</p>
             </div>
           </div>
@@ -536,7 +591,7 @@ const App = () => {
           <div className="card border-0 card-shadow mb-4">
             <div className="card-body text-center">
               <div className="my-3"><img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/features/feature1/instant.png" alt="wrapkit" /></div>
-              <h6 className="font-weight-medium">Instant Solutions</h6>
+              <h6 className="font-weight-medium">Manage Assets</h6>
               <p className="mt-3">You can relay on our amazing features list and also our customer services will be great experience.</p>
             </div>
           </div>
@@ -549,59 +604,6 @@ const App = () => {
 </div>
 <div className="b-divider"></div>
 {/* End of Service1 3x1 Grid (Snippet) */}
-
-{/* START OF XTROOD Section */}
-<section id="xtrood" className="p-3 py-5">
-<div className="container-fluid mask2">
-<div className="mask1">
-<div id="link3" className="container card contentcard xonecard">
-<h1 className="pb-3 gradient-txt" style={{ fontSize: "3.8rem" }}>Xone Microverses</h1>
-  <div className="row align-items-center w-100">
-    <div className="col">
-      <p>Build and share fully functional, interactive and immersive web-based extended reality landing pages, or XONES.</p>
-    </div>
-    <div className="col">
-      <p>Build and share fully functional, interactive and immersive web-based extended reality landing pages, or XONES.</p>
-    </div>
-  </div>
-  <div className="row align-items-center w-100">
-    <div className="col">
-    <p>1 of 3</p>
-    </div>
-    <div className="col-6">
-    <p>-- 2 of 3 --</p>
-    </div>
-    <div className="col">
-    <p>3 of 3</p>
-    </div>
-  </div>
-</div>
-<div className="row align-items-center">
-<div className="col">
-  <div className="container card contentcard xonecard">
-  <p>1 of 5</p>
-  </div>
-</div>
-<div className="col">
-  <div className="container card contentcard xonecard">
-  <p>2 of 5</p>
-  </div>
-</div>
-<div className="col">
-  <div className="container card contentcard xonecard">
-  <p>3 of 5</p>
-  </div>
-</div>
-<div className="col">
-  <div className="container card contentcard xonecard">
-  <p>4 of 5</p>
-  </div>
-</div>
-</div>
-</div>
-</div>
-</section>
-{/* End of XTROOD Section */}
 
 {/* Start of Feature Squares Grid 4x2 */}
 <div className="py-5 service-24">

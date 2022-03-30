@@ -468,7 +468,7 @@ section {
 .slide-bg {
   background: -webkit-linear-gradient(linear, left top, right top, from(#662D92), to(#cc3dbe));
   background: linear-gradient(to right, #662D92 0%, #cc3dbe 100%);
-  height: 100vh;
+  min-height: 100vh;
   padding-bottom: 0;
   padding-top: 80px; }
   .slide-bg .container {

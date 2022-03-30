@@ -254,7 +254,7 @@ color: #3e4555;
 
 /* XONE.LAND SECTION :: Service1 3x1 */
 .service-1 {
-    color: #8d97ad;
+    color: #3e4555;
     font-weight: 300;
   }
   
@@ -264,9 +264,11 @@ color: #3e4555;
   .service-1 h4,
   .service-1 h5,
   .service-1 h6 {
-    color: #3e4555;
+    color: #372047;
   }
   
+  .service-1 h6 { font-size: 1.3rem; }
+
   .service-1 .font-weight-medium {
     font-weight: 500;
   }
@@ -276,7 +278,7 @@ color: #3e4555;
   }
   
   .service-1 .subtitle {
-    color: #8d97ad;
+    color: #3e4555;
     line-height: 24px;
   }
   
