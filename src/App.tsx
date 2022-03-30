@@ -7,7 +7,7 @@ import "./styles/Custom.css";
 import "./styles/Timeline.css";
 import "./styles/Animation.css";
 import Particles from 'react-tsparticles';
-// import 'bootstrap';
+import 'bootstrap';
 
 import { useMemo } from "react";
 import Minter from "./Minter";
@@ -242,17 +242,19 @@ const App = () => {
         <ul className="navbar-nav ms-auto" id="mymenu">
           <li className="nav-item"><a className="nav-link" href="/#home">Home</a></li>
           <li className="nav-item dropdown">
-            <a className="nav-link dropdown-toggle" href="/#xones" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Xones</a>
-            <ul className="dropdown-menu shadow">
+            <a id="xonemenuLink" className="nav-link dropdown-toggle" href="/#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Xones</a>
+            <ul className="dropdown-menu shadow" aria-labelledby="xonemenuLink" style={{ fontSize: "0.8rem" }}>
               <li className="nav-item"><a className="nav-link" href="/#xones">Microverses</a></li>
               <li className="nav-item"><a className="nav-link" href="/#xonerator">Xonerator</a></li>
-              <li className="nav-item"><a className="nav-link" href="/#xones">leftsidebar</a></li>
+              <li className="nav-item"><a className="nav-link" href="/#xonefeats">Features</a></li>
             </ul>
           </li>
           <li className="nav-item"><a className="nav-link" href="/#plasmaverse">PlasmaVerse</a></li>
-          <li className="nav-item"><a className="nav-link" href="/#screenshots">NFTs</a></li>
-          <li className="nav-item"><a className="nav-link" href="/#tokenomics">Tokenomics</a></li>
-          <li className="nav-item"><a className="nav-link" href="/#about">About Us</a></li>
+          <li className="nav-item"><a className="nav-link" href="/#nft">NFT<span className="suptext">s</span></a></li>
+          <li className="nav-item"><a className="nav-link" href="/#tokens">Tokenomics</a></li>
+          <li className="nav-item"><a className="nav-link" href="/#team">Team</a></li>
+          <li className="nav-item"><a className="nav-link" href="/#faq">FAQ<span className="suptext">s</span></a></li>
+
         </ul>
       </div>
     </div>
@@ -556,11 +558,11 @@ const App = () => {
 {/* End of NFTs section (ChatLoop) */}
 
 {/* START OF Service1 3x1 GRID */}
-<div id="xtrood" className="service-1 py-5 bg-gradient-white-tr">
+<div id="xtrood" className="service-1 py-5">
     <div className="container">
     <div className="hero-header my-5">
       <h1 className="pb-3 gradient-txt-green xtrood-h1">MINT IN XTR<span className="xtrood-h1-oo gradient-txt-green">OO</span>D</h1>
-      <h2 style={{ letterSpacing: "0.1em" }}>Imagine. Create. Expand.</h2>
+      <h2 style={{ letterSpacing: "0.1em" }} className="text-light">Imagine. Create. Expand.</h2>
       <button className="btn btn-lg btn-outline-info" type="button" disabled>UNDER DEVELOPMENT
       <div className="badge bg-info text-wrap" style={{ width: "95%" }}>Projected Launch : Phase 5</div>
       </button>

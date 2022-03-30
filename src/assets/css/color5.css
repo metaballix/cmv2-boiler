@@ -395,7 +395,7 @@ section {
   .theme-nav .nav-link {
     display: block;
     padding: 25px 1rem;
-    font-weight: normal;
+    font-weight: inherit;
     letter-spacing: 0.05rem; }
   .theme-nav .nav-item {
     font-size: 14px;
@@ -3233,7 +3233,7 @@ li.nav-item.dropdown:first-child .dropdown-menu {
   .navbar-light .navbar-nav .nav-link {
     color: #586082; }
   .darkHeader.navbar-light .navbar-nav .nav-link.active {
-    color: #000 !important; }
+    color: rgb(38, 0, 55) !important; }
   .theme-nav .nav-item {
     padding: 0 5px; }
   .social-icon li {
