@@ -286,7 +286,7 @@ color: rgba(255, 255, 255,0.9);
   grid-gap: 2rem;
   padding: 20px;
   margin: 40px auto;
-  max-width: 900px;
+  max-width: 1100px;
 }
 
 .team-item {
@@ -296,7 +296,7 @@ color: rgba(255, 255, 255,0.9);
 }
 
 .faq2 {
-  max-width: 900px;
+  max-width: 1100px;
   margin: auto;
   align-items: center;
   padding: 20px;
@@ -334,13 +334,13 @@ color: rgba(255, 255, 255,0.9);
   margin-bottom: 40px;
   margin-left: auto;
   margin-right: auto; */
-  max-width: 900px;
+  max-width: 1100px;
 }
 
 .content-wrapper {
   padding-left: 20px;
   padding-right: 20px;
-  max-width: 900px;
+  max-width: 1100px;
   margin: auto;
 }
 
