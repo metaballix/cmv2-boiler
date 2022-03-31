@@ -87,13 +87,13 @@
 
 @keyframes animate-shadow {
     0% {
-      filter: drop-shadow(0 0 0.5rem rgb(202, 51, 182)); 
+      filter: drop-shadow(0 0 0.38rem rgb(202, 51, 182)); 
     }
     50% {
-      filter: drop-shadow(0 0 0.5rem rgb(151, 51, 240)); 
+      filter: drop-shadow(0 0 0.38rem rgb(151, 51, 240)); 
     }
     100% {
-      filter: drop-shadow(0 0 0.5rem rgb(202, 51, 182)); 
+      filter: drop-shadow(0 0 0.38rem rgb(202, 51, 182)); 
     }
   }
 

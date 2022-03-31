@@ -6,6 +6,7 @@ import "./assets/css/color5.css";
 import "./styles/Custom.css";
 import "./styles/Timeline.css";
 import "./styles/Animation.css";
+import "./styles/devices.min.css";
 import Particles from 'react-tsparticles';
 import 'bootstrap';
 
@@ -263,9 +264,9 @@ const App = () => {
   <div className="row align-items-center my-auto">
   <div className="col-md-6 col-12 px-1 mt-5 pb-1">
   <h3 className="hero-text text-secondary-color noselect">Welcome to the PlasmaVerse</h3>
-    <h1 className="hero-title pb-3 noselect" style={{ fontWeight: 600, fontSize: "calc(1.3rem + 1.5vw)" }}><span style={{ color: "rgb(25, 55, 130)" }}>ENGAGE. </span><span style={{ color: "rgb(77, 25, 130)" }}>EVOLVE. </span><span style={{ color: "rgb(121, 11, 121)" }}>EARN.</span></h1>
+    <h1 className="hero-title pb-3 noselect" style={{ fontWeight: 600, fontSize: "calc(1.3rem + 1.5vw + 1px)" }}><span style={{ color: "rgb(25, 55, 130)" }}>ENGAGE. </span><span style={{ color: "rgb(77, 25, 130)" }}>EVOLVE. </span><span style={{ color: "rgb(121, 11, 121)" }}>EARN.</span></h1>
   <p className="hero-desc pb-0 pl-1 px-2 noselect">
-  Mint a <b style={{ animation: "animate-shadow 11s ease infinite" }}>Metaball NFT avatar</b> to unlock your own <b style={{ animation: "animate-shadow 11s ease infinite" }}>Solana</b>-powered <b style={{ animation: "animate-shadow 11s ease infinite" }}>eXtended Reality </b>landing space, or <b className="badge hero-xone-badge" style={{ background: "linear-gradient(45deg, indigo 30%, purple 80%)", letterSpacing: "0.02em" }}>XONE</b>
+  Mint a <b style={{ animation: "animate-shadow 11s ease infinite" }}>Metaball NFT avatar</b> to unlock your own <b style={{ animation: "animate-shadow 11s ease infinite" }}>Solana</b>-powered <b style={{ animation: "animate-shadow 11s ease infinite" }}>eXtended Reality </b>landing space, or <b className="badge hero-xone-badge">XONE</b>
     </p>
   </div>
 
@@ -295,11 +296,96 @@ const App = () => {
 </header>
 
 {/* START of SECTION :: XONES */}
-<section id="xones" className="py-5 text-center">
+<section id="xones" className="theme-bg feature py-5 text-center">
+
+{/* Feature Mob (ChatLoop) */}
+  <div className="container">
+    <div className="animation-circle-inverse"><i></i><i></i><i></i></div>
+    <div className="row">
+      <div className="col-md-12 text-center">
+        <div className="section-title">
+          <h1 className="pb-3 gradient-txt-purple section-h1">BUILD-TO-EARN MICROVERSES</h1>
+          <div className="line white"></div>
+        </div>
+      </div>
+      <div className="col-lg-4 col-sm-6">
+        <div className="future-box">
+          <div className="future-timeline">
+            <ul>
+              <li className="timeline">
+                <h4 className="sub-title">Easy Installation</h4>
+                <p>Lorem Ipsum has been the industry's</p>
+              </li>
+              <li className="timeline">
+                <h4 className="sub-title">Multi Platform Chat App</h4>
+                <p>Lorem Ipsum has been the industry's</p>
+              </li>
+              <li className="timeline">
+                <h4 className="sub-title">Secure Backup &amp; Recovery</h4>
+                <p>Many desktop publishing packages</p>
+              </li>
+              <li className="timeline">
+                <h4 className="sub-title">Easy File Sharing</h4>
+                <p>Lorem Ipsum has been the industry's</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div className="col-md-4 future-mobile">
+
+      {/* <img className="img-fluid" src="images/color-5/feature-mob.png" alt="feature-mob" /> */}
+      <div className="iphone iphone-pink">
+        <div className="iphone-small-round-top"></div>
+        <div className="iphone-round-top-left"></div>
+        <div className="iphone-speaker"></div>
+        <img className="iphone-screenshot" src="images/color-5/feature-mob-inset-800x1362.gif" alt="metaballs on mobile" />
+        <div className="iphone-button"></div>
+      </div>
+
+      {/* <div className="device device-iphone-x" style={{ margin: "0 auto" }}>
+        <div className="device-frame">
+          <img className="device-content" src="images/color-5/feature-mob-inset.gif" alt="feature-mob" />
+        </div>
+        <div className="device-stripe"></div>
+        <div className="device-header"></div>
+        <div className="device-sensors"></div>
+        <div className="device-btns"></div>
+        <div className="device-power"></div>
+      </div> */}
+
+      </div>
+      <div className="col-lg-4 col-sm-6">
+        <div className="future-box">
+          <div className="future-timeline-right">
+            <ul className="text-start">
+              <li className="timeline-right">
+                <h4>Easy Installation</h4>
+                <p>Lorem Ipsum has been the industry's</p>
+              </li>
+              <li className="timeline-right">
+                <h4>Multi Platform Chat App</h4>
+                <p>Lorem Ipsum has been the industry's</p>
+              </li>
+              <li className="timeline-right">
+                <h4>Secure Backup &amp; Recovery</h4>
+                <p>Many desktop publishing packages</p>
+              </li>
+              <li className="timeline-right">
+                <h4>Easy File Sharing</h4>
+                <p>Lorem Ipsum has been the industry's</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{/* End of Feature Mob CL */}
+
   <div className="container">
     <div className="row py-lg-5">
       <div className="col-lg-6 col-md-8 mx-auto">
-      <h1 className="pb-3 gradient-txt-purple xtrood-h1">BUILD-TO-EARN MICROVERSES</h1>
         <h1 className="fw-light">Album example</h1>
         <p className="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
         <p>
@@ -317,7 +403,7 @@ const App = () => {
 <div className="container-fluid mask2">
 <div className="mask1">
 <div id="link3" className="container card contentcard xonecard">
-<h1 className="pb-3 gradient-txt-green xtrood-h1">METAVERSE OF XONES</h1>
+<h1 className="pb-3 gradient-txt-green section-h1">METAVERSE OF XONES</h1>
   <div className="row align-items-center w-100">
     <div className="col">
       <p>Build and share fully functional, interactive and immersive web-based extended reality landing pages, or XONES.</p>
@@ -526,7 +612,7 @@ const App = () => {
 <div id="xtrood" className="service-1 py-5">
     <div className="container">
     <div className="hero-header my-5">
-      <h1 className="pb-3 gradient-txt-green xtrood-h1">MINT IN XTR<span className="xtrood-h1-oo gradient-txt-green">OO</span>D</h1>
+      <h1 className="pb-3 gradient-txt-green section-h1">MINT IN XTR<span className="xtrood-oo gradient-txt-green">OO</span>D</h1>
       <h2 style={{ letterSpacing: "0.1em" }} className="text-light">Imagine. Create. Expand.</h2>
       <button className="btn btn-lg btn-outline-info" type="button" disabled>UNDER DEVELOPMENT
       <div className="badge bg-info text-wrap" style={{ width: "95%" }}>Projected Launch : Phase 5</div>

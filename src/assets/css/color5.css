@@ -774,6 +774,11 @@ section {
       -ms-flex-align: center;
           align-items: center; }
 
+.feature ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0; }
+
 .future-box {
   padding: 60px 0; }
 
@@ -2872,9 +2877,9 @@ li.nav-item.dropdown:first-child .dropdown-menu {
     z-index: 9; }
   .price-plan li {
     margin-bottom: 25px; }
-  .future-mobile img {
+  /* .future-mobile img {
     width: 80%;
-    margin: 20px auto; }
+    margin: 20px auto; } */
   .about .full-banner {
     width: 70%; }
   h2 {
