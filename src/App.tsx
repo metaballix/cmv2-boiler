@@ -299,16 +299,16 @@ const App = () => {
 <section id="xones" className="theme-bg feature py-5 text-center">
 
 {/* Feature Mob (ChatLoop) */}
-  <div className="container">
+  <div className="container mb-5">
     <div className="animation-circle-inverse"><i></i><i></i><i></i></div>
     <div className="row">
-      <div className="col-md-12 text-center order-1">
+      <div className="col-md-12 text-center">
         <div className="section-title">
           <h1 className="pb-3 gradient-txt-purple section-h1">BUILD-TO-EARN MICROVERSES</h1>
           <div className="line white"></div>
         </div>
       </div>
-      <div className="col-lg-4 col-sm-6 order-3">
+      <div className="col-lg-4 col-sm-6 mob-left">
         <div className="future-box">
           <div className="future-timeline">
             <ul>
@@ -332,7 +332,7 @@ const App = () => {
           </div>
         </div>
       </div>
-      <div className="col-md-4 future-mobile order-4">
+      <div className="col-md-4 future-mobile">
       {/* <img className="img-fluid" src="images/color-5/feature-mob.png" alt="feature-mob" /> */}
       <div className="iphone iphone-pink">
         <div className="iphone-small-round-top"></div>
@@ -342,7 +342,7 @@ const App = () => {
         <div className="iphone-button"></div>
       </div>
       </div>
-      <div className="col-lg-4 col-sm-6 order-5">
+      <div className="col-lg-4 col-sm-6 mob-right">
         <div className="future-box">
           <div className="future-timeline-right">
             <ul className="text-start">
@@ -372,13 +372,10 @@ const App = () => {
 
   <div className="container">
     <div className="row py-lg-5">
-      <div className="col-lg-6 col-md-8 mx-auto">
-        <h1 className="fw-light">Album example</h1>
-        <p className="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
-        <p>
-          <a href="/#" className="btn btn-info btn-lg m-1">BUILD IN XONERATOR</a>
-          <a href="/#" className="btn btn-secondary btn-lg m-1">MINT IN XTROOD</a>
-        </p>
+      <div className="col-lg-8 col-md-10 mx-auto">
+        <p className="text-muted feature-p">Metaball NFT avatars reside in the Metaballix PlasmaVerse, a build-to-earn metaverse of tokenized WebXR spaces called 'Xones'. The platform will launch with 22,000 Xones, one for each Metaball NFT in the two-series collection (22k NFTs per series).</p>
+        <h2 className="fw-light text-info feature-h2">The remaining 19,304,120 unique metaball DNA compositions are yours to unlock!</h2>
+        <p><a href="/#plasmaverse" className="btn btn-info btn-lg m-1 mt-2">LEARN MORE</a></p>
       </div>
     </div>
   </div>

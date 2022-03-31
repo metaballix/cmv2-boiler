@@ -466,7 +466,8 @@ color: #3e4555;
 
 /* ChatLoop Slider */
 
-/* iphone mockup - */
+/* iPhone Mockup - codepen.io/andreaswik/pen/bgZdGW */
+
 .iphone {
     display: inline-block;
     margin: 22px 11px;
@@ -475,7 +476,7 @@ color: #3e4555;
     padding: 0 8px 0 8px;
     border-radius: 22px;
     max-width: 100% !important;
-    box-shadow: 0 0 0.47em rgb(29 0 38 / 74%), inset 0 0 0.47em rgb(29 0 38 / 74%);
+    box-shadow: 0 0 0.56em rgb(29 0 38 / 83%), inset 0 0 0.47em rgb(29 0 38 / 74%);
 
   }
   

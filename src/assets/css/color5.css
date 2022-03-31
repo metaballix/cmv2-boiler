@@ -3136,7 +3136,10 @@ li.nav-item.dropdown:first-child .dropdown-menu {
   .about .full-banner {
     width: 100%; }
   .future-mobile {
-    display: none; }
+    /* display: none;  */
+    order: 2; margin: auto; margin-bottom: 20px; width: 80%; }
+    .mob-left { order: 3; }
+    .mob-right { order: 4; }
   .home-right {
     width: 340px; }
   .feature .animation-circle-inverse {
