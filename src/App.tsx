@@ -259,18 +259,18 @@ const App = () => {
       </div>
     </div>
   </nav>
-  <div className="container text-center align-items-center p-1 my-auto pt-5">
+  <div className="container text-center align-items-center p-1 my-auto pt-2">
   <div className="row align-items-center my-auto">
-  <div className="col-md-6 col-12 px-1 pt-3 pb-1">
-  <h3 className="hero-text text-secondary-color">Welcome to the PlasmaVerse</h3>
-    <h1 className="hero-title pb-3" style={{ fontWeight: 600, fontSize: "calc(1.3rem + 1.5vw)" }}><span style={{ color: "rgb(25, 55, 130)" }}>ENGAGE. </span><span style={{ color: "rgb(77, 25, 130)" }}>EVOLVE. </span><span style={{ color: "rgb(121, 11, 121)" }}>EARN.</span></h1>
-  <p className="hero-desc pb-0 pl-1 px-2">
+  <div className="col-md-6 col-12 px-1 mt-5 pb-1">
+  <h3 className="hero-text text-secondary-color noselect">Welcome to the PlasmaVerse</h3>
+    <h1 className="hero-title pb-3 noselect" style={{ fontWeight: 600, fontSize: "calc(1.3rem + 1.5vw)" }}><span style={{ color: "rgb(25, 55, 130)" }}>ENGAGE. </span><span style={{ color: "rgb(77, 25, 130)" }}>EVOLVE. </span><span style={{ color: "rgb(121, 11, 121)" }}>EARN.</span></h1>
+  <p className="hero-desc pb-0 pl-1 px-2 noselect">
   Mint a <b style={{ animation: "animate-shadow 11s ease infinite" }}>Metaball NFT avatar</b> to unlock your own <b style={{ animation: "animate-shadow 11s ease infinite" }}>Solana</b>-powered <b style={{ animation: "animate-shadow 11s ease infinite" }}>eXtended Reality </b>landing space, or <b className="badge hero-xone-badge" style={{ background: "linear-gradient(45deg, indigo 30%, purple 80%)", letterSpacing: "0.02em" }}>XONE</b>
     </p>
   </div>
 
 {/* METABALL MINTER v1.1 (cmv2) - Hero Dialog Box */}
-  <div className="col-md-6 col-12 px-0">
+  <div className="col-md-6 col-12 px-0 noselect">
   <div id="mint" className="mball-avatar"></div>
     <ThemeProvider theme={theme}>
       <ConnectionProvider endpoint={endpoint}>
@@ -293,40 +293,58 @@ const App = () => {
   </div>
   </div>
 </header>
-{/* Start of Original Content Wrapper / CONTAINER */}
-<div className="container">
 
-
-{/* Carousel 1 : Metaball NFTs Sample */}
-{/* SplideJS (splidejs.com/integration/react-splide) */}
-{/* module imported above, CSS Styles jsdeliver tag added to index.html */}
-{/* <div className="splide">
-  <div className="splide__track">
-		<ul className="splide__list">
-			<li className="splide__slide">Slide 01</li>
-			<li className="splide__slide">Slide 02</li>
-			<li className="splide__slide">Slide 03</li>
-      <li className="splide__slide">
-        <div className="splide__slide__container">
-          <img src="/metaballs/1.png" alt="Metaball Sample #1"/>
-        </div>
-        Lorem Ipsum Dolor Sit Amet
-      </li>
-		</ul>
+{/* START of SECTION :: XONES */}
+<section id="xones" className="py-5 text-center">
+  <div className="container">
+    <div className="row py-lg-5">
+      <div className="col-lg-6 col-md-8 mx-auto">
+      <h1 className="pb-3 gradient-txt-purple xtrood-h1">BUILD-TO-EARN MICROVERSES</h1>
+        <h1 className="fw-light">Album example</h1>
+        <p className="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
+        <p>
+          <a href="/#" className="btn btn-info btn-lg m-1">BUILD IN XONERATOR</a>
+          <a href="/#" className="btn btn-secondary btn-lg m-1">MINT IN XTROOD</a>
+        </p>
+      </div>
+    </div>
   </div>
-</div> */}
+</section>
+{/* End of XONES section */}
 
-{/* START OF 4x1 INFO GRID - snippets.wrappixel.com/colorful-3-column-cards */}
-<div className="pb-5 service-6">
-    <div className="grid">
-        <div className="row">
+{/* START OF XTROOD Section */}
+<section id="plasmaverse" className="p-3 py-1 mb-2">
+<div className="container-fluid mask2">
+<div className="mask1">
+<div id="link3" className="container card contentcard xonecard">
+<h1 className="pb-3 gradient-txt-green xtrood-h1">METAVERSE OF XONES</h1>
+  <div className="row align-items-center w-100">
+    <div className="col">
+      <p>Build and share fully functional, interactive and immersive web-based extended reality landing pages, or XONES.</p>
+    </div>
+    <div className="col">
+      <p>Build and share fully functional, interactive and immersive web-based extended reality landing pages, or XONES.</p>
+    </div>
+  </div>
+  <div className="row align-items-center w-100">
+    <div className="col">
+    <p>1 of 3</p>
+    </div>
+    <div className="col-6">
+    <p>-- 2 of 3 --</p>
+    </div>
+    <div className="col">
+    <p>3 of 3</p>
+    </div>
+  </div>
+  <div className="row service-6 p-2">
             <div className="col-md-3 wrap-service6-box mb-2">
                 <div className="card h-100 border-0 bg-green-gradient text-white mb-2 shadow">
                 <div className="card-header">XONE MICROVERSES</div>
                     <div className="card-body">
                         <h6 className="font-weight-medium text-white">Powerful Techniques</h6>
                         <p className="mt-3">Lorem ipsum dolor sit amet, consecte tuam porttitor, nunc et fringilla.</p>
-                        <a href="#f4" className="linking">Learn More</a>
+                        <a href="/#f4" className="linking">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -337,7 +355,7 @@ const App = () => {
                     <div className="card-body">
                         <h6 className="font-weight-medium text-white">Retargeting Market</h6>
                         <p className="mt-3">Lorem ipsum dolor sit amet, consecte tuam porttitor, nunc et fringilla.</p>
-                        <a href="#f4" className="linking">Learn More</a>
+                        <a href="/#f4" className="linking">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -348,7 +366,7 @@ const App = () => {
                     <div className="card-body">
                         <h6 className="font-weight-medium text-white">Instant Solutions</h6>
                         <p className="mt-3">Lorem ipsum dolor sit amet, consecte tuam porttitor, nunc et fringilla.</p>
-                        <a href="#f4" className="linking">Learn More</a>
+                        <a href="/#f4" className="linking">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -359,7 +377,7 @@ const App = () => {
                     <div className="card-body">
                         <h6 className="font-weight-medium text-white">Powerful Techniques</h6>
                         <p className="mt-3">Lorem ipsum dolor sit amet, consecte tuam porttitor, nunc et fringilla.</p>
-                        <a href="#f4" className="linking">Learn More</a>
+                        <a href="/#f4" className="linking">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -368,12 +386,15 @@ const App = () => {
                 <button className="btn btn-dark btn-md service-btn rounded-circle shadow"><span>View Details</span></button>
             </div>
         </div>
-    </div>
 </div>
-{/* End of 4x1 Info Grid (Snippet) */}
 
 </div>
-{/* End of Original Content Wrapper / CONTAINER */}
+</div>
+
+</section>
+{/* End of XTROOD Section */}
+
+
 
 <div className="b-divider"></div>
 
@@ -414,61 +435,6 @@ const App = () => {
 </section>
 <div className="b-divider"></div>
 {/* End of Xonerator */}
-
-{/* START OF XTROOD Section */}
-<section id="plasmaverse" className="p-3 py-5">
-<div className="container-fluid mask2">
-<div className="mask1">
-<div id="link3" className="container card contentcard xonecard">
-<h1 className="pb-3 gradient-txt" style={{ fontSize: "3.8rem" }}>Xone Microverses</h1>
-  <div className="row align-items-center w-100">
-    <div className="col">
-      <p>Build and share fully functional, interactive and immersive web-based extended reality landing pages, or XONES.</p>
-    </div>
-    <div className="col">
-      <p>Build and share fully functional, interactive and immersive web-based extended reality landing pages, or XONES.</p>
-    </div>
-  </div>
-  <div className="row align-items-center w-100">
-    <div className="col">
-    <p>1 of 3</p>
-    </div>
-    <div className="col-6">
-    <p>-- 2 of 3 --</p>
-    </div>
-    <div className="col">
-    <p>3 of 3</p>
-    </div>
-  </div>
-</div>
-<div className="row align-items-center">
-<div className="col">
-  <div className="container card contentcard xonecard">
-  <p>1 of 5</p>
-  </div>
-</div>
-<div className="col">
-  <div className="container card contentcard xonecard">
-  <p>2 of 5</p>
-  </div>
-</div>
-<div className="col">
-  <div className="container card contentcard xonecard">
-  <p>3 of 5</p>
-  </div>
-</div>
-<div className="col">
-  <div className="container card contentcard xonecard">
-  <p>4 of 5</p>
-  </div>
-</div>
-</div>
-</div>
-</div>
-</section>
-{/* End of XTROOD Section */}
-
-<div className="b-divider"></div>
 
 {/* Start of NFTs Section - ChatLoop */}
 <section id="nft" className="slide-bg">
@@ -1199,7 +1165,7 @@ const App = () => {
           },
           opacity: {
             random: true,
-            value: { min: 0.25, max: 0.55, },
+            value: { min: 0.2, max: 0.45, },
             animation: {
               enable: true,
               speed: 1,
@@ -1221,6 +1187,25 @@ const App = () => {
     />
 
 {/* <div className="bg-overlay"> </div> */}
+
+{/* Carousel 1 : Metaball NFTs Sample */}
+{/* SplideJS (splidejs.com/integration/react-splide) */}
+{/* module imported above, CSS Styles jsdeliver tag added to index.html */}
+{/* <div className="splide">
+  <div className="splide__track">
+		<ul className="splide__list">
+			<li className="splide__slide">Slide 01</li>
+			<li className="splide__slide">Slide 02</li>
+			<li className="splide__slide">Slide 03</li>
+      <li className="splide__slide">
+        <div className="splide__slide__container">
+          <img src="/metaballs/1.png" alt="Metaball Sample #1"/>
+        </div>
+        Lorem Ipsum Dolor Sit Amet
+      </li>
+		</ul>
+  </div>
+</div> */}
 
     </div>
     

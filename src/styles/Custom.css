@@ -57,14 +57,6 @@ div.bg-overlay {position: fixed; left:0; top: 0; z-index: -1; width:100%; height
   animation: gradient 10s ease infinite;
 } */
 
-#hero-minter .minting-box {
-    background: linear-gradient(-228deg, rgb(74, 0, 182), rgb(182,0,182));
-    background-size: 250% 250%;
-    -webkit-animation: mintbox-gradient 11s ease infinite;
-    -moz-animation: mintbox-gradient 11s ease infinite;
-    animation: mintbox-gradient 11s ease infinite;
-}
-
 @-webkit-keyframes mintbox-gradient {
     0%{background-position:0% 73%}
     50%{background-position:100% 28%}
@@ -106,7 +98,7 @@ div.bg-overlay {position: fixed; left:0; top: 0; z-index: -1; width:100%; height
 
 /* SECTION STYLES */
 
-#hero-minter, #xtrood, #plasmaverse {
+#hero-minter, #xones, #xtrood, #plasmaverse {
   min-height: 100vh;
   vertical-align: middle;
 }
@@ -114,7 +106,7 @@ div.bg-overlay {position: fixed; left:0; top: 0; z-index: -1; width:100%; height
   display: inline;
   vertical-align:middle;
   font-size: 3.8rem;
-  letter-spacing: 0.09em;
+  letter-spacing: 0.07em;
   font-weight: 700;
   line-height: 4.7rem;
 }
@@ -122,7 +114,7 @@ div.bg-overlay {position: fixed; left:0; top: 0; z-index: -1; width:100%; height
   text-shadow: 0px 3px 2px rgba(55, 5, 110, 0.75);
   animation: purple-pulse 1s ease-in-out infinite;
   -webkit-animation: purple-pulse 1s ease-in-out infinite;
-  font-size: 4.61rem;
+  font-size: 4.5rem;
   letter-spacing: -0.2em;
   font-weight: 800;
   display: inline;
@@ -131,11 +123,23 @@ div.bg-overlay {position: fixed; left:0; top: 0; z-index: -1; width:100%; height
   margin-left: -8px;
 }
 
-#hero-minter {
-  background: linear-gradient(-180deg,rgba(29,0,55,.55) 0%, rgba(29,0,55,0) 38%, rgba(29,0,55,0) 74%, rgba(29,0,55,1) 100%);
+#hero-minter .minting-box {
+  background-color: transparent !important;
+  background: linear-gradient(-228deg, rgba(20,0,38,1), rgba(56, 0, 83,1));
+  background-size: 200% 200%;
+  -webkit-animation: mintbox-gradient 11s ease infinite;
+  -moz-animation: mintbox-gradient 11s ease infinite;
+  animation: mintbox-gradient 11s ease infinite;
 }
+#hero-minter { 
+  background: linear-gradient(-177deg,rgba(29,0,47,.55) 0%, rgba(29,0,47,0.15) 38%, rgba(29,0,47,0.15) 65%, rgba(29,0,47,1) 92%, rgba(29,0,47,1) 100%); 
+  border: none !important;
 
-#plasmaverse { background: linear-gradient(0deg,rgba(70,12,61,0),rgba(143,0,254,.15) 44%,rgba(28, 3, 38, 0)); }
+}
+#xones { 
+  background: linear-gradient(180deg,rgba(29,0,47,1) 0%, rgba(29,0,47,1) 29%, rgba(29,0,47,0.92) 56%, rgba(29,0,47,0.92) 65%, rgba(29,0,47,1) 100%); 
+}
+#plasmaverse { background: linear-gradient(-177deg,rgba(29,0,47,1) 0%, rgba(29,0,47,1) 29%, rgba(29,0,47,0) 100%); }
 #xtrood {
   background: radial-gradient(ellipse closest-side, rgba(29, 0, 33, 0.75), rgba(29, 0, 33, 0.4) 65%, rgba(29, 0, 33, 0.25), rgba(29, 0, 33, 0.55) 121%), linear-gradient(-45deg, rgb(11, 146, 92), rgb(14, 101, 133), rgb(64, 15, 129), rgb(160, 39, 124), rgb(182, 7, 95));
   /* background-size: 200% 200%;
@@ -169,7 +173,7 @@ div.bg-overlay {position: fixed; left:0; top: 0; z-index: -1; width:100%; height
   #xonerator .xtrood-logo { width: 250px; }
 }
 @media (max-width: 992px) {
-  #xones { padding: 0 22px; }
+  /* #xones { padding: 0 22px; } */
   .xtrood-img-col { margin-left: 22%; }
   .xtrood-img-col, .xtrood-img { width: 121% !important; }
 }
@@ -254,10 +258,14 @@ div.mball-avatar {
   color: white;
   margin-right: -5px;
   font-weight: 500; 
-  line-height: 3.2rem; 
+  line-height: 2.8rem; 
   letter-spacing: 0.11em; 
   vertical-align: center;
 }
+
+@media (max-width: 768px) {
+  .hero-desc { text-align: center; line-height: 2.2rem; letter-spacing: 0.1em; max-width: 575px; }
+  }
 
 .hero-text, .hero-xone-badge {
 /*   filter: drop-shadow(0 0 0.5rem rgba(0, 196, 204,1));
@@ -270,11 +278,6 @@ div.mball-avatar {
 }
 
 .hero-title { filter: drop-shadow(0 0 0.5rem rgba(0, 0, 0, 1)); }
-
-@media (max-width: 768px) {
-.hero-desc { text-align: center; line-height: 2.2rem; }
-
-}
 
 .hero-xone-badge {transition: all 0.1s linear; }
 .hero-xone-badge:hover {transform: scale(1.1);}

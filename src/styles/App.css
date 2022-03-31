@@ -80,11 +80,10 @@ body {
 /* #app-main { backdrop-filter: blur(2px); } */
 
 header {
-  background: linear-gradient(-180deg,rgba(29,0,55,.55) 0%, rgba(29,0,55,0) 38%, rgba(29,0,55,0) 74%, rgba(29,0,55,0.75) 100%);
+  /* background: linear-gradient(-180deg,rgba(29,0,55,.55) 0%, rgba(29,0,55,0) 38%, rgba(29,0,55,0) 74%, rgba(29,0,55,0.75) 100%); */
   width: 100%;
   margin: auto;
   align-items: center;
-  margin-bottom: 20px;
   display: grid;
   gap: 20px;
   padding: 35px;
@@ -92,7 +91,9 @@ header {
 }
 
 nav {
-  background: linear-gradient(-180deg,rgba(29,0,55,.55) 0%, rgba(29,0,55,0) 38%, rgba(29,0,55,0) 74%, rgba(29,0,55,0.75) 100%);
+  background: linear-gradient(-180deg,rgba(29,0,47,0.8) 0%, rgba(29,0,47,0.2) 29%, rgba(29,0,47,0.2) 100%);
+  -webkit-box-shadow: 0px 2px 1.1rem 1px rgba(0, 0, 0, 0.65);
+  box-shadow: 0px 2px 1.1rem 1px rgba(0, 0, 0, 0.65);
 }
 
 .mintHeader {
