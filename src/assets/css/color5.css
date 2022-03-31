@@ -394,7 +394,7 @@ section {
     background-color: transparent; }
   .theme-nav .nav-link {
     display: block;
-    padding: 25px 1rem;
+    /* padding: 25px 1rem; */
     font-weight: inherit;
     letter-spacing: 0.05rem; }
   .theme-nav .nav-item {
@@ -409,12 +409,11 @@ section {
   .theme-nav .dropdown-menu .nav-link {
     color: #662D92 !important; }
   .theme-nav.darkHeader {
-    padding-top: 5px;
-    padding-bottom: 5px; 
-    /* box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15), inset 0 -1px 0 rgba(0, 0, 0, 0.25); */ 
+    padding-top: 0;
+    padding-bottom: 0; 
   }
     .theme-nav.darkHeader .nav-item {
-      padding: 0px 5px;
+      padding: 5px 5px;
       -webkit-transition: all 0.3s ease;
       transition: all 0.3s ease; }
     .theme-nav.darkHeader .dropdown-menu .nav-item {
@@ -462,8 +461,8 @@ section {
   background: linear-gradient(to right, #380c6e 0%, #6e0c5e 100%);
   -webkit-box-shadow: 0px 2px 1.1rem 1px rgba(11, 218, 227, 0.65);
           box-shadow: 0px 2px 1.1rem 1px rgba(11, 218, 227, 0.65);
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease; }
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease; }
 
 .slide-bg {
   background: -webkit-linear-gradient(linear, left top, right top, from(#662D92), to(#cc3dbe));
@@ -2822,6 +2821,20 @@ li.nav-item.dropdown:first-child .dropdown-menu {
 /*========================
 23.Responsive css start
 ==========================*/
+
+#mymenu {
+  background-color: #662D92;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 5px;
+  /* padding: 5px 15px; */
+  margin-top: 20px;
+  margin-bottom: 20px; 
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease; }
+.darkHeader #mymenu {
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
 @media (min-width: 1500px) and (max-width: 1366px) {
   .home-right {
     margin-top: -30px; } }
@@ -3122,8 +3135,8 @@ li.nav-item.dropdown:first-child .dropdown-menu {
     margin-bottom: 25px; }
   .about .full-banner {
     width: 100%; }
-  .future-mobile {
-    display: none; }
+  /* .future-mobile {
+    display: none; } */
   .home-right {
     width: 340px; }
   .feature .animation-circle-inverse {
@@ -3178,16 +3191,9 @@ li.nav-item.dropdown:first-child .dropdown-menu {
     margin-top: 10px; }
   .navbar-nav .nav-item .nav-link {
     padding: 8px; }
-  #mymenu {
-    background-color: #662D92;
-    border-radius: 5px;
-    margin-top: 15px;
-    padding: 15px;
-    margin-bottom: 20px;
-    border: 1px solid rgba(255, 255, 255, 0.15); }
-  .darkHeader {
+  /* .darkHeader {
     -webkit-box-shadow: 1px 1px 12px 1px rgba(0, 0, 0, 0.13);
-            box-shadow: 1px 1px 12px 1px rgba(0, 0, 0, 0.13); }
+            box-shadow: 1px 1px 12px 1px rgba(0, 0, 0, 0.13); } */
   #navbarSupportedContent {
     background: #ffffff; }
     #navbarSupportedContent .nav-item {

@@ -302,13 +302,13 @@ const App = () => {
   <div className="container">
     <div className="animation-circle-inverse"><i></i><i></i><i></i></div>
     <div className="row">
-      <div className="col-md-12 text-center">
+      <div className="col-md-12 text-center order-1">
         <div className="section-title">
           <h1 className="pb-3 gradient-txt-purple section-h1">BUILD-TO-EARN MICROVERSES</h1>
           <div className="line white"></div>
         </div>
       </div>
-      <div className="col-lg-4 col-sm-6">
+      <div className="col-lg-4 col-sm-6 order-3">
         <div className="future-box">
           <div className="future-timeline">
             <ul>
@@ -332,8 +332,7 @@ const App = () => {
           </div>
         </div>
       </div>
-      <div className="col-md-4 future-mobile">
-
+      <div className="col-md-4 future-mobile order-4">
       {/* <img className="img-fluid" src="images/color-5/feature-mob.png" alt="feature-mob" /> */}
       <div className="iphone iphone-pink">
         <div className="iphone-small-round-top"></div>
@@ -342,20 +341,8 @@ const App = () => {
         <img className="iphone-screenshot" src="images/color-5/feature-mob-inset-800x1362.gif" alt="metaballs on mobile" />
         <div className="iphone-button"></div>
       </div>
-
-      {/* <div className="device device-iphone-x" style={{ margin: "0 auto" }}>
-        <div className="device-frame">
-          <img className="device-content" src="images/color-5/feature-mob-inset.gif" alt="feature-mob" />
-        </div>
-        <div className="device-stripe"></div>
-        <div className="device-header"></div>
-        <div className="device-sensors"></div>
-        <div className="device-btns"></div>
-        <div className="device-power"></div>
-      </div> */}
-
       </div>
-      <div className="col-lg-4 col-sm-6">
+      <div className="col-lg-4 col-sm-6 order-5">
         <div className="future-box">
           <div className="future-timeline-right">
             <ul className="text-start">
