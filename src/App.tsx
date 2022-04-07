@@ -126,12 +126,6 @@ const App = () => {
     </div>
 */}
 
-{/* Video BG ::  
-    <video autoPlay muted loop id="vid-xone">
-    <source src="https://cdn.glitch.global/84180755-58e4-4c80-b543-77cacf869330/xone-bg-14s.mp4?v=1647881876712" type="video/mp4" />
-    </video>
-*/}
-
 <header className="card text-center align-items-center" id="hero-minter">
 
 {/* ORIGINAL NAV */}
@@ -264,7 +258,7 @@ const App = () => {
   <div className="row align-items-center my-auto">
   <div className="col-md-6 col-12 px-1 mt-5 pb-1">
   <h3 className="hero-text text-secondary-color noselect">Welcome to the PlasmaVerse</h3>
-    <h1 className="hero-title pb-3 noselect" style={{ fontWeight: 600, fontSize: "calc(1.3rem + 1.5vw + 1px)" }}><span style={{ color: "rgb(25, 55, 130)" }}>ENGAGE. </span><span style={{ color: "rgb(77, 25, 130)" }}>EARN. </span><span style={{ color: "rgb(121, 11, 121)" }}>EXPAND.</span></h1>
+    <h1 className="hero-title pb-3 noselect"><span className="h1-engage">ENGAGE. </span><span className="h1-expand">EXPAND. </span><span className="h1-earn">EARN. </span></h1>
   <p className="hero-desc pb-0 pl-1 px-2 noselect">
   Mint a <b style={{ animation: "animate-shadow 11s ease infinite" }}>Metaball NFT avatar</b> to unlock your own <b style={{ animation: "animate-shadow 11s ease infinite" }}>Solana</b>-powered <b style={{ animation: "animate-shadow 11s ease infinite" }}>Extended Reality </b>landing space, or <b className="badge hero-xone-badge">XONE</b>
     </p>
@@ -295,8 +289,8 @@ const App = () => {
   </div>
 </header>
 
-{/* START of SECTION :: XONES */}
-<section id="xones" className="theme-bg feature py-5 text-center">
+{/* START of SECTION :: FEATURES */}
+<section id="features" className="theme-bg feature py-5 text-center">
 
 {/* Feature Mob (ChatLoop) */}
   <div className="container mb-5">
@@ -304,7 +298,7 @@ const App = () => {
     <div className="row">
       <div className="col-md-12 text-center">
         <div className="section-title">
-          <h1 className="pb-3 gradient-txt-purple section-h1">BUILD-TO-EARN MICROVERSES</h1>
+          <h1 className="pb-3 gradient-txt-purple section-h1">BUILD-TO-EARN</h1>
           <div className="line white"></div>
         </div>
       </div>
@@ -370,92 +364,179 @@ const App = () => {
   </div>
 {/* End of Feature Mob CL */}
 
-  <div className="container">
-    <div className="row py-lg-5">
-      <div className="col-lg-8 col-md-10 mx-auto">
-        <p className="text-muted feature-p">Metaball NFT avatars reside in the Metaballix PlasmaVerse, a build-to-earn metaverse of tokenized WebXR spaces called 'Xones'. The platform will launch with 22,000 Xones, one for each Metaball NFT in the two-series collection (22k NFTs per series).</p>
-        <h2 className="fw-light text-info feature-h2">The remaining 19,304,120 unique metaball DNA compositions are yours to unlock!</h2>
-        <p><a href="/#plasmaverse" className="btn btn-info btn-lg m-1 mt-2">LEARN MORE</a></p>
+</section>
+{/* End of FEATURES section */}
+
+<section id="xones" className="container-fluid d-flex w-100 h-100 p-3 mx-auto flex-column">
+   {/* Video BG :: 
+    <video autoPlay muted loop id="vid-xone">
+    <source src="https://cdn.glitch.global/84180755-58e4-4c80-b543-77cacf869330/xone-bg-14s.mp4?v=1647881876712" type="video/mp4" />
+    </video>*/}
+<div className="px-4 py-5 my-5 text-center">
+<div className="stage d-block mx-auto mb-4" style={{ marginLeft: 0 }}><figure className="4x1 ball bubble"></figure></div>
+    <h1 className="display-5 fw-bold">HONE YOUR XONE</h1>
+    <div className="col-lg-6 mx-auto">
+      <p className="lead mb-4 feature-p">Xones are expandable plots of virtual space that amalgamate to form the Plasmaverse. They possess metaball-like properties, and WebGL fluid dynamics that allow for some interesting customizations, functionality, and interactivity.</p>
+      <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
+        <a href="https://xone.land/" target="_blank" rel="noreferrer">
+        <button className="btn btn-lg btn-outline-info" type="button">
+        <h2 style={{ letterSpacing: "0.09em" }} className="text-light px-5"><em>TOUR THE DEMO</em></h2>
+        <div className="badge bg-info text-wrap" style={{ width: "95%" }}>Projected Launch : Phase 3</div>
+        </button>
+        </a>
       </div>
     </div>
   </div>
+
+<div className="container mb-5 pb-5">
+<div className="row m-3 mb-5">
+  <div className="col-6 col-sm-3">
+    <div className="card bg-transparent shadow border border-info text-center my-2">
+    <svg className="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+    <div className="card-body">
+        <h5 className="card-title">PRODUCTIVITY</h5>
+        <h6 className="card-subtitle mb-3 fw-light fst-italic">Card subtitle</h6>
+        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      </div>
+      <div className="card-footer">First Item</div>
+      <div className="card-footer">Second Item</div>
+      <div className="card-footer">Third Item</div>
+    </div>
+  </div>
+  <div className="col-6 col-sm-3">
+    <div className="card bg-transparent shadow border border-info text-center my-2">
+    <svg className="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+    <div className="card-body">
+        <h5 className="card-title">PRODUCTIVITY</h5>
+        <h6 className="card-subtitle mb-3 fw-light fst-italic">Card subtitle</h6>
+        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      </div>
+      <div className="card-footer">First Item</div>
+      <div className="card-footer">Second Item</div>
+      <div className="card-footer">Third Item</div>
+    </div>
+  </div>
+  <div className="col-6 col-sm-3">
+    <div className="card bg-transparent shadow border border-info text-center my-2">
+    <svg className="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+    <div className="card-body">
+        <h5 className="card-title">PRODUCTIVITY</h5>
+        <h6 className="card-subtitle mb-3 fw-light fst-italic">Card subtitle</h6>
+        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      </div>
+      <div className="card-footer">First Item</div>
+      <div className="card-footer">Second Item</div>
+      <div className="card-footer">Third Item</div>
+    </div>
+  </div>
+  <div className="col-6 col-sm-3">
+    <div className="card bg-transparent shadow border border-info text-center my-2">
+    <svg className="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+    <div className="card-body">
+        <h5 className="card-title">PRODUCTIVITY</h5>
+        <h6 className="card-subtitle mb-3 fw-light fst-italic">Card subtitle</h6>
+        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      </div>
+      <div className="card-footer">First Item</div>
+      <div className="card-footer">Second Item</div>
+      <div className="card-footer">Third Item</div>
+    </div>
+  </div>
+
+</div>
+</div>
+<div className="b-divider mt-5 rounded rounded-3"></div>
 </section>
-{/* End of XONES section */}
 
-{/* START OF XTROOD Section */}
-<section id="plasmaverse" className="p-3 py-1 mb-2">
-<div className="container-fluid mask2">
-<div className="mask1">
-<div id="link3" className="container card contentcard xonecard">
-<h1 className="pb-3 gradient-txt-green section-h1">METAVERSE OF XONES</h1>
-  <div className="row align-items-center w-100">
-    <div className="col">
-      <p>Build and share fully functional, interactive and immersive web-based extended reality landing pages, or XONES.</p>
-    </div>
-    <div className="col">
-      <p>Build and share fully functional, interactive and immersive web-based extended reality landing pages, or XONES.</p>
-    </div>
-  </div>
-  <div className="row align-items-center w-100">
-    <div className="col">
-    <p>1 of 3</p>
-    </div>
-    <div className="col-6">
-    <p>-- 2 of 3 --</p>
-    </div>
-    <div className="col">
-    <p>3 of 3</p>
+{/* START OF PLASMAVERSE Section */}
+<section id="plasmaverse" className="p-3 py-1 mb-2" style={{overflow: "visible"}}>
+<div className="container-fluid mask2" style={{overflow: "visible"}}>
+<div className="mask1" style={{overflow: "visible"}}>
+<div id="link3" className="container card contentcard xonecard" style={{ marginTop: "-150px", position: "relative", zIndex: 999 }}>
+<h1 className="display-5 fw-bold">Interconnected Microverses</h1>
+
+<div className="row w-100 my-2">
+  <div className="col-sm-6">
+    <div className="card bg-purp1 border border-info">
+      <div className="card-body">
+        <h5 className="card-title">Special title treatment</h5>
+        <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="/#" className="btn btn-info">Go somewhere</a>
+      </div>
     </div>
   </div>
-  <div className="row service-6 p-2">
-            <div className="col-md-3 wrap-service6-box mb-2">
-                <div className="card h-100 border-0 bg-green-gradient text-white mb-2 shadow">
-                <div className="card-header">XONE MICROVERSES</div>
-                    <div className="card-body">
-                        <h6 className="font-weight-medium text-white">Powerful Techniques</h6>
-                        <p className="mt-3">Lorem ipsum dolor sit amet, consecte tuam porttitor, nunc et fringilla.</p>
-                        <a href="/#f4" className="linking">Learn More</a>
-                    </div>
-                </div>
-            </div>
+  <div className="col-sm-6">
+    <div className="card bg-purp1 border border-info">
+      <div className="card-body">
+        <h5 className="card-title">Special title treatment</h5>
+        <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="/#" className="btn btn-info">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+</div>
 
-            <div className="col-md-3 wrap-service6-box mb-2">
-                <div className="card h-100 border-0 bg-blue-gradient text-white mb-2 shadow">
-                <div className="card-header">PLASMAVERSE XR</div>
-                    <div className="card-body">
-                        <h6 className="font-weight-medium text-white">Retargeting Market</h6>
-                        <p className="mt-3">Lorem ipsum dolor sit amet, consecte tuam porttitor, nunc et fringilla.</p>
-                        <a href="/#f4" className="linking">Learn More</a>
-                    </div>
-                </div>
-            </div>
-
-            <div className="col-md-3 wrap-service6-box mb-2">
-                <div className="card h-100 border-0 bg-purple-gradient text-white mb-2 shadow">
-                <div className="card-header">NFT ECOSYSTEM</div>
-                    <div className="card-body">
-                        <h6 className="font-weight-medium text-white">Instant Solutions</h6>
-                        <p className="mt-3">Lorem ipsum dolor sit amet, consecte tuam porttitor, nunc et fringilla.</p>
-                        <a href="/#f4" className="linking">Learn More</a>
-                    </div>
-                </div>
-            </div>
-
-            <div className="col-md-3 wrap-service6-box mb-2">
-                <div className="card h-100 border-0 bg-pink-gradient text-white mb-2 shadow">
-                <div className="card-header">PASSIVE INCOME</div>
-                    <div className="card-body">
-                        <h6 className="font-weight-medium text-white">Powerful Techniques</h6>
-                        <p className="mt-3">Lorem ipsum dolor sit amet, consecte tuam porttitor, nunc et fringilla.</p>
-                        <a href="/#f4" className="linking">Learn More</a>
-                    </div>
-                </div>
-            </div>
-
-						<div className="col-md-12 mt-3 text-center">
-                <button className="btn btn-dark btn-md service-btn rounded-circle shadow"><span>View Details</span></button>
+<div className="row service-6 p-2">
+    <div className="col-md-3 wrap-service6-box mb-2">
+        <div className="card h-100 border-0 bg-green-gradient text-white mb-2 shadow">
+        <div className="card-header">XONE MICROVERSES</div>
+            <div className="card-body">
+                <h6 className="font-weight-medium text-white">Powerful Techniques</h6>
+                <p className="mt-3">Lorem ipsum dolor sit amet, consecte tuam porttitor, nunc et fringilla.</p>
+                <a href="/#f4" className="linking">Learn More</a>
             </div>
         </div>
+    </div>
+
+    <div className="col-md-3 wrap-service6-box mb-2">
+        <div className="card h-100 border-0 bg-blue-gradient text-white mb-2 shadow">
+        <div className="card-header">PLASMAVERSE XR</div>
+            <div className="card-body">
+                <h6 className="font-weight-medium text-white">Retargeting Market</h6>
+                <p className="mt-3">Lorem ipsum dolor sit amet, consecte tuam porttitor, nunc et fringilla.</p>
+                <a href="/#f4" className="linking">Learn More</a>
+            </div>
+        </div>
+    </div>
+
+    <div className="col-md-3 wrap-service6-box mb-2">
+        <div className="card h-100 border-0 bg-purple-gradient text-white mb-2 shadow">
+        <div className="card-header">NFT ECOSYSTEM</div>
+            <div className="card-body">
+                <h6 className="font-weight-medium text-white">Instant Solutions</h6>
+                <p className="mt-3">Lorem ipsum dolor sit amet, consecte tuam porttitor, nunc et fringilla.</p>
+                <a href="/#f4" className="linking">Learn More</a>
+            </div>
+        </div>
+    </div>
+
+    <div className="col-md-3 wrap-service6-box mb-2">
+        <div className="card h-100 border-0 bg-pink-gradient text-white mb-2 shadow">
+        <div className="card-header">PASSIVE INCOME</div>
+            <div className="card-body">
+                <h6 className="font-weight-medium text-white">Powerful Techniques</h6>
+                <p className="mt-3">Lorem ipsum dolor sit amet, consecte tuam porttitor, nunc et fringilla.</p>
+                <a href="/#f4" className="linking">Learn More</a>
+            </div>
+        </div>
+    </div>
+
+    <div className="col-md-12 mt-3 text-center">
+        <button className="btn btn-dark btn-md service-btn rounded-circle shadow"><span>View Details</span></button>
+    </div>
+</div>
+
+<div className="row align-items-center my-3 w-100">
+  <div className="col">
+  <p>1 of 3</p>
+  </div>
+  <div className="col-6">
+  <p>-- 2 of 3 --</p>
+  </div>
+  <div className="col">
+  <p>3 of 3</p>
+  </div>
+</div>
 </div>
 
 </div>
@@ -463,8 +544,6 @@ const App = () => {
 
 </section>
 {/* End of XTROOD Section */}
-
-
 
 <div className="b-divider"></div>
 
@@ -596,9 +675,9 @@ const App = () => {
 <div id="xtrood" className="service-1 py-5">
     <div className="container">
     <div className="hero-header my-5">
-      <h1 className="pb-3 gradient-txt-green section-h1">MINT IN XTR<span className="xtrood-oo gradient-txt-green">OO</span>D</h1>
-      <h2 style={{ letterSpacing: "0.1em" }} className="text-light">Imagine. Create. Expand.</h2>
-      <button className="btn btn-lg btn-outline-info" type="button" disabled>UNDER DEVELOPMENT
+      <h1 className="pb-3 gradient-txt-green section-h1">XTR<span className="xtrood-oo gradient-txt-green">OO</span>D MINTER</h1>
+      <button className="btn btn-lg btn-outline-info px-5" type="button" disabled>
+      <h2 style={{ letterSpacing: "0.1em" }} className="text-light"><em>Imagine. Realize.</em></h2>
       <div className="badge bg-info text-wrap" style={{ width: "95%" }}>Projected Launch : Phase 5</div>
       </button>
       </div>
@@ -749,7 +828,7 @@ const App = () => {
 {/* Start of ROADMAP Section */}
 <section id="roadmap" className="py-4 m-3 mb-0">
 <div className="container tl-roadmap rounded-3 border border-info mb-0 p-3 shadow" style={{ background: "linear-gradient(11deg, rgba(202, 44, 182, 0.3), rgba(113, 17, 161, 0.3))" }}>
-  <h1 className="my-3 gradient-txt-green text-center" style={{ fontSize: "3.8rem", letterSpacing: "0.07em" }}>ROADMAP</h1>
+  <h1 className="my-3 gradient-txt-green text-center" style={{ fontSize: "3.5rem", letterSpacing: "0.07em" }}>ROADMAP</h1>
   <hr style={{ margin: "11px 0" }} />
     <div className="row">
         <div className="col-md-12">
@@ -978,42 +1057,56 @@ const App = () => {
 </section>
 {/* End of Roadmap Section */}
 
-{/* START OF FAQs ACCORDION SECTION */}
+{/* START OF FAQs SECTION */}
+
 <section id="faq" className="m-3 mt-0">
-<div id="faqsection" className="faqsection container card contentcard">
-<h1 className="pb-3 gradient-txt-green text-center" style={{ fontSize: "3.8rem", letterSpacing: "0.07em" }}>FAQs</h1>
-<div className="accordion w-100">
+<div className="container rounded-3 border border-info shadow p-2" style={{backgroundColor: "#1D002F"}}>
+<div className="row">
+<div className="col-8 h-100">
+<div className="faqcard container card h-100">
+<h1 className="pb-3 gradient-txt-green text-center">FAQs</h1>
+<div className="card-header w-100">
+  <div className="nav nav-tabs card-header-tabs" id="nav-tab" role="tablist">
+    <button className="nav-link active" id="faq-nfts-tab" data-bs-toggle="tab" data-bs-target="#faq-nfts" type="button" role="tab" aria-controls="faq-nfts" aria-selected="true">NFTs</button>
+    <button className="nav-link" id="faq-xones-tab" data-bs-toggle="tab" data-bs-target="#faq-xones" type="button" role="tab" aria-controls="faq-xones" aria-selected="false">Xones</button>
+    <button className="nav-link" id="faq-plasma-tab" data-bs-toggle="tab" data-bs-target="#faq-plasma" type="button" role="tab" aria-controls="faq-plasma" aria-selected="false">Plasma</button>
+  </div>
+</div>
+<div className="tab-content p-2 bg-white" id="nav-tabContent">
+{/* FAQ Accordion 1 : NFTs */}
+<div className="tab-pane fade show active" id="faq-nfts" role="tabpanel" aria-labelledby="faq-nfts-tab">
+<div id="faq-nfts-qna" className="accordion w-100">
   <div className="accordion-item">
-    <h2 className="accordion-header" id="heading-faq-nfts">
-      <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq-nfts" aria-controls="faq-nfts" aria-expanded="true">
+    <h2 className="accordion-header" id="faq-nfts-q1-h">
+      <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq-nfts-q1" aria-controls="faq-nfts-q1" aria-expanded="true">
         NFTs &amp; Metaballs
       </button>
     </h2>
-    <div id="faq-nfts" className="accordion-collapse collapse show" aria-labelledby="heading-faq-nfts" data-bs-parent="#faq">
+    <div id="faq-nfts-q1" className="accordion-collapse collapse show" aria-labelledby="faq-nfts-q1-h" data-bs-parent="#faq-nfts-qna">
       <div className="accordion-body">
         <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
       </div>
     </div>
   </div>
   <div className="accordion-item">
-    <h2 className="accordion-header" id="heading-faq-tokens">
-      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-tokens" aria-controls="faq-tokens" aria-expanded="false">
+    <h2 className="accordion-header" id="faq-nfts-q2-h">
+      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-nfts-q2" aria-controls="faq-nfts-q2" aria-expanded="false">
         Ecosystem Tokens
       </button>
     </h2>
-    <div id="faq-tokens" className="accordion-collapse collapse" aria-labelledby="heading-faq-tokens" data-bs-parent="#faq">
+    <div id="faq-nfts-q2" className="accordion-collapse collapse" aria-labelledby="faq-nfts-q2-h" data-bs-parent="#faq-nfts-qna">
       <div className="accordion-body">
         <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
       </div>
     </div>
   </div>
   <div className="accordion-item">
-    <h2 className="accordion-header" id="heading-faq-tech">
-      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-tech" aria-controls="faq-tech" aria-expanded="false">
+    <h2 className="accordion-header" id="faq-nfts-q3-h">
+      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-nfts-q3" aria-controls="faq-nfts-q3" aria-expanded="false">
         Platform Technologies
       </button>
     </h2>
-    <div id="faq-tech" className="accordion-collapse collapse" aria-labelledby="heading-faq-tech" data-bs-parent="#faq">
+    <div id="faq-nfts-q3" className="accordion-collapse collapse" aria-labelledby="faq-nfts-q3-h" data-bs-parent="#faq-nfts-qna">
       <div className="accordion-body">
         <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
       </div>
@@ -1021,6 +1114,94 @@ const App = () => {
   </div>
 </div>
 </div>
+{/* FAQ Accordion 2 : Xones */}
+<div className="tab-pane fade" id="faq-xones" role="tabpanel" aria-labelledby="faq-xones-tab">
+<div id="faq-xones-qna" className="accordion w-100">
+  <div className="accordion-item">
+    <h2 className="accordion-header" id="faq-xones-q1-h">
+      <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq-xones-q1" aria-controls="faq-xones-q1" aria-expanded="true">
+        NFTs &amp; Metaballs
+      </button>
+    </h2>
+    <div id="faq-xones-q1" className="accordion-collapse collapse show" aria-labelledby="faq-xones-q1-h" data-bs-parent="#faq-xones-qna">
+      <div className="accordion-body">
+        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div className="accordion-item">
+    <h2 className="accordion-header" id="faq-xones-q2-h">
+      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-xones-q2" aria-controls="faq-xones-q2" aria-expanded="false">
+        Ecosystem Tokens
+      </button>
+    </h2>
+    <div id="faq-xones-q2" className="accordion-collapse collapse" aria-labelledby="faq-xones-q2-h" data-bs-parent="#faq-xones-qna">
+      <div className="accordion-body">
+        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div className="accordion-item">
+    <h2 className="accordion-header" id="faq-xones-q3-h">
+      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-xones-q3" aria-controls="faq-xones-q3" aria-expanded="false">
+        Platform Technologies
+      </button>
+    </h2>
+    <div id="faq-xones-q3" className="accordion-collapse collapse" aria-labelledby="faq-xones-q3-h" data-bs-parent="#faq-xones-qna">
+      <div className="accordion-body">
+        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+{/* FAQ Accordion 3 : Xones */}
+<div className="tab-pane fade" id="faq-plasma" role="tabpanel" aria-labelledby="faq-plasma-tab">
+  <div className="card-body">
+    <h5 className="card-title">Faq Tab 3</h5>
+    <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
+    <a href="/#" className="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+<div className="col-4 h-100">
+<div className="card bg-purple-gradient mb-3" style={{maxWidth: "25rem"}}>
+  <div className="card-header">Header</div>
+  <div className="card-body">
+    <h5 className="card-title">Warning card title</h5>
+    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+<div className="card bg-purple-gradient mb-3" style={{maxWidth: "25rem"}}>
+  <div className="card-header">Header</div>
+  <div className="card-body">
+    <h5 className="card-title">Light card title</h5>
+    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+<div className="card bg-purple-gradient mb-3" style={{maxWidth: "25rem"}}>
+  <div className="card-header">Header</div>
+  <div className="card-body">
+    <h5 className="card-title">Light card title</h5>
+    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+
+    </div>
+</div>
+<div className="row m-3">
+  <div className="col">col</div>
+  <div className="col">col</div>
+  <div className="col">col</div>
+  <div className="col">col</div>
+  <div className="col">col</div>
+  <div className="col">col</div>
+</div>
+</div>
+
 </section>
 {/* END of FAQs Section */}
 

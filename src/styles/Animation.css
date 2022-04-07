@@ -132,3 +132,31 @@
   50% { opacity: 0.65; }
   100% {}
 }
+
+@keyframes highlite1 {
+  15% { filter: drop-shadow(0 0 0 rgb(29,0,47)); }
+  20% { filter: drop-shadow(1px 5px 1.5rem rgb(29,0,47)); color: rgb(38, 137, 182); }
+  25% { filter: drop-shadow(1px 1px 1rem rgb(47, 0, 47)); color: rgb(255,255,255); }
+  30% { filter: drop-shadow(1px 1px 1rem rgb(47, 0, 47)); color: rgb(255,255,255); }
+  35% { filter: drop-shadow(1px 5px 1.5rem rgb(29,0,47)); color: rgb(38, 137, 182); }
+  40% { filter: drop-shadow(0 0 0 rgb(29,0,47)); }
+  100% { }
+}
+@keyframes highlite2 {
+  40% { filter: drop-shadow(0 0 0 rgb(29,0,47)); }
+  45% { filter: drop-shadow(1px 5px 1.5rem rgb(29,0,47)); color: rgb(101, 38, 182); }
+  50% { filter: drop-shadow(1px 1px 1rem rgb(47,0,47)); color: rgb(255,255,255); }
+  55% { filter: drop-shadow(1px 1px 1rem rgb(47,0,47)); color: rgb(255,255,255); }
+  60% { filter: drop-shadow(1px 5px 1.5rem rgb(29,0,47)); color: rgb(101, 38, 182); }
+  65% { filter: drop-shadow(0 0 0 rgb(29,0,47)); }
+  100% { }
+}
+@keyframes highlite3 {
+  65% { filter: drop-shadow(0 0 0 rgb(29,0,47)); }
+  70% { filter: drop-shadow(1px 5px 1.5rem rgb(29,0,47)); color: rgb(182, 38, 182); }
+  75% { filter: drop-shadow(1px 1px 1rem rgb(47,0,47)); color: rgb(255,255,255); }
+  80% { filter: drop-shadow(1px 1px 1rem rgb(47,0,47)); color: rgb(255,255,255); }
+  85% { filter: drop-shadow(1px 5px 1.5rem rgb(29,0,47)); color: rgb(182, 38, 182); }
+  90% { filter: drop-shadow(0 0 0 rgb(29,0,47)); }
+  100% { }
+}
