@@ -102,7 +102,7 @@ div.bg-overlay {position: fixed; left:0; top: 0; z-index: -1; width:100%; height
 
 /* SECTION STYLES */
 
-#hero-minter, #xones, #xtrood {
+#hero-minter, #xtrood {
   min-height: 100vh;
   vertical-align: middle;
 }

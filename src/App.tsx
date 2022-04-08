@@ -293,7 +293,7 @@ const App = () => {
 <section id="features" className="theme-bg feature py-5 text-center">
 
 {/* Feature Mob (ChatLoop) */}
-  <div className="container mb-5">
+  <div className="container my-5">
     <div className="animation-circle-inverse"><i></i><i></i><i></i></div>
     <div className="row">
       <div className="col-md-12 text-center">
@@ -363,20 +363,21 @@ const App = () => {
     </div>
   </div>
 {/* End of Feature Mob CL */}
-
 </section>
 {/* End of FEATURES section */}
 
-<section id="xones" className="container-fluid d-flex w-100 h-100 p-3 mx-auto flex-column">
+{/* Start of XONES Section */}
+<section id="xones" className="container-fluid d-flex w-100 h-auto px-0 py-1 my-0 pb-5 mx-auto flex-column">
+<div className="b-divider mb-5"></div>
    {/* Video BG :: 
     <video autoPlay muted loop id="vid-xone">
     <source src="https://cdn.glitch.global/84180755-58e4-4c80-b543-77cacf869330/xone-bg-14s.mp4?v=1647881876712" type="video/mp4" />
     </video>*/}
-<div className="px-4 py-5 my-5 text-center">
+<div className="container px-0 py-2 pb-4 my-0 mb-5 text-center mx-auto">
 <div className="stage d-block mx-auto mb-4" style={{ marginLeft: 0 }}><figure className="4x1 ball bubble"></figure></div>
     <h1 className="display-5 fw-bold">HONE YOUR XONE</h1>
-    <div className="col-lg-6 mx-auto">
-      <p className="lead mb-4 feature-p">Xones are expandable plots of virtual space that amalgamate to form the Plasmaverse. They mimic some of the fluid dynamics of traditional computer-generated metaballs, which allows for some interesting customizations and interactivity.</p>
+    <div className="col-lg-8 px-1 mx-auto">
+      <p className="lead mb-4 feature-p">Xones are expandable plots of virtual space that amalgamate to form the Plasmaverse. Powered by $PLASMA, they mimic some of the fluid dynamics of traditional computer-generated metaballs, which allows for some interesting customizations and interactivity.</p>
       <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
         <a href="https://xone.land/" target="_blank" rel="noreferrer">
         <button className="btn btn-lg btn-outline-info" type="button">
@@ -389,8 +390,8 @@ const App = () => {
   </div>
 
 <div className="container mb-5 pb-5">
-<div className="row m-3 mb-5">
-  <div className="col-12 col-md-6 col-sm-3">
+<div className="row m-3 mb-5 pb-5">
+  <div className="col-12 col-md-3 col-sm-6">
     <div className="card bg-transparent shadow border border-info text-center my-2">
     <svg className="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
     <div className="card-body">
@@ -403,7 +404,7 @@ const App = () => {
       <div className="card-footer">Third Item</div>
     </div>
   </div>
-  <div className="col-12 col-md-6 col-sm-3">
+  <div className="col-12 col-md-3 col-sm-6">
     <div className="card bg-transparent shadow border border-info text-center my-2">
     <svg className="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
     <div className="card-body">
@@ -416,7 +417,7 @@ const App = () => {
       <div className="card-footer">Third Item</div>
     </div>
   </div>
-  <div className="col-12 col-md-6 col-sm-3">
+  <div className="col-12 col-md-3 col-sm-6">
     <div className="card bg-transparent shadow border border-info text-center my-2">
     <svg className="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
     <div className="card-body">
@@ -429,7 +430,7 @@ const App = () => {
       <div className="card-footer">Third Item</div>
     </div>
   </div>
-  <div className="col-12 col-md-6 col-sm-3">
+  <div className="col-12 col-md-3 col-sm-6">
     <div className="card bg-transparent shadow border border-info text-center my-2">
     <svg className="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
     <div className="card-body">
@@ -448,10 +449,9 @@ const App = () => {
 </section>
 
 {/* START OF PLASMAVERSE Section */}
-<section id="plasmaverse" className="p-3 py-1 pb-5 mb-2" style={{overflow: "visible"}}>
-<div className="container-fluid mask2" style={{overflow: "visible"}}>
-<div className="mask1" style={{overflow: "visible"}}>
-<div id="link3" className="container card contentcard xonecard" style={{ marginTop: "-150px", position: "relative", zIndex: 999 }}>
+<section id="plasmaverse" className="container-fluid p-3 py-1 pb-5 mb-2 text-center" style={{overflow: "visible"}}>
+<div className="container w-100">
+<div id="link3" className="card contentcard xonecard mx-auto" style={{ marginTop: "-150px", position: "relative", zIndex: 999 }}>
 <h1 className="display-5 fw-bold mb-2">Interconnected Microverses</h1>
 
 <div className="row p-2">
@@ -476,7 +476,7 @@ const App = () => {
 </div>
 
 <div className="row service-6 p-2">
-    <div className="col-md-3 wrap-service6-box mb-2">
+    <div className="col-12 col-md-3 col-sm-6 wrap-service6-box mb-2">
         <div className="card h-100 border-0 bg-green-gradient text-white mb-2 shadow">
         <div className="card-header">XONE MICROVERSES</div>
             <div className="card-body">
@@ -487,7 +487,7 @@ const App = () => {
         </div>
     </div>
 
-    <div className="col-md-3 wrap-service6-box mb-2">
+    <div className="col-12 col-md-3 col-sm-6 wrap-service6-box mb-2">
         <div className="card h-100 border-0 bg-blue-gradient text-white mb-2 shadow">
         <div className="card-header">PLASMAVERSE XR</div>
             <div className="card-body">
@@ -498,7 +498,7 @@ const App = () => {
         </div>
     </div>
 
-    <div className="col-md-3 wrap-service6-box mb-2">
+    <div className="col-12 col-md-3 col-sm-6 wrap-service6-box mb-2">
         <div className="card h-100 border-0 bg-purple-gradient text-white mb-2 shadow">
         <div className="card-header">NFT ECOSYSTEM</div>
             <div className="card-body">
@@ -509,7 +509,7 @@ const App = () => {
         </div>
     </div>
 
-    <div className="col-md-3 wrap-service6-box mb-2">
+    <div className="col-12 col-md-3 col-sm-6 wrap-service6-box mb-2">
         <div className="card h-100 border-0 bg-pink-gradient text-white mb-2 shadow">
         <div className="card-header">PASSIVE INCOME</div>
             <div className="card-body">
@@ -542,8 +542,6 @@ const App = () => {
 
 </div>
 </div>
-</div>
-
 </section>
 {/* End of XTROOD Section */}
 
