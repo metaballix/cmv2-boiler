@@ -445,11 +445,10 @@ const App = () => {
 
 </div>
 </div>
-<div className="b-divider mt-5 rounded rounded-3"></div>
 </section>
 
 {/* START OF PLASMAVERSE Section */}
-<section id="plasmaverse" className="p-3 py-1 mb-2" style={{overflow: "visible"}}>
+<section id="plasmaverse" className="p-3 py-1 pb-5 mb-2" style={{overflow: "visible"}}>
 <div className="container-fluid mask2" style={{overflow: "visible"}}>
 <div className="mask1" style={{overflow: "visible"}}>
 <div id="link3" className="container card contentcard xonecard" style={{ marginTop: "-150px", position: "relative", zIndex: 999 }}>
@@ -526,7 +525,8 @@ const App = () => {
     </div>
 </div>
 
-<div className="row align-items-center my-3 w-100">
+<div className="row align-items-center my-0 w-100">
+{/*   
   <div className="col">
   <p>1 of 3</p>
   </div>
@@ -535,10 +535,12 @@ const App = () => {
   </div>
   <div className="col">
   <p>3 of 3</p>
-  </div>
-</div>
+  </div> 
+*/}
+<div className="b-divider mt-5 rounded rounded-3"></div>
 </div>
 
+</div>
 </div>
 </div>
 
