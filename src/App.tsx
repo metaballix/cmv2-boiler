@@ -376,7 +376,7 @@ const App = () => {
 <div className="stage d-block mx-auto mb-4" style={{ marginLeft: 0 }}><figure className="4x1 ball bubble"></figure></div>
     <h1 className="display-5 fw-bold">HONE YOUR XONE</h1>
     <div className="col-lg-6 mx-auto">
-      <p className="lead mb-4 feature-p">Xones are expandable plots of virtual space that amalgamate to form the Plasmaverse. They possess metaball-like properties, and WebGL fluid dynamics that allow for some interesting customizations, functionality, and interactivity.</p>
+      <p className="lead mb-4 feature-p">Xones are expandable plots of virtual space that amalgamate to form the Plasmaverse. They mimic some of the fluid dynamics of traditional computer-generated metaballs, which allows for some interesting customizations and interactivity.</p>
       <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
         <a href="https://xone.land/" target="_blank" rel="noreferrer">
         <button className="btn btn-lg btn-outline-info" type="button">
@@ -390,7 +390,7 @@ const App = () => {
 
 <div className="container mb-5 pb-5">
 <div className="row m-3 mb-5">
-  <div className="col-6 col-sm-3">
+  <div className="col-12 col-md-6 col-sm-3">
     <div className="card bg-transparent shadow border border-info text-center my-2">
     <svg className="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
     <div className="card-body">
@@ -403,7 +403,7 @@ const App = () => {
       <div className="card-footer">Third Item</div>
     </div>
   </div>
-  <div className="col-6 col-sm-3">
+  <div className="col-12 col-md-6 col-sm-3">
     <div className="card bg-transparent shadow border border-info text-center my-2">
     <svg className="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
     <div className="card-body">
@@ -416,7 +416,7 @@ const App = () => {
       <div className="card-footer">Third Item</div>
     </div>
   </div>
-  <div className="col-6 col-sm-3">
+  <div className="col-12 col-md-6 col-sm-3">
     <div className="card bg-transparent shadow border border-info text-center my-2">
     <svg className="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
     <div className="card-body">
@@ -429,7 +429,7 @@ const App = () => {
       <div className="card-footer">Third Item</div>
     </div>
   </div>
-  <div className="col-6 col-sm-3">
+  <div className="col-12 col-md-6 col-sm-3">
     <div className="card bg-transparent shadow border border-info text-center my-2">
     <svg className="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
     <div className="card-body">
@@ -453,10 +453,10 @@ const App = () => {
 <div className="container-fluid mask2" style={{overflow: "visible"}}>
 <div className="mask1" style={{overflow: "visible"}}>
 <div id="link3" className="container card contentcard xonecard" style={{ marginTop: "-150px", position: "relative", zIndex: 999 }}>
-<h1 className="display-5 fw-bold">Interconnected Microverses</h1>
+<h1 className="display-5 fw-bold mb-2">Interconnected Microverses</h1>
 
-<div className="row w-100 my-2">
-  <div className="col-sm-6">
+<div className="row p-2">
+  <div className="col-sm-6 mb-2">
     <div className="card bg-purp1 border border-info">
       <div className="card-body">
         <h5 className="card-title">Special title treatment</h5>
@@ -465,7 +465,7 @@ const App = () => {
       </div>
     </div>
   </div>
-  <div className="col-sm-6">
+  <div className="col-sm-6 mb-2">
     <div className="card bg-purp1 border border-info">
       <div className="card-body">
         <h5 className="card-title">Special title treatment</h5>
