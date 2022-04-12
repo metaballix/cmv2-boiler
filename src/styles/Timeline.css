@@ -104,25 +104,25 @@
 
 
 /* 4x2 Features Grid - snippets.wrappixel.com/multiple-services-cards-section */
-.service-24 {
+.xone-feat {
 color: #8d97ad;
 font-weight: 300;
 }
 
-.service-24 h1, .service-24 h2, .service-24 h3, .service-24 h4, .service-24 h5, .service-24 h6 {
+.xone-feat h1, .xone-feat h2, .xone-feat h3, .xone-feat h4, .xone-feat h5, .xone-feat h6 {
 color: #3e4555;
 }
 
-.service-24 .card.card-shadow {
+.xone-feat .card.card-shadow {
     -webkit-box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
     box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
 }
 
-.service-24 a {
+.xone-feat a {
     text-decoration: none;
 }
 
-.service-24 .card-hover:hover {
+.xone-feat .card-hover:hover {
     background: #2cdd9b;
     background: -webkit-linear-gradient(legacy-direction(to right), #2cdd9b 0%, #1dc8cc 100%);
     background: -webkit-gradient(linear, left top, right top, from(#2cdd9b), to(#1dc8cc));
@@ -131,17 +131,17 @@ color: #3e4555;
     background: linear-gradient(to right, #2cdd9b 0%, #1dc8cc 100%);
 }
 
-.service-24 .card-hover:hover .bg-success-grediant {
+.xone-feat .card-hover:hover .bg-success-grad {
     color: #ffffff;
     text-fill-color: #ffffff;
     -webkit-text-fill-color: #ffffff;
 }
 
-.service-24 .card-hover:hover .ser-title {
+.xone-feat .card-hover:hover .ser-title {
     color: #ffffff;
 }
 
-.service-24 .bg-success-grediant {
+.xone-feat .bg-success-grad {
     background: #2cdd9b;
     background: -webkit-linear-gradient(legacy-direction(to right), #2cdd9b 0%, #1dc8cc 100%);
     background: -webkit-gradient(linear, left top, right top, from(#2cdd9b), to(#1dc8cc));
@@ -156,33 +156,35 @@ color: #3e4555;
     font-weight: 500;
 }
 
-.service-24 .wrap-service-24 .card {
-    transition: all 0.3s ease-out;
-    -o-transition: all 0.3s ease-out;
-    -moz-transition: all 0.3s ease-out;
-    -webkit-transition: all 0.3s ease-out;
-    background: rgba(255, 255, 255, 0.9);
+.xone-feat .xone-feat-wrapper .card {
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 0 9px 2px #00272c;
+  transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  border-radius: 9px;
 }
 
-.service-24 .wrap-service-24 .card:hover {
+.xone-feat .xone-feat-wrapper .card:hover {
     -ms-transform: translateY(-10px);
     transform: translateY(-10px);
     -webkit-transform: translateY(-10px);
 }
 
-.service-24 .btn-outline-success {
+.xone-feat .btn-outline-success {
     color: #2cdd9b !important;
     background-color: transparent;
     border-color: #2cdd9b;
 }
 
-.service-24 .btn-outline-success:hover {
+.xone-feat .btn-outline-success:hover {
         background: #2cdd9b;
     border-color: #2cdd9b;
     color: #ffffff !important;
 }
 
-.service-24 .btn-md {
+.xone-feat .btn-md {
     padding: 15px 45px;
     font-size: 16px;
 }
@@ -214,12 +216,12 @@ color: #3e4555;
 
 /* SERVICE SECTIONS - snippets.wrappixel.com */
 .service-btn {
-    background: #2cdd9b;
-    background: -webkit-linear-gradient(legacy-direction(to right), #2cdd9b 0%, #1dc8cc 100%);
-    background: -webkit-gradient(linear, left top, right top, from(#2cdd9b), to(#1dc8cc));
-    background: -webkit-linear-gradient(left, #2cdd9b 0%, #1dc8cc 100%);
-    background: -o-linear-gradient(left, #2cdd9b 0%, #1dc8cc 100%);
-    background: linear-gradient(to right, #2cdd9b 0%, #1dc8cc 100%);
+    background: #22c777;
+    background: -webkit-linear-gradient(legacy-direction(to right), #22c777 0%, #00b6ce 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#22c777), to(#00b6ce));
+    background: -webkit-linear-gradient(left, #22c777 0%, #00b6ce 100%);
+    background: -o-linear-gradient(left, #22c777 0%, #00b6ce 100%);
+    background: linear-gradient(to right, #22c777 0%, #00b6ce 100%);
     border: 0px;
     color: rgba(255,255,255,0.92);
     transition: all 0.2s ease-in-out;
@@ -231,16 +233,16 @@ color: #3e4555;
 }
 .service-btn.btn-dark:hover {
     background: #22083a;
-    border-color:#1dc8cc;
+    border-color:#00b6ce;
 }
 
 .service-btn:hover {
-    background: #1dc8cc;
-    background: -webkit-linear-gradient(legacy-direction(to right), #1dc8cc 0%, #2cdd9b 100%);
-    background: -webkit-gradient(linear, left top, right top, from(#1dc8cc), to(#2cdd9b));
-    background: -webkit-linear-gradient(left, #1dc8cc 0%, #2cdd9b 100%);
-    background: -o-linear-gradient(left, #1dc8cc 0%, #2cdd9b 100%);
-    background: linear-gradient(to right, #1dc8cc 0%, #2cdd9b 100%);
+    background: #00b6ce;
+    background: -webkit-linear-gradient(legacy-direction(to right), #00b6ce 0%, #22c777 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#00b6ce), to(#22c777));
+    background: -webkit-linear-gradient(left, #00b6ce 0%, #22c777 100%);
+    background: -o-linear-gradient(left, #00b6ce 0%, #22c777 100%);
+    background: linear-gradient(to right, #00b6ce 0%, #22c777 100%);
     color: white;
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
@@ -380,9 +382,9 @@ color: #3e4555;
 }
 
 .service-6 .btn-outline-success {
-          color: #2cdd9b !important;
+          color: #22c777 !important;
       background-color: transparent;
-      border-color: #2cdd9b !important;
+      border-color: #22c777 !important;
   }
   
   /* .service-6 .btn-outline-success:hover {
@@ -553,20 +555,30 @@ color: #3e4555;
     fill: currentColor;
   }
   
-  .wrapper {
+  .mbp-wrapper {
     width: 100%;
     width: 100%;
     height: auto;
     min-height: 100vh;
     padding: 50px 20px;
     padding-top: 100px;
-    display: flex;
-    background-image: linear-gradient(-20deg, #ff2846 0%, #6944ff 100%);
+    border-radius: 10px;
     display: flex;
     background-image: linear-gradient(-20deg, #ff2846 0%, #6944ff 100%);
   }
+  .mbp-wrapper-2 {
+    width: 100%;
+    width: 100%;
+    height: auto;
+    padding: 50px 20px;
+    padding-top: 100px;
+    border-radius: 10px;
+    display: flex;
+    background-image: linear-gradient(-20deg, #22c777 0%, #00b6ce 100%);
+  }
+
   @media screen and (max-width: 768px) {
-    .wrapper {
+    .mbp-wrapper {
       height: auto;
       min-height: 100vh;
       padding-top: 100px;
@@ -575,14 +587,14 @@ color: #3e4555;
   
   .profile-card {
     width: 100%;
-    min-height: 460px;
     margin: auto;
     box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.65);
-    background: linear-gradient(-180deg, rgba(255,255,255,1), rgba(255,255,255,0.65));
+    background: linear-gradient(180deg, rgba(255,255,255,1), rgba(255, 255, 255,1));
     border-radius: 11px;
     max-width: 700px;
     position: relative;
   }
+
   .profile-card.active .profile-card__cnt {
     filter: blur(6px);
   }
@@ -597,8 +609,8 @@ color: #3e4555;
     transition-delay: 0.1s;
   }
   .profile-card__img {
-    width: 200px;
-    height: 200px;
+    width: 128px;
+    height: 128px;
     margin-left: auto;
     margin-right: auto;
     transform: translateY(-50%);
@@ -614,13 +626,13 @@ color: #3e4555;
     border: 5px solid #00C4CC;
     outline: #4a0b69 groove 5px;
   }
-
+/* 
   @media screen and (max-width: 576px) {
     .profile-card__img {
       width: 120px;
       height: 120px;
     }
-  }
+  } */
   .profile-card__img img {
     display: block;
     width: 100%;
@@ -760,11 +772,11 @@ color: #3e4555;
     align-items: center;
     margin-top: 40px;
   }
-  @media screen and (max-width: 576px) {
+/*   @media screen and (max-width: 576px) {
     .profile-card-ctr {
       flex-wrap: wrap;
     }
-  }
+  } */
   .profile-card__button {
     background: none;
     border: none;
@@ -787,7 +799,7 @@ color: #3e4555;
       margin: 15px 25px;
     }
   }
-  @media screen and (max-width: 576px) {
+/*   @media screen and (max-width: 576px) {
     .profile-card__button {
       min-width: inherit;
       margin: 0;
@@ -798,7 +810,7 @@ color: #3e4555;
     .profile-card__button:last-child {
       margin-bottom: 0;
     }
-  }
+  } */
   .profile-card__button:focus {
     outline: none !important;
   }
@@ -962,16 +974,23 @@ color: #3e4555;
   overflow: auto;
   padding-top: 11px;
   padding-bottom: 11px;
+  transform-style: preserve-3d;
 }
 .img-box{
-  width:150px;
-  height:150px;
+  width:100px;
+  height:100px;
   border-radius:4px;
-  margin:10px 5px 10px 15px;
-  box-shadow: 0px 0px 11px 0px rgba(191, 38, 218, 0.6);
-
+  margin:10px 5px 10px 10px;
+  box-shadow: 0px 0px 10px 1px rgba(191, 38, 218, 0.7);
+  animation: 5s linear 0s infinite alternate none running nftslide-1;
+  transform: translateZ(20px);
 }
-
+/* 
+.box-bg {
+  background-image: linear-gradient(90deg,#ECF0F1 50%, #bdc3c7 50%);
+  background-size: 50px 50px;
+}
+*/
 /*
 * CUSTOM SCROLLBAR - jsfiddle.net/bootstrapious/3kaxvn69
 * ==========================================

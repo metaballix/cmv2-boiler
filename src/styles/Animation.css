@@ -64,14 +64,25 @@
 }
 
 @keyframes slideright {
-    from { background-position: 0 0; }
-    to { background-position: -500% 0; }
-  }
-  
-  @keyframes slideleft {
-    from { background-position: 0 0; }
-    to { background-position: 600% 0; }
-  }  
+  from { background-position: 0 0; }
+  to { background-position: -500% 0; }
+}
+
+@keyframes slideleft {
+  from { background-position: 0 0; }
+  to { background-position: 600% 0; }
+}  
+
+/* FIGMA SLIDER Anim */
+@keyframes figslide-1 {
+  from{transform: translateX(0px);}
+  to{transform: translateX(-100%);}
+}
+/* NFT Reel (mbp-photos > img-box) */
+@keyframes nftslide-1 {
+  from{transform: translateX(0px);}
+  to{transform: translateX(-22%);}
+}
 
 @keyframes floating {
 0% {

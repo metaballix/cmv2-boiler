@@ -376,62 +376,151 @@ const App = () => {
 <div className="container py-2 pb-4 my-0 mb-5 text-center mx-auto">
 
 <div className="mbp-slider-card">
-  <div className="row px-2 mx-auto mb-0 p-0">
-  <div className="mbp-photos custom-scrollbar-css">
-    <a href="/#"><img className="img-box img1" src="images/nfts/1.png" alt="Metaball NFT Variant (Sample)" data-tilt="" data-tilt-perspective="50" data-tilt-speed="350" data-tilt-max="1.8" /></a>
-    <a href="/#"><img className="img-box img3" src="images/nfts/9.png" alt="Metaball NFT Variant (Sample)" data-tilt="" data-tilt-perspective="50" data-tilt-speed="350" data-tilt-max="1.8" /></a>
-    <a href="/#"><img className="img-box img4" src="images/nfts/13.png" alt="Metaball NFT Variant (Sample)" data-tilt="" data-tilt-perspective="50" data-tilt-speed="350" data-tilt-max="1.8" /></a>
-    <a href="/#"><img className="img-box img5" src="images/nfts/15.png" alt="Metaball NFT Variant (Sample)" data-tilt="" data-tilt-perspective="50" data-tilt-speed="350" data-tilt-max="1.8" /></a>
-    <a href="/#"><img className="img-box img2" src="images/nfts/8.png" alt="Metaball NFT Variant (Sample)" data-tilt="" data-tilt-perspective="50" data-tilt-speed="350" data-tilt-max="1.8" /></a>
-    <a href="/#"><img className="img-box img6" src="images/nfts/19.png" alt="Metaball NFT Variant (Sample)" data-tilt="" data-tilt-perspective="50" data-tilt-speed="350" data-tilt-max="1.8" /></a>
-    <a href="/#"><img className="img-box img7" src="images/nfts/20.png" alt="Metaball NFT Variant (Sample)" data-tilt="" data-tilt-perspective="50" data-tilt-speed="350" data-tilt-max="1.8" /></a>
-    <a href="/#"><img className="img-box img8" src="images/nfts/25.png" alt="Metaball NFT Variant (Sample)" data-tilt="" data-tilt-perspective="50" data-tilt-speed="350" data-tilt-max="1.8" /></a>
-    <a href="/#"><img className="img-box img9" src="images/nfts/34.png" alt="Metaball NFT Variant (Sample)" data-tilt="" data-tilt-perspective="50" data-tilt-speed="350" data-tilt-max="1.8" /></a>
-    <a href="/#"><img className="img-box img10" src="images/nfts/35.png" alt="Metaball NFT Variant (Sample)" data-tilt="" data-tilt-perspective="50" data-tilt-speed="350" data-tilt-max="1.8" /></a>
-    <a href="/#"><img className="img-box img26" src="images/nfts/148.png" alt="Metaball NFT Variant (Sample)" data-tilt="" data-tilt-perspective="50" data-tilt-speed="350" data-tilt-max="1.8" /></a>   
-    <a href="/#"><img className="img-box img11" src="images/nfts/39.png" alt="Metaball NFT Variant (Sample)" data-tilt="" data-tilt-perspective="50" data-tilt-speed="350" data-tilt-max="1.8" /></a>
-    <a href="/#"><img className="img-box img12" src="images/nfts/40.png" alt="Metaball NFT Variant (Sample)" data-tilt="" data-tilt-perspective="50" data-tilt-speed="350" data-tilt-max="1.8" /></a>
-    <a href="/#"><img className="img-box img13" src="images/nfts/43.png" alt="Metaball NFT Variant (Sample)" data-tilt="" data-tilt-perspective="50" data-tilt-speed="350" data-tilt-max="1.8" /></a>
-    <a href="/#"><img className="img-box img14" src="images/nfts/47.png" alt="Metaball NFT Variant (Sample)" data-tilt="" data-tilt-perspective="50" data-tilt-speed="350" data-tilt-max="1.8" /></a>
-    <a href="/#"><img className="img-box img15" src="images/nfts/75.png" alt="Metaball NFT Variant (Sample)" data-tilt="" data-tilt-perspective="50" data-tilt-speed="350" data-tilt-max="1.8" /></a>
-    <a href="/#"><img className="img-box img16" src="images/nfts/96.png" alt="Metaball NFT Variant (Sample)" data-tilt="" data-tilt-perspective="50" data-tilt-speed="350" data-tilt-max="1.8" /></a>
-    <a href="/#"><img className="img-box img17" src="images/nfts/108.png" alt="Metaball NFT Variant (Sample)" data-tilt="" data-tilt-perspective="50" data-tilt-speed="350" data-tilt-max="1.8" /></a>
-    <a href="/#"><img className="img-box img18" src="images/nfts/114.png" alt="Metaball NFT Variant (Sample)" data-tilt="" data-tilt-perspective="50" data-tilt-speed="350" data-tilt-max="1.8" /></a>
-    <a href="/#"><img className="img-box img19" src="images/nfts/130.png" alt="Metaball NFT Variant (Sample)" data-tilt="" data-tilt-perspective="50" data-tilt-speed="350" data-tilt-max="1.8" /></a>
-    <a href="/#"><img className="img-box img20" src="images/nfts/132.png" alt="Metaball NFT Variant (Sample)" data-tilt="" data-tilt-perspective="50" data-tilt-speed="350" data-tilt-max="1.8" /></a>
-    <a href="/#"><img className="img-box img21" src="images/nfts/134.png" alt="Metaball NFT Variant (Sample)" data-tilt="" data-tilt-perspective="50" data-tilt-speed="350" data-tilt-max="1.8" /></a>
-    <a href="/#"><img className="img-box img22" src="images/nfts/147.png" alt="Metaball NFT Variant (Sample)" data-tilt="" data-tilt-perspective="50" data-tilt-speed="350" data-tilt-max="1.8" /></a>
-    <a href="/#"><img className="img-box img23" src="images/nfts/145.png" alt="Metaball NFT Variant (Sample)" data-tilt="" data-tilt-perspective="50" data-tilt-speed="350" data-tilt-max="1.8" /></a>
-    <a href="/#"><img className="img-box img24" src="images/nfts/155.png" alt="Metaball NFT Variant (Sample)" data-tilt="" data-tilt-perspective="50" data-tilt-speed="350" data-tilt-max="1.8" /></a>
-    <a href="/#"><img className="img-box img25" src="images/nfts/146.png" alt="Metaball NFT Variant (Sample)" data-tilt="" data-tilt-perspective="50" data-tilt-speed="350" data-tilt-max="1.8" /></a>
-    <a href="/#"><img className="img-box img27" src="images/nfts/162.png" alt="Metaball NFT Variant (Sample)" data-tilt="" data-tilt-perspective="50" data-tilt-speed="350" data-tilt-max="1.8" /></a>
-    <a href="/#"><img className="img-box img28" src="images/nfts/163.png" alt="Metaball NFT Variant (Sample)" data-tilt="" data-tilt-perspective="50" data-tilt-speed="350" data-tilt-max="1.8" /></a>
-  </div>
-  </div>
-  {/* <div className="mbp-logo"></div> */}
-  <div className="stage d-block mx-auto" style={{ marginLeft: 0, marginTop: "-47px" }}><figure className="4x1 ball bubble"></figure></div>
 
-<div className="row justify-content-center mt-3 mx-3">
-  <div className="col content px-5">
-    <h1 className="display-5 fw-bold" style={{ letterSpacing: "0.15rem" }}>METABALLS</h1>
-    <h3 className="sub-header fw-bold fs-2"><span style={{color: "rgb(182, 38, 182)"}}>UNLOCK. </span><span style={{color: "rgb(101, 38, 182)"}}>MINT. </span><span style={{color: "rgb(38, 137, 182)"}}>TRADE.</span></h3>
-    <p className="p-3 description lead fs-3">Metaballs are dynamic NFT avatars that reside and evolve in the Metaballix Plasmaverse. Your Metaball NFT ties you to your Xones, $PLASMA holdings, transaction and experience records, and Xonership metadata such as assets and components, configuration, and a spatial-social graph of your Web3 traffic.</p>
+<div className="row px-2 mx-auto mb-3 p-0">
+  <div className="mbp-photos custom-scrollbar-css" data-tilt="" data-tilt-perspective="100" data-tilt-speed="400" data-tilt-max="1.8">
+    <a href="/#"><img className="img-box img3" src="images/nfts/9.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img4" src="images/nfts/13.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img5" src="images/nfts/15.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img2" src="images/nfts/8.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img6" src="images/nfts/19.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img7" src="images/nfts/20.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img8" src="images/nfts/25.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img9" src="images/nfts/110.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img10" src="images/nfts/35.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img26" src="images/nfts/148.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>   
+    <a href="/#"><img className="img-box img11" src="images/nfts/39.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img12" src="images/nfts/40.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img13" src="images/nfts/43.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img14" src="images/nfts/47.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img15" src="images/nfts/75.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img16" src="images/nfts/96.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img17" src="images/nfts/108.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img18" src="images/nfts/114.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img19" src="images/nfts/130.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img20" src="images/nfts/132.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img21" src="images/nfts/134.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img22" src="images/nfts/147.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img23" src="images/nfts/145.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img24" src="images/nfts/155.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img25" src="images/nfts/146.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img27" src="images/nfts/162.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/163.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/35.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/52.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/57.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/60.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/68.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/70.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/89.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/99.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/100.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/102.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/103.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/104.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/105.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/106.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/107.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/109.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/111.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/112.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/113.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/115.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/116.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/117.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/118.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/119.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/120.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/121.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/122.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/124.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/125.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/126.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/127.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/128.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/129.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/131.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/133.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/135.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/136.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/137.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/138.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/139.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/140.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/141.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/142.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/143.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/144.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/146.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/148.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/149.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/150.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/151.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/152.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/153.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/154.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/155.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/156.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/157.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/158.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/159.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/160.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/161.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/162.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/166.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/167.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/168.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/169.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/170.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/171.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/172.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/173.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/174.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/175.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/176.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/177.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/178.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/179.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/180.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/181.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/182.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+    <a href="/#"><img className="img-box img28" src="images/nfts/185.png" alt="Metaball NFT Variant (Sample)" data-tilt="" /></a>
+
+
   </div>
 </div>
-  <div className="box">
-    <div className="box media">
-      <h2 className="gradient-txt-green fw-bold fs-2">22,000</h2>
-      <h3 className="text-white fs-3">NFTs : 2 Series</h3>
-    </div>
-    <div className="box followers">
-      <h2 className="gradient-txt-green fw-bold fs-2">19,326,120</h2>
-      <h3 className="text-white fs-3">DNA Variants</h3>
-    </div>
-    <div className="box following">
-      <h2 className="gradient-txt-green fw-bold fs-2">38,652,244</h2>
-      <h3 className="text-white fs-3">XR Estates</h3>
-    </div>
+
+{/* <div className="mbp-logo"></div> */}
+<div className="stage d-block mx-auto" style={{ marginLeft: 0, marginTop: "-56px" }}><figure className="4x1 ball bubble"></figure></div>
+
+<div className="row justify-content-center mt-3 mx-2">
+  <div className="col-10 content">
+    <h1 className="display-5 fw-bold" style={{ letterSpacing: "0.15rem" }}>METABALLS</h1>
+    <h3 className="sub-header fw-bold fs-2"><span style={{color: "rgb(182, 38, 182)"}}>UNLOCK. </span><span style={{color: "rgb(101, 38, 182)"}}>MINT. </span><span style={{color: "rgb(38, 137, 182)"}}>TRADE.</span></h3>
+    <p className="py-3 description lead fs-3">Metaballs are dynamic NFT avatars that reside and evolve in the Metaballix Plasmaverse. Your Metaball NFT ties you to your $PLASMA holdings, activity records, and 'Xonership' metadata such as assets, configuration, and a spatial-social graph of your Xones' monetizable traffic.</p>
   </div>
+</div>
+
+<div className="row box mx-1">
+    <div className="col-6 col-md-4 py-2">
+    <div className="box media">
+      <h2 className="gradient-txt-green fw-bold fs-2 pb-0">22,000</h2>
+      <h4 className="text-white">NFTs, 11k per series</h4>
+    </div>
+    </div>
+    <div className="col-6 col-md-4 py-2">
+    <div className="box followers">
+      <h2 className="gradient-txt-green fw-bold fs-2 pb-0">19,326,120</h2>
+      <h4 className="text-white">Unlockable Variants</h4>
+    </div>
+    </div>
+    <div className="col-6 col-md-4 py-2">
+    <div className="box following">
+      <h2 className="gradient-txt-green fw-bold fs-2 pb-0">38,652,240</h2>
+      <h4 className="text-white">Monetizable Xones</h4>
+    </div>
+    </div>
+</div>
 
 <div className="row justify-content-center">
   <div className="col mb-3">
@@ -485,8 +574,9 @@ const App = () => {
 
 </div>
 
-  <div className="row">
-    <div className="col-12 col-md-6 mb-5">
+{/* ROW :: HONE YOUR XONE */}
+<div className="row">
+    <div className="col col-lg-7 mb-5">
       <div className="mbp-wrapper">
         
         <div className="profile-card js-profile-card">
@@ -496,14 +586,14 @@ const App = () => {
 
     <div className="profile-card__cnt js-profile-cnt">
     <h1 className="display-5 fw-bold gradient-txt-green">HONE YOUR XONE</h1>
-      <div className="profile-card__txt fs-4 px-2">Xones are <strong>hemispheric virtual estates</strong> within your Metaball sphere. Powered by $PLASMA, their outer cores mimic the fluid dynamics of simulated metaballs, allowing them to co-exist and interact with Plasmaverse entities in 3D space.</div>
+      <div className="profile-card__txt fs-4 px-2">Xones are <strong>hemispheric digital estates</strong> within your Metaball sphere. Powered by $PLASMA, their outer cores mimic the fluid dynamics of simulated metaballs, allowing them to co-exist and interact with Plasmaverse entities in 3D space.</div>
       <div className="row">
 
-        <div className="col-12">
-          <h3 className="gradient-txt-green fw-bold fs-2">2 XONES + 1000 $PLASMA</h3>
+      <div className="col-12">
+          <h4 className="text-dark fw-bold">Every Metaball NFT holds</h4>
         </div>
         <div className="col-12">
-          <h4 className="text-dark fw-bold">per Metaball NFT</h4>
+          <h3 className="gradient-txt-green fw-bold fs-2">2 XONES + 1000 $PLASMA</h3>
         </div>
       </div>
 
@@ -551,8 +641,92 @@ const App = () => {
       </div>
     </div>
 
-<div className="col-12 col-md-6">
-  <div className="mbp-wrapper">
+<div className="col col-lg-5 h-100">
+{/* Start of Feature Squares Grid 4x2 */}
+<div className="xone-feat">
+    <div className="container">
+        <div className="row h-100 xone-feat-wrapper">
+
+            <div className="col-6">
+                <div className="card card-shadow border-0 mb-4">
+                    <div className="card-hover py-4 text-center d-block rounded"> 
+												<span className="bg-success-grad">R</span>
+                        <h6 className="ser-title">Retargeting Market</h6>
+                    </div>
+                </div>
+            </div>
+
+            <div className="col-6">
+                <div className="card card-shadow border-0 mb-4">
+                    <div className="card-hover py-4 text-center d-block rounded"> 
+												<span className="bg-success-grad">D</span>
+                        <h6 className="ser-title">Digital Marketing</h6>
+                    </div>
+                </div>
+            </div>
+
+            <div className="col-6">
+                <div className="card card-shadow border-0 mb-4">
+                    <div className="card-hover py-4 text-center d-block rounded"> 
+												<span className="bg-success-grad">S</span>
+                        <h6 className="ser-title">SEO Techniques</h6>
+                    </div>
+                </div>
+            </div>
+
+            <div className="col-6">
+                <div className="card card-shadow border-0 mb-4">
+                    <div className="card-hover py-4 text-center d-block rounded"> 
+												<span className="bg-success-grad">C</span>
+                        <h6 className="ser-title">Client Management</h6>
+                    </div>
+                </div>
+            </div>
+
+            <div className="col-6">
+                <div className="card card-shadow border-0 mb-4">
+                    <div className="card-hover py-4 text-center d-block rounded"> 
+												<span className="bg-success-grad">E</span>
+                        <h6 className="ser-title">Email Campaign</h6>
+                    </div>
+                </div>
+            </div>
+
+            <div className="col-6">
+                <div className="card card-shadow border-0 mb-4">
+                    <div className="card-hover py-4 text-center d-block rounded"> 
+												<span className="bg-success-grad">W</span>
+                        <h6 className="ser-title">Website Strategy</h6>
+                    </div>
+                </div>
+            </div>
+
+            <div className="col-6">
+                <div className="card card-shadow border-0 mb-4">
+                    <div className="card-hover py-4 text-center d-block rounded"> 
+												<span className="bg-success-grad">E</span>
+                        <h6 className="ser-title">eCommerce Shop</h6>
+                    </div>
+                </div>
+            </div>
+
+            <div className="col-6">
+                <div className="card card-shadow border-0 mb-4">
+                    <div className="card-hover py-4 text-center d-block rounded"> 
+												<span className="bg-success-grad">C</span>
+                        <h6 className="ser-title">Cloud Hosting</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/* End of 4x2 Features Grid */}
+</div>
+
+<div className="row justify-content-center mt-3 mx-auto pb-0">
+<div className="col-12 col-md-6 mb-3">
+  <div className="mbp-wrapper-2">
     <div className="profile-card p-1">
       <div className="card bg-purp2 text-center shadow-md pb-1" style={{ borderRadius:"11px" }}>
         <div className="card-body">
@@ -571,73 +745,82 @@ const App = () => {
     </div>
   </div>
 </div>
-
+<div className="col-12 col-md-6 mb-3">
+  <div className="mbp-wrapper-2">
+    <div className="profile-card p-1">
+      <div className="card bg-purp2 text-center shadow-md pb-1" style={{ borderRadius:"11px" }}>
+        <div className="card-body">
+          <h5 className="card-title fw-bold">Cross-Browser Compatible</h5>
+          <p className="card-text">Xones are built with A-Frame, a Three.js-based framework that leverages WebGL and WebXR to deliver web-based immersive experiences on computers, mobile devices, and AR/VR Headsets.</p>
+          <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <a href="https://xone.land/" target="_blank" rel="noreferrer">
+            <button className="btn btn-lg btn-info" type="button">
+            <h2 style={{ letterSpacing: "0.09em" }} className="text-light px-5"><em>TOUR THE DEMO</em></h2>
+            <div className="badge bg-purp1 text-wrap" style={{ width: "95%" }}>Projected Launch : Phase 3</div>
+            </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
+</div>
 
-<div className="container mb-5 pb-5">
-<div className="row m-3 mb-5 pb-5">
-  <div className="col-12 col-md-3 col-sm-6">
-    <div className="card bg-transparent shadow border border-info text-center my-2">
-    <svg className="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
-    <div className="card-body">
-        <h5 className="card-title">PRODUCTIVITY</h5>
-        <h6 className="card-subtitle mb-3 fw-light fst-italic">Card subtitle</h6>
-        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
-      <div className="card-footer">First Item</div>
-      <div className="card-footer">Second Item</div>
-      <div className="card-footer">Third Item</div>
-    </div>
-  </div>
-  <div className="col-12 col-md-3 col-sm-6">
-    <div className="card bg-transparent shadow border border-info text-center my-2">
-    <svg className="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
-    <div className="card-body">
-        <h5 className="card-title">PRODUCTIVITY</h5>
-        <h6 className="card-subtitle mb-3 fw-light fst-italic">Card subtitle</h6>
-        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
-      <div className="card-footer">First Item</div>
-      <div className="card-footer">Second Item</div>
-      <div className="card-footer">Third Item</div>
-    </div>
-  </div>
-  <div className="col-12 col-md-3 col-sm-6">
-    <div className="card bg-transparent shadow border border-info text-center my-2">
-    <svg className="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
-    <div className="card-body">
-        <h5 className="card-title">PRODUCTIVITY</h5>
-        <h6 className="card-subtitle mb-3 fw-light fst-italic">Card subtitle</h6>
-        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
-      <div className="card-footer">First Item</div>
-      <div className="card-footer">Second Item</div>
-      <div className="card-footer">Third Item</div>
-    </div>
-  </div>
-  <div className="col-12 col-md-3 col-sm-6">
-    <div className="card bg-transparent shadow border border-info text-center my-2">
-    <svg className="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
-    <div className="card-body">
-        <h5 className="card-title">PRODUCTIVITY</h5>
-        <h6 className="card-subtitle mb-3 fw-light fst-italic">Card subtitle</h6>
-        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
-      <div className="card-footer">First Item</div>
-      <div className="card-footer">Second Item</div>
-      <div className="card-footer">Third Item</div>
-    </div>
-  </div>
+</div>
 
+</div>
+
+{/* XONE DISPLAY PANEL */}
+{/* <div className="b-divider"></div> */}
+
+<div className="container my-5 mx-auto">
+  <div className="row px-0 px-md-2 px-lg-3 py-4 pt-lg-5 mx-2 align-items-center justify-content-center text-center">
+  <div className="col col-md-3">
+      1 of 3
+    </div>
+    <div className="col md-1">
+    <i className="fa-solid fa-circle-right fs-3 fs-md-2 fs-lg-1"></i>
+    </div>
+    <div className="col col-md-3">
+      2 of 3
+    </div>
+    <div className="col md-1">
+    <i className="fa-solid fa-circle-right fs-3 fs-md-2 fs-lg-1"></i>
+    </div>
+    <div className="col col-md-3">
+      3 of 3
+    </div>
+  </div>
+ </div>
+
+<div className="row justify-content-center my-3 mx-2 pb-0">
+<div className="col-12 col-md-10">
+  <div className="mbp-wrapper shadow-lg">
+    <div className="profile-card p-1">
+      <div className="card bg-purp2 text-center shadow-md" style={{ borderRadius:"11px" }}>
+        <div className="card-body">
+          <h5 className="card-title fw-bold">Cross-Browser Compatible</h5>
+          <p className="card-text">Xones are built with A-Frame, a Three.js-based framework that leverages WebGL and WebXR to deliver web-based immersive experiences on computers, mobile devices, and AR/VR Headsets.</p>
+          <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <a href="https://xone.land/" target="_blank" rel="noreferrer">
+            <button className="btn btn-lg btn-info" type="button">
+            <h2 style={{ letterSpacing: "0.09em" }} className="text-light px-5"><em>TOUR THE DEMO</em></h2>
+            <div className="badge bg-purp1 text-wrap" style={{ width: "95%" }}>Projected Launch : Phase 3</div>
+            </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 </div>
 </section>
 
 {/* START OF PLASMAVERSE Section */}
-<section id="plasmaverse" className="container-fluid p-3 py-1 pb-5 mb-2 text-center" style={{overflow: "visible"}}>
-<div className="container w-100">
-<div id="link3" className="card contentcard xonecard mx-auto" style={{ marginTop: "-150px", position: "relative", zIndex: 999 }}>
+<section id="plasmaverse" className="container-fluid pt-5 px-5 text-center" style={{overflow: "visible"}}>
+<div id="link3" className="card contentcard xonecard mt-3 mx-auto shadow-lg border border-info" style={{ marginBottom: "-222px", position: "relative", zIndex: 999 }}>
 <h1 className="display-5 fw-bold mb-2">Interconnected Microverses</h1>
 
 <div className="row p-2">
@@ -727,14 +910,12 @@ const App = () => {
 </div>
 
 </div>
-</div>
 </section>
 {/* End of XTROOD Section */}
 
-<div className="b-divider"></div>
-
 {/* START OF XONERATOR Section */}
-<section id="xonerator" className="py-5" style={{ background: "rgba(11, 218, 227,0.11)" }} >
+<section id="xonerator" className="my-0 py-5">
+<div className="container mx-auto p-5"><span> </span></div>
   <div className="container w-99 mx-auto my-5 py-4 border-none rounded-3 rounded-sm-0 shadow-lg" style={{ background: "linear-gradient(-11deg, rgba(0, 196, 204,0.33), rgba(3, 24, 88,0.55))" }} >
     <div className="row p-md-4 pt-lg-5 pe-lg-0 align-items-center text-center">
       <div className="col-lg-7 p-5 p-lg-5 pt-lg-3">
@@ -768,7 +949,6 @@ const App = () => {
     </div>
   </div>
 </section>
-<div className="b-divider"></div>
 {/* End of Xonerator */}
 
 {/* Start of NFTs Section - ChatLoop */}
@@ -907,87 +1087,6 @@ const App = () => {
 <div className="b-divider"></div>
 {/* End of Service1 3x1 Grid (Snippet) */}
 
-{/* Start of Feature Squares Grid 4x2 */}
-<div className="py-5 service-24">
-    <div className="container">
-
-        <div className="row wrap-service-24">
-
-            <div className="col-lg-3 col-md-6">
-                <div className="card rounded card-shadow border-0 mb-4">
-                    <div className="card-hover py-4 text-center d-block rounded"> 
-												<span className="bg-success-grediant">R</span>
-                        <h6 className="ser-title">Retargeting Market</h6>
-                    </div>
-                </div>
-            </div>
-
-            <div className="col-lg-3 col-md-6">
-                <div className="card card-shadow border-0 mb-4">
-                    <div className="card-hover py-4 text-center d-block rounded"> 
-												<span className="bg-success-grediant">D</span>
-                        <h6 className="ser-title">Digital Marketing</h6>
-                    </div>
-                </div>
-            </div>
-
-            <div className="col-lg-3 col-md-6">
-                <div className="card card-shadow border-0 mb-4">
-                    <div className="card-hover py-4 text-center d-block rounded"> 
-												<span className="bg-success-grediant">S</span>
-                        <h6 className="ser-title">SEO Techniques</h6>
-                    </div>
-                </div>
-            </div>
-
-            <div className="col-lg-3 col-md-6">
-                <div className="card card-shadow border-0 mb-4">
-                    <div className="card-hover py-4 text-center d-block rounded"> 
-												<span className="bg-success-grediant">C</span>
-                        <h6 className="ser-title">Client Management</h6>
-                    </div>
-                </div>
-            </div>
-
-            <div className="col-lg-3 col-md-6">
-                <div className="card card-shadow border-0 mb-4">
-                    <div className="card-hover py-4 text-center d-block rounded"> 
-												<span className="bg-success-grediant">E</span>
-                        <h6 className="ser-title">Email Campaign</h6>
-                    </div>
-                </div>
-            </div>
-
-            <div className="col-lg-3 col-md-6">
-                <div className="card card-shadow border-0 mb-4">
-                    <div className="card-hover py-4 text-center d-block rounded"> 
-												<span className="bg-success-grediant">W</span>
-                        <h6 className="ser-title">Website Strategy</h6>
-                    </div>
-                </div>
-            </div>
-
-            <div className="col-lg-3 col-md-6">
-                <div className="card card-shadow border-0 mb-4">
-                    <div className="card-hover py-4 text-center d-block rounded"> 
-												<span className="bg-success-grediant">E</span>
-                        <h6 className="ser-title">eCommerce Shop</h6>
-                    </div>
-                </div>
-            </div>
-
-            <div className="col-lg-3 col-md-6">
-                <div className="card card-shadow border-0 mb-4">
-                    <div className="card-hover py-4 text-center d-block rounded"> 
-												<span className="bg-success-grediant">C</span>
-                        <h6 className="ser-title">Cloud Hosting</h6>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-{/* End of 4x2 Features Grid */}
 
 {/* Scrolling img reels */}
 <div className="nft-hero">
@@ -1243,9 +1342,56 @@ const App = () => {
 </section>
 {/* End of Roadmap Section */}
 
-{/* START OF FAQs SECTION */}
+{/* START OF TEAMS SECTION */}
+<section id="team" className="mx-3 mt-0">
+<div className="container mb-5 pb-5">
+<div className="row mb-5 pb-5">
+  <div className="col-12 col-md-4 col-sm-6">
+    <div className="card bg-transparent shadow border border-info text-center my-2">
+    <svg className="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+    <div className="card-body">
+        <h5 className="card-title">PRODUCTIVITY</h5>
+        <h6 className="card-subtitle mb-3 fw-light fst-italic">Card subtitle</h6>
+        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      </div>
+      <div className="card-footer">First Item</div>
+      <div className="card-footer">Second Item</div>
+      <div className="card-footer">Third Item</div>
+    </div>
+  </div>
+  <div className="col-12 col-md-4 col-sm-6">
+    <div className="card bg-transparent shadow border border-info text-center my-2">
+    <svg className="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+    <div className="card-body">
+        <h5 className="card-title">PRODUCTIVITY</h5>
+        <h6 className="card-subtitle mb-3 fw-light fst-italic">Card subtitle</h6>
+        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      </div>
+      <div className="card-footer">First Item</div>
+      <div className="card-footer">Second Item</div>
+      <div className="card-footer">Third Item</div>
+    </div>
+  </div>
+  <div className="col-12 col-md-4 col-sm-6">
+    <div className="card bg-transparent shadow border border-info text-center my-2">
+    <svg className="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+    <div className="card-body">
+        <h5 className="card-title">PRODUCTIVITY</h5>
+        <h6 className="card-subtitle mb-3 fw-light fst-italic">Card subtitle</h6>
+        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      </div>
+      <div className="card-footer">First Item</div>
+      <div className="card-footer">Second Item</div>
+      <div className="card-footer">Third Item</div>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+{/* End of Teams */}
 
-<section id="faq" className="m-3 mt-0">
+{/* START OF FAQs SECTION */}
+<section id="faq" className="mx-3 mt-0">
 <div className="container rounded-3 border border-info shadow p-2" style={{backgroundColor: "#1D002F"}}>
 <div className="row">
 <div className="col-8 h-100">
