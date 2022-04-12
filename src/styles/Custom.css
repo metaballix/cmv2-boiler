@@ -23,6 +23,7 @@ html {
 
 /* General Customizations */
 .bg-purp1 { background-color: #1D002F !important; }
+.bg-purp2 { background-color: #380b55 !important; }
 div.bg-overlay {position: fixed; left:0; top: 0; z-index: -1; width:100%; height:100%; background:radial-gradient(ellipse farthest-corner at 50% 70%, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7));}
 .content-wrapper section {border-radius: var(--card-border-radius);}
 
@@ -145,7 +146,7 @@ div.bg-overlay {position: fixed; left:0; top: 0; z-index: -1; width:100%; height
   background: linear-gradient(180deg,rgba(29,0,47,1) 0%, rgba(29,0,47,1) 29%, rgba(29,0,47,0.92) 56%, rgba(29,0,47,0.92) 65%, rgba(29,0,47,1) 100%); 
 }
 #xones {
-  background: linear-gradient(175deg,rgba(29,0,47,1) 0%, rgba(29,0,47,1) 20%, rgba(0, 196, 204,1) 92%, rgba(0, 196, 204,1) 100%); 
+  background: linear-gradient(175deg,rgba(29,0,47,1) 0%, rgba(29,0,47,1) 20%, rgba(92,0,128,1) 83%,rgba(92,0,128,1) 100%, rgba(92,0,128,1) 100%); 
 }
 #plasmaverse { background: linear-gradient(-177deg,rgba(29,0,47,1) 0%, rgba(29,0,47,1) 29%, rgba(29,0,47,0) 100%); }
 #xtrood {
@@ -283,22 +284,22 @@ div.mball-avatar {
 
 .hero-title .h1-engage {
   color: rgb(38, 137, 182);
-  -webkit-animation: highlite1 3s infinite ease-in-out;
-  -moz-animation: highlite1 3s infinite ease-in-out;
-  -o-animation: highlite1 3s infinite ease-in-out;
-  animation: highlite1 3s infinite ease-in-out; }
+  -webkit-animation: highlite1 2.5s infinite ease;
+  -moz-animation: highlite1 2.5s infinite ease;
+  -o-animation: highlite1 2.5s infinite ease;
+  animation: highlite1 2.5s infinite ease; }
 .hero-title .h1-expand {
   color: rgb(101, 38, 182);
-  -webkit-animation: highlite2 3s infinite ease-in-out;
-  -moz-animation: highlite2 3s infinite ease-in-out;
-  -o-animation: highlite2 3s infinite ease-in-out;
-  animation: highlite2 3s infinite ease-in-out; }
+  -webkit-animation: highlite2 2.5s infinite ease;
+  -moz-animation: highlite2 2.5s infinite ease;
+  -o-animation: highlite2 2.5s infinite ease;
+  animation: highlite2 2.5s infinite ease; }
 .hero-title .h1-earn {
   color: rgb(182, 38, 182);
-  -webkit-animation: highlite3 3s infinite ease-in-out;
-  -moz-animation: highlite3 3s infinite ease-in-out;
-  -o-animation: highlite3 3s infinite ease-in-out;
-  animation: highlite3 3s infinite ease-in-out; }
+  -webkit-animation: highlite3 2.5s infinite ease;
+  -moz-animation: highlite3 2.5s infinite ease;
+  -o-animation: highlite3 2.5s infinite ease;
+  animation: highlite3 2.5s infinite ease; }
 
 .hero-text, .hero-xone-badge {
   /*   filter: drop-shadow(0 0 0.5rem rgba(0, 196, 204,1));
@@ -323,6 +324,10 @@ div.mball-avatar {
 @media (max-width: 768px) {
   .hero-desc { text-align: center; line-height: 2.2rem; letter-spacing: 0.1em; max-width: 575px; }
   }
+
+  @media (max-width: 576px) {
+    .hero-desc { text-align: center; line-height: 1.8rem; letter-spacing: 0.1em; max-width: 420px; }
+    }
 
 .hero-xone-badge {
   background: linear-gradient(45deg, indigo 30%, purple 80%);
@@ -461,6 +466,7 @@ p.MuiTypography-body1 {font-family: "Dosis", sans-serif;}
     position: relative;
     margin: auto;
     background: radial-gradient(circle at bottom, #81e8f6, #76deef 10%, #055194 80%, #062745 100%);
+    box-shadow: 0px 0px 38px 0px #44b9fc;
   }
   .ball:hover{cursor: pointer;}
     .ball:before {
@@ -504,17 +510,17 @@ p.MuiTypography-body1 {font-family: "Dosis", sans-serif;}
         display: none; }
     .ball.bubble {
       background-size: 100%;
-      background-image: url("https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/mtblx_dark_72px.png?v=1642785332591"),radial-gradient(circle at 50% 55%, rgba(240, 245, 255, 0.9), rgba(240, 245, 255, 0.9) 40%, rgba(225, 238, 255, 0.8) 60%, rgba(43, 130, 255, 0.4));
+      background-image: url("https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/mtblx-light-200px.png?v=1649712548411"),radial-gradient(circle at 50% 55%, rgba(240, 245, 255, 0.9), rgba(240, 245, 255, 0.9) 40%, rgba(225, 238, 255, 0.8) 60%, rgba(43, 130, 255, 0.4));
       -webkit-animation: bubble-anim 2s ease-out infinite;
       animation: bubble-anim 2s ease-out infinite;
-      opacity: 0.75;
       transition: all 0.3s;
       cursor: pointer;
+      opacity: 1;
     }
     .mbmenu-ball.ball.bubble {
       background-image: url("https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/ballmenu-icon.png?v=1643823631145"),radial-gradient(circle at 50% 55%, rgba(240, 245, 255, 0.9), rgba(240, 245, 255, 0.9) 40%, rgba(225, 238, 255, 0.8) 60%, rgba(113, 17, 161, 0.4));
     }
-      .ball.bubble:hover,.ball.bubble:active {opacity: 0.95;}
+      .ball.bubble:hover,.ball.bubble:active {opacity: 1;}
       .ball.bubble:before {
         -webkit-filter: blur(0);
         filter: blur(0);
@@ -528,14 +534,19 @@ p.MuiTypography-body1 {font-family: "Dosis", sans-serif;}
         background: radial-gradient(circle at 50% 80%, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 74%, white 80%, white 84%, rgba(255, 255, 255, 0) 100%); }
   
   .stage {
-    width: 2.8rem;
-    height: 2.8rem;
-    margin: 0 auto;
-    -webkit-perspective: 384px;
-    -moz-perspective: 384px;
-    -ms-perspective: 384px;
-    -o-perspective: 384px;
-    perspective: 384px;
+    width:80px;
+    height: 80px;
+    margin: 0 auto; 
+    overflow: visible;
+    position:relative;
+    border-radius:50%;
+    border: none;
+    background-color: transparent;
+    -webkit-perspective: 888px;
+    -moz-perspective: 888px;
+    -ms-perspective: 888px;
+    -o-perspective: 888px;
+    perspective: 888px;
     -webkit-perspective-origin: 50% 50%;
     -moz-perspective-origin: 50% 50%;
     -ms-perspective-origin: 50% 50%;
