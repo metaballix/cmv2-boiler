@@ -492,9 +492,9 @@ const App = () => {
 </div>
 
 {/* <div className="mbp-logo"></div> */}
-<div className="stage d-block mx-auto" style={{ marginLeft: 0, marginTop: "-56px" }}><figure className="4x1 ball bubble"></figure></div>
+<div className="stage d-block mx-auto" style={{ marginLeft: 0, marginTop: "-65px" }}><figure className="4x1 ball bubble"></figure></div>
 
-<div className="row justify-content-center mt-3 mx-2">
+<div className="row justify-content-center mt-4 mx-2">
   <div className="col-10 content">
     <h1 className="display-5 fw-bold" style={{ letterSpacing: "0.15rem" }}>METABALLS</h1>
     <h3 className="sub-header fw-bold fs-2"><span style={{color: "rgb(182, 38, 182)"}}>UNLOCK. </span><span style={{color: "rgb(101, 38, 182)"}}>MINT. </span><span style={{color: "rgb(38, 137, 182)"}}>TRADE.</span></h3>
@@ -825,13 +825,62 @@ const App = () => {
     <div className="profile-card float-card-1 p-1">
       <div className="card bg-purp2 text-center shadow-md pb-5" style={{ borderRadius:"11px"}}>
         <div className="card-body">
-          <h5 className="card-title fw-bold">Cross-Browser Compatible</h5>
-          <p className="card-text">Xones are built with A-Frame, a Three.js-based framework that leverages WebGL and WebXR to deliver web-based immersive experiences on computers, mobile devices, and AR/VR Headsets.</p>
-          <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
+          <h5 className="card-title fw-bold">Cross-Platform</h5>
+
+          <div className="row g-2 mt-2">
+          <div className="col-4">
+          <div className="card tech-card text-center">
+            <div className="card-body">
+              <h5 className="card-title">A</h5>
+            </div>
+          </div>
+          </div>
+          <div className="col-4">
+          <div className="card tech-card text-center">
+            <div className="card-body">
+              <h5 className="card-title">B</h5>
+            </div>
+          </div>
+          </div>
+          <div className="col-4">
+          <div className="card tech-card text-center">
+            <div className="card-body">
+              <h5 className="card-title">C</h5>
+            </div>
+          </div>
+          </div>
+          </div>
+          
+          <h5 className="card-title fw-bold mt-2">Cross-Browser</h5>
+
+          <div className="row g-2 mt-1">
+          <div className="col-4">
+          <div className="card tech-card text-center">
+            <div className="card-body">
+              <h5 className="card-title">A</h5>
+            </div>
+          </div>
+          </div>
+          <div className="col-4">
+          <div className="card tech-card text-center">
+            <div className="card-body">
+              <h5 className="card-title">B</h5>
+            </div>
+          </div>
+          </div>
+          <div className="col-4">
+          <div className="card tech-card text-center">
+            <div className="card-body">
+              <h5 className="card-title">C</h5>
+            </div>
+          </div>
+          </div>
+          </div>
+          <div className="d-grid gap-2">
             <a href="https://xone.land/" target="_blank" rel="noreferrer">
-            <button className="btn btn-lg btn-info" type="button">
-            <h2 style={{ letterSpacing: "0.09em" }} className="text-light px-5"><em>TOUR THE DEMO</em></h2>
-            <div className="badge bg-purp1 text-wrap" style={{ width: "95%" }}>Projected Launch : Phase 3</div>
+            <button className="btn btn-lg btn-hover bg-blue-gradient btn-block w-100" type="button">
+            <h2 style={{ letterSpacing: "0.09em" }} className="text-light px-5 fw-bold">DEMO</h2>
+            <div className="badge bg-purp2 text-wrap" style={{ width: "98%" }}>Phase 3 Launch</div>
             </button>
             </a>
           </div>
@@ -844,26 +893,15 @@ const App = () => {
 </section>
 
 {/* START OF PLASMAVERSE Section */}
-<section id="plasmaverse" className="container-fluid pt-5 px-5 text-center" style={{overflow: "visible"}}>
+<section id="plasmaverse" className="container-fluid pt-5 px-3 text-center align-items-center" style={{overflow: "visible"}}>
 <div id="link3" className="card contentcard xonecard mt-3 mx-auto shadow-lg border border-info" style={{ marginBottom: "-222px", position: "relative", zIndex: 999 }}>
-<h1 className="display-5 fw-bold mb-2">Interconnected Microverses</h1>
+<h1 className="display-5 fw-bold my-3">Interconnected Microverses</h1>
 
-<div className="row p-2">
-  <div className="col-sm-6 mb-2">
-    <div className="card bg-purp1 border border-info">
+<div className="row mt-1 p-2 align-items-center justify-content-center">
+  <div className="col-12 mb-2">
+    <div className="card p-5 bg-purp-transparent">
       <div className="card-body">
-        <h5 className="card-title">Special title treatment</h5>
-        <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="/#" className="btn btn-info">Go somewhere</a>
-      </div>
-    </div>
-  </div>
-  <div className="col-sm-6 mb-2">
-    <div className="card bg-purp1 border border-info">
-      <div className="card-body">
-        <h5 className="card-title">Special title treatment</h5>
-        <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="/#" className="btn btn-info">Go somewhere</a>
+        <p className="card-text fs-2">Xone microverses are built with A-Frame, a Three.js-based framework that leverages WebGL and WebXR to -Frame aims to deliver "fully immersive interactive VR experiences that go beyond basic 360° content, making full use of positional tracking and controllers."</p>
       </div>
     </div>
   </div>
