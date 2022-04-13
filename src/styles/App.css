@@ -31,12 +31,6 @@ code {
                                   supported by Chrome, Edge, Opera and Firefox */
 }
 
-.suptext {
-  font-size: 74%;
-  position: relative;
-  bottom: 0.28em;
-  }
-
 body {
   position: relative; 
   background-color: rgb(55, 3, 88) !important;

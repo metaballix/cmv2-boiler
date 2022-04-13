@@ -236,7 +236,7 @@ const App = () => {
       <div className="navbar-collapse collapse" id="mainmenu">
         <ul className="navbar-nav ms-auto" id="mymenu">
           <li className="nav-item"><a className="nav-link" href="/#home">Home</a></li>
-          <li className="nav-item"><a className="nav-link" href="/#nft">NFT<span className="suptext">s</span></a></li>
+          <li className="nav-item"><a className="nav-link" href="/#nft">NFT<span className="subtext">s</span></a></li>
           <li className="nav-item dropdown">
             <a id="xonemenuLink" className="nav-link dropdown-toggle" href="/#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Xones</a>
             <ul className="dropdown-menu shadow" aria-labelledby="xonemenuLink" style={{ fontSize: "0.8rem" }}>
@@ -248,7 +248,7 @@ const App = () => {
           <li className="nav-item"><a className="nav-link" href="/#plasmaverse">PlasmaVerse</a></li>
           <li className="nav-item"><a className="nav-link" href="/#tokens">Tokenomics</a></li>
           <li className="nav-item"><a className="nav-link" href="/#team">Team</a></li>
-          <li className="nav-item"><a className="nav-link" href="/#faq">FAQ<span className="suptext">s</span></a></li>
+          <li className="nav-item"><a className="nav-link" href="/#faq">FAQ<span className="subtext">s</span></a></li>
 
         </ul>
       </div>
@@ -260,7 +260,7 @@ const App = () => {
   <h3 className="hero-text text-secondary-color noselect">Welcome to the PlasmaVerse</h3>
     <h1 className="hero-title pb-3 noselect"><span className="h1-engage">ENGAGE. </span><span className="h1-expand">EXPAND. </span><span className="h1-earn">EARN. </span></h1>
   <p className="hero-desc pb-0 pl-1 px-2 noselect">
-  Mint a <b style={{ animation: "animate-shadow 11s ease infinite" }}>Metaball NFT avatar</b> to unlock your own <b style={{ animation: "animate-shadow 11s ease infinite" }}>Solana</b>-powered <b style={{ animation: "animate-shadow 11s ease infinite" }}>Extended Reality </b>landing space, or <b className="badge hero-xone-badge">XONE</b>
+  Mint a <b style={{ animation: "animate-shadow 11s ease infinite" }}>Metaball NFT avatar</b> to unlock your own <b style={{ animation: "animate-shadow 11s ease infinite" }}>Hemispheric</b>, <b style={{ animation: "animate-shadow 11s ease infinite" }}>Extended Reality</b> microverses, or <b className="badge hero-xone-badge">XONES</b>
     </p>
   </div>
 
