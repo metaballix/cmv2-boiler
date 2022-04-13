@@ -249,7 +249,6 @@ const App = () => {
           <li className="nav-item"><a className="nav-link" href="/#tokens">Tokenomics</a></li>
           <li className="nav-item"><a className="nav-link" href="/#team">Team</a></li>
           <li className="nav-item"><a className="nav-link" href="/#faq">FAQ<span className="subtext">s</span></a></li>
-
         </ul>
       </div>
     </div>
