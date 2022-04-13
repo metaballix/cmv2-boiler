@@ -498,7 +498,7 @@ const App = () => {
   <div className="col-10 content">
     <h1 className="display-5 fw-bold" style={{ letterSpacing: "0.15rem" }}>METABALLS</h1>
     <h3 className="sub-header fw-bold fs-2"><span style={{color: "rgb(182, 38, 182)"}}>UNLOCK. </span><span style={{color: "rgb(101, 38, 182)"}}>MINT. </span><span style={{color: "rgb(38, 137, 182)"}}>TRADE.</span></h3>
-    <p className="py-3 description lead fs-3">Metaballs are dynamic NFT avatars that reside and evolve in the Metaballix Plasmaverse. Your Metaball NFT ties you to your $PLASMA holdings, activity records, and 'Xonership' metadata such as assets, configuration, and a spatial-social graph of your Xones' monetizable traffic.</p>
+    <p className="py-3 description lead fs-3">Metaballs are dynamic asset-bearing avatars that reside in the Metaballix Plasmaverse. Each NFT is tied to $PLASMA holdings, activity records, and 'Xonership' metadata such as assets, configuration, and a spatial-social graph of monetizable Xone traffic.</p>
   </div>
 </div>
 
