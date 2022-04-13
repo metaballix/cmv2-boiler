@@ -73,7 +73,7 @@
   to { background-position: 600% 0; }
 }  
 
-/* FIGMA SLIDER Anim */
+/* FIGMA M-SLIDER Anim */
 @keyframes figslide-1 {
   from{transform: translateX(0px);}
   to{transform: translateX(-100%);}
