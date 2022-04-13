@@ -236,16 +236,16 @@ const App = () => {
       <div className="navbar-collapse collapse" id="mainmenu">
         <ul className="navbar-nav ms-auto" id="mymenu">
           <li className="nav-item"><a className="nav-link" href="/#home">Home</a></li>
+          <li className="nav-item"><a className="nav-link" href="/#nft">NFT<span className="suptext">s</span></a></li>
           <li className="nav-item dropdown">
             <a id="xonemenuLink" className="nav-link dropdown-toggle" href="/#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Xones</a>
             <ul className="dropdown-menu shadow" aria-labelledby="xonemenuLink" style={{ fontSize: "0.8rem" }}>
-              <li className="nav-item"><a className="nav-link" href="/#xones">Microverses</a></li>
+              <li className="nav-item"><a className="nav-link" href="/#xone">Microverses</a></li>
               <li className="nav-item"><a className="nav-link" href="/#xonerator">Xonerator</a></li>
               <li className="nav-item"><a className="nav-link" href="/#xonefeats">Features</a></li>
             </ul>
           </li>
           <li className="nav-item"><a className="nav-link" href="/#plasmaverse">PlasmaVerse</a></li>
-          <li className="nav-item"><a className="nav-link" href="/#nft">NFT<span className="suptext">s</span></a></li>
           <li className="nav-item"><a className="nav-link" href="/#tokens">Tokenomics</a></li>
           <li className="nav-item"><a className="nav-link" href="/#team">Team</a></li>
           <li className="nav-item"><a className="nav-link" href="/#faq">FAQ<span className="suptext">s</span></a></li>
@@ -290,11 +290,11 @@ const App = () => {
 </header>
 
 {/* START of SECTION :: FEATURES */}
-<section id="features" className="theme-bg feature py-5 text-center">
+<section id="features" className="theme-bg feature py-5 text-center overflow-visible">
 
 {/* Feature Mob (ChatLoop) */}
-  <div className="container my-5">
-    <div className="animation-circle-inverse"><i></i><i></i><i></i></div>
+  <div className="container my-5 overflow-visible">
+    <div className="animation-circle-inverse py-3"><i></i><i></i><i></i></div>
     <div className="row">
       <div className="col-md-12 text-center">
         <div className="section-title">
@@ -367,8 +367,9 @@ const App = () => {
 {/* End of FEATURES section */}
 
 {/* Start of XONES Section */}
-<section id="xones" className="container-fluid d-flex w-100 h-auto px-0 py-1 my-0 pb-5 mx-auto flex-column">
-<div className="b-divider mb-5"></div>
+<section id="nft" className="container-fluid d-flex w-100 h-auto px-0 py-1 my-0 pb-5 mx-auto flex-column">
+{/* <div className="b-divider mb-5"></div> */}
+
    {/* Video BG :: 
     <video autoPlay muted loop id="vid-xone">
     <source src="https://cdn.glitch.global/84180755-58e4-4c80-b543-77cacf869330/xone-bg-14s.mp4?v=1647881876712" type="video/mp4" />
@@ -575,11 +576,11 @@ const App = () => {
 </div>
 
 {/* ROW :: HONE YOUR XONE */}
-<div className="row">
+<div id="xone" className="row">
     <div className="col col-lg-7 mb-5">
-      <div className="mbp-wrapper">
+      <div className="mbp-wrapper-2">
         
-        <div className="profile-card js-profile-card">
+        <div className="profile-card js-profile-card shadow">
           <div className="profile-card__img">
             <img src="https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/xone-body.gif?v=1649715485317" alt="xone body variants" />
             </div>
@@ -651,9 +652,9 @@ const App = () => {
                 <div className="card card-shadow border-0 mb-4">
                     <div className="card-hover py-4 text-center d-block rounded"> 
                       <div className="xone-feat-icon" style={{ inset: "-30px auto auto -15px" }}>
-                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" color="#22c777" height="155" width="155" xmlns="http://www.w3.org/2000/svg"><g><path fill="none" d="M0 0H24V24H0z"></path><path d="M17.363 11.045c1.404-1.393 3.68-1.393 5.084 0 1.404 1.394 1.404 3.654 0 5.047L17 21.5l-5.447-5.408c-1.404-1.393-1.404-3.653 0-5.047 1.404-1.393 3.68-1.393 5.084 0l.363.36.363-.36zm1.88-6.288c.94.943 1.503 2.118 1.689 3.338-1.333-.248-2.739-.01-3.932.713-2.15-1.303-4.994-1.03-6.856.818-2.131 2.115-2.19 5.515-.178 7.701l.178.185 2.421 2.404L11 21.485 2.52 12.993C.417 10.637.496 7.019 2.757 4.757c2.265-2.264 5.888-2.34 8.244-.228 2.349-2.109 5.979-2.039 8.242.228z"></path></g></svg>
+                        <svg className="xone-feat-svg" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="155" width="155" xmlns="http://www.w3.org/2000/svg"><g><path fill="none" d="M0 0H24V24H0z"></path><path d="M17.363 11.045c1.404-1.393 3.68-1.393 5.084 0 1.404 1.394 1.404 3.654 0 5.047L17 21.5l-5.447-5.408c-1.404-1.393-1.404-3.653 0-5.047 1.404-1.393 3.68-1.393 5.084 0l.363.36.363-.36zm1.88-6.288c.94.943 1.503 2.118 1.689 3.338-1.333-.248-2.739-.01-3.932.713-2.15-1.303-4.994-1.03-6.856.818-2.131 2.115-2.19 5.515-.178 7.701l.178.185 2.421 2.404L11 21.485 2.52 12.993C.417 10.637.496 7.019 2.757 4.757c2.265-2.264 5.888-2.34 8.244-.228 2.349-2.109 5.979-2.039 8.242.228z"></path></g></svg>
                       </div>
-											<span className="bg-success-grad">3D</span>
+											<span className="bg-success-grad fw-bold">3D</span>
                       <h6 className="ser-title">ENTITIES</h6>
                     </div>
                 </div>
@@ -663,7 +664,7 @@ const App = () => {
                 <div className="card card-shadow border-0 mb-4">
                     <div className="card-hover py-4 text-center d-block rounded">
                       <div className="xone-feat-icon" style={{ inset: "-20px auto auto -30px", transform: "rotate(0deg)" }}>
-                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 32 32" color="#22c777" height="150" width="160" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" xmlSpace="preserve">
+                        <svg className="xone-feat-svg" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 32 32" height="150" width="160" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" xmlSpace="preserve">
                         <path d="M27,11c0-2-2.2-3.6-5.6-4.4C20.6,3.2,19,1,17,1s-3.6,2.2-4.4,5.6C9.2,7.4,7,9,7,11c0,2,2.2,3.6,5.6,4.4
                         c0.3,1.2,0.6,2.2,1.1,3.1c0.3,0.5,0.9,0.7,1.4,0.4c0.5-0.3,0.7-0.9,0.4-1.4c-0.3-0.5-0.5-1.1-0.7-1.8c0.7,0.1,1.5,0.1,2.2,0.1
                         c0.8,0,1.5,0,2.2-0.1c-0.3,1-0.7,1.9-1.1,2.5c-0.3,0.4-0.2,1.1,0.2,1.4c0.2,0.1,0.4,0.2,0.6,0.2c0.3,0,0.6-0.1,0.8-0.4
@@ -678,7 +679,7 @@ const App = () => {
                         C30,18.2,30,17.8,29.9,17.5z"/>
                         </svg>
                       </div>
-											<span className="bg-success-grad">C</span>
+											<span className="bg-success-grad fw-bold">C</span>
                       <h6 className="ser-title">COMPONENTS</h6>
                     </div>
                 </div>
@@ -687,7 +688,7 @@ const App = () => {
             <div className="col-6">
                 <div className="card card-shadow border-0 mb-4">
                     <div className="card-hover py-4 text-center d-block rounded"> 
-												<span className="bg-success-grad">B</span>
+												<span className="bg-success-grad fw-bold">B</span>
                         <h6 className="ser-title">BOILERPLATES</h6>
                     </div>
                 </div>
@@ -697,9 +698,9 @@ const App = () => {
                 <div className="card card-shadow border-0 mb-4">
                     <div className="card-hover py-4 text-center d-block rounded">
                       <div className="xone-feat-icon" style={{ inset: "-30px auto auto -15px" }}>
-                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" color="#22c777" height="155" width="155" xmlns="http://www.w3.org/2000/svg"><g><path fill="none" d="M0 0H24V24H0z"></path><path d="M17.363 11.045c1.404-1.393 3.68-1.393 5.084 0 1.404 1.394 1.404 3.654 0 5.047L17 21.5l-5.447-5.408c-1.404-1.393-1.404-3.653 0-5.047 1.404-1.393 3.68-1.393 5.084 0l.363.36.363-.36zm1.88-6.288c.94.943 1.503 2.118 1.689 3.338-1.333-.248-2.739-.01-3.932.713-2.15-1.303-4.994-1.03-6.856.818-2.131 2.115-2.19 5.515-.178 7.701l.178.185 2.421 2.404L11 21.485 2.52 12.993C.417 10.637.496 7.019 2.757 4.757c2.265-2.264 5.888-2.34 8.244-.228 2.349-2.109 5.979-2.039 8.242.228z"></path></g></svg>
+                        <svg className="xone-feat-svg" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="155" width="155" xmlns="http://www.w3.org/2000/svg"><g><path fill="none" d="M0 0H24V24H0z"></path><path d="M17.363 11.045c1.404-1.393 3.68-1.393 5.084 0 1.404 1.394 1.404 3.654 0 5.047L17 21.5l-5.447-5.408c-1.404-1.393-1.404-3.653 0-5.047 1.404-1.393 3.68-1.393 5.084 0l.363.36.363-.36zm1.88-6.288c.94.943 1.503 2.118 1.689 3.338-1.333-.248-2.739-.01-3.932.713-2.15-1.303-4.994-1.03-6.856.818-2.131 2.115-2.19 5.515-.178 7.701l.178.185 2.421 2.404L11 21.485 2.52 12.993C.417 10.637.496 7.019 2.757 4.757c2.265-2.264 5.888-2.34 8.244-.228 2.349-2.109 5.979-2.039 8.242.228z"></path></g></svg>
                       </div>
-											<span className="bg-success-grad">I</span>
+											<span className="bg-success-grad fw-bold">I</span>
                       <h6 className="ser-title">INTEGRATIONS</h6>
                     </div>
                 </div>
@@ -708,7 +709,7 @@ const App = () => {
             <div className="col-6">
                 <div className="card card-shadow border-0 mb-4">
                     <div className="card-hover py-4 text-center d-block rounded"> 
-												<span className="bg-success-grad">W</span>
+												<span className="bg-success-grad fw-bold">W</span>
                         <h6 className="ser-title">WEB3 ECONOMY</h6>
                     </div>
                 </div>
@@ -717,7 +718,7 @@ const App = () => {
             <div className="col-6">
                 <div className="card card-shadow border-0 mb-4">
                     <div className="card-hover py-4 text-center d-block rounded"> 
-												<span className="bg-success-grad">G</span>
+												<span className="bg-success-grad fw-bold">G</span>
                         <h6 className="ser-title">GAMIFICATION</h6>
                     </div>
                 </div>
@@ -726,7 +727,7 @@ const App = () => {
             <div className="col-6">
                 <div className="card card-shadow border-0 mb-4">
                     <div className="card-hover py-4 text-center d-block rounded"> 
-												<span className="bg-success-grad">D</span>
+												<span className="bg-success-grad fw-bold">D</span>
                         <h6 className="ser-title">DECENTRALIZED</h6>
                     </div>
                 </div>
@@ -735,7 +736,7 @@ const App = () => {
             <div className="col-6">
                 <div className="card card-shadow border-0 mb-4">
                     <div className="card-hover py-4 text-center d-block rounded"> 
-												<span className="bg-success-grad">S</span>
+												<span className="bg-success-grad fw-bold">S</span>
                         <h6 className="ser-title">SCALABLE</h6>
                     </div>
                 </div>

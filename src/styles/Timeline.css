@@ -392,7 +392,8 @@
     border-radius: 22px;
     max-width: 100% !important;
     box-shadow: 0 0 0.56em rgb(29 0 38 / 83%), inset 0 0 0.47em rgb(29 0 38 / 74%);
-
+    position: relative;
+    z-index: 3;
   }
   
   .iphone-screenshot {
@@ -469,6 +470,8 @@
 */
 
 .mbp-slider-card{
+  position: relative;
+  z-index: 3;
   text-align:center;
   justify-content:center;
   margin:50px auto;
@@ -571,13 +574,13 @@
   }
   
   .profile-card {
+    position: relative;
+    max-width: 700px;
     width: 100%;
     margin: auto;
-    box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.65);
-    background: linear-gradient(180deg, rgba(255,255,255,1), rgba(255, 255, 255,1));
     border-radius: 11px;
-    max-width: 700px;
-    position: relative;
+    background: linear-gradient(180deg, rgba(255,255,255,1), rgba(255, 255, 255,1));
+    /* box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.65); */
   }
 
   .profile-card.active .profile-card__cnt {
@@ -947,18 +950,17 @@ color: #3e4555;
 
 .xone-feat .bg-success-grad {
     background: #2cdd9b;
-    background: -webkit-linear-gradient(legacy-direction(to right), #2cdd9b 0%, #1dc8cc 100%);
-    background: -webkit-gradient(linear, left top, right top, from(#2cdd9b), to(#1dc8cc));
-    background: -webkit-linear-gradient(left, #2cdd9b 0%, #1dc8cc 100%);
-    background: -o-linear-gradient(left, #2cdd9b 0%, #1dc8cc 100%);
-    background: linear-gradient(to right, #2cdd9b 0%, #1dc8cc 100%);
+    background: -webkit-linear-gradient(legacy-direction(to right), #22c777 0%, #00b6ce 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#22c777), to(#00b6ce));
+    background: -webkit-linear-gradient(left, #22c777 0%, #00b6ce 100%);
+    background: -o-linear-gradient(left, #22c777 0%, #00b6ce 100%);
+    background: linear-gradient(to right, #22c777 0%, #00b6ce 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
     text-fill-color: transparent;
     font-size: 60px;
     font-weight: 500;
-    text-shadow: #0f575c 1px 1px 1px;
 }
 
 .xone-feat .xone-feat-wrapper .card {
@@ -977,6 +979,14 @@ color: #3e4555;
   transform: initial;
   opacity: 0.38;
 }
+.xone-feat-svg { 
+  fill: #22c777;
+  transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+}
+.xone-feat-svg:hover { fill: #FFFFFF; }
 
 .xone-feat-icon i {
   color: linear-gradient(to top right, #22c777 0%, #00b6ce 90%);
@@ -984,8 +994,8 @@ color: #3e4555;
 }
 
 .xone-feat .xone-feat-wrapper .card:hover {
-    -ms-transform: translateY(-10px);
     transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
     -webkit-transform: translateY(-10px);
 }
 

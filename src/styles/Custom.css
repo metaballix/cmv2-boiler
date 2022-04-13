@@ -145,7 +145,7 @@ div.bg-overlay {position: fixed; left:0; top: 0; z-index: -1; width:100%; height
 #features { 
   background: linear-gradient(180deg,rgba(29,0,47,1) 0%, rgba(29,0,47,1) 29%, rgba(29,0,47,0.92) 56%, rgba(29,0,47,0.92) 65%, rgba(29,0,47,1) 100%); 
 }
-#xones {
+#nft {
   background: linear-gradient(175deg,rgba(29,0,47,1) 0%, rgba(29,0,47,1) 20%, rgba(92,0,128,1) 83%,rgba(92,0,128,1) 100%, rgba(92,0,128,1) 100%); 
 }
 #plasmaverse { 
