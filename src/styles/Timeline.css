@@ -798,6 +798,13 @@
       margin: 15px 25px;
     }
   }
+  @media screen and (max-width: 576px) {
+    .profile-card__button {
+      margin: 10px 2%;
+      padding: 10px 10px;
+      min-width: 140px;
+    }
+  }
 /*   @media screen and (max-width: 576px) {
     .profile-card__button {
       min-width: inherit;
