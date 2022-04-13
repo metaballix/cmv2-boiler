@@ -590,6 +590,10 @@
   @media screen and (max-width: 576px) {
     .profile-card.float-card-1 {max-width:320px; right: auto; border-left: none; border-right: none;}
   }
+  @media screen and (max-width: 400px) {
+    .profile-card.float-card-1 {max-width:240px; left: 5px; }
+  }
+
   .profile-card.active .profile-card__cnt {
     filter: blur(6px);
   }
