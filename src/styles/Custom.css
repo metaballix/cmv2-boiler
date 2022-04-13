@@ -385,6 +385,7 @@ div.mball-avatar {
 .nft-hero-text {
   text-align: center;
   position: absolute;
+  z-index:3;
   top: 56%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -393,7 +394,7 @@ div.mball-avatar {
   border-radius: 7px;
   padding: 15px 10px 30px 10px;
   margin: auto;
-  background: rgba(3, 24, 88,0.7);
+  background: rgba(29,0,47,0.75);
   -webkit-tap-highlight-color: transparent;
   display: table-cell;
   vertical-align: middle;
@@ -423,61 +424,62 @@ div.mball-avatar {
   background-position: 0 0;
   background-repeat: repeat-x;
   background-size: 7500px 71px !important;
-  opacity: 0.7;
+  opacity: 0.75;
   position: relative;
+  z-index:1;
   /* transform: translate3d(0,0,0); */
 }
 .nft-reel-1{
   background: url(../assets/mball-reel-7500x71-001.png) transparent repeat-x 0 0;
-  -webkit-animation: slideright 600s infinite linear; /* Safari 4+ */
-  -moz-animation: slideright 600s infinite linear; /* Fx 5+ */
-  -o-animation: slideright 600s infinite linear; /* Opera 12+ */
-  animation: slideright 600s infinite linear; /* IE 10+ */
+  -webkit-animation: slideright 700s infinite linear; /* Safari 4+ */
+  -moz-animation: slideright 700s infinite linear; /* Fx 5+ */
+  -o-animation: slideright 700s infinite linear; /* Opera 12+ */
+  animation: slideright 700s infinite linear; /* IE 10+ */
 }
 .nft-reel-3{
   background: url(https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/mball-reel-7500x71-003.png?v=1646421666787) transparent repeat-x 0 0;
-  -webkit-animation: slideright 666s infinite linear; /* Safari 4+ */
-  -moz-animation: slideright 666s infinite linear; /* Fx 5+ */
-  -o-animation: slideright 666s infinite linear; /* Opera 12+ */
-  animation: slideright 666s infinite linear; /* IE 10+ */
+  -webkit-animation: slideright 777s infinite linear; /* Safari 4+ */
+  -moz-animation: slideright 777s infinite linear; /* Fx 5+ */
+  -o-animation: slideright 777s infinite linear; /* Opera 12+ */
+  animation: slideright 777s infinite linear; /* IE 10+ */
 }
 .nft-reel-5{
   background: url(https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/mball-reel-7500x71-005.png?v=1646421677746) transparent repeat-x 0 0;
-  -webkit-animation: slideright 750s infinite linear; /* Safari 4+ */
-  -moz-animation: slideright 750s infinite linear; /* Fx 5+ */
-  -o-animation: slideright 750s infinite linear; /* Opera 12+ */
-  animation: slideright 750s infinite linear; /* IE 10+ */
+  -webkit-animation: slideright 900s infinite linear; /* Safari 4+ */
+  -moz-animation: slideright 900s infinite linear; /* Fx 5+ */
+  -o-animation: slideright 900s infinite linear; /* Opera 12+ */
+  animation: slideright 900s infinite linear; /* IE 10+ */
 }
 .nft-reel-7{
   background: url(https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/mball-reel-7500x71-007.png?v=1646421692824) transparent repeat-x 0 0;
-  -webkit-animation: slideright 800s infinite linear; /* Safari 4+ */
-  -moz-animation: slideright 800s infinite linear; /* Fx 5+ */
-  -o-animation: slideright 800s infinite linear; /* Opera 12+ */
-  animation: slideright 800s infinite linear; /* IE 10+ */
+  -webkit-animation: slideright 950s infinite linear; /* Safari 4+ */
+  -moz-animation: slideright 950s infinite linear; /* Fx 5+ */
+  -o-animation: slideright 950s infinite linear; /* Opera 12+ */
+  animation: slideright 950s infinite linear; /* IE 10+ */
 }
 
 .nft-reel-2{
   background: url(https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/mball-reel-7500x71-002.png?v=1646421660656) transparent repeat-x 0 0;
-  -webkit-animation: slideleft 700s infinite linear; /* Safari 4+ */
-  -moz-animation: slideleft 700s infinite linear; /* Fx 5+ */
-  -o-animation: slideleft 700s infinite linear; /* Opera 12+ */
-  animation: slideleft 700s infinite linear; /* IE 10+ */
+  -webkit-animation: slideleft 800s infinite linear; /* Safari 4+ */
+  -moz-animation: slideleft 800s infinite linear; /* Fx 5+ */
+  -o-animation: slideleft 800s infinite linear; /* Opera 12+ */
+  animation: slideleft 800s infinite linear; /* IE 10+ */
 }
 
 .nft-reel-4{
   background: url(https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/mball-reel-7500x71-004.png?v=1646421672214) transparent repeat-x 0 0;
-  -webkit-animation: slideleft 800s infinite linear; /* Safari 4+ */
-  -moz-animation: slideleft 800s infinite linear; /* Fx 5+ */
-  -o-animation: slideleft 800s infinite linear; /* Opera 12+ */
-  animation: slideleft 800s infinite linear; /* IE 10+ */
+  -webkit-animation: slideleft 900s infinite linear; /* Safari 4+ */
+  -moz-animation: slideleft 900s infinite linear; /* Fx 5+ */
+  -o-animation: slideleft 900s infinite linear; /* Opera 12+ */
+  animation: slideleft 900s infinite linear; /* IE 10+ */
 }
 
 .nft-reel-6{
   background: url(https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/mball-reel-7500x71-006.png?v=1646421684898) transparent repeat-x 0 0;
-  -webkit-animation: slideleft 800s infinite linear; /* Safari 4+ */
-  -moz-animation: slideleft 800s infinite linear; /* Fx 5+ */
-  -o-animation: slideleft 800s infinite linear; /* Opera 12+ */
-  animation: slideleft 800s infinite linear; /* IE 10+ */
+  -webkit-animation: slideleft 900s infinite linear; /* Safari 4+ */
+  -moz-animation: slideleft 900s infinite linear; /* Fx 5+ */
+  -o-animation: slideleft 900s infinite linear; /* Opera 12+ */
+  animation: slideleft 900s infinite linear; /* IE 10+ */
 }
 
 p.MuiTypography-colorTextSecondary {color: rgb(255,255,255);}

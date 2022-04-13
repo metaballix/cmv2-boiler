@@ -1669,7 +1669,6 @@ const App = () => {
   </defs>
 </svg>
 
-
 {/* Scrolling img reels */}
 <div className="nft-hero">
 <div className="nft-reel-1"></div>
@@ -1677,8 +1676,8 @@ const App = () => {
 <div className="nft-reel-3"></div>
 {/* <div className="nft-reel-4"></div> */}
 {/* <div className="nft-reel-7"></div> */}
-<div className="nft-reel-5"></div>
 <div className="nft-reel-6"></div>
+<div className="nft-reel-5"></div>
   <div className="nft-hero-text">
   <h1 className="gradient-txt-green" style={{ fontSize: "2.8rem", letterSpacing: "0.1em" }}>19,326,120</h1>
     <h3>Tokenized DNA Compositions</h3>
@@ -1689,8 +1688,8 @@ const App = () => {
       </button></a>
   </div>
 </div>
-<div className="b-divider"></div>
 {/* End of img reels */}
+
 {/* m-Slider */}
 <div aria-hidden="true" className="mslide-1">
   <div className="metaballix-sl1d3r">
