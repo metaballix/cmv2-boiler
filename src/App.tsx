@@ -876,7 +876,7 @@ const App = () => {
           </div>
           </div>
           </div>
-          <div className="d-grid gap-2">
+          <div className="d-grid gap-2 mt-3">
             <a href="https://xone.land/" target="_blank" rel="noreferrer">
             <button className="btn btn-lg btn-hover bg-blue-gradient btn-block w-100" type="button">
             <h2 style={{ letterSpacing: "0.09em" }} className="text-light px-5 fw-bold">DEMO</h2>
@@ -893,28 +893,27 @@ const App = () => {
 </section>
 
 {/* START OF PLASMAVERSE Section */}
-<section id="plasmaverse" className="container-fluid pt-5 px-3 text-center align-items-center" style={{overflow: "visible"}}>
+<section id="plasmaverse" className="container-fluid pt-5 px-2 px-md-3 px-lg-4 text-center align-items-center" style={{overflow: "visible"}}>
 <div id="link3" className="card contentcard xonecard mt-3 mx-auto shadow-lg border border-info" style={{ marginBottom: "-222px", position: "relative", zIndex: 999 }}>
 <h1 className="display-5 fw-bold my-3">Interconnected Microverses</h1>
 
-<div className="row mt-1 p-2 align-items-center justify-content-center">
+<div className="row mt-1 p-1 p-md-2 p-lg-3 align-items-center justify-content-center">
   <div className="col-12 mb-2">
-    <div className="card p-5 bg-purp-transparent">
+    <div className="card p-2 p-md-5 bg-purp-transparent">
       <div className="card-body">
-        <p className="card-text fs-2">Xone microverses are built with A-Frame, a Three.js-based framework that leverages WebGL and WebXR to -Frame aims to deliver "fully immersive interactive VR experiences that go beyond basic 360° content, making full use of positional tracking and controllers."</p>
+        <p className="card-text fs-3">Xone microverses are built with A-Frame, a Three.js-based framework that leverages WebGL and WebXR to deliver "fully immersive interactive VR experiences that go beyond basic 360° content, making full use of positional tracking and controllers."</p>
       </div>
     </div>
   </div>
 </div>
 
-<div className="row service-6 p-2">
+<div className="row service-6 p-1 p-md-2 p-lg-3">
     <div className="col-12 col-md-3 col-sm-6 wrap-service6-box mb-2">
         <div className="card h-100 border-0 bg-green-gradient text-white mb-2 shadow">
         <div className="card-header">XONE MICROVERSES</div>
             <div className="card-body">
                 <h6 className="font-weight-medium text-white">Powerful Techniques</h6>
-                <p className="mt-3">Lorem ipsum dolor sit amet, consecte tuam porttitor, nunc et fringilla.</p>
-                <a href="/#f4" className="linking">Learn More</a>
+                <p className="card-text">Lorem ipsum dolor sit amet, consecte tuam porttitor, nunc et fringilla.</p>
             </div>
         </div>
     </div>
@@ -924,8 +923,7 @@ const App = () => {
         <div className="card-header">PLASMAVERSE XR</div>
             <div className="card-body">
                 <h6 className="font-weight-medium text-white">Retargeting Market</h6>
-                <p className="mt-3">Lorem ipsum dolor sit amet, consecte tuam porttitor, nunc et fringilla.</p>
-                <a href="/#f4" className="linking">Learn More</a>
+                <p className="card-text">Lorem ipsum dolor sit amet, consecte tuam porttitor, nunc et fringilla.</p>
             </div>
         </div>
     </div>
@@ -935,8 +933,7 @@ const App = () => {
         <div className="card-header">NFT ECOSYSTEM</div>
             <div className="card-body">
                 <h6 className="font-weight-medium text-white">Instant Solutions</h6>
-                <p className="mt-3">Lorem ipsum dolor sit amet, consecte tuam porttitor, nunc et fringilla.</p>
-                <a href="/#f4" className="linking">Learn More</a>
+                <p className="card-text">Lorem ipsum dolor sit amet, consecte tuam porttitor, nunc et fringilla.</p>
             </div>
         </div>
     </div>
@@ -946,8 +943,7 @@ const App = () => {
         <div className="card-header">PASSIVE INCOME</div>
             <div className="card-body">
                 <h6 className="font-weight-medium text-white">Powerful Techniques</h6>
-                <p className="mt-3">Lorem ipsum dolor sit amet, consecte tuam porttitor, nunc et fringilla.</p>
-                <a href="/#f4" className="linking">Learn More</a>
+                <p className="card-text">Lorem ipsum dolor sit amet, consecte tuam porttitor, nunc et fringilla.</p>
             </div>
         </div>
     </div>
@@ -977,13 +973,14 @@ const App = () => {
 {/* End of XTROOD Section */}
 
 {/* START OF XONERATOR Section */}
-<section id="xonerator" className="my-0 py-5">
+<section id="xonerator" className="my-0 py-5 p-0 p-md-3 p-lg-5">
 <div className="container mx-auto p-5"><span> </span></div>
-  <div className="container w-99 mx-auto my-5 py-4 border-none rounded-3 rounded-sm-0 shadow-lg" style={{ background: "linear-gradient(-11deg, rgba(0, 196, 204,0.33), rgba(3, 24, 88,0.55))" }} >
+<div className="container mx-auto p-3"><span> </span></div>
+  <div className="container w-99 mx-auto my-5 py-4 border-none rounded-0 rounded-md-3 shadow-lg" style={{ background: "linear-gradient(-11deg, rgba(0, 196, 204,0.33), rgba(3, 24, 88,0.55))" }} >
     <div className="row p-md-4 pt-lg-5 pe-lg-0 align-items-center text-center">
       <div className="col-lg-7 p-5 p-lg-5 pt-lg-3">
         <h1 className="display-4 fw-bold lh-2">Build &amp; Share Functional Virtual Spaces</h1>
-        <p className="lead">Quickly design and customize Web3-enabled A-Frame landing spaces in <b className="badge" style={{ background: "#662D91", letterSpacing: "0.02em" }}>XtrOOd</b> Xone Builder, an intuitive <b>open-source A-Frame WebXR scene designer</b> app with prebuilt objects and powerful JS components.</p>
+        <p className="lead">Quickly design and customize Xones in <b className="badge" style={{ background: "#662D91", letterSpacing: "0.02em" }}>XONERATOR</b>, an intuitive <b>A-Frame scene builder</b> with pre-built objects, customizable components, and other powerful features.</p>
       </div>
 
       <div className="xtrood-img-col col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">

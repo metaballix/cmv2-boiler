@@ -591,7 +591,7 @@
     .profile-card.float-card-1 {max-width:320px; right: auto; border-left: none; border-right: none;}
   }
   @media screen and (max-width: 400px) {
-    .profile-card.float-card-1 {max-width:240px; left: 5px; }
+    .profile-card.float-card-1 {max-width:240px; left: 10px; }
   }
 
   .profile-card.active .profile-card__cnt {
@@ -938,11 +938,6 @@ font-weight: 300;
 color: #3e4555;
 }
 
-.xone-feat .card.card-shadow {
-    -webkit-box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
-    box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
-}
-
 .xone-feat a {
     text-decoration: none;
 }
@@ -983,7 +978,7 @@ color: #3e4555;
 
 .xone-feat .xone-feat-wrapper .card {
   background: rgba(255, 255, 255, 0.9);
-  box-shadow: 0 0 9px 2px #00272c;
+  box-shadow: 0 0 10px -1px #01283a;
   transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
