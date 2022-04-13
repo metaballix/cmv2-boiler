@@ -822,7 +822,7 @@ const App = () => {
 <div className="row justify-content-center my-5 mx-2 pb-0">
 <div className="col-12 col-md-10 mb-1">
   <div className="mbp-wrapper shadow-lg">
-    <div className="profile-card p-1" style={{ position: "absolute", bottom: "-150px", right: "10%", maxWidth: "360px" }}>
+    <div className="profile-card float-card-1 p-1">
       <div className="card bg-purp2 text-center shadow-md pb-5" style={{ borderRadius:"11px"}}>
         <div className="card-body">
           <h5 className="card-title fw-bold">Cross-Browser Compatible</h5>
