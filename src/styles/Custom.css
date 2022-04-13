@@ -164,7 +164,9 @@ div.bg-overlay {position: fixed; left:0; top: 0; z-index: -1; width:100%; height
   animation: gradient 30s ease infinite; */
 }
 
-#xonerator { background: rgba(11, 218, 227,0.11); }
+#xonerator { 
+  background-color: rgba(254, 11, 254, 0.11); 
+}
 
 #xonerator .lead { font-size: 1.4rem !important; }
 #xonerator .xtrood-logo {

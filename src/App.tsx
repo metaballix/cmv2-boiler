@@ -650,8 +650,36 @@ const App = () => {
             <div className="col-6">
                 <div className="card card-shadow border-0 mb-4">
                     <div className="card-hover py-4 text-center d-block rounded"> 
-												<span className="bg-success-grad">R</span>
-                        <h6 className="ser-title">Retargeting Market</h6>
+                      <div className="xone-feat-icon" style={{ inset: "-30px auto auto -15px" }}>
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" color="#22c777" height="155" width="155" xmlns="http://www.w3.org/2000/svg"><g><path fill="none" d="M0 0H24V24H0z"></path><path d="M17.363 11.045c1.404-1.393 3.68-1.393 5.084 0 1.404 1.394 1.404 3.654 0 5.047L17 21.5l-5.447-5.408c-1.404-1.393-1.404-3.653 0-5.047 1.404-1.393 3.68-1.393 5.084 0l.363.36.363-.36zm1.88-6.288c.94.943 1.503 2.118 1.689 3.338-1.333-.248-2.739-.01-3.932.713-2.15-1.303-4.994-1.03-6.856.818-2.131 2.115-2.19 5.515-.178 7.701l.178.185 2.421 2.404L11 21.485 2.52 12.993C.417 10.637.496 7.019 2.757 4.757c2.265-2.264 5.888-2.34 8.244-.228 2.349-2.109 5.979-2.039 8.242.228z"></path></g></svg>
+                      </div>
+											<span className="bg-success-grad">3D</span>
+                      <h6 className="ser-title">ENTITIES</h6>
+                    </div>
+                </div>
+            </div>
+
+            <div className="col-6">
+                <div className="card card-shadow border-0 mb-4">
+                    <div className="card-hover py-4 text-center d-block rounded">
+                      <div className="xone-feat-icon" style={{ inset: "-20px auto auto -30px", transform: "rotate(0deg)" }}>
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 32 32" color="#22c777" height="150" width="160" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" xmlSpace="preserve">
+                        <path d="M27,11c0-2-2.2-3.6-5.6-4.4C20.6,3.2,19,1,17,1s-3.6,2.2-4.4,5.6C9.2,7.4,7,9,7,11c0,2,2.2,3.6,5.6,4.4
+                        c0.3,1.2,0.6,2.2,1.1,3.1c0.3,0.5,0.9,0.7,1.4,0.4c0.5-0.3,0.7-0.9,0.4-1.4c-0.3-0.5-0.5-1.1-0.7-1.8c0.7,0.1,1.5,0.1,2.2,0.1
+                        c0.8,0,1.5,0,2.2-0.1c-0.3,1-0.7,1.9-1.1,2.5c-0.3,0.4-0.2,1.1,0.2,1.4c0.2,0.1,0.4,0.2,0.6,0.2c0.3,0,0.6-0.1,0.8-0.4
+                        c0.7-1,1.3-2.4,1.7-4C24.8,14.6,27,13,27,11z M17,3c0.7,0,1.6,1.2,2.2,3.3c-0.7-0.1-1.5-0.1-2.2-0.1s-1.5,0-2.2,0.1
+                        C15.4,4.2,16.3,3,17,3z M9,11c0-0.7,1.2-1.6,3.3-2.2c-0.1,0.7-0.1,1.5-0.1,2.2c0,0.8,0,1.5,0.1,2.2C10.2,12.6,9,11.7,9,11z M17,13.9
+                        c-1,0-1.9-0.1-2.7-0.2c-0.1-0.8-0.2-1.7-0.2-2.7c0-1,0.1-1.9,0.2-2.7C15.1,8.2,16,8.1,17,8.1s1.9,0.1,2.7,0.2
+                        c0.1,0.8,0.2,1.7,0.2,2.7c0,0.9-0.1,1.8-0.2,2.7C18.9,13.8,18,13.9,17,13.9z M21.7,13.2c0.1-0.7,0.1-1.5,0.1-2.2
+                        c0-0.8,0-1.5-0.1-2.2C23.8,9.4,25,10.3,25,11C25,11.7,23.8,12.6,21.7,13.2z"/>
+                        <path d="M29.9,17.5C29.7,17.2,29.4,17,29,17c-2.2,0-4.3,1-5.6,2.8L22.5,21c-1.1,1.3-2.8,2-4.5,2h-3c-0.6,0-1-0.4-1-1s0.4-1,1-1h1.9
+                        c1.6,0,3.1-1.3,3.1-2.9c0,0,0-0.1,0-0.1c0-0.5-0.5-1-1-1l-6.1,0c-3.6,0-6.5,1.6-8.1,4.2l-2.7,4.2c-0.2,0.3-0.2,0.7,0,1l3,5
+                        c0.1,0.2,0.4,0.4,0.6,0.5c0.1,0,0.1,0,0.2,0c0.2,0,0.4-0.1,0.6-0.2c3.8-2.5,8.2-3.8,12.7-3.8c3.3,0,6.3-1.8,7.9-4.7l2.7-4.8
+                        C30,18.2,30,17.8,29.9,17.5z"/>
+                        </svg>
+                      </div>
+											<span className="bg-success-grad">C</span>
+                      <h6 className="ser-title">COMPONENTS</h6>
                     </div>
                 </div>
             </div>
@@ -659,35 +687,20 @@ const App = () => {
             <div className="col-6">
                 <div className="card card-shadow border-0 mb-4">
                     <div className="card-hover py-4 text-center d-block rounded"> 
-												<span className="bg-success-grad">D</span>
-                        <h6 className="ser-title">Digital Marketing</h6>
+												<span className="bg-success-grad">B</span>
+                        <h6 className="ser-title">BOILERPLATES</h6>
                     </div>
                 </div>
             </div>
 
             <div className="col-6">
                 <div className="card card-shadow border-0 mb-4">
-                    <div className="card-hover py-4 text-center d-block rounded"> 
-												<span className="bg-success-grad">S</span>
-                        <h6 className="ser-title">SEO Techniques</h6>
-                    </div>
-                </div>
-            </div>
-
-            <div className="col-6">
-                <div className="card card-shadow border-0 mb-4">
-                    <div className="card-hover py-4 text-center d-block rounded"> 
-												<span className="bg-success-grad">C</span>
-                        <h6 className="ser-title">Client Management</h6>
-                    </div>
-                </div>
-            </div>
-
-            <div className="col-6">
-                <div className="card card-shadow border-0 mb-4">
-                    <div className="card-hover py-4 text-center d-block rounded"> 
-												<span className="bg-success-grad">E</span>
-                        <h6 className="ser-title">Email Campaign</h6>
+                    <div className="card-hover py-4 text-center d-block rounded">
+                      <div className="xone-feat-icon" style={{ inset: "-30px auto auto -15px" }}>
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" color="#22c777" height="155" width="155" xmlns="http://www.w3.org/2000/svg"><g><path fill="none" d="M0 0H24V24H0z"></path><path d="M17.363 11.045c1.404-1.393 3.68-1.393 5.084 0 1.404 1.394 1.404 3.654 0 5.047L17 21.5l-5.447-5.408c-1.404-1.393-1.404-3.653 0-5.047 1.404-1.393 3.68-1.393 5.084 0l.363.36.363-.36zm1.88-6.288c.94.943 1.503 2.118 1.689 3.338-1.333-.248-2.739-.01-3.932.713-2.15-1.303-4.994-1.03-6.856.818-2.131 2.115-2.19 5.515-.178 7.701l.178.185 2.421 2.404L11 21.485 2.52 12.993C.417 10.637.496 7.019 2.757 4.757c2.265-2.264 5.888-2.34 8.244-.228 2.349-2.109 5.979-2.039 8.242.228z"></path></g></svg>
+                      </div>
+											<span className="bg-success-grad">I</span>
+                      <h6 className="ser-title">INTEGRATIONS</h6>
                     </div>
                 </div>
             </div>
@@ -696,7 +709,7 @@ const App = () => {
                 <div className="card card-shadow border-0 mb-4">
                     <div className="card-hover py-4 text-center d-block rounded"> 
 												<span className="bg-success-grad">W</span>
-                        <h6 className="ser-title">Website Strategy</h6>
+                        <h6 className="ser-title">WEB3 ECONOMY</h6>
                     </div>
                 </div>
             </div>
@@ -704,8 +717,17 @@ const App = () => {
             <div className="col-6">
                 <div className="card card-shadow border-0 mb-4">
                     <div className="card-hover py-4 text-center d-block rounded"> 
-												<span className="bg-success-grad">E</span>
-                        <h6 className="ser-title">eCommerce Shop</h6>
+												<span className="bg-success-grad">G</span>
+                        <h6 className="ser-title">GAMIFICATION</h6>
+                    </div>
+                </div>
+            </div>
+            
+            <div className="col-6">
+                <div className="card card-shadow border-0 mb-4">
+                    <div className="card-hover py-4 text-center d-block rounded"> 
+												<span className="bg-success-grad">D</span>
+                        <h6 className="ser-title">DECENTRALIZED</h6>
                     </div>
                 </div>
             </div>
@@ -713,8 +735,8 @@ const App = () => {
             <div className="col-6">
                 <div className="card card-shadow border-0 mb-4">
                     <div className="card-hover py-4 text-center d-block rounded"> 
-												<span className="bg-success-grad">C</span>
-                        <h6 className="ser-title">Cloud Hosting</h6>
+												<span className="bg-success-grad">S</span>
+                        <h6 className="ser-title">SCALABLE</h6>
                     </div>
                 </div>
             </div>
@@ -724,6 +746,7 @@ const App = () => {
 {/* End of 4x2 Features Grid */}
 </div>
 
+{/* 2x1 cards with green-gradient :: 
 <div className="row justify-content-center mt-3 mx-auto pb-0">
 <div className="col-12 col-md-6 mb-3">
   <div className="mbp-wrapper-2">
@@ -766,6 +789,7 @@ const App = () => {
   </div>
 </div>
 </div>
+ */}
 
 </div>
 
@@ -794,11 +818,11 @@ const App = () => {
   </div>
  </div>
 
-<div className="row justify-content-center my-3 mx-2 pb-0">
-<div className="col-12 col-md-10">
+<div className="row justify-content-center my-5 mx-2 pb-0">
+<div className="col-12 col-md-10 mb-1">
   <div className="mbp-wrapper shadow-lg">
-    <div className="profile-card p-1">
-      <div className="card bg-purp2 text-center shadow-md" style={{ borderRadius:"11px" }}>
+    <div className="profile-card p-1" style={{ position: "absolute", bottom: "-150px", right: "10%", maxWidth: "360px" }}>
+      <div className="card bg-purp2 text-center shadow-md pb-5" style={{ borderRadius:"11px"}}>
         <div className="card-body">
           <h5 className="card-title fw-bold">Cross-Browser Compatible</h5>
           <p className="card-text">Xones are built with A-Frame, a Three.js-based framework that leverages WebGL and WebXR to deliver web-based immersive experiences on computers, mobile devices, and AR/VR Headsets.</p>
@@ -952,87 +976,8 @@ const App = () => {
 {/* End of Xonerator */}
 
 {/* Start of NFTs Section - ChatLoop */}
-<section id="nft" className="slide-bg">
-      <div className="container">
-        <div className="row">
-          <div className="col-md-6">
-            <div className="d-flex-1">
-              <div className="slide-text">
-                <div className="px-sm-4">
-                  <em>Solana-Powered NFT Ecosystem</em>
-                  <h1>Collect, swap &amp; sell Metaball NFTs with your preferred 
-                    <span className="main-title" style={{ color: "rgba(3, 24, 88, 0.88)", paddingLeft: "7px" }}> 
-  <svg
-    width="47"
-    height="38"
-    xmlns="http://www.w3.org/2000/svg"
-    className="inline"
-  >
-    <defs>
-      <linearGradient
-        x1="90.737%"
-        y1="34.776%"
-        x2="35.509%"
-        y2="55.415%"
-        id="a"
-      >
-        <stop stopColor="#00FFA3" offset="0%" />
-        <stop stopColor="#DC1FFF" offset="100%" />
-      </linearGradient>
-      <linearGradient x1="66.588%" y1="43.8%" x2="11.36%" y2="64.439%" id="b">
-        <stop stopColor="#00FFA3" offset="0%" />
-        <stop stopColor="#DC1FFF" offset="100%" />
-      </linearGradient>
-      <linearGradient
-        x1="78.586%"
-        y1="39.317%"
-        x2="23.358%"
-        y2="59.956%"
-        id="c"
-      >
-        <stop stopColor="#00FFA3" offset="0%" />
-        <stop stopColor="#DC1FFF" offset="100%" />
-      </linearGradient>
-    </defs>
-    <g fillRule="nonzero" fill="none">
-      <path
-        d="M7.256 26.713c.27-.27.64-.427 1.033-.427h35.64a.73.73 0 0 1 .517 1.247l-7.04 7.04c-.27.27-.64.427-1.034.427H.732a.73.73 0 0 1-.516-1.246l7.04-7.04Z"
-        fill="url(#a)"
-        transform="translate(.98)"
-      />
-      <path
-        d="M7.256.427C7.536.157 7.907 0 8.289 0h35.64a.73.73 0 0 1 .517 1.246l-7.04 7.04c-.27.27-.64.428-1.034.428H.732a.73.73 0 0 1-.516-1.247l7.04-7.04Z"
-        fill="url(#b)"
-        transform="translate(.98)"
-      />
-      <path
-        d="M37.405 13.486c-.27-.27-.64-.427-1.033-.427H.732a.73.73 0 0 0-.516 1.246l7.04 7.04c.27.27.64.428 1.033.428h35.64a.73.73 0 0 0 .517-1.247l-7.04-7.04Z"
-        fill="url(#c)"
-        transform="translate(.98)"
-      />
-    </g>
-  </svg>olana</span> wallet.</h1>
-                  <h3 style={{ fontStyle: "italic", color: "rgba(255,255,255,0.75)" }}>Access your digital assets on the go: Try SolFlare on Android, or Phantom on iOS. Torus, Sollet, Slope, Solong and Ledger wallets are also supported.</h3>
-                  <div className="slid-btn">
-                    <a href="/#"><img className="img-fluid" src="images/app1.png" alt="app1" data-tilt="" data-tilt-perspective="50" data-tilt-speed="350" data-tilt-max="1.8" /></a>
-                      <a href="/#"><img className="img-fluid" src="images/app2.png" alt="app2" data-tilt="" data-tilt-perspective="50" data-tilt-speed="350" data-tilt-max="1.8" /></a>
-                      </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-6">
-            <div className="home-right">
-              <div className="mobile-slid"><img className="img-fluid" src="images/top-mobile.png" alt="top1" /></div>
-              <div className="profile-msg"><img className="img-fluid" src="images/top2.png" alt="top2" /></div>
-              <div className="awesome"><img className="img-fluid" src="images/top3.png" alt="top3" /></div>
-              <div className="profile-1"><img className="img-fluid" src="images/top4.png" alt="top4" /></div>
-              <div className="emoji"><img className="img-fluid" src="images/top5.png" alt="top5" /></div>
-              <div className="profile-2"><img className="img-fluid" src="images/top1.png" alt="top1" /></div>
-            </div>
-          </div>
-        </div>
-      </div>
+<section id="partners" className="slide-bg">
+  
 </section>
 <div className="animation-circle" style={{ zIndex: 3, marginTop: "-38px" }}><i></i><i></i><i></i></div>
 {/* End of NFTs section (ChatLoop) */}

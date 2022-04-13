@@ -465,8 +465,9 @@ section {
   transition: all 0.25s ease; }
 
 .slide-bg {
-  background: -webkit-linear-gradient(linear, left top, right top, from(#662D92), to(#cc3dbe));
-  background: linear-gradient(to right, #662D92 0%, #cc3dbe 100%);
+  background: -webkit-linear-gradient(180deg, #7235a1 0%, rgb(228, 11, 128) 100%);
+  background: linear-gradient(180deg, #7235a1 0%, rgb(228, 11, 128) 100%);
+  box-shadow: 0px -5px 38px 6px #490039;
   min-height: 100vh;
   padding-bottom: 0;
   padding-top: 80px; }

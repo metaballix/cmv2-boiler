@@ -103,93 +103,6 @@
 }
 
 
-/* 4x2 Features Grid - snippets.wrappixel.com/multiple-services-cards-section */
-.xone-feat {
-color: #8d97ad;
-font-weight: 300;
-}
-
-.xone-feat h1, .xone-feat h2, .xone-feat h3, .xone-feat h4, .xone-feat h5, .xone-feat h6 {
-color: #3e4555;
-}
-
-.xone-feat .card.card-shadow {
-    -webkit-box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
-    box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
-}
-
-.xone-feat a {
-    text-decoration: none;
-}
-
-.xone-feat .card-hover:hover {
-    background: #2cdd9b;
-    background: -webkit-linear-gradient(legacy-direction(to right), #2cdd9b 0%, #1dc8cc 100%);
-    background: -webkit-gradient(linear, left top, right top, from(#2cdd9b), to(#1dc8cc));
-    background: -webkit-linear-gradient(left, #2cdd9b 0%, #1dc8cc 100%);
-    background: -o-linear-gradient(left, #2cdd9b 0%, #1dc8cc 100%);
-    background: linear-gradient(to right, #2cdd9b 0%, #1dc8cc 100%);
-}
-
-.xone-feat .card-hover:hover .bg-success-grad {
-    color: #ffffff;
-    text-fill-color: #ffffff;
-    -webkit-text-fill-color: #ffffff;
-}
-
-.xone-feat .card-hover:hover .ser-title {
-    color: #ffffff;
-}
-
-.xone-feat .bg-success-grad {
-    background: #2cdd9b;
-    background: -webkit-linear-gradient(legacy-direction(to right), #2cdd9b 0%, #1dc8cc 100%);
-    background: -webkit-gradient(linear, left top, right top, from(#2cdd9b), to(#1dc8cc));
-    background: -webkit-linear-gradient(left, #2cdd9b 0%, #1dc8cc 100%);
-    background: -o-linear-gradient(left, #2cdd9b 0%, #1dc8cc 100%);
-    background: linear-gradient(to right, #2cdd9b 0%, #1dc8cc 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-fill-color: transparent;
-    font-size: 60px;
-    font-weight: 500;
-}
-
-.xone-feat .xone-feat-wrapper .card {
-  background: rgba(255, 255, 255, 0.9);
-  box-shadow: 0 0 9px 2px #00272c;
-  transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
-  -moz-transition: all 0.3s ease-out;
-  -webkit-transition: all 0.3s ease-out;
-  border-radius: 9px;
-}
-
-.xone-feat .xone-feat-wrapper .card:hover {
-    -ms-transform: translateY(-10px);
-    transform: translateY(-10px);
-    -webkit-transform: translateY(-10px);
-}
-
-.xone-feat .btn-outline-success {
-    color: #2cdd9b !important;
-    background-color: transparent;
-    border-color: #2cdd9b;
-}
-
-.xone-feat .btn-outline-success:hover {
-        background: #2cdd9b;
-    border-color: #2cdd9b;
-    color: #ffffff !important;
-}
-
-.xone-feat .btn-md {
-    padding: 15px 45px;
-    font-size: 16px;
-}
-
-/* 3d parallax cards - codepen.io/dazulu/pen/VVZrQv */
 
 /* FAQ section bs 4.1 - codepen.io/moso/pen/vKGxMx */
 
@@ -544,6 +457,78 @@ color: #3e4555;
     background-color: #d29fa0;
     border-color: #d29fa0;
   }
+
+  
+/* MBP Profile Card - METABALLS */
+
+/* 
+.header{ font-size:35px; }
+.sub{ font-size:20px; }
+.description{ font-size:1.3rem; }
+.number{ font-size:1.8rem; margin-bottom:0; }
+*/
+
+.mbp-slider-card{
+  text-align:center;
+  justify-content:center;
+  margin:50px auto;
+  background-color: #200233;
+  border-radius:11px;
+  box-shadow: 0px 8px 60px -10px rgba(155, 20, 128, 0.6);
+}
+
+.mbp-content{
+  text-align:center;
+  padding:0 30px;
+}
+
+.box{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-around;
+}
+
+.box.media, .box.followers, .box.following { flex-direction: column; }
+
+.mbp-logo{
+  position:relative;
+  width:80px;
+  height: 80px;
+  border-radius:50%;
+  margin: 0 auto; 
+  margin-top:-30px;
+  overflow: visible;
+  border: 5px solid rgb(101, 38, 182);
+  background-color: rgb(83, 20, 92);
+}
+
+.mbp-logo img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.mbp-photos{
+  display:flex;
+  overflow: auto;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  transform-style: preserve-3d;
+}
+.img-box{
+  width:100px;
+  height:100px;
+  border-radius:4px;
+  margin:10px 5px 10px 10px;
+  box-shadow: 0px 0px 10px 1px rgba(191, 38, 218, 0.7);
+  animation: 5s linear 0s infinite alternate none running nftslide-1;
+  transform: translateZ(20px);
+}
+/* 
+.box-bg {
+  background-image: linear-gradient(90deg,#ECF0F1 50%, #bdc3c7 50%);
+  background-size: 50px 50px;
+}
+*/
 
   /* mbp- MBALL PROFILE CARD -- codepen.io/metaballix/pen/LYeByvB */
   .icon {
@@ -921,76 +906,108 @@ color: #3e4555;
     transition: all 0.3s;
   }
 
-/* MBP Profile Card - METABALLS */
 
-/* 
-.header{ font-size:35px; }
-.sub{ font-size:20px; }
-.description{ font-size:1.3rem; }
-.number{ font-size:1.8rem; margin-bottom:0; }
-*/
-
-.mbp-slider-card{
-  text-align:center;
-  justify-content:center;
-  margin:50px auto;
-  background-color: #200233;
-  border-radius:11px;
-  box-shadow: 0px 8px 60px -10px rgba(155, 20, 128, 0.6);
+/* 4x2 Features Grid - snippets.wrappixel.com/multiple-services-cards-section */
+.xone-feat {
+color: #8d97ad;
+font-weight: 300;
 }
 
-.mbp-content{
-  text-align:center;
-  padding:0 30px;
+.xone-feat h1, .xone-feat h2, .xone-feat h3, .xone-feat h4, .xone-feat h5, .xone-feat h6 {
+color: #3e4555;
 }
 
-.box{
-  display:flex;
-  flex-wrap:wrap;
-  justify-content: space-around;
+.xone-feat .card.card-shadow {
+    -webkit-box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+    box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
 }
 
-.box.media, .box.followers, .box.following { flex-direction: column; }
-
-.mbp-logo{
-  position:relative;
-  width:80px;
-  height: 80px;
-  border-radius:50%;
-  margin: 0 auto; 
-  margin-top:-30px;
-  overflow: visible;
-  border: 5px solid rgb(101, 38, 182);
-  background-color: rgb(83, 20, 92);
+.xone-feat a {
+    text-decoration: none;
 }
 
-.mbp-logo img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
+.xone-feat .card-hover:hover {
+    background: #2cdd9b;
+    background: -webkit-linear-gradient(legacy-direction(to right), #2cdd9b 0%, #1dc8cc 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#2cdd9b), to(#1dc8cc));
+    background: -webkit-linear-gradient(left, #2cdd9b 0%, #1dc8cc 100%);
+    background: -o-linear-gradient(left, #2cdd9b 0%, #1dc8cc 100%);
+    background: linear-gradient(to right, #2cdd9b 0%, #1dc8cc 100%);
 }
-.mbp-photos{
-  display:flex;
-  overflow: auto;
-  padding-top: 11px;
-  padding-bottom: 11px;
-  transform-style: preserve-3d;
+
+.xone-feat .card-hover:hover .bg-success-grad {
+    color: #ffffff;
+    text-fill-color: #ffffff;
+    -webkit-text-fill-color: #ffffff;
 }
-.img-box{
-  width:100px;
-  height:100px;
-  border-radius:4px;
-  margin:10px 5px 10px 10px;
-  box-shadow: 0px 0px 10px 1px rgba(191, 38, 218, 0.7);
-  animation: 5s linear 0s infinite alternate none running nftslide-1;
-  transform: translateZ(20px);
+
+.xone-feat .card-hover:hover .ser-title {
+    color: #ffffff;
 }
-/* 
-.box-bg {
-  background-image: linear-gradient(90deg,#ECF0F1 50%, #bdc3c7 50%);
-  background-size: 50px 50px;
+
+.xone-feat .bg-success-grad {
+    background: #2cdd9b;
+    background: -webkit-linear-gradient(legacy-direction(to right), #2cdd9b 0%, #1dc8cc 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#2cdd9b), to(#1dc8cc));
+    background: -webkit-linear-gradient(left, #2cdd9b 0%, #1dc8cc 100%);
+    background: -o-linear-gradient(left, #2cdd9b 0%, #1dc8cc 100%);
+    background: linear-gradient(to right, #2cdd9b 0%, #1dc8cc 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    font-size: 60px;
+    font-weight: 500;
+    text-shadow: #0f575c 1px 1px 1px;
 }
-*/
+
+.xone-feat .xone-feat-wrapper .card {
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 0 9px 2px #00272c;
+  transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  border-radius: 9px;
+  overflow: hidden;
+}
+
+.xone-feat-icon {
+  position: absolute;
+  transform: initial;
+  opacity: 0.38;
+}
+
+.xone-feat-icon i {
+  color: linear-gradient(to top right, #22c777 0%, #00b6ce 90%);
+  opacity: 0.38;
+}
+
+.xone-feat .xone-feat-wrapper .card:hover {
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+}
+
+.xone-feat .btn-outline-success {
+    color: #2cdd9b !important;
+    background-color: transparent;
+    border-color: #2cdd9b;
+}
+
+.xone-feat .btn-outline-success:hover {
+        background: #2cdd9b;
+    border-color: #2cdd9b;
+    color: #ffffff !important;
+}
+
+.xone-feat .btn-md {
+    padding: 15px 45px;
+    font-size: 16px;
+}
+
+/* 3d parallax cards - codepen.io/dazulu/pen/VVZrQv */
+
 /*
 * CUSTOM SCROLLBAR - jsfiddle.net/bootstrapious/3kaxvn69
 * ==========================================
