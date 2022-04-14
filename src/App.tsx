@@ -881,18 +881,6 @@ const App = () => {
 </div>
 
 </div>
-
-{/* XONE DISPLAY PANEL */}
-{/* <div className="b-divider"></div> */}
-<div className="row justify-content-center mb-5 mx-2 pb-0">
-  <div className="col-12 col-md-10 mb-1">
-    <div className="mbp-wrapper shadow-lg">
-      <div className="container my-5 mx-auto">
-      </div>
-    </div>
-  </div>
-</div>
-
 </section>
 
 {/* START OF PLASMAVERSE Section */}
@@ -901,14 +889,24 @@ const App = () => {
 <h1 className="display-5 fw-bold my-3">Interconnected Microverses</h1>
 
 <div className="row mt-1 p-1 p-md-2 p-lg-3 align-items-center justify-content-center">
-  <div className="col-12 mb-2">
+
+  <div className="col-12 mb-1">
     <div className="card p-2 p-md-5 bg-purp-transparent">
       <div className="card-body">
         <p className="card-text fs-3">Xone microverses are built with A-Frame, a Three.js-based framework that leverages WebGL and WebXR to deliver "fully immersive interactive VR experiences that go beyond basic 360° content, making full use of positional tracking and controllers."</p>
       </div>
     </div>
   </div>
-</div>
+
+  {/* XONE DISPLAY PANEL */}
+  {/* <div className="b-divider"></div> */}
+    <div className="col-12 mb-2">
+      <div className="mbp-wrapper shadow-lg">
+        <div className="container my-5 mx-auto">
+        </div>
+      </div>
+    </div>
+  </div>
 
 <div className="row service-6 p-1 p-md-2 p-lg-3">
     <div className="col-12 col-md-3 col-sm-6 wrap-service6-box mb-2">
