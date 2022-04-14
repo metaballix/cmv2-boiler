@@ -795,7 +795,7 @@ const App = () => {
 <div id="xone-2" className="row mt-1 align-items-center justify-content-center">
   <div className="col-12 mb-5 h-100">
     <div className="row">
-      <div className="col-12 col-md-7">
+      <div className="col-12 col-md-7 mb-3">
         <div className="profile-card bg-green1 bxs-green2 p-1 h-100"> {/* removed class "float-card-1 */}
           <div className="card bg-purp2 text-center shadow-md pb-0" style={{ borderRadius:"11px"}}>
           <div className="card-body">
@@ -869,8 +869,8 @@ const App = () => {
         </div>
       </div>
       <div className="col-12 col-md-5">
-        <div className="card bg-transparent h-100">
-          <img className="card-img-top" src="https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/xtrood-mockup-1-nomargin-min.png?v=1647557553264" alt="metaball xones visualized" />
+        <div className="card border-0 bg-transparent h-100">
+          <img className="card-img-top border rounded-3 border-white p-1" src="https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/xtrood-mockup-1-nomargin-min.png?v=1647557553264" alt="metaball xones visualized" />
           <div className="card-body">
             <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
           </div>
@@ -885,15 +885,15 @@ const App = () => {
 
 {/* START OF PLASMAVERSE Section */}
 <section id="plasmaverse" className="container-fluid pt-5 px-2 px-md-3 px-lg-4 text-center align-items-center" style={{overflow: "visible"}}>
-<div id="link3" className="card contentcard xonecard mt-3 mx-auto shadow-lg border border-info" style={{ marginBottom: "-222px", position: "relative", zIndex: 999 }}>
+<div id="link3" className="card xonecard mt-3 mx-auto p-3 align-items-center shadow-lg" style={{ marginBottom: "-222px", position: "relative", zIndex: 999, border: "5px solid #22c777", borderRadius: "11px" }}>
 <h1 className="display-5 fw-bold my-3">Interconnected Microverses</h1>
 
 <div className="row mt-1 p-1 p-md-2 p-lg-3 align-items-center justify-content-center">
 
-  <div className="col-12 mb-1">
-    <div className="card p-2 p-md-5 bg-purp-transparent">
+  <div className="col-12 mb-2">
+    <div className="card p-2 p-md-5 bg-purp-transparent" style={{borderRadius:"10px"}}>
       <div className="card-body">
-        <p className="card-text fs-3">Xone microverses are built with A-Frame, a Three.js-based framework that leverages WebGL and WebXR to deliver "fully immersive interactive VR experiences that go beyond basic 360° content, making full use of positional tracking and controllers."</p>
+        <p className="card-text fs-3">The Plasmaverse is built with A-Frame, a Three.js-based framework that leverages WebGL and WebXR to deliver "immersive interactive VR experiences that go beyond basic 360° content, making full use of positional tracking and controllers."</p>
       </div>
     </div>
   </div>
