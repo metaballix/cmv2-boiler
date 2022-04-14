@@ -289,93 +289,10 @@ const App = () => {
 </header>
 
 {/* START of SECTION :: FEATURES */}
-<section id="features" className="theme-bg feature py-5 text-center overflow-visible">
+<section id="features" className="theme-bg feature py-1 pb-5 text-center overflow-visible">
 
-{/* Feature Mob (ChatLoop) */}
-  <div className="container my-5 overflow-visible">
-    <div className="animation-circle-inverse py-3"><i></i><i></i><i></i></div>
-    <div className="row">
-      <div className="col-md-12 text-center">
-        <div className="section-title">
-          <h1 className="pb-3 gradient-txt-purple section-h1">BUILD-TO-EARN</h1>
-          <div className="line white"></div>
-        </div>
-      </div>
-      <div className="col-lg-4 col-sm-6 mob-left">
-        <div className="future-box">
-          <div className="future-timeline">
-            <ul>
-              <li className="timeline">
-                <h4 className="sub-title">Easy Installation</h4>
-                <p>Lorem Ipsum has been the industry's</p>
-              </li>
-              <li className="timeline">
-                <h4 className="sub-title">Multi Platform Chat App</h4>
-                <p>Lorem Ipsum has been the industry's</p>
-              </li>
-              <li className="timeline">
-                <h4 className="sub-title">Secure Backup &amp; Recovery</h4>
-                <p>Many desktop publishing packages</p>
-              </li>
-              <li className="timeline">
-                <h4 className="sub-title">Easy File Sharing</h4>
-                <p>Lorem Ipsum has been the industry's</p>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div className="col-md-4 future-mobile">
-      {/* <img className="img-fluid" src="images/color-5/feature-mob.png" alt="feature-mob" /> */}
-      <div className="iphone iphone-pink">
-        <div className="iphone-small-round-top"></div>
-        <div className="iphone-round-top-left"></div>
-        <div className="iphone-speaker"></div>
-        <img className="iphone-screenshot" src="images/color-5/feature-mob-inset-800x1362.gif" alt="metaballs on mobile" />
-        <div className="iphone-button"></div>
-      </div>
-      </div>
-      <div className="col-lg-4 col-sm-6 mob-right">
-        <div className="future-box">
-          <div className="future-timeline-right">
-            <ul className="text-start">
-              <li className="timeline-right">
-                <h4>Easy Installation</h4>
-                <p>Lorem Ipsum has been the industry's</p>
-              </li>
-              <li className="timeline-right">
-                <h4>Multi Platform Chat App</h4>
-                <p>Lorem Ipsum has been the industry's</p>
-              </li>
-              <li className="timeline-right">
-                <h4>Secure Backup &amp; Recovery</h4>
-                <p>Many desktop publishing packages</p>
-              </li>
-              <li className="timeline-right">
-                <h4>Easy File Sharing</h4>
-                <p>Lorem Ipsum has been the industry's</p>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-{/* End of Feature Mob CL */}
-</section>
-{/* End of FEATURES section */}
-
-{/* Start of XONES Section */}
-<section id="nft" className="container-fluid d-flex w-100 h-auto px-0 py-1 my-0 pb-5 mx-auto flex-column">
-{/* <div className="b-divider mb-5"></div> */}
-
-   {/* Video BG :: 
-    <video autoPlay muted loop id="vid-xone">
-    <source src="https://cdn.glitch.global/84180755-58e4-4c80-b543-77cacf869330/xone-bg-14s.mp4?v=1647881876712" type="video/mp4" />
-    </video>*/}
-<div className="container py-2 pb-4 my-0 mb-5 text-center mx-auto">
-
-<div className="mbp-slider-card">
+{/* NFTs Card with mBall logo */}
+<div className="mbp-slider-card pb-5">
 
 <div className="row px-2 mx-auto mb-3 p-0">
   <div className="mbp-photos custom-scrollbar-css" data-tilt="" data-tilt-perspective="100" data-tilt-speed="400" data-tilt-max="1.8">
@@ -494,7 +411,7 @@ const App = () => {
 <div className="stage d-block mx-auto" style={{ marginLeft: 0, marginTop: "-65px" }}><figure className="4x1 ball bubble"></figure></div>
 
 <div className="row justify-content-center mt-4 mx-2">
-  <div className="col-10 content">
+  <div className="col-10 col-lg-8 my-2 content">
     <h1 className="display-5 fw-bold" style={{ letterSpacing: "0.15rem" }}>METABALLS</h1>
     <h3 className="sub-header fw-bold fs-2"><span style={{color: "rgb(182, 38, 182)"}}>UNLOCK. </span><span style={{color: "rgb(101, 38, 182)"}}>MINT. </span><span style={{color: "rgb(38, 137, 182)"}}>TRADE.</span></h3>
     <p className="py-3 description lead fs-3">Metaballs are dynamic asset-bearing avatars that reside in the Metaballix Plasmaverse. Each NFT is tied to $PLASMA holdings, activity records, and 'Xonership' metadata such as assets, configuration, and a spatial-social graph of monetizable Xone traffic.</p>
@@ -520,10 +437,8 @@ const App = () => {
       <h4 className="text-white">Monetizable Xones</h4>
     </div>
     </div>
-</div>
-
-<div className="row justify-content-center">
-  <div className="col mb-3">
+    
+    <div className="col-12 mb-2">
     <div className="profile-card-social">
     {/*         
             <a href="https://www.facebook.com/iaMuhammedErdem" className="profile-card-social__item facebook" target="_blank">
@@ -570,12 +485,96 @@ const App = () => {
             </a>
     </div>
   </div>
+  
 </div>
 
 </div>
+
+{/* Feature Mob (ChatLoop) */}
+  <div className="container my-5 overflow-visible">
+    <div className="animation-circle-inverse py-3"><i></i><i></i><i></i></div>
+    <div className="row">
+      <div className="col-md-12 text-center">
+      <h1 className="pb-3 gradient-txt-green fs-1 fw-bold" style={{filter: "drop-shadow(0px 1px -1rem rgba(255,255,255,1))"}}>BUILD-TO-EARN</h1>
+
+      </div>
+      <div className="col-lg-4 col-sm-6 mob-left">
+        <div className="future-box">
+          <div className="future-timeline">
+            <ul>
+              <li className="timeline">
+                <h4 className="sub-title">Easy Installation</h4>
+                <p>Lorem Ipsum has been the industry's</p>
+              </li>
+              <li className="timeline">
+                <h4 className="sub-title">Multi Platform Chat App</h4>
+                <p>Lorem Ipsum has been the industry's</p>
+              </li>
+              <li className="timeline">
+                <h4 className="sub-title">Secure Backup &amp; Recovery</h4>
+                <p>Many desktop publishing packages</p>
+              </li>
+              <li className="timeline">
+                <h4 className="sub-title">Easy File Sharing</h4>
+                <p>Lorem Ipsum has been the industry's</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div className="col-md-4 future-mobile">
+      {/* <img className="img-fluid" src="images/color-5/feature-mob.png" alt="feature-mob" /> */}
+      <div className="iphone iphone-pink">
+        <div className="iphone-small-round-top"></div>
+        <div className="iphone-round-top-left"></div>
+        <div className="iphone-speaker"></div>
+        <img className="iphone-screenshot" src="images/color-5/feature-mob-inset-800x1362.gif" alt="metaballs on mobile" />
+        <div className="iphone-button"></div>
+      </div>
+      </div>
+      <div className="col-lg-4 col-sm-6 mob-right">
+        <div className="future-box">
+          <div className="future-timeline-right">
+            <ul className="text-start">
+              <li className="timeline-right">
+                <h4>Easy Installation</h4>
+                <p>Lorem Ipsum has been the industry's</p>
+              </li>
+              <li className="timeline-right">
+                <h4>Multi Platform Chat App</h4>
+                <p>Lorem Ipsum has been the industry's</p>
+              </li>
+              <li className="timeline-right">
+                <h4>Secure Backup &amp; Recovery</h4>
+                <p>Many desktop publishing packages</p>
+              </li>
+              <li className="timeline-right">
+                <h4>Easy File Sharing</h4>
+                <p>Lorem Ipsum has been the industry's</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{/* End of Feature Mob CL */}
+</section>
+{/* End of FEATURES section */}
+
+{/* Start of XONES Section */}
+<section id="nft" className="container-fluid d-flex w-100 h-auto px-0 py-1 my-0 pb-5 mx-auto flex-column">
+{/* <div className="b-divider mb-5"></div> */}
+
+   {/* Video BG :: 
+    <video autoPlay muted loop id="vid-xone">
+    <source src="https://cdn.glitch.global/84180755-58e4-4c80-b543-77cacf869330/xone-bg-14s.mp4?v=1647881876712" type="video/mp4" />
+    </video>*/}
+
+<div className="container py-2 pb-4 my-3 mb-5 text-center mx-auto">
 
 {/* ROW :: HONE YOUR XONE */}
-<div id="xone" className="row">
+<div id="xone" className="row mb-2">
     <div className="col col-lg-7 mb-5">
       <div className="mbp-wrapper-2">
         
@@ -641,7 +640,7 @@ const App = () => {
       </div>
     </div>
 
-<div className="col col-lg-5 h-100">
+<div className="col col-lg-5">
 {/* Start of Feature Squares Grid 4x2 */}
 <div className="xone-feat">
     <div className="container">
@@ -793,102 +792,104 @@ const App = () => {
 
 </div>
 
-</div>
+<div id="xone-2" className="row mt-1 align-items-center justify-content-center">
+  <div className="col-12 mb-5 h-100">
+    <div className="row">
+      <div className="col-7">
+        <div className="profile-card bg-info p-1 h-100"> {/* removed class "float-card-1 */}
+          <div className="card bg-purp2 text-center shadow-md pb-5" style={{ borderRadius:"11px"}}>
+          <div className="card-body">
+            
+            <h5 className="card-title fw-bold">Cross-Platform</h5>
 
-{/* XONE DISPLAY PANEL */}
-{/* <div className="b-divider"></div> */}
+            <div className="row g-2 mt-2">
+            <div className="col-4">
+            <div className="card tech-card text-center">
+              <div className="card-body">
+                <h5 className="card-title">A</h5>
+              </div>
+            </div>
+            </div>
+            <div className="col-4">
+            <div className="card tech-card text-center">
+              <div className="card-body">
+                <h5 className="card-title">B</h5>
+              </div>
+            </div>
+            </div>
+            <div className="col-4">
+            <div className="card tech-card text-center">
+              <div className="card-body">
+                <h5 className="card-title">C</h5>
+              </div>
+            </div>
+            </div>
+            </div>
+            
+            <h5 className="card-title fw-bold mt-2">Cross-Browser</h5>
 
-<div className="container my-5 mx-auto">
-  <div className="row px-0 px-md-2 px-lg-3 py-4 pt-lg-5 mx-2 align-items-center justify-content-center text-center">
-  <div className="col col-md-3">
-      1 of 3
-    </div>
-    <div className="col md-1">
-    <i className="fa-solid fa-circle-right fs-3 fs-md-2 fs-lg-1"></i>
-    </div>
-    <div className="col col-md-3">
-      2 of 3
-    </div>
-    <div className="col md-1">
-    <i className="fa-solid fa-circle-right fs-3 fs-md-2 fs-lg-1"></i>
-    </div>
-    <div className="col col-md-3">
-      3 of 3
-    </div>
-  </div>
- </div>
+            <div className="row g-2 mt-1">
+            <div className="col-4">
+            <div className="card tech-card text-center">
+              <div className="card-body">
+                <h5 className="card-title">A</h5>
+              </div>
+            </div>
+            </div>
+            <div className="col-4">
+            <div className="card tech-card text-center">
+              <div className="card-body">
+                <h5 className="card-title">B</h5>
+              </div>
+            </div>
+            </div>
+            <div className="col-4">
+            <div className="card tech-card text-center">
+              <div className="card-body">
+                <h5 className="card-title">C</h5>
+              </div>
+            </div>
+            </div>
+            </div>
 
-<div className="row justify-content-center my-5 mx-2 pb-0">
-<div className="col-12 col-md-10 mb-1">
-  <div className="mbp-wrapper shadow-lg">
-    <div className="profile-card float-card-1 p-1">
-      <div className="card bg-purp2 text-center shadow-md pb-5" style={{ borderRadius:"11px"}}>
-        <div className="card-body">
-          <h5 className="card-title fw-bold">Cross-Platform</h5>
+            <div className="d-grid gap-2 mt-3">
+              <a href="https://xone.land/" target="_blank" rel="noreferrer">
+              <button className="btn btn-lg btn-hover bg-blue-gradient btn-block w-100" type="button">
+              <h2 style={{ letterSpacing: "0.09em" }} className="text-light px-5 fw-bold">DEMO</h2>
+              <div className="badge bg-purp2 text-wrap" style={{ width: "98%" }}>Phase 3 Launch</div>
+              </button>
+              </a>
+            </div>
 
-          <div className="row g-2 mt-2">
-          <div className="col-4">
-          <div className="card tech-card text-center">
-            <div className="card-body">
-              <h5 className="card-title">A</h5>
-            </div>
           </div>
           </div>
-          <div className="col-4">
-          <div className="card tech-card text-center">
-            <div className="card-body">
-              <h5 className="card-title">B</h5>
-            </div>
-          </div>
-          </div>
-          <div className="col-4">
-          <div className="card tech-card text-center">
-            <div className="card-body">
-              <h5 className="card-title">C</h5>
-            </div>
-          </div>
-          </div>
-          </div>
-          
-          <h5 className="card-title fw-bold mt-2">Cross-Browser</h5>
-
-          <div className="row g-2 mt-1">
-          <div className="col-4">
-          <div className="card tech-card text-center">
-            <div className="card-body">
-              <h5 className="card-title">A</h5>
-            </div>
-          </div>
-          </div>
-          <div className="col-4">
-          <div className="card tech-card text-center">
-            <div className="card-body">
-              <h5 className="card-title">B</h5>
-            </div>
-          </div>
-          </div>
-          <div className="col-4">
-          <div className="card tech-card text-center">
-            <div className="card-body">
-              <h5 className="card-title">C</h5>
-            </div>
-          </div>
-          </div>
-          </div>
-          <div className="d-grid gap-2 mt-3">
-            <a href="https://xone.land/" target="_blank" rel="noreferrer">
-            <button className="btn btn-lg btn-hover bg-blue-gradient btn-block w-100" type="button">
-            <h2 style={{ letterSpacing: "0.09em" }} className="text-light px-5 fw-bold">DEMO</h2>
-            <div className="badge bg-purp2 text-wrap" style={{ width: "98%" }}>Phase 3 Launch</div>
-            </button>
-            </a>
+        </div>
+      </div>
+      <div className="col-5">
+        <div className="card bg-transparent h-100">
+          <img className="card-img-top" src="https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/xtrood-mockup-1-nomargin-min.png?v=1647557553264" alt="metaball xones visualized" />
+          <div className="card-body">
+            <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
           </div>
         </div>
       </div>
     </div>
   </div>
 </div>
+
 </div>
+
+{/* XONE DISPLAY PANEL */}
+{/* <div className="b-divider"></div> */}
+<div className="row justify-content-center mb-5 mx-2 pb-0">
+  <div className="col-12 col-md-10 mb-1">
+    <div className="mbp-wrapper shadow-lg">
+      <div className="container my-5 mx-auto">
+      </div>
+    </div>
+  </div>
+</div>
+
 </section>
 
 {/* START OF PLASMAVERSE Section */}
@@ -1012,12 +1013,11 @@ const App = () => {
 
 {/* Start of NFTs Section - ChatLoop */}
 <section id="partners" className="slide-bg">
-  
 </section>
-<div className="animation-circle" style={{ zIndex: 3, marginTop: "-38px" }}><i></i><i></i><i></i></div>
+{/* <div className="animation-circle" style={{ zIndex: 3, marginTop: "-38px" }}><i></i><i></i><i></i></div> */}
 {/* End of NFTs section (ChatLoop) */}
 
-{/* START OF Service1 3x1 GRID */}
+{/* START OF XTROOD - Service1 3x1 grid */}
 <div id="xtrood" className="service-1 py-5">
     <div className="container">
     <div className="hero-header my-5">
@@ -1065,7 +1065,7 @@ const App = () => {
     </div>
 </div>
 <div className="b-divider"></div>
-{/* End of Service1 3x1 Grid (Snippet) */}
+{/* End of Xtrood (3x1 grid Snippet) */}
 
 {/* Start of ROADMAP Section */}
 <section id="roadmap" className="py-4 m-3 mb-0">
