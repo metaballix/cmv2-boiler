@@ -795,9 +795,9 @@ const App = () => {
 <div id="xone-2" className="row mt-1 align-items-center justify-content-center">
   <div className="col-12 mb-5 h-100">
     <div className="row">
-      <div className="col-7">
+      <div className="col-12 col-md-7">
         <div className="profile-card bg-info p-1 h-100"> {/* removed class "float-card-1 */}
-          <div className="card bg-purp2 text-center shadow-md pb-5" style={{ borderRadius:"11px"}}>
+          <div className="card bg-purp2 text-center shadow-md pb-0" style={{ borderRadius:"11px"}}>
           <div className="card-body">
             
             <h5 className="card-title fw-bold">Cross-Platform</h5>
@@ -852,20 +852,23 @@ const App = () => {
             </div>
             </div>
 
-            <div className="d-grid gap-2 mt-3">
-              <a href="https://xone.land/" target="_blank" rel="noreferrer">
+            <div className="row g-2 mt-2">
+            <div className="col-12">
+              <hr />
+            <a href="https://xone.land/" target="_blank" rel="noreferrer">
               <button className="btn btn-lg btn-hover bg-blue-gradient btn-block w-100" type="button">
               <h2 style={{ letterSpacing: "0.09em" }} className="text-light px-5 fw-bold">DEMO</h2>
-              <div className="badge bg-purp2 text-wrap" style={{ width: "98%" }}>Phase 3 Launch</div>
+              <div className="badge bg-purp2 text-wrap" style={{ width: "99%" }}>Phase 3 Launch</div>
               </button>
               </a>
+            </div>
             </div>
 
           </div>
           </div>
         </div>
       </div>
-      <div className="col-5">
+      <div className="col-12 col-md-5">
         <div className="card bg-transparent h-100">
           <img className="card-img-top" src="https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/xtrood-mockup-1-nomargin-min.png?v=1647557553264" alt="metaball xones visualized" />
           <div className="card-body">
