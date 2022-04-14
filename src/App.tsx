@@ -292,7 +292,7 @@ const App = () => {
 <section id="features" className="theme-bg feature py-1 pb-5 text-center overflow-visible">
 
 {/* NFTs Card with mBall logo */}
-<div className="mbp-slider-card pb-5">
+<div className="mbp-slider-card bxs-purp1 pb-5">
 
 <div className="row px-2 mx-auto mb-3 p-0">
   <div className="mbp-photos custom-scrollbar-css" data-tilt="" data-tilt-perspective="100" data-tilt-speed="400" data-tilt-max="1.8">
@@ -524,7 +524,7 @@ const App = () => {
       </div>
       <div className="col-md-4 future-mobile">
       {/* <img className="img-fluid" src="images/color-5/feature-mob.png" alt="feature-mob" /> */}
-      <div className="iphone iphone-pink">
+      <div className="iphone iphone-pink bxs-purp2">
         <div className="iphone-small-round-top"></div>
         <div className="iphone-round-top-left"></div>
         <div className="iphone-speaker"></div>
@@ -796,7 +796,7 @@ const App = () => {
   <div className="col-12 mb-5 h-100">
     <div className="row">
       <div className="col-12 col-md-7">
-        <div className="profile-card bg-info p-1 h-100"> {/* removed class "float-card-1 */}
+        <div className="profile-card bg-green1 bxs-green2 p-1 h-100"> {/* removed class "float-card-1 */}
           <div className="card bg-purp2 text-center shadow-md pb-0" style={{ borderRadius:"11px"}}>
           <div className="card-body">
             
