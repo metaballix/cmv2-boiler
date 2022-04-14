@@ -26,6 +26,7 @@ html {
 
 .bg-purp1 { background-color: #1D002F !important; }
 .bg-purp2 { background-color: #380b55 !important; }
+.bg-purp-grad { background: linear-gradient(-45deg, #1D002F 0%,#380b55 100%); }
 .bg-green1 { background-color: #22c777 !important; background: #22c777 !important; }
 .bg-purp-transparent { background-color: rgba(29,0,47,0.5) !important; }
 
@@ -34,6 +35,7 @@ html {
 .bxs-green2 { box-shadow: 0 0 38px -5px #22c777; }
 
 .card-shadow { box-shadow: 0 0 30px rgba(115, 128, 157, 0.1); }
+.tech-card {background: transparent; border: 2px solid #22c777;}
 
 .subtext {
   font-size: 65%;

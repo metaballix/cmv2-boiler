@@ -795,7 +795,7 @@ const App = () => {
 <div id="xone-2" className="row mt-1 align-items-center justify-content-center">
   <div className="col-12 mb-5 h-100">
     <div className="row">
-      <div className="col-12 col-md-7 mb-3">
+      <div className="col-12 col-md-7 mb-2">
         <div className="profile-card bg-green1 bxs-green2 p-1 h-100"> {/* removed class "float-card-1 */}
           <div className="card bg-purp2 text-center shadow-md pb-0" style={{ borderRadius:"11px"}}>
           <div className="card-body">
@@ -868,11 +868,11 @@ const App = () => {
           </div>
         </div>
       </div>
-      <div className="col-12 col-md-5">
+      <div className="col-12 col-md-5 pt-2">
         <div className="card border-0 bg-transparent h-100">
-          <img className="card-img-top border rounded-3 border-white p-1" src="https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/xtrood-mockup-1-nomargin-min.png?v=1647557553264" alt="metaball xones visualized" />
+          <img className="card-img-top p-1" src="https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/xone-builder-aframe-inspector-registry.gif?v=1647314963979" alt="metaball xones visualized" style={{border: "3px solid #22c777", borderRadius: "10px", background: "#380b55"}}/>
           <div className="card-body">
-            <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+            <p className="card-text">Quickly design and customize Xones in <b className="badge" style={{ background: "#662D91", letterSpacing: "0.02em" }}>XONERATOR</b>, an intuitive <b>A-Frame scene builder</b> with pre-built objects, customizable components, and powerful features.</p>
           </div>
         </div>
       </div>
@@ -977,18 +977,8 @@ const App = () => {
 <section id="xonerator" className="my-0 py-5 p-0 p-md-3 p-lg-5">
 <div className="container mx-auto p-5"><span> </span></div>
 <div className="container mx-auto p-3"><span> </span></div>
-  <div className="container w-99 mx-auto my-5 py-4 border-none rounded-0 rounded-md-3 shadow-lg" style={{ background: "linear-gradient(-11deg, rgba(0, 196, 204,0.33), rgba(3, 24, 88,0.55))" }} >
-    <div className="row p-md-4 pt-lg-5 pe-lg-0 align-items-center text-center">
-      <div className="col-lg-7 p-5 p-lg-5 pt-lg-3">
-        <h1 className="display-4 fw-bold lh-2">Build &amp; Share Functional Virtual Spaces</h1>
-        <p className="lead">Quickly design and customize Xones in <b className="badge" style={{ background: "#662D91", letterSpacing: "0.02em" }}>XONERATOR</b>, an intuitive <b>A-Frame scene builder</b> with pre-built objects, customizable components, and other powerful features.</p>
-      </div>
-
-      <div className="xtrood-img-col col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
-          <img className="xtrood-img rounded-lg-3" src="https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/xtrood-mockup-1-nomargin-min.png?v=1647557553264" alt="" width="720" />
-      </div>
-    </div>
-
+  <div className="container mx-auto my-5 py-4 border-none shadow-lg" style={{ background: "linear-gradient(-11deg, rgba(0, 196, 204,0.33), rgba(3, 24, 88,0.55))" }}>
+    
     <div className="container-fluid p-4 pb-0 my-5 text-center">
     <h1 className="display-4 fw-bold lh-2">Deliver Value, Earn From Your Traffic</h1>
     <div className="col-lg-7 mx-auto">
