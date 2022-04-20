@@ -12,12 +12,15 @@ html {
 
 /* Wallet Connect Dialog Box */
 .makeStyles-root-1 .MuiDialogTitle-root {
-  background-color: linear-gradient(45deg, #f5385d 0%, #523ffb 100%);
-  background: linear-gradient(45deg, #f5385d 0%, #523ffb 100%);
+  background: -webkit-linear-gradient(45deg, #380c6e 0%, #6e0c5e 100%) !important;
+  background: linear-gradient(45deg, #380c6e 0%, #6e0c5e 100%) !important;
+  background-color: linear-gradient(45deg, #380c6e 0%, #6e0c5e 100%) !important;
+  background-color: -webkit-linear-gradient(45deg, #380c6e 0%, #6e0c5e 100%) !important;
 }
 .makeStyles-root-1 .MuiDialogTitle-root .MuiSvgIcon-root {
   color: #eeeeee;
 }
+.MuiButton-label {font-size: 1.3rem;}
 
 /* iphone feature-mob */
 

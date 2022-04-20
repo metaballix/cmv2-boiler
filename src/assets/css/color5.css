@@ -2990,8 +2990,8 @@ li.nav-item.dropdown:first-child .dropdown-menu {
     width: 120px; }
   .contact-box li {
     padding-left: 70px; }
-  h1 {
-    font-size: 38px; }
+  /* h1 {
+    font-size: 38px; } */
   .load i {
     top: 0; }
   .team-slider .owl-nav {
@@ -3029,9 +3029,9 @@ li.nav-item.dropdown:first-child .dropdown-menu {
     margin: 10px auto; }
   .blog-block {
     padding: 5px; }
-  h1 {
+  /* h1 {
     font-size: 38px;
-    line-height: 56px; }
+    line-height: 56px; } */
   .footer-logo {
     padding: 0; }
   .emoji {
@@ -3170,8 +3170,8 @@ li.nav-item.dropdown:first-child .dropdown-menu {
     padding-right: 0; }
   .profile-2 {
     top: 5%; }
-  h1 {
-    font-size: 35px; }
+  /* h1 {
+    font-size: 35px; } */
   .emoji {
     bottom: 10%; }
   .slider-mobile {
