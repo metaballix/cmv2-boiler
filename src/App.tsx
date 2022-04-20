@@ -943,12 +943,12 @@ const App = () => {
 
 {/* START of NFTs Section - ChatLoop ::
 <section id="partners" className="slide-bg">
+<div className="animation-circle" style={{ zIndex: 3, marginTop: "-38px" }}><i></i><i></i><i></i></div>
+<div className="b-divider"></div>
 </section>
-:: End of NFTs section (ChatLoop) */}
-{/* <div className="animation-circle" style={{ zIndex: 3, marginTop: "-38px" }}><i></i><i></i><i></i></div> */}
+*/}
 
 {/* START OF XTROOD - Service1 3x1 grid */}
-<div className="b-divider"></div>
 <div id="xtrood" className="service-1 py-5 bxs-blue1">
     <div className="container my-5">
     <div className="hero-header my-5">
@@ -1032,9 +1032,9 @@ const App = () => {
     </g>
   </svg>
 {/* Start of ROADMAP Section */}
-<section id="roadmap" className="pt-0 mt-5 pb-4 mb-0 overflow-visible">
-<div className="container tl-roadmap rounded-3 border border-info mb-0 p-3 shadow" style={{ background: "linear-gradient(11deg, rgba(11,11,11,0.3), rgba(29,0,47,0.3))", marginTop: "-182px" }}>
-  <h1 className="my-3 gradient-txt-purple fs-1 fw-bold text-center" style={{ position: "relative", zIndex: "3" }}>ROADMAP</h1>
+<section id="roadmap" className="pt-0 mt-2 pb-0 mb-0 overflow-visible">
+<div className="container tl-roadmap rounded-3 mb-0 p-3 pt-0 px-2">
+  <h1 className="my-3 gradient-txt-green fs-1 fw-bold text-center" style={{ position: "relative", zIndex: "3" }}>ROADMAP</h1>
   <hr style={{ margin: "11px 0" }} />
     <div className="row">
         <div className="col-md-12">
@@ -1258,15 +1258,20 @@ const App = () => {
             </div>
         </div>
     </div>
-  <hr style={{ margin: "60px 0 45px 0" }} />
+  <hr style={{ marginTop: "60px" }} />
 </div>
 </section>
 {/* End of Roadmap Section */}
 
-{/* START OF TEAMS SECTION */}
-<section id="team" className="mx-3 mt-0 text-center">
-<div className="container">
-<div className="row">
+{/* START OF FAQs SECTION */}
+<section id="faq" className="px-2" style={{marginTop: "-55px"}}>
+<div className="container rounded-3 border border-info shadow p-2" style={{backgroundColor: "#1D002F"}}>
+
+{/* START of TEAM Subsection */}
+<div id="team" className="row m-3">
+  <div className="col-12">
+    <h1 className="pb-3 gradient-txt-green fs-1 fw-bold text-center">TEAM</h1>
+  </div>
   <div className="col-12 col-md-4 col-sm-6">
     <div className="card bg-transparent shadow border border-info text-center my-2">
     <svg className="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
@@ -1307,17 +1312,12 @@ const App = () => {
     </div>
   </div>
 </div>
-</div>
-</section>
 {/* End of Teams */}
 
-{/* START OF FAQs SECTION */}
-<section id="faq" className="mt-0">
-<div className="container rounded-3 border border-info shadow p-2" style={{backgroundColor: "#1D002F"}}>
-<div className="row h-100">
-<div className="col-12 col-md-8 h-100">
+<div className="row">
+<div className="col-12 h-100">
 <div className="faqcard container card h-100">
-<h1 className="pb-3 gradient-txt-green text-center">FAQs</h1>
+<h1 className="pb-3 gradient-txt-green fs-1 fw-bold text-center">FAQs</h1>
 <div className="card-header w-100">
   <div className="nav nav-tabs card-header-tabs" id="nav-tab" role="tablist">
     <button className="nav-link active" id="faq-nfts-tab" data-bs-toggle="tab" data-bs-target="#faq-nfts" type="button" role="tab" aria-controls="faq-nfts" aria-selected="true">NFTs</button>
@@ -1419,7 +1419,7 @@ const App = () => {
 </div>
 </div>
 </div>
-
+{/* 
 <div className="col-12 col-md-4 h-100">
 <div className="card bg-purple-gradient mb-3" style={{maxWidth: "25rem"}}>
   <div className="card-header">Header</div>
@@ -1441,50 +1441,8 @@ const App = () => {
   </div>
   <div className="card-footer">Third Item</div>
 </div>
-
-  </div>
 </div>
-
-<div className="row m-3">
-  <div className="col-12 col-md-4 col-sm-6">
-    <div className="card bg-transparent shadow border border-info text-center my-2">
-    <svg className="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
-    <div className="card-body">
-        <h5 className="card-title">GORDON</h5>
-        <h6 className="card-subtitle mb-3 fw-light fst-italic">Development Lead</h6>
-        <p className="card-text">Some text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
-      <div className="card-footer">Twitter</div>
-      <div className="card-footer">Telegram</div>
-      <div className="card-footer">LinkedIn</div>
-    </div>
-  </div>
-  <div className="col-12 col-md-4 col-sm-6">
-    <div className="card bg-transparent shadow border border-info text-center my-2">
-    <svg className="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
-    <div className="card-body">
-        <h5 className="card-title">HERI</h5>
-        <h6 className="card-subtitle mb-3 fw-light fst-italic">Design Lead</h6>
-        <p className="card-text">Some text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
-      <div className="card-footer">Fiverr</div>
-      <div className="card-footer">Vecteezy</div>
-      <div className="card-footer">Email</div>
-    </div>
-  </div>
-  <div className="col-12 col-md-4 col-sm-6">
-    <div className="card bg-transparent shadow border border-info text-center my-2">
-    <svg className="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
-    <div className="card-body">
-        <h5 className="card-title">ARVIN</h5>
-        <h6 className="card-subtitle mb-3 fw-light fst-italic">Marketing Lead</h6>
-        <p className="card-text">Some text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
-      <div className="card-footer">Twitter</div>
-      <div className="card-footer">Telegram</div>
-      <div className="card-footer">LinkedIn</div>
-    </div>
-  </div>
+ */}
 </div>
 
 <div className="row m-3">
