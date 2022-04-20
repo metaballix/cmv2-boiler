@@ -476,7 +476,6 @@ const App = () => {
 
 {/* Start of XONES Section */}
 <section id="nft" className="container-fluid d-flex w-100 h-auto px-0 py-1 my-0 pb-5 mx-auto flex-column bxs-blue2">
-{/* <div className="b-divider mb-5"></div> */}
 
    {/* Video BG :: 
     <video autoPlay muted loop id="vid-xone">
@@ -949,6 +948,7 @@ const App = () => {
 {/* <div className="animation-circle" style={{ zIndex: 3, marginTop: "-38px" }}><i></i><i></i><i></i></div> */}
 
 {/* START OF XTROOD - Service1 3x1 grid */}
+<div className="b-divider"></div>
 <div id="xtrood" className="service-1 py-5 bxs-blue1">
     <div className="container my-5">
     <div className="hero-header my-5">

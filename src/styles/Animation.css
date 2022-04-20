@@ -63,6 +63,23 @@
 	}
 }
 
+/* MINTBOX GRADIENT ANIM */
+@-webkit-keyframes mintbox-gradient {
+  0%{background-position:0% 73%}
+  50%{background-position:100% 28%}
+  100%{background-position:0% 73%}
+}
+@-moz-keyframes mintbox-gradient {
+  0%{background-position:0% 73%}
+  50%{background-position:100% 28%}
+  100%{background-position:0% 73%}
+}
+@keyframes mintbox-gradient {
+  0%{background-position:0% 73%}
+  50%{background-position:100% 28%}
+  100%{background-position:0% 73%}
+}
+
 @keyframes slideright {
   from { background-position: 0 0; }
   to { background-position: -500% 0; }
