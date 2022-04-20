@@ -388,8 +388,8 @@ section {
 .theme-nav {
   padding-top: 0px;
   padding-bottom: 0px;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease; }
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease; }
   .theme-nav .navbar {
     background-color: transparent; }
   .theme-nav .nav-link {
@@ -414,14 +414,14 @@ section {
   }
     .theme-nav.darkHeader .nav-item {
       padding: 5px 5px;
-      -webkit-transition: all 0.3s ease;
-      transition: all 0.3s ease; }
+      -webkit-transition: all 0.25s ease;
+      transition: all 0.25s ease; }
     .theme-nav.darkHeader .dropdown-menu .nav-item {
       padding: 0; }
       .theme-nav.darkHeader .dropdown-menu .nav-item .nav-link.active {
         color: #18e7d3;
-        -webkit-transition: all 0.3s ease-in-out;
-        transition: all 0.3s ease-in-out; }
+        -webkit-transition: all 0.25s ease-in-out;
+        transition: all 0.25s ease-in-out; }
   .theme-nav .navbar-nav .active > .nav-link {
     color: #cc3dbe; }
   .theme-nav .navbar-toggler-icon i {
@@ -2837,15 +2837,15 @@ li.nav-item.dropdown:first-child .dropdown-menu {
   margin-top: 10px;
   margin-bottom: 10px; }
 
-@media (min-width: 1500px) and (max-width: 1366px) {
+@media screen and (min-width: 1500px) and (max-width: 1366px) {
   .home-right {
     margin-top: -30px; } }
 
-@media (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .container {
     max-width: 1140px; } }
 
-@media (min-width: 1367px) and (max-width: 1500px) {
+@media screen and (min-width: 1367px) and (max-width: 1500px) {
   .pc-bg {
     width: 400px;
     height: 240px;
@@ -2856,7 +2856,7 @@ li.nav-item.dropdown:first-child .dropdown-menu {
     height: calc(100% - 57px);
     top: 11px; } }
 
-@media (max-width: 1366px) {
+@media screen and (max-width: 1366px) {
   .auth-page .profile-1 {
     bottom: -80px; }
   .auth-page .emoji {
@@ -2954,7 +2954,7 @@ li.nav-item.dropdown:first-child .dropdown-menu {
   .chat-box img {
     height: 30px; } }
 
-@media (max-width: 992px) {
+@media screen and (max-width: 992px) {
   .auth-page .profile-2 {
     top: -40px;
     right: 70px; }
@@ -3091,7 +3091,7 @@ li.nav-item.dropdown:first-child .dropdown-menu {
   .contact .auth-form {
     padding-right: 50px; } }
 
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .contact-box li + li {
     margin-top: 25px; }
   .login-form {
@@ -3111,7 +3111,7 @@ li.nav-item.dropdown:first-child .dropdown-menu {
     font-size: 28px;
     margin-bottom: 10px; } }
 
-@media (max-width: 992px) {
+@media screen and (max-width: 992px) {
   .feature .animation-circle-inverse { opacity: 0.3; }
   .feature .animation-circle-inverse i { top: 28%; height: 155px; width: 155px; }
   .work .row .col-lg-4 + .col-lg-4 {
@@ -3285,7 +3285,7 @@ li.nav-item.dropdown:first-child .dropdown-menu {
     border: 0;
     padding: 0; } }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .news-text,
   .blog-hover {
     text-align: center; }
@@ -3500,7 +3500,7 @@ li.nav-item.dropdown:first-child .dropdown-menu {
     .chat-box h3 {
       margin-top: 0; } }
 
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .blog-page .animation-circle-inverse {
     display: none; }
   .md-fgrup-margin {
@@ -3568,7 +3568,7 @@ li.nav-item.dropdown:first-child .dropdown-menu {
   .margin-top-100.review-padding {
     margin-top: 53px; } }
 
-@media (max-width: 575px) {
+@media screen and (max-width: 575px) {
   .slid-btn {
     margin-top: 30px;
     margin-bottom: 50px; }
@@ -3698,7 +3698,7 @@ li.nav-item.dropdown:first-child .dropdown-menu {
   ol.breadcrumb.bg-transparent.mb-0 {
     padding: 0; } }
 
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .d-flex-1 {
     /* min-height: calc(100vh - 100px); */
     margin-top: -15px; }
@@ -3796,7 +3796,7 @@ li.nav-item.dropdown:first-child .dropdown-menu {
   .hover-text h3 {
     margin-top: 20px; } }
 
-@media (max-width: 420px) {
+@media screen and (max-width: 420px) {
   #mymenu {
     overflow-y: scroll;
     max-height: 350px; }
@@ -3815,7 +3815,7 @@ li.nav-item.dropdown:first-child .dropdown-menu {
   .dropdown .dropdown-toggle {
     margin-top: 0; } }
 
-@media (max-width: 400px) {
+@media screen and (max-width: 400px) {
   .coming-title {
     margin-top: 50px; }
   .timonial-carousel.owl-carousel button.owl-prev {
@@ -3823,7 +3823,7 @@ li.nav-item.dropdown:first-child .dropdown-menu {
   .mt-35 > div + div {
     margin-top: 50px; } }
 
-@media (max-width: 360px) {
+@media screen and (max-width: 360px) {
   .news-slid .blog-hover {
     padding: 10px; }
   .swiper-slide img {
@@ -3886,7 +3886,7 @@ li.nav-item.dropdown:first-child .dropdown-menu {
     margin-right: 0;
     display: block; } }
 
-@media (max-width: 320px) {
+@media screen and (max-width: 320px) {
   .timeline-right:before {
     left: 0; }
   .timeline:before {
@@ -3900,13 +3900,13 @@ li.nav-item.dropdown:first-child .dropdown-menu {
   .footer-one {
     margin-top: 50px; } }
 
-@media (width: 1920px) and (height: 1200px) {
+@media screen and (width: 1920px) and (height: 1200px) {
   .profile-1 {
     bottom: 13%; }
   .profile-2 {
     top: 15%; } }
 
-@media (width: 1280px) and (height: 950px) {
+@media screen and (width: 1280px) and (height: 950px) {
   .profile-1 {
     bottom: 13%; }
   .emoji {
@@ -3914,7 +3914,7 @@ li.nav-item.dropdown:first-child .dropdown-menu {
   .profile-2 {
     top: 15%; } }
 
-@media (max-width: 1366px) {
+@media screen and (max-width: 1366px) {
   .landing-page .right {
     -webkit-transform: scale(0.8);
             transform: scale(0.8); }
@@ -3928,7 +3928,7 @@ li.nav-item.dropdown:first-child .dropdown-menu {
   .landing-page .broweser {
     width: 250px; } }
 
-@media (max-width: 1199px) {
+@media screen and (max-width: 1199px) {
   .landing-page .landing-caption {
     font-size: 37px; }
   .landing-page p {
@@ -3940,7 +3940,7 @@ li.nav-item.dropdown:first-child .dropdown-menu {
   .landing-page .features li {
     width: calc(33.33% - 30px); } }
 
-@media (max-width: 992px) {
+@media screen and (max-width: 992px) {
   .landing-page .home .container {
     max-width: calc(100% - 30px); }
   .landing-page .photo {
@@ -3957,7 +3957,7 @@ li.nav-item.dropdown:first-child .dropdown-menu {
   .landing-page .features li {
     width: calc(50% - 30px); } }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .landing-page .grab-img .profile-msg,
   .landing-page .grab-img .awesome,
   .landing-page .grab-img .emoji,
@@ -3994,7 +3994,7 @@ li.nav-item.dropdown:first-child .dropdown-menu {
   .landing-page .template-bg .tamp-d-flex {
     margin-bottom: 20px; } }
 
-@media (max-width: 575px) {
+@media screen and (max-width: 575px) {
   .landing-page .img-scroll {
     height: calc(100% - 14px);
     top: 14px; }

@@ -9,7 +9,6 @@ import "./styles/Animation.css";
 import "./styles/devices.min.css";
 import Particles from 'react-tsparticles';
 import 'bootstrap';
-
 import { useMemo } from "react";
 import Minter from "./Minter";
 import * as anchor from "@project-serum/anchor";
@@ -25,14 +24,14 @@ import {
   getLedgerWallet,
   getMathWallet,
 } from "@solana/wallet-adapter-wallets";
-
-import {
-  ConnectionProvider,
-  WalletProvider,
-} from "@solana/wallet-adapter-react";
-
+import { ConnectionProvider, WalletProvider } from "@solana/wallet-adapter-react";
 import { WalletDialogProvider } from "@solana/wallet-adapter-material-ui";
 import { ThemeProvider, createTheme } from "@material-ui/core";
+
+// import 'aframe';
+// import 'aframe-particle-system-component';
+// import {Entity, Scene} from 'aframe';
+// import { mbScene } from './components-custom/mbScene';
 
 // import HorizontalNavsCustom1 from './components-custom/HorizontalNavsCustom1';
 // import HowItWorksCustom2 from './components-custom/HowItWorksCustom2';
@@ -60,7 +59,6 @@ import { ThemeProvider, createTheme } from "@material-ui/core";
 // } );
 // splide.mount( {AutoScroll} ); */
 
-
 const theme = createTheme({
   typography: {
     fontFamily: '"Dosis", sans-serif !important',
@@ -84,6 +82,7 @@ const startDateSeed = parseInt(process.env.REACT_APP_CANDY_START_DATE!, 10);
 const txTimeout = 30000; // milliseconds (confirm this works for your project)
 
 const App = () => {
+
   const endpoint = useMemo(() => clusterApiUrl(network), []);
 
   const wallets = useMemo(
@@ -238,15 +237,29 @@ const App = () => {
           <li className="nav-item"><a className="nav-link" href="/#home">Home</a></li>
           <li className="nav-item"><a className="nav-link" href="/#nft">NFT<span className="subtext">s</span></a></li>
           <li className="nav-item dropdown">
-            <a id="xonemenuLink" className="nav-link dropdown-toggle" href="/#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Xones</a>
+            <a id="xonemenuLink" className="nav-link dropdown-toggle" href="/#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Microverses</a>
             <ul className="dropdown-menu shadow" aria-labelledby="xonemenuLink" style={{ fontSize: "0.8rem" }}>
-              <li className="nav-item"><a className="nav-link" href="/#xone">Microverses</a></li>
-              <li className="nav-item"><a className="nav-link" href="/#xonerator">Xonerator</a></li>
+              <li className="nav-item"><a className="nav-link" href="/#xone">Xone Estates</a></li>
               <li className="nav-item"><a className="nav-link" href="/#xonefeats">Features</a></li>
+              <li className="nav-item"><a className="nav-link" href="/#xonedemo">XR Demo</a></li>
             </ul>
           </li>
-          <li className="nav-item"><a className="nav-link" href="/#plasmaverse">PlasmaVerse</a></li>
-          <li className="nav-item"><a className="nav-link" href="/#tokens">Tokenomics</a></li>
+          <li className="nav-item dropdown">
+            <a id="xonemenuLink" className="nav-link dropdown-toggle" href="/#plasmaverse" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plasmaverse</a>
+            <ul className="dropdown-menu shadow" aria-labelledby="xonemenuLink" style={{ fontSize: "0.8rem" }}>
+              <li className="nav-item"><a className="nav-link" href="/#xone">Features</a></li>
+              <li className="nav-item"><a className="nav-link" href="/#xonefeats">Tech Stack</a></li>
+              <li className="nav-item"><a className="nav-link" href="/#xonedemo">XR Demo</a></li>
+            </ul>
+          </li>
+          <li className="nav-item dropdown">
+            <a id="tokenmenuLink" className="nav-link dropdown-toggle" href="/#tokenomics" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tokenomics</a>
+            <ul className="dropdown-menu shadow" aria-labelledby="tokenmenuLink" style={{ fontSize: "0.8rem" }}>
+              <li className="nav-item"><a className="nav-link" href="/#plasmatokens">$PLASMA</a></li>
+              <li className="nav-item"><a className="nav-link" href="/#mballtokens">$MBALL</a></li>
+              <li className="nav-item"><a className="nav-link" href="/#xonetokens">$XONE</a></li>
+            </ul>
+          </li>
           <li className="nav-item"><a className="nav-link" href="/#team">Team</a></li>
           <li className="nav-item"><a className="nav-link" href="/#faq">FAQ<span className="subtext">s</span></a></li>
         </ul>
@@ -289,7 +302,7 @@ const App = () => {
 </header>
 
 {/* START of SECTION :: FEATURES */}
-<section id="features" className="theme-bg feature py-1 pb-5 text-center overflow-visible">
+<section id="features" className="theme-bg feature py-1 pb-5 text-center">
 
 {/* NFTs Card with mBall logo */}
 <div className="mbp-slider-card bxs-purp1 pb-5">
@@ -490,8 +503,8 @@ const App = () => {
 
 </div>
 
-{/* Feature Mob (ChatLoop) */}
-  <div className="container my-5 overflow-visible">
+{/* Feature Mob */}
+  <div className="container my-5">
     <div className="animation-circle-inverse py-3"><i></i><i></i><i></i></div>
     <div className="row">
       <div className="col-md-12 text-center">
@@ -563,7 +576,7 @@ const App = () => {
 {/* End of FEATURES section */}
 
 {/* Start of XONES Section */}
-<section id="nft" className="container-fluid d-flex w-100 h-auto px-0 py-1 my-0 pb-5 mx-auto flex-column">
+<section id="nft" className="container-fluid d-flex w-100 h-auto px-0 py-1 my-0 pb-5 mx-auto flex-column bxs-blue2">
 {/* <div className="b-divider mb-5"></div> */}
 
    {/* Video BG :: 
@@ -884,136 +897,161 @@ const App = () => {
 </section>
 
 {/* START OF PLASMAVERSE Section */}
-<section id="plasmaverse" className="container-fluid pt-5 px-2 px-md-3 px-lg-4 text-center align-items-center" style={{overflow: "visible"}}>
-<div id="link3" className="card xonecard mt-3 mx-auto p-3 align-items-center shadow-lg" style={{ marginBottom: "-222px", position: "relative", zIndex: 999, border: "5px solid #22c777", borderRadius: "11px" }}>
-<h1 className="display-5 fw-bold my-3">Interconnected Microverses</h1>
+<section id="plasmaverse" className="container-fluid pt-5 px-0 px-lg-1 text-center align-items-center" style={{overflow: "visible"}}>
+<div id="link3" className="card xonecard mt-5 mx-2 mx-md-3 mx-lg-5 p-3 pb-0 align-items-center shadow-lg" style={{ border: "5px solid #22c777", borderRadius: "11px" }}>
 
-<div className="row service-6 mt-1 p-1 p-md-2 p-lg-3 align-items-center justify-content-center">
+<div className="row service-6 mx-1 mx-md-3 mt-1 p-1 p-md-2 p-lg-3 align-items-center justify-content-center" style={{position: "relative", zIndex: "5"}}>
 
-  <div className="col-12 mb-3">
-    <div className="card p-2 p-md-5 bg-purp-transparent" style={{borderRadius:"10px"}}>
+  <div className="col-12 col-lg-11 mb-3">
+    <div className="card p-2 p-md-5 bg-purp-opaque" style={{borderRadius:"10px"}}>
       <div className="card-body">
+        <h2 className="btn bg-dark-gradient rounded-pill px-5 py-3 fs-2 fw-bold text-white shadow">Scalable Technology Stack</h2>
         <p className="card-text fs-3">The Plasmaverse is built with A-Frame, a Three.js-based framework that leverages WebGL and WebXR to deliver "immersive interactive VR experiences that go beyond basic 360° content, making full use of positional tracking and controllers."</p>
       </div>
     </div>
   </div>
+  
+  {/* START of SHOWCASE (with 2x2 gif-grid snippet) */}
+    <div className="col-12">
+      <div className="mbp-wrapper py-5 justify-content-center align-items-center">
+      <div id="showcase" className="showcase mx-auto">
+          <div className="container">
+              <div className="row g-5 justify-content-center align-items-center">
+                  <div className="col-lg-5 mb-2">
+                    <div className="row">
+                        <div className="col-md-6 mt-3 wrap-service6-box">
+                            <div className="card h-100 border-0 bg-pink-gradient text-white mb-2 shadow">
+                            <img className="card-img-top" src="https://cloud.githubusercontent.com/assets/674727/24531440/0336e66e-156e-11e7-95c2-f2e6ebc0393d.gif" alt="Xone Games with A-Frame" />
+                            <div className="card-header">MONETIZABLE</div>
+                                <div className="card-body">
+                                    <h6 className="font-weight-medium text-white">Powerful Techniques</h6>
+                                    <p className="card-text">Lorem ipsum dolor sit amet, consecte tuam porttitor.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-6 mt-3 wrap-service6-box">
+                            <div className="card h-100 border-0 bg-purple-gradient text-white mb-2 shadow">
+                            <img className="card-img-top" src="https://user-images.githubusercontent.com/674727/41085457-f5429566-69eb-11e8-92e5-3210e4c6c4a0.gif" alt="Xone Scenes with A-Frame" />
+                            <div className="card-header">TOKENIZED</div>
+                                <div className="card-body">
+                                    <h6 className="font-weight-medium text-white">Instant Solutions</h6>
+                                    <p className="card-text">Lorem ipsum dolor sit amet, consecte tuam porttitor.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-6 mt-3 wrap-service6-box">
+                            <div className="card h-100 border-0 bg-blue-gradient text-white mb-2 shadow">
+                            <img className="card-img-top" src="https://cloud.githubusercontent.com/assets/674727/25109861/b8e9ec48-2394-11e7-8f2d-ea1cd9df69c8.gif" alt="Xone Hangouts with A-Frame" />
+                            <div className="card-header">NETWORKED</div>
+                                <div className="card-body">
+                                    <h6 className="font-weight-medium text-white">Retargeting Market</h6>
+                                    <p className="card-text">Lorem ipsum dolor sit amet, consecte tuam porttitor.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-6 mt-3 wrap-service6-box">
+                              <div className="card h-100 border-0 bg-green-gradient text-white mb-2 shadow">
+                              <img className="card-img-top" src="https://cloud.githubusercontent.com/assets/674727/24531477/44272daa-156e-11e7-8ef9-d750ed430f3a.gif" alt="Xone Events with A-Frame" />
+                              <div className="card-header">MODULAR</div>
+                                  <div className="card-body">
+                                      <h6 className="font-weight-medium text-white">Powerful Techniques</h6>
+                                      <p className="card-text">Lorem ipsum dolor sit amet, consecte tuam porttitor.</p>
+                                  </div>
+                              </div>
+                        </div>
+                      </div>
+                  </div>
+                  <div className="col-lg-5 mt-lg-5">
+                      <div className="row wrap-showcase pt-lg-5">
+                          <div className="col-md-6">
+                              <div className="row">
+                                <div className="col-md-12 img-hover mb-4"><img src="https://cloud.githubusercontent.com/assets/674727/24531440/0336e66e-156e-11e7-95c2-f2e6ebc0393d.gif" className="rounded img-shadow img-fluid" alt="Xone Games with A-Frame" /></div>
+                                <div className="col-md-12 img-hover mb-4"><img src="https://user-images.githubusercontent.com/674727/41085457-f5429566-69eb-11e8-92e5-3210e4c6c4a0.gif" className="rounded img-shadow img-fluid" alt="Xone Scapes with A-Frame" /></div>
+                                <div className="col-md-12 img-hover mb-4"><img src="https://cloud.githubusercontent.com/assets/674727/24531440/0336e66e-156e-11e7-95c2-f2e6ebc0393d.gif" className="rounded img-shadow img-fluid" alt="Xone Games with A-Frame" /></div>
+                              </div>
+                          </div>
+                          <div className="col-md-6 uneven-box">
+                              <div className="row">
+                                  <div className="col-md-12 img-hover mb-4"><img src="https://cloud.githubusercontent.com/assets/674727/25109861/b8e9ec48-2394-11e7-8f2d-ea1cd9df69c8.gif" className="rounded img-shadow img-fluid" alt="Xone Hangouts with A-Frame" /></div>
+                                  <div className="col-md-12 img-hover mb-4"><img src="https://cloud.githubusercontent.com/assets/674727/24531477/44272daa-156e-11e7-8ef9-d750ed430f3a.gif" className="rounded img-shadow img-fluid" alt="Xone Events with A-Frame" /></div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div className="col-lg-2 mt-lg-5">
+                    <a className="btn bg-purple-gradient btn-md border-0 text-white" href="#f12"><span>PLASMAVERSE DEMO</span></a>
+                  </div>
+              </div>
+          </div>
+          {/* Plasmaverse video-bg :: 
+          <video autoPlay muted loop id="vidXone" className="mt-1 mx-auto bxs-green rounded-3">
+            <source src="https://cdn.glitch.global/84180755-58e4-4c80-b543-77cacf869330/xone-bg-14s.mp4?v=1647881876712" type="video/mp4" />
+          </video> */}
+      </div>
+      {/* End of showcase with 2x2 gif-grid */}   
+      </div>
 
-  <div className="col-6 col-md-3 wrap-service6-box mb-2">
-        <div className="card h-100 border-0 bg-green-gradient text-white mb-2 shadow">
-        <div className="card-header">MODULAR</div>
+    </div>
+
+    <div className="col-6 col-md-3 wrap-service6-box mb-2">
+        <div className="card techcard h-100 border-0 bg-blue-opaque text-white mb-2 bxs-green3">
             <div className="card-body">
-                <h6 className="font-weight-medium text-white">Powerful Techniques</h6>
                 <p className="card-text">Lorem ipsum dolor sit amet, consecte tuam porttitor.</p>
             </div>
+          <div className="card-footer">A-Frame</div>
         </div>
   </div>
 
   <div className="col-6 col-md-3 wrap-service6-box mb-2">
-      <div className="card h-100 border-0 bg-blue-gradient text-white mb-2 shadow">
-      <div className="card-header">NETWORKED</div>
+      <div className="card techcard h-100 border-0 bg-green-opaque text-white mb-2 bxs-green3">
           <div className="card-body">
-              <h6 className="font-weight-medium text-white">Retargeting Market</h6>
               <p className="card-text">Lorem ipsum dolor sit amet, consecte tuam porttitor.</p>
           </div>
+        <div className="card-footer">Three.js</div>
       </div>
   </div>
 
   <div className="col-6 col-md-3 wrap-service6-box mb-2">
-      <div className="card h-100 border-0 bg-purple-gradient text-white mb-2 shadow">
-      <div className="card-header">TOKENIZED</div>
+      <div className="card techcard h-100 border-0 bg-yellow-opaque text-white mb-2 bxs-green3">
           <div className="card-body">
-              <h6 className="font-weight-medium text-white">Instant Solutions</h6>
               <p className="card-text">Lorem ipsum dolor sit amet, consecte tuam porttitor.</p>
           </div>
+        <div className="card-footer">WebXR</div>
       </div>
   </div>
 
   <div className="col-6 col-md-3 wrap-service6-box mb-2">
-      <div className="card h-100 border-0 bg-pink-gradient text-white mb-2 shadow">
-      <div className="card-header">MONETIZABLE</div>
+      <div className="card techcard h-100 border-0 bg-pink-opaque text-white mb-2 bxs-green3">
           <div className="card-body">
-              <h6 className="font-weight-medium text-white">Powerful Techniques</h6>
               <p className="card-text">Lorem ipsum dolor sit amet, consecte tuam porttitor.</p>
           </div>
+          <div className="card-footer">WebGL</div>
       </div>
   </div>
 
-  {/* XONE DISPLAY PANEL */}
-  {/* <div className="b-divider"></div> */}
-    <div className="col-12 mb-2 mt-1">
-      <div className="mbp-wrapper shadow-lg">
-        <div className="container my-5 mx-auto">
-        </div>
-      </div>
-    </div>
-    
-    <div className="col-md-12 mt-3 text-center">
-        <button className="btn btn-dark btn-md service-btn rounded-circle shadow"><span>PLASMAVERSE DEMO</span></button>
-    </div>
-
-</div>
-
-<div className="row service-6 p-1 p-md-2 p-lg-3">
-
-</div>
-
-<div className="row align-items-center my-0 w-100">
-{/*   
-  <div className="col">
-  <p>1 of 3</p>
-  </div>
-  <div className="col-6">
-  <p>-- 2 of 3 --</p>
-  </div>
-  <div className="col">
-  <p>3 of 3</p>
+  {/*
+  <div className="col-md-12 mt-3 text-center">
+    <button className="btn btn-dark btn-md service-btn rounded-circle shadow"><span>PLASMAVERSE DEMO</span></button>
   </div> 
-*/}
-<div className="b-divider mt-5 rounded rounded-3"></div>
-</div>
+  */}
+  {/* <div className="b-divider"></div> */}
+  {/* <div className="b-divider mt-5 mb-0 mx-0 rounded rounded-3 bxs-purp1"></div> */}
 
 </div>
+<div id="plasmagrid" className="container-fluid mx-0 py-5"></div>
+</div>
 </section>
-{/* End of XTROOD Section */}
+{/* End of XONE Section */}
 
-{/* START OF XONERATOR Section */}
-<section id="xonerator" className="my-0 py-5 p-0 p-md-3 p-lg-5">
-<div className="container mx-auto p-5"><span> </span></div>
-<div className="container mx-auto p-3"><span> </span></div>
-  <div className="container mx-auto my-5 py-4 border-none shadow-lg" style={{ background: "linear-gradient(-11deg, rgba(0, 196, 204,0.33), rgba(3, 24, 88,0.55))" }}>
-    
-    <div className="container-fluid p-4 pb-0 my-5 text-center">
-    <h1 className="display-4 fw-bold lh-2">Deliver Value, Earn From Your Traffic</h1>
-    <div className="col-lg-7 mx-auto">
-      <p className="lead mb-2">Add areas, artifacts and automatons to your Xone in <b className="badge" style={{ background: "#662D91", letterSpacing: "0.02em" }}>XONERATOR</b>. Engage with Xone visitors, gather information, and automate workflows. Earn $PLASMA through <b>monetized traffic</b> and <b>automaton transactions</b>.</p>
-    </div>
-    <div className="mt-5">
-      <div className="container px-0 px-md-2 px-lg-5">
-        <img src="https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/xtrood_logo_text.png?v=1647382314441" className="xtrood-logo img-fluid p-5 pb-0 mt-5" alt="xtrood xone builder logo" width="400" height="auto" loading="lazy" />
-        <img src="https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/xone-builder-aframe-inspector-registry.gif?v=1647314963979" className="img-fluid border border-info rounded-3 shadow p-1 mt-5" style={{ background: "rgba(255,255,255,0.11)" }} alt="aframe inspector xtrood xone builder" width="800" height="650" loading="lazy" />
-      </div>
-    </div>
-    </div>
-
-    <div className="col-lg-7 mx-auto text-center">
-      <div className="d-grid gap-2 d-sm-flex justify-content-sm-center align-items-center mt-3 mb-5">
-        <a href="https://xone.land/" target="_blank" rel="noreferrer"><button type="button" className="btn btn-info btn-lg px-4 me-sm-3 w-100">XONE DEMO [ SOLOS ]</button></a>
-        <a href="https://plasmaver.se/" target="_blank" rel="noreferrer"><button type="button" className="btn btn-danger btn-lg px-4 w-100">PLASMAVERSE DEMO</button></a>
-      </div>
-    </div>
-  </div>
-</section>
-{/* End of Xonerator */}
-
-{/* Start of NFTs Section - ChatLoop */}
+{/* START of NFTs Section - ChatLoop ::
 <section id="partners" className="slide-bg">
 </section>
+:: End of NFTs section (ChatLoop) */}
 {/* <div className="animation-circle" style={{ zIndex: 3, marginTop: "-38px" }}><i></i><i></i><i></i></div> */}
-{/* End of NFTs section (ChatLoop) */}
 
 {/* START OF XTROOD - Service1 3x1 grid */}
-<div id="xtrood" className="service-1 py-5">
-    <div className="container">
+<div id="xtrood" className="service-1 py-5 bxs-blue1">
+    <div className="container my-5">
     <div className="hero-header my-5">
       <h1 className="pb-3 gradient-txt-green section-h1">XTR<span className="xtrood-oo gradient-txt-green">OO</span>D MINTER</h1>
       <button className="btn btn-lg btn-outline-info px-5" type="button" disabled>
@@ -1052,19 +1090,53 @@ const App = () => {
             </div>
           </div>
         </div>
-        <div className="col-md-12 mt-3 text-center">
-          <a className="btn service-btn text-white btn-md border-0" href="#f1"><span>View Details</span></a>
+        <div className="col-md-12 mt-3 p-5 text-center">
+          {/* <a className="btn service-btn text-white btn-md border-0" href="#f1"><span>View Details</span></a> */}
         </div>
       </div>
     </div>
 </div>
-<div className="b-divider"></div>
-{/* End of Xtrood (3x1 grid Snippet) */}
+{/* End of Xtrood (with 3x1 grid Snippet) */}
+
+{/* START OF TOKENOMICS Section */}
+<section id="tokenomics" className="my-0 pb-5 p-1 p-md-3 p-lg-5 overflow-visible">
+  <div className="container mx-auto mb-5 py-4 shadow-lg" style={{ marginTop: "-222px", position: "relative", zIndex: 11, background: "linear-gradient(-15deg, rgba(0, 196, 204,0.55), rgba(47,0,65,1))", borderRadius: "11px" }}>
+    
+    <div className="container-fluid p-4 pb-0 my-5 text-center">
+    <h1 className="display-4 fw-bold lh-2">Deliver Value, Earn From Your Traffic</h1>
+    <div className="col-lg-7 mx-auto">
+      <p className="lead mb-2">Add areas, artifacts and automatons to your Xone in <b className="badge" style={{ background: "#662D91", letterSpacing: "0.02em" }}>XONERATOR</b>. Engage with Xone visitors, gather information, and automate workflows. Earn $PLASMA through <b>monetized traffic</b> and <b>automaton transactions</b>.</p>
+    </div>
+    <div className="mt-5">
+      <div className="container px-0 px-md-2 px-lg-5">
+        <img src="https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/xtrood_logo_text.png?v=1647382314441" className="xtrood-logo img-fluid p-5 pb-0 mt-5" alt="xtrood xone builder logo" width="400" height="auto" loading="lazy" />
+        <img src="https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/xone-builder-aframe-inspector-registry.gif?v=1647314963979" className="img-fluid border border-info rounded-3 shadow p-1 mt-5" style={{ background: "rgba(255,255,255,0.11)" }} alt="aframe inspector xtrood xone builder" width="800" height="650" loading="lazy" />
+      </div>
+    </div>
+    </div>
+
+    <div className="col-lg-7 mx-auto text-center">
+      <div className="d-grid gap-2 d-sm-flex justify-content-sm-center align-items-center mt-3 mb-5">
+        <a href="https://xone.land/" target="_blank" rel="noreferrer"><button type="button" className="btn btn-info btn-lg px-4 me-sm-3 w-100">XONE DEMO [ SOLOS ]</button></a>
+        <a href="https://plasmaver.se/" target="_blank" rel="noreferrer"><button type="button" className="btn btn-danger btn-lg px-4 w-100">PLASMAVERSE DEMO</button></a>
+      </div>
+    </div>
+  </div>
+</section>
+{/* End of Tokenomics section */}
+
+{/* <div className="b-divider"></div> */}
 
 {/* Start of ROADMAP Section */}
-<section id="roadmap" className="py-4 m-3 mb-0">
-<div className="container tl-roadmap rounded-3 border border-info mb-0 p-3 shadow" style={{ background: "linear-gradient(11deg, rgba(202, 44, 182, 0.3), rgba(113, 17, 161, 0.3))" }}>
-  <h1 className="my-3 gradient-txt-green text-center" style={{ fontSize: "3.5rem", letterSpacing: "0.07em" }}>ROADMAP</h1>
+<section id="roadmap" className="pt-0 mt-5 pb-4 mb-0 overflow-visible">
+<svg className="separator" width="100%" height="120" viewBox="0.1 0.1 180 40" preserveAspectRatio="none">
+            <g transform="translate(-18.298844,-77.973964)">
+                <path style={{fill:"rgb(120, 44, 207)"}} d="M 31.615583,86.351641 H 192.16499 v 26.901969 c 0,0 -32.03411,-14.237983 -59.62682,-12.72484 -22.34188,1.2252 -54.779359,9.72634 -54.779359,9.72634 0,0 -22.029534,3.62882 -34.471238,-1.88988 -12.441702,-5.51871 -11.67199,-22.013589 -11.67199,-22.013589 z" />
+                <path style={{fill:"#00c4cc"}} d="M 18.441597,78.106256 H 198.58126 v 39.288614 c 0,0 -43.10672,-27.825245 -73.47599,-19.687823 -30.369264,8.137423 -46.832208,12.548653 -46.832208,12.548653 0,0 -32.775418,8.05972 -46.735258,0 C 17.577964,102.19598 18.441597,78.106256 18.441597,78.106256 Z" />
+            </g>
+        </svg>
+<div className="container tl-roadmap rounded-3 border border-info mb-0 p-3 shadow" style={{ background: "linear-gradient(11deg, rgba(11,11,11,0.3), rgba(29,0,47,0.3))", marginTop: "-182px" }}>
+  <h1 className="my-3 gradient-txt-purple fs-1 fw-bold text-center" style={{ position: "relative", zIndex: "3" }}>ROADMAP</h1>
   <hr style={{ margin: "11px 0" }} />
     <div className="row">
         <div className="col-md-12">
@@ -1488,6 +1560,42 @@ const App = () => {
 {/* END of FAQs Section */}
 
 <div className="b-divider"></div>
+
+<div className="container justify-content-center align-items-center">
+<div id="partners" className="showcase mx-auto">
+          <div className="container" style={{position: "relative", zIndex: "5"}}>
+              <div className="row g-5">
+                  <div className="col-lg-6 order-last order-lg-first mb-2">
+                      <h2 className="btn bg-dark-gradient rounded-pill px-5 py-1 fs-2 fw-bold text-white shadow">Scalable Stack</h2>
+                      <h4 className="my-3">Awesome with Extra Ordinary Flexibility Features</h4>
+                      <h6 className="font-weight-light subtitle">You can relay on our amazing features list and also our customer services will be great experience for you without doubt and in no-time</h6>
+                      <div className="row">
+                          <div className="col-lg-12 my-4">
+                              <a className="btn bg-purple-gradient btn-md border-0 text-white" href="#f12"><span>PLASMAVERSE DEMO</span></a>
+                          </div>
+                      </div>
+                  </div>
+                  <div className="col-lg-6 order-first order-lg-last mt-lg-5">
+                      <div className="row wrap-showcase pt-lg-5">
+                          <div className="col-md-6">
+                              <div className="row">
+                                <div className="col-md-12 img-hover mb-4"><img src="https://cloud.githubusercontent.com/assets/674727/24531440/0336e66e-156e-11e7-95c2-f2e6ebc0393d.gif" className="rounded img-shadow img-fluid" alt="Xone Games with A-Frame" /></div>
+                                <div className="col-md-12 img-hover mb-4"><img src="https://user-images.githubusercontent.com/674727/41085457-f5429566-69eb-11e8-92e5-3210e4c6c4a0.gif" className="rounded img-shadow img-fluid" alt="Xone Scapes with A-Frame" /></div>
+                                <div className="col-md-12 img-hover mb-4"><img src="https://cloud.githubusercontent.com/assets/674727/24531440/0336e66e-156e-11e7-95c2-f2e6ebc0393d.gif" className="rounded img-shadow img-fluid" alt="Xone Games with A-Frame" /></div>
+                              </div>
+                          </div>
+                          <div className="col-md-6 uneven-box">
+                              <div className="row">
+                                  <div className="col-md-12 img-hover mb-4"><img src="https://cloud.githubusercontent.com/assets/674727/25109861/b8e9ec48-2394-11e7-8f2d-ea1cd9df69c8.gif" className="rounded img-shadow img-fluid" alt="Xone Hangouts with A-Frame" /></div>
+                                  <div className="col-md-12 img-hover mb-4"><img src="https://cloud.githubusercontent.com/assets/674727/24531477/44272daa-156e-11e7-8ef9-d750ed430f3a.gif" className="rounded img-shadow img-fluid" alt="Xone Events with A-Frame" /></div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+</div>
+</div>
 
 {/* START OF MBALL-MAIN GROUP (with animated gradient bg) */}
 <div id="mball-main">
