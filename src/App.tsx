@@ -125,108 +125,7 @@ const App = () => {
     </div>
 */}
 
-<header className="card text-center align-items-center" id="hero-minter">
-
-{/* ORIGINAL NAV */}
-{/* 
-<div id="mobileNavContainer" className="mobile-nav noselect">
-        <div className="mobile-nav-close-button">
-          <img src="/icons/close.svg" alt="" onClick={toggleMenu} />
-        </div>
-        <ul>
-          <li>
-          <div className="stage" style={{ marginLeft: 0 }}><figure className="4x1 ball bubble"></figure></div>
-          </li>
-          <li>
-          <span className="logo-3d-text">
-            <a href="https://metaballix.com/" target="_blank" rel="noreferrer" className="effect-shine">
-              <b>METABALLIX</b>
-            </a></span>
-          </li>
-          <li>
-            <a href="/#nft" onClick={toggleMenu}>
-              Metaballs
-            </a>
-          </li>
-          <li>
-            <a href="/#xones" onClick={toggleMenu}>
-              Xones
-            </a>
-          </li>
-          <li>
-            <a href="/#plasmaverse" onClick={toggleMenu}>
-              PlasmaVerse
-            </a>
-          </li>
-          <li>
-            <a href="/#tokens" onClick={toggleMenu}>
-              Tokenomics
-            </a>
-          </li>
-          <li>
-            <a href="/#roadmap" onClick={toggleMenu}>
-              Roadmap
-            </a>
-          </li>
-          <li>
-            <a href="/#team" onClick={toggleMenu}>
-              Team
-            </a>
-          </li>
-          <li>
-            <a href="/#faq" onClick={toggleMenu}>
-              FAQs
-            </a>
-          </li>
-          <li>
-            <div className="social-icons">
-              <a href="https://twitter.com/metaballix" target="_blank" rel="noreferrer">
-              <i className="nav-social fa-brands fa-twitter"></i>
-              </a>
-              <a href="https://discord.gg/AG2Y93emkf" target="_blank" rel="noreferrer">
-              <i className="nav-social fa-brands fa-discord"></i>
-              </a>
-            </div>
-          </li>
-        </ul>
-      </div>
-      <i className="mobile-menu-button fa-solid fa-ellipsis-vertical" onClick={toggleMenu}> </i>
-      <nav>
-        <div className="nav-container">
-        <div className="stage ball-topleft hide-800"><figure className="4x1 ball bubble"></figure></div>
-        <a className="hide-800" href="/#nft">
-            NFTs
-          </a>
-          <a className="hide-800" href="/#xones">
-            Xones
-          </a>
-          <a className="hide-800" href="/#plasmaverse">
-            PlasmaVerse
-          </a>
-          <a className="hide-800" href="/#tokens">
-            Tokenomics
-          </a>
-          <a className="hide-800" href="/#roadmap">
-            Roadmap
-          </a>
-          <a className="hide-800" href="/#team">
-            Team
-          </a>
-          <a className="hide-800" href="/#faq">
-            FAQs
-          </a>
-          <div className="social-icons hide-800">
-            <a href="https://twitter.com/metaballix" target="_blank" rel="noreferrer">
-              <i className="nav-social fa-brands fa-twitter"> </i>
-            </a>
-            <a href="https://discord.gg/AG2Y93emkf" target="_blank" rel="noreferrer">
-              <i className="nav-social fa-brands fa-discord"> </i>
-            </a>
-          </div>
-        </div>
-      </nav> 
-    */}
-{/* End of ORIGINAL NAV */}
+<header className="card text-center align-items-center rounded-0" id="hero-minter">
 
   <nav className="navbar navbar-expand-lg theme-nav fixed-top">
     <div className="container"><a className="navbar-brand" href="/"><img className="cl-nav-logo" src="images/logo.png" alt="logo" /></a>
@@ -267,7 +166,7 @@ const App = () => {
     </div>
   </nav>
   <div className="container text-center align-items-center p-1 my-auto pt-2">
-  <div className="row align-items-center my-auto">
+  <div className="row align-items-center my-auto mb-0">
   <div className="col-md-6 col-12 px-1 mt-5 pb-1">
   <h3 className="hero-text text-secondary-color noselect">Welcome to the PlasmaVerse</h3>
     <h1 className="hero-title pb-3 noselect"><span className="h1-engage">ENGAGE. </span><span className="h1-expand">EXPAND. </span><span className="h1-earn">EARN. </span></h1>
@@ -278,7 +177,7 @@ const App = () => {
 
 {/* METABALL MINTER v1.1 (cmv2) - Hero Dialog Box */}
   <div className="col-md-6 col-12 px-0 noselect">
-  <div id="mint" className="mball-avatar"></div>
+  <div id="mint" className="mball-avatar" style={{position: "relative", zIndex: "5"}}></div>
     <ThemeProvider theme={theme}>
       <ConnectionProvider endpoint={endpoint}>
         <WalletProvider wallets={wallets} autoConnect>
@@ -302,10 +201,10 @@ const App = () => {
 </header>
 
 {/* START of SECTION :: FEATURES */}
-<section id="features" className="theme-bg feature py-1 pb-5 text-center bxs-purp1">
+<section id="features" className="theme-bg feature py-0 mt-0 pt-0 text-center bxs-purp1">
 
 {/* NFTs Card with mBall logo */}
-<div className="mbp-slider-card pb-5 bxs-purp1">
+<div className="mbp-slider-card mt-0 pt-0 bxs-purp1">
 
 <div className="row px-2 mx-auto mb-3 p-0">
   <div className="mbp-photos custom-scrollbar-css" data-tilt="" data-tilt-perspective="100" data-tilt-speed="400" data-tilt-max="1.8">
