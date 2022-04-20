@@ -1126,15 +1126,14 @@ const App = () => {
 {/* End of Tokenomics section */}
 
 {/* <div className="b-divider"></div> */}
-
+<svg className="separator" width="100%" height="120" viewBox="0.1 0.1 180 40" preserveAspectRatio="none">
+    <g transform="translate(-18.298844,-77.973964)">
+        <path style={{fill:"rgb(120, 44, 207)"}} d="M 31.615583,86.351641 H 192.16499 v 26.901969 c 0,0 -32.03411,-14.237983 -59.62682,-12.72484 -22.34188,1.2252 -54.779359,9.72634 -54.779359,9.72634 0,0 -22.029534,3.62882 -34.471238,-1.88988 -12.441702,-5.51871 -11.67199,-22.013589 -11.67199,-22.013589 z" />
+        <path style={{fill:"#00c4cc"}} d="M 18.441597,78.106256 H 198.58126 v 39.288614 c 0,0 -43.10672,-27.825245 -73.47599,-19.687823 -30.369264,8.137423 -46.832208,12.548653 -46.832208,12.548653 0,0 -32.775418,8.05972 -46.735258,0 C 17.577964,102.19598 18.441597,78.106256 18.441597,78.106256 Z" />
+    </g>
+  </svg>
 {/* Start of ROADMAP Section */}
 <section id="roadmap" className="pt-0 mt-5 pb-4 mb-0 overflow-visible">
-<svg className="separator" width="100%" height="120" viewBox="0.1 0.1 180 40" preserveAspectRatio="none">
-            <g transform="translate(-18.298844,-77.973964)">
-                <path style={{fill:"rgb(120, 44, 207)"}} d="M 31.615583,86.351641 H 192.16499 v 26.901969 c 0,0 -32.03411,-14.237983 -59.62682,-12.72484 -22.34188,1.2252 -54.779359,9.72634 -54.779359,9.72634 0,0 -22.029534,3.62882 -34.471238,-1.88988 -12.441702,-5.51871 -11.67199,-22.013589 -11.67199,-22.013589 z" />
-                <path style={{fill:"#00c4cc"}} d="M 18.441597,78.106256 H 198.58126 v 39.288614 c 0,0 -43.10672,-27.825245 -73.47599,-19.687823 -30.369264,8.137423 -46.832208,12.548653 -46.832208,12.548653 0,0 -32.775418,8.05972 -46.735258,0 C 17.577964,102.19598 18.441597,78.106256 18.441597,78.106256 Z" />
-            </g>
-        </svg>
 <div className="container tl-roadmap rounded-3 border border-info mb-0 p-3 shadow" style={{ background: "linear-gradient(11deg, rgba(11,11,11,0.3), rgba(29,0,47,0.3))", marginTop: "-182px" }}>
   <h1 className="my-3 gradient-txt-purple fs-1 fw-bold text-center" style={{ position: "relative", zIndex: "3" }}>ROADMAP</h1>
   <hr style={{ margin: "11px 0" }} />
@@ -1561,10 +1560,13 @@ const App = () => {
 
 <div className="b-divider"></div>
 
-<div className="container justify-content-center align-items-center">
-<div id="partners" className="showcase mx-auto">
+{/* START OF MBALL-MAIN GROUP (with animated gradient bg) */}
+<div id="mball-main">
+
+<div className="container m-auto justify-content-center align-items-center">
+<div id="partners" className="showcase mx-auto justify-content-center align-items-center">
           <div className="container" style={{position: "relative", zIndex: "5"}}>
-              <div className="row g-5">
+              <div className="row g-5 justify-content-center align-items-center">
                   <div className="col-lg-6 order-last order-lg-first mb-2">
                       <h2 className="btn bg-dark-gradient rounded-pill px-5 py-1 fs-2 fw-bold text-white shadow">Scalable Stack</h2>
                       <h4 className="my-3">Awesome with Extra Ordinary Flexibility Features</h4>
@@ -1597,22 +1599,23 @@ const App = () => {
 </div>
 </div>
 
-{/* START OF MBALL-MAIN GROUP (with animated gradient bg) */}
-<div id="mball-main">
-
 {/* START OF CONTENT WRAPPER # 3 */}
 <div className="content-wrapper">
+  <figure className="text-center my-3">
+    <blockquote className="blockquote">
+      <p>A well-known quote, contained in a blockquote element.</p>
+    </blockquote>
+    <figcaption className="blockquote-footer">
+      Someone famous in <cite title="Source Title">Source Title</cite>
+    </figcaption>
+  </figure>
+</div>
+{/* End of Content Wrapper # 3 */}
 
-<figure className="text-center my-5">
-  <blockquote className="blockquote">
-    <p>A well-known quote, contained in a blockquote element.</p>
-  </blockquote>
-  <figcaption className="blockquote-footer">
-    Someone famous in <cite title="Source Title">Source Title</cite>
-  </figcaption>
-</figure>
+</div>
+{/* END OF GROUP MBALL-MAIN */}
 
-{/* Scrolling Frames - stackoverflow.com/questions/43744887/fullscreen-infinite-scrolling-background*/}
+{/* Scrolling Frames - stackoverflow.com/questions/43744887/fullscreen-infinite-scrolling-background ::
 <div className="nft-hero-2">
 <div className="nft-img-container" id="nft-ctn1">
     <div className="nft-img-inner">
@@ -1625,22 +1628,14 @@ const App = () => {
     </div>
 </div>
 </div>
-{/* End of Scrolling Frames */}
+*/}
 
 {/* 
 <Testimonials1 content={null} /> 
 <Testimonials2 content={null} /> 
-*/}
-
-{/* 
 <CallToAction2 content={null} /> 
 <Footer3 content={null} /> 
- */}
-</div>
-{/* End of Content Wrapper # 3 */}
-
-</div>
-{/* END OF GROUP MBALL-MAIN */}
+*/}
 
 {/* START of Features XONE CARDS 3x1 :: 
 <section id="feature-cards">
@@ -1661,7 +1656,7 @@ const App = () => {
 */}
 
 {/* START of NFT GRID 8x2 - jsfiddle.net/webtiki/MpXYr/2/ */}
-<section id="nft-display">
+<section id="nft-display mt-0">
 <div className="container-fluid shadow text-center mx-auto pb-2">
   {/* 1st row verticaly centered text in the square columns */}
   <div className="nft-square img_1-1">
