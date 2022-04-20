@@ -126,7 +126,6 @@ const App = () => {
 */}
 
 <header className="card text-center align-items-center rounded-0" id="hero-minter">
-
   <nav className="navbar navbar-expand-lg theme-nav fixed-top">
     <div className="container"><a className="navbar-brand" href="/"><img className="cl-nav-logo" src="images/logo.png" alt="logo" /></a>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainmenu" aria-controls="mainmenu" aria-expanded="false" aria-label="Toggle navigation">
@@ -166,6 +165,7 @@ const App = () => {
     </div>
   </nav>
   <div className="container text-center align-items-center p-1 my-auto pt-2">
+  {/* <div className="bg-overlay-2"></div> */}
   <div className="row align-items-center my-auto mb-0">
   <div className="col-md-6 col-12 px-1 mt-5 pb-1">
   <h3 className="hero-text text-secondary-color noselect">Welcome to the PlasmaVerse</h3>
@@ -204,7 +204,7 @@ const App = () => {
 <section id="features" className="theme-bg feature py-0 mt-0 pt-0 text-center bxs-purp1">
 
 {/* NFTs Card with mBall logo */}
-<div className="mbp-slider-card mt-0 pt-0 bxs-purp1">
+<div className="mbp-slider-card mt-0 pt-2 pb-5 bxs-purp1">
 
 <div className="row px-2 mx-auto mb-3 p-0">
   <div className="mbp-photos custom-scrollbar-css" data-tilt="" data-tilt-perspective="100" data-tilt-speed="400" data-tilt-max="1.8">
@@ -403,8 +403,8 @@ const App = () => {
 </div>
 
 {/* Feature Mob */}
-  <div className="container my-5">
-    <div className="animation-circle-inverse py-3"><i></i><i></i><i></i></div>
+  <div className="container my-5 pb-5">
+    <div className="animation-circle-inverse"><i></i><i></i><i></i></div>
     <div className="row">
       <div className="col-md-12 text-center">
       <h1 className="pb-3 gradient-txt-green fs-1 fw-bold" style={{filter: "drop-shadow(0px 1px -1rem rgba(255,255,255,1))"}}>BUILD-TO-EARN</h1>
@@ -413,24 +413,26 @@ const App = () => {
       <div className="col-lg-4 col-sm-6 mob-left">
         <div className="future-box">
           <div className="future-timeline">
+
             <ul>
               <li className="timeline">
-                <h4 className="sub-title">Easy Installation</h4>
+                <h4>Easy Installation</h4>
                 <p>Lorem Ipsum has been the industry's</p>
               </li>
               <li className="timeline">
-                <h4 className="sub-title">Multi Platform Chat App</h4>
+                <h4>Multi Platform Chat App</h4>
                 <p>Lorem Ipsum has been the industry's</p>
               </li>
               <li className="timeline">
-                <h4 className="sub-title">Secure Backup &amp; Recovery</h4>
+                <h4>Secure Backup &amp; Recovery</h4>
                 <p>Many desktop publishing packages</p>
               </li>
               <li className="timeline">
-                <h4 className="sub-title">Easy File Sharing</h4>
+                <h4>Easy File Sharing</h4>
                 <p>Lorem Ipsum has been the industry's</p>
               </li>
             </ul>
+
           </div>
         </div>
       </div>
@@ -460,10 +462,10 @@ const App = () => {
                 <h4>Secure Backup &amp; Recovery</h4>
                 <p>Many desktop publishing packages</p>
               </li>
-              <li className="timeline-right">
+              {/* <li className="timeline-right">
                 <h4>Easy File Sharing</h4>
                 <p>Lorem Ipsum has been the industry's</p>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
@@ -475,17 +477,16 @@ const App = () => {
 {/* End of FEATURES section */}
 
 {/* Start of XONES Section */}
-<section id="nft" className="container-fluid d-flex w-100 h-auto px-0 py-1 my-0 pb-5 mx-auto flex-column bxs-blue2">
+<section id="nft" className="container-fluid d-flex w-100 h-auto px-1 py-5 my-0 mx-auto flex-column bxs-blue2">
 
    {/* Video BG :: 
     <video autoPlay muted loop id="vid-xone">
     <source src="https://cdn.glitch.global/84180755-58e4-4c80-b543-77cacf869330/xone-bg-14s.mp4?v=1647881876712" type="video/mp4" />
     </video>*/}
 
-<div className="container py-2 pb-4 my-3 mb-5 text-center mx-auto">
-
-{/* ROW :: HONE YOUR XONE */}
-<div id="xone" className="row mb-2">
+{/* Start of HONE YOUR XONE */}
+<div className="container py-2 pt-5 my-3 mb-5 text-center mx-auto">
+<div id="xone" className="row mb-2 p">
     <div className="col col-lg-7 mb-5">
       <div className="mbp-wrapper-2">
         
@@ -801,7 +802,7 @@ const App = () => {
 <div className="row service-6 mx-1 mx-md-3 mt-1 p-1 p-md-2 p-lg-3 align-items-center justify-content-center" style={{position: "relative", zIndex: "5"}}>
 
   <div className="col-12 col-lg-11 mb-3">
-    <div className="card p-2 p-md-5 bg-purp-opaque" style={{borderRadius:"10px"}}>
+    <div className="card p-2 p-md-5 bg-purp-opaque shadow" style={{borderRadius:"10px"}}>
       <div className="card-body">
         <h2 className="btn bg-dark-gradient rounded-pill px-5 py-3 fs-2 fw-bold text-white shadow">Scalable Technology Stack</h2>
         <p className="card-text fs-3">The Plasmaverse is built with A-Frame, a Three.js-based framework that leverages WebGL and WebXR to deliver "immersive interactive VR experiences that go beyond basic 360° content, making full use of positional tracking and controllers."</p>
@@ -809,7 +810,7 @@ const App = () => {
       <div className="card-footer">
         <div className="row g-4">
             <div className="col-6 col-lg-3 wrap-service6-box">
-                <div className="card techcard h-100 border-0 bg-blue-opaque text-white mb-2 bxs-green3">
+                <div className="card techcard h-100 border-0 bg-purp-opaque text-white mb-2 bxs-green3">
                     <div className="card-body">
                         <p className="card-text">Lorem ipsum dolor sit amet, consecte tuam porttitor.</p>
                     </div>
@@ -818,7 +819,7 @@ const App = () => {
           </div>
 
           <div className="col-6 col-lg-3 wrap-service6-box">
-              <div className="card techcard h-100 border-0 bg-green-opaque text-white mb-2 bxs-green3">
+              <div className="card techcard h-100 border-0 bg-purp-opaque text-white mb-2 bxs-green3">
                   <div className="card-body">
                       <p className="card-text">Lorem ipsum dolor sit amet, consecte tuam porttitor.</p>
                   </div>
@@ -827,7 +828,7 @@ const App = () => {
           </div>
 
           <div className="col-6 col-lg-3 wrap-service6-box">
-              <div className="card techcard h-100 border-0 bg-yellow-opaque text-white mb-2 bxs-green3">
+              <div className="card techcard h-100 border-0 bg-purp-opaque text-white mb-2 bxs-green3">
                   <div className="card-body">
                       <p className="card-text">Lorem ipsum dolor sit amet, consecte tuam porttitor.</p>
                   </div>
@@ -836,7 +837,7 @@ const App = () => {
           </div>
 
           <div className="col-6 col-lg-3 wrap-service6-box">
-              <div className="card techcard h-100 border-0 bg-pink-opaque text-white mb-2 bxs-green3">
+              <div className="card techcard h-100 border-0 bg-purp-opaque text-white mb-2 bxs-green3">
                   <div className="card-body">
                       <p className="card-text">Lorem ipsum dolor sit amet, consecte tuam porttitor.</p>
                   </div>
@@ -857,7 +858,7 @@ const App = () => {
                   <div className="col-12 col-md-6 col-lg-5 mb-2">
                     <div className="row">
                         <div className="col-md-6 mt-3 wrap-service6-box">
-                            <div className="card h-100 border-0 bg-pink-gradient text-white mb-2 bxs-blue-card">
+                            <div className="card h-100 border border-info bg-pink-gradient text-white mb-2 shadow">
                             <img className="card-img-top" src="https://cloud.githubusercontent.com/assets/674727/24531440/0336e66e-156e-11e7-95c2-f2e6ebc0393d.gif" alt="Xone Games with A-Frame" />
                             <div className="card-header">MONETIZABLE</div>
                                 <div className="card-body">
@@ -867,7 +868,7 @@ const App = () => {
                             </div>
                         </div>
                         <div className="col-md-6 mt-3 wrap-service6-box">
-                            <div className="card h-100 border-0 bg-purple-gradient text-white mb-2 bxs-blue-card">
+                            <div className="card h-100 border border-info bg-purple-gradient text-white mb-2 shadow">
                             <img className="card-img-top" src="https://user-images.githubusercontent.com/674727/41085457-f5429566-69eb-11e8-92e5-3210e4c6c4a0.gif" alt="Xone Scenes with A-Frame" />
                             <div className="card-header">TOKENIZED</div>
                                 <div className="card-body">
@@ -877,7 +878,7 @@ const App = () => {
                             </div>
                         </div>
                         <div className="col-md-6 mt-3 wrap-service6-box">
-                            <div className="card h-100 border-0 bg-blue-gradient text-white mb-2 bxs-blue-card">
+                            <div className="card h-100 border border-info bg-blue-gradient text-white mb-2 shadow">
                             <img className="card-img-top" src="https://cloud.githubusercontent.com/assets/674727/25109861/b8e9ec48-2394-11e7-8f2d-ea1cd9df69c8.gif" alt="Xone Hangouts with A-Frame" />
                             <div className="card-header">NETWORKED</div>
                                 <div className="card-body">
@@ -887,7 +888,7 @@ const App = () => {
                             </div>
                         </div>
                         <div className="col-md-6 mt-3 wrap-service6-box">
-                              <div className="card h-100 border-0 bg-green-gradient text-white mb-2 bxs-blue-card">
+                              <div className="card h-100 border border-info bg-green-gradient text-white mb-2 shadow">
                               <img className="card-img-top" src="https://cloud.githubusercontent.com/assets/674727/24531477/44272daa-156e-11e7-8ef9-d750ed430f3a.gif" alt="Xone Events with A-Frame" />
                               <div className="card-header">MODULAR</div>
                                   <div className="card-body">
@@ -916,7 +917,7 @@ const App = () => {
                       </div>
                   </div>
                   <div className="col-12 col-md-12 col-lg-2 mt-lg-5">
-                    <a className="btn bg-purple-gradient btn-md border-0 text-white" href="#f12"><span>SHOWCASE</span></a>
+                    <a className="btn service-btn btn-md text-white" href="https://aframe.io/showcase/" target="_blank" rel="noreferrer"><span>SHOWCASE</span></a>
                   </div>
               </div>
           </div>
@@ -1030,7 +1031,7 @@ const App = () => {
 {/* End of Tokenomics section */}
 
 {/* <div className="b-divider"></div> */}
-<div className="container-fluid border-0 rounded-0 mx-0 px-0" style={{marginTop:"-2px"}}>
+<div className="container-fluid border-0 rounded-0 mx-0 px-0" style={{marginTop:"-1px"}}>
   <svg className="separator" width="100%" height="121" viewBox="0.1 0.1 180 40" preserveAspectRatio="none">
     <g transform="translate(-18.298844,-77.973964)">
         <path style={{fill:"rgb(120, 44, 207)"}} d="M 31.615583,86.351641 H 192.16499 v 26.901969 c 0,0 -32.03411,-14.237983 -59.62682,-12.72484 -22.34188,1.2252 -54.779359,9.72634 -54.779359,9.72634 0,0 -22.029534,3.62882 -34.471238,-1.88988 -12.441702,-5.51871 -11.67199,-22.013589 -11.67199,-22.013589 z" />

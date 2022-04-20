@@ -31,11 +31,11 @@ html {
 .bg-purp-grad { background: linear-gradient(-45deg, #1D002F 0%,#380b55 100%); }
 .bg-green1 { background-color: #22c777 !important; background: #22c777 !important; }
 
-.bg-purp-opaque { background-color: rgba(29,0,47, 0.65) !important; }
-.bg-green-opaque { background-color: rgba(0, 47, 27, 0.65) !important; }
-.bg-blue-opaque { background-color: rgba(0, 28, 47, 0.65) !important; }
-.bg-pink-opaque { background-color: rgba(47, 0, 47, 0.65) !important; }
-.bg-yellow-opaque { background-color: rgba(47, 38, 0, 0.65) !important; }
+.bg-purp-opaque { background-color: rgba(29,0,47, 0.56) !important; background: rgba(29,0,47, 0.56) !important; }
+.bg-green-opaque { background-color: rgba(0, 47, 27, 0.56) !important; background: rgba(0, 47, 27, 0.56) !important; }
+.bg-blue-opaque { background-color: rgba(0, 28, 47, 0.56) !important; background: rgba(0, 28, 47, 0.56) !important; }
+.bg-pink-opaque { background-color: rgba(47, 0, 47, 0.56) !important; background: rgba(47, 0, 47, 0.56) !important; }
+.bg-yellow-opaque { background-color: rgba(47, 38, 0, 0.56) !important; background: rgba(47, 38, 0, 0.56) !important; }
 
 
 .bxs-purp1 {
@@ -50,8 +50,8 @@ html {
 .bxs-blue2 { box-shadow: 0 0 38px -5px #00C4CC; }
 .bxs-green2 { box-shadow: 0 0 38px -5px #22c777; }
 .bxs-green3 { 
-  -webkit-box-shadow: 0 0 20px -5px #22c777;
-  box-shadow: 0 0 20px -5px #22c777; }
+  -webkit-box-shadow: 0 0 1rem -5px #22c777;
+  box-shadow: 0 0 1rem -5px #22c777; }
 
   .bxs-blue-card { box-shadow: 0 0 0.83rem 0 rgba(0, 196, 204, 0.65); }
 
@@ -130,14 +130,14 @@ div.bg-overlay {position: fixed; left:0; top: 0; z-index: -1; width:100%; height
   width: 100%;
   height: 480px;
   color: #111;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  position: absolute;
   background: url(../assets/images/neon-grid-purplebg.png) top -1px center, linear-gradient(180deg, transparent 0%, #1D002F 11%, #1D002F 100%);
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: cover;
   background-attachment: scroll;
-  position: absolute;
-  border-bottom-left-radius: 8px;
-  border-bottom-right-radius: 8px;
   -webkit-mask-image: linear-gradient(transparent -33%, rgba(0,0,0,0.4) 29%, black 92%);
   mask-image: linear-gradient(transparent -33%, rgba(0,0,0,0.4) 29%, black 92%);
   /* -webkit-transform: rotate3d(1, 2, 1, 0deg);
@@ -218,9 +218,43 @@ div.bg-overlay {position: fixed; left:0; top: 0; z-index: -1; width:100%; height
   animation: mintbox-gradient 11s ease infinite;
 }
 #hero-minter { 
-  background: linear-gradient(-177deg,rgba(29,0,47,.55) 0%, rgba(29,0,47,0.15) 38%, rgba(29,0,47,0.15) 65%, rgba(29,0,47,0.83) 83%, rgba(29,0,47,1) 92%, rgba(29,0,47,1) 100%); 
+  background: linear-gradient(-177deg,rgba(29,0,47,.55) 0%, rgba(29,0,47,0.15) 38%, rgba(29,0,47,0.15) 65%, rgba(29,0,47,0.83) 83%, rgba(29,0,47,1) 92%, rgba(29,0,47,1) 100%), url(../assets/images/neon-grid.png) top -1px center;
+  background-repeat: no-repeat;; 
+  background-position: top center;
+  background-size: cover;
+  background-attachment: scroll;
   border: none !important;
 }
+.minter-container {
+  background: url(../assets/images/neon-grid.png) top -1px center;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+  background-attachment: scroll;
+  -webkit-mask-image: linear-gradient(transparent -33%, rgba(0,0,0,0.4) 29%, black 92%);
+  mask-image: linear-gradient(transparent -33%, rgba(0,0,0,0.4) 29%, black 92%);
+}
+div.bg-overlay-hero {
+  position: absolute;
+  height:100%;
+  width:100%;
+  top: 0;
+  left:0;
+  background-color: transparent;
+  background-image: radial-gradient(transparent,rgb(20,0,38),var(rgb(20,0,38),rgb(17 17 17/0)));
+}
+div.bg-overlay-2 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  background-image: linear-gradient(180deg, #30273abd 0%, #1D002F 100%);
+  opacity: 1;
+  transition: all 0.3s;
+}
+
 #features { 
   background: linear-gradient(180deg,rgba(29,0,47,1) 0%, rgba(29,0,47,1) 29%, rgba(29,0,47,0.92) 56%, rgba(29,0,47,0.92) 65%, rgba(29,0,47,1) 100%); 
 }

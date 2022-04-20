@@ -823,7 +823,7 @@ section {
 
 .timeline:before {
   content: "";
-  background: #cc3dbe;
+  background: #803dcc;
   position: relative;
   height: 12px;
   width: 12px;
@@ -852,7 +852,7 @@ section {
 
 .timeline-right:before {
   content: "";
-  background: #cc3dbe;
+  background: #803dcc;
   position: relative;
   height: 12px;
   width: 12px;
