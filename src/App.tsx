@@ -302,10 +302,10 @@ const App = () => {
 </header>
 
 {/* START of SECTION :: FEATURES */}
-<section id="features" className="theme-bg feature py-1 pb-5 text-center">
+<section id="features" className="theme-bg feature py-1 pb-5 text-center bxs-purp1">
 
 {/* NFTs Card with mBall logo */}
-<div className="mbp-slider-card bxs-purp1 pb-5">
+<div className="mbp-slider-card pb-5 bxs-purp1">
 
 <div className="row px-2 mx-auto mb-3 p-0">
   <div className="mbp-photos custom-scrollbar-css" data-tilt="" data-tilt-perspective="100" data-tilt-speed="400" data-tilt-max="1.8">
@@ -1365,46 +1365,46 @@ const App = () => {
 {/* End of Roadmap Section */}
 
 {/* START OF TEAMS SECTION */}
-<section id="team" className="mx-3 mt-0">
-<div className="container mb-5 pb-5">
-<div className="row mb-5 pb-5">
+<section id="team" className="mx-3 mt-0 text-center">
+<div className="container">
+<div className="row">
   <div className="col-12 col-md-4 col-sm-6">
     <div className="card bg-transparent shadow border border-info text-center my-2">
     <svg className="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
     <div className="card-body">
-        <h5 className="card-title">PRODUCTIVITY</h5>
-        <h6 className="card-subtitle mb-3 fw-light fst-italic">Card subtitle</h6>
-        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <h5 className="card-title">GORDON</h5>
+        <h6 className="card-subtitle mb-3 fw-light fst-italic">Development Lead</h6>
+        <p className="card-text">Some text to build on the card title and make up the bulk of the card's content.</p>
       </div>
-      <div className="card-footer">First Item</div>
-      <div className="card-footer">Second Item</div>
-      <div className="card-footer">Third Item</div>
+      <div className="card-footer">Twitter</div>
+      <div className="card-footer">Telegram</div>
+      <div className="card-footer">LinkedIn</div>
     </div>
   </div>
   <div className="col-12 col-md-4 col-sm-6">
     <div className="card bg-transparent shadow border border-info text-center my-2">
     <svg className="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
     <div className="card-body">
-        <h5 className="card-title">PRODUCTIVITY</h5>
-        <h6 className="card-subtitle mb-3 fw-light fst-italic">Card subtitle</h6>
-        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <h5 className="card-title">HERI</h5>
+        <h6 className="card-subtitle mb-3 fw-light fst-italic">Design Lead</h6>
+        <p className="card-text">Some text to build on the card title and make up the bulk of the card's content.</p>
       </div>
-      <div className="card-footer">First Item</div>
-      <div className="card-footer">Second Item</div>
-      <div className="card-footer">Third Item</div>
+      <div className="card-footer">Fiverr</div>
+      <div className="card-footer">Vecteezy</div>
+      <div className="card-footer">Email</div>
     </div>
   </div>
   <div className="col-12 col-md-4 col-sm-6">
     <div className="card bg-transparent shadow border border-info text-center my-2">
     <svg className="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
     <div className="card-body">
-        <h5 className="card-title">PRODUCTIVITY</h5>
-        <h6 className="card-subtitle mb-3 fw-light fst-italic">Card subtitle</h6>
-        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <h5 className="card-title">ARVIN</h5>
+        <h6 className="card-subtitle mb-3 fw-light fst-italic">Marketing Lead</h6>
+        <p className="card-text">Some text to build on the card title and make up the bulk of the card's content.</p>
       </div>
-      <div className="card-footer">First Item</div>
-      <div className="card-footer">Second Item</div>
-      <div className="card-footer">Third Item</div>
+      <div className="card-footer">Twitter</div>
+      <div className="card-footer">Telegram</div>
+      <div className="card-footer">LinkedIn</div>
     </div>
   </div>
 </div>
@@ -1413,7 +1413,7 @@ const App = () => {
 {/* End of Teams */}
 
 {/* START OF FAQs SECTION */}
-<section id="faq" className="mx-3 mt-0">
+<section id="faq" className="mt-0">
 <div className="container rounded-3 border border-info shadow p-2" style={{backgroundColor: "#1D002F"}}>
 <div className="row h-100">
 <div className="col-12 col-md-8 h-100">
@@ -1543,8 +1543,51 @@ const App = () => {
   <div className="card-footer">Third Item</div>
 </div>
 
-    </div>
+  </div>
 </div>
+
+<div className="row m-3">
+  <div className="col-12 col-md-4 col-sm-6">
+    <div className="card bg-transparent shadow border border-info text-center my-2">
+    <svg className="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+    <div className="card-body">
+        <h5 className="card-title">GORDON</h5>
+        <h6 className="card-subtitle mb-3 fw-light fst-italic">Development Lead</h6>
+        <p className="card-text">Some text to build on the card title and make up the bulk of the card's content.</p>
+      </div>
+      <div className="card-footer">Twitter</div>
+      <div className="card-footer">Telegram</div>
+      <div className="card-footer">LinkedIn</div>
+    </div>
+  </div>
+  <div className="col-12 col-md-4 col-sm-6">
+    <div className="card bg-transparent shadow border border-info text-center my-2">
+    <svg className="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+    <div className="card-body">
+        <h5 className="card-title">HERI</h5>
+        <h6 className="card-subtitle mb-3 fw-light fst-italic">Design Lead</h6>
+        <p className="card-text">Some text to build on the card title and make up the bulk of the card's content.</p>
+      </div>
+      <div className="card-footer">Fiverr</div>
+      <div className="card-footer">Vecteezy</div>
+      <div className="card-footer">Email</div>
+    </div>
+  </div>
+  <div className="col-12 col-md-4 col-sm-6">
+    <div className="card bg-transparent shadow border border-info text-center my-2">
+    <svg className="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+    <div className="card-body">
+        <h5 className="card-title">ARVIN</h5>
+        <h6 className="card-subtitle mb-3 fw-light fst-italic">Marketing Lead</h6>
+        <p className="card-text">Some text to build on the card title and make up the bulk of the card's content.</p>
+      </div>
+      <div className="card-footer">Twitter</div>
+      <div className="card-footer">Telegram</div>
+      <div className="card-footer">LinkedIn</div>
+    </div>
+  </div>
+</div>
+
 <div className="row m-3">
   <div className="col">col</div>
   <div className="col">col</div>
@@ -1553,6 +1596,7 @@ const App = () => {
   <div className="col">col</div>
   <div className="col">col</div>
 </div>
+
 </div>
 
 </section>
