@@ -1560,61 +1560,6 @@ const App = () => {
 
 <div className="b-divider"></div>
 
-{/* START OF MBALL-MAIN GROUP (with animated gradient bg) */}
-<div id="mball-main">
-
-<div className="container m-auto justify-content-center align-items-center">
-<div id="partners" className="showcase mx-auto justify-content-center align-items-center">
-          <div className="container" style={{position: "relative", zIndex: "5"}}>
-              <div className="row g-5 justify-content-center align-items-center">
-                  <div className="col-lg-6 order-last order-lg-first mb-2">
-                      <h2 className="btn bg-dark-gradient rounded-pill px-5 py-1 fs-2 fw-bold text-white shadow">Scalable Stack</h2>
-                      <h4 className="my-3">Awesome with Extra Ordinary Flexibility Features</h4>
-                      <h6 className="font-weight-light subtitle">You can relay on our amazing features list and also our customer services will be great experience for you without doubt and in no-time</h6>
-                      <div className="row">
-                          <div className="col-lg-12 my-4">
-                              <a className="btn bg-purple-gradient btn-md border-0 text-white" href="#f12"><span>PLASMAVERSE DEMO</span></a>
-                          </div>
-                      </div>
-                  </div>
-                  <div className="col-lg-6 order-first order-lg-last mt-lg-5">
-                      <div className="row wrap-showcase pt-lg-5">
-                          <div className="col-md-6">
-                              <div className="row">
-                                <div className="col-md-12 img-hover mb-4"><img src="https://cloud.githubusercontent.com/assets/674727/24531440/0336e66e-156e-11e7-95c2-f2e6ebc0393d.gif" className="rounded img-shadow img-fluid" alt="Xone Games with A-Frame" /></div>
-                                <div className="col-md-12 img-hover mb-4"><img src="https://user-images.githubusercontent.com/674727/41085457-f5429566-69eb-11e8-92e5-3210e4c6c4a0.gif" className="rounded img-shadow img-fluid" alt="Xone Scapes with A-Frame" /></div>
-                                <div className="col-md-12 img-hover mb-4"><img src="https://cloud.githubusercontent.com/assets/674727/24531440/0336e66e-156e-11e7-95c2-f2e6ebc0393d.gif" className="rounded img-shadow img-fluid" alt="Xone Games with A-Frame" /></div>
-                              </div>
-                          </div>
-                          <div className="col-md-6 uneven-box">
-                              <div className="row">
-                                  <div className="col-md-12 img-hover mb-4"><img src="https://cloud.githubusercontent.com/assets/674727/25109861/b8e9ec48-2394-11e7-8f2d-ea1cd9df69c8.gif" className="rounded img-shadow img-fluid" alt="Xone Hangouts with A-Frame" /></div>
-                                  <div className="col-md-12 img-hover mb-4"><img src="https://cloud.githubusercontent.com/assets/674727/24531477/44272daa-156e-11e7-8ef9-d750ed430f3a.gif" className="rounded img-shadow img-fluid" alt="Xone Events with A-Frame" /></div>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-</div>
-</div>
-
-{/* START OF CONTENT WRAPPER # 3 */}
-<div className="content-wrapper">
-  <figure className="text-center my-3">
-    <blockquote className="blockquote">
-      <p>A well-known quote, contained in a blockquote element.</p>
-    </blockquote>
-    <figcaption className="blockquote-footer">
-      Someone famous in <cite title="Source Title">Source Title</cite>
-    </figcaption>
-  </figure>
-</div>
-{/* End of Content Wrapper # 3 */}
-
-</div>
-{/* END OF GROUP MBALL-MAIN */}
-
 {/* Scrolling Frames - stackoverflow.com/questions/43744887/fullscreen-infinite-scrolling-background ::
 <div className="nft-hero-2">
 <div className="nft-img-container" id="nft-ctn1">
