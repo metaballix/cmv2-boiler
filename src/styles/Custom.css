@@ -31,11 +31,11 @@ html {
 .bg-purp-grad { background: linear-gradient(-45deg, #1D002F 0%,#380b55 100%); }
 .bg-green1 { background-color: #22c777 !important; background: #22c777 !important; }
 
-.bg-purp-opaque { background-color: rgba(29,0,47, 0.74) !important; }
-.bg-green-opaque { background-color: rgba(0, 47, 27, 0.74) !important; }
-.bg-blue-opaque { background-color: rgba(0, 28, 47, 0.74) !important; }
-.bg-pink-opaque { background-color: rgba(47, 0, 47, 0.74) !important; }
-.bg-yellow-opaque { background-color: rgba(47, 38, 0, 0.74) !important; }
+.bg-purp-opaque { background-color: rgba(29,0,47, 0.65) !important; }
+.bg-green-opaque { background-color: rgba(0, 47, 27, 0.65) !important; }
+.bg-blue-opaque { background-color: rgba(0, 28, 47, 0.65) !important; }
+.bg-pink-opaque { background-color: rgba(47, 0, 47, 0.65) !important; }
+.bg-yellow-opaque { background-color: rgba(47, 38, 0, 0.65) !important; }
 
 
 .bxs-purp1 {
@@ -53,7 +53,10 @@ html {
   -webkit-box-shadow: 0 0 20px -5px #22c777;
   box-shadow: 0 0 20px -5px #22c777; }
 
+  .bxs-blue-card { box-shadow: 0 0 0.83rem 0 rgba(0, 196, 204, 0.65); }
+
 .card-shadow { box-shadow: 0 0 30px rgba(115, 128, 157, 0.1); }
+.card-shadow-lg { box-shadow: 0 1.1rem 3rem rgb(20 0 38 / 38%) !important }
 .tech-card {background: transparent; border: 2px solid #22c777;}
 
 .subtext {
@@ -236,14 +239,14 @@ div.bg-overlay {position: fixed; left:0; top: 0; z-index: -1; width:100%; height
   text-align: center;
 }
 .card.techcard {
-  border-radius: 44px; 
+  border-radius: 38px; 
   /*NOTE - Declare transition here! */
-  -moz-transition: border-radius 0.2s;
-  -o-transition: border-radius 0.2s;
-  -webkit-transition: border-radius 0.2s;
-  transition: border-radius 0.2s;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
 }
-.card.techcard:hover {border-radius: 22px;}
+.card.techcard:hover {border-radius: 29px;}
 
 #xtrood {
   background: linear-gradient(0deg,rgba(29,0,47,1) 0%, rgba(29,0,47,1) 100%); 
