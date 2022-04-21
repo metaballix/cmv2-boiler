@@ -1272,7 +1272,7 @@ const App = () => {
 {/* End of Roadmap Section */}
 
 {/* START OF FAQs SECTION */}
-<section id="faq" className="px-2" style={{marginTop: "-55px"}}>
+<section id="faq-section" className="px-2" style={{marginTop: "-55px"}}>
 <div className="container context-container rounded-3 p-2">
 
 {/* START of TEAM Subsection */}
@@ -1337,7 +1337,7 @@ const App = () => {
 
 <div className="row">
 <div className="col-12 h-100">
-<div className="faqcard container card h-100 border-0">
+<div id="faq" className="faqcard container card h-100 border-0">
 <h1 className="pb-3 fs-1 fw-bold text-center">FAQs</h1>
 <div className="card-header w-100">
   <div className="nav nav-tabs card-header-tabs nav-pills nav-fill" id="nav-tab" role="tablist">
@@ -1435,11 +1435,11 @@ const App = () => {
 <div id="faq-tokens-qna" className="accordion w-100 text-left">
   <div className="accordion-item">
     <h2 className="accordion-header" id="faq-tokens-q1-h">
-      <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq-tokens-q1" aria-controls="faq-tokens-q1" aria-expanded="true">
+      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-tokens-q1" aria-controls="faq-tokens-q1" aria-expanded="true">
         NFTs &amp; Metaballs
       </button>
     </h2>
-    <div id="faq-tokens-q1" className="accordion-collapse collapse show" aria-labelledby="faq-tokens-q1-h" data-bs-parent="#faq-tokens-qna">
+    <div id="faq-tokens-q1" className="accordion-collapse collapse" aria-labelledby="faq-tokens-q1-h" data-bs-parent="#faq-tokens-qna">
       <div className="accordion-body">
         <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
       </div>
@@ -1459,11 +1459,11 @@ const App = () => {
   </div>
   <div className="accordion-item">
     <h2 className="accordion-header" id="faq-tokens-q3-h">
-      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-tokens-q3" aria-controls="faq-tokens-q3" aria-expanded="false">
+      <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq-tokens-q3" aria-controls="faq-tokens-q3" aria-expanded="false">
         Platform Technologies
       </button>
     </h2>
-    <div id="faq-tokens-q3" className="accordion-collapse collapse" aria-labelledby="faq-tokens-q3-h" data-bs-parent="#faq-tokens-qna">
+    <div id="faq-tokens-q3" className="accordion-collapse collapse show" aria-labelledby="faq-tokens-q3-h" data-bs-parent="#faq-tokens-qna">
       <div className="accordion-body">
         <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
       </div>
