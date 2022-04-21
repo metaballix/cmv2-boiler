@@ -1273,7 +1273,7 @@ const App = () => {
 
 {/* START OF FAQs SECTION */}
 <section id="faq-section" className="px-2" style={{marginTop: "-55px"}}>
-<div className="container context-container rounded-3 p-2">
+<div className="container context-container rounded-3 p-1 p-md-2">
 
 {/* START of TEAM Subsection */}
 <div id="team" className="row m-3">
