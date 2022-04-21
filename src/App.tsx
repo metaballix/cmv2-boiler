@@ -427,10 +427,10 @@ const App = () => {
                 <h4>Secure Backup &amp; Recovery</h4>
                 <p>Many desktop publishing packages</p>
               </li>
-              <li className="timeline">
+              {/* <li className="timeline">
                 <h4>Easy File Sharing</h4>
                 <p>Lorem Ipsum has been the industry's</p>
-              </li>
+              </li> */}
             </ul>
 
           </div>
@@ -462,10 +462,10 @@ const App = () => {
                 <h4>Secure Backup &amp; Recovery</h4>
                 <p>Many desktop publishing packages</p>
               </li>
-              {/* <li className="timeline-right">
+              <li className="timeline-right">
                 <h4>Easy File Sharing</h4>
                 <p>Lorem Ipsum has been the industry's</p>
-              </li> */}
+              </li>
             </ul>
           </div>
         </div>
@@ -1273,14 +1273,14 @@ const App = () => {
 
 {/* START OF FAQs SECTION */}
 <section id="faq" className="px-2" style={{marginTop: "-55px"}}>
-<div className="container rounded-3 border border-info shadow p-2" style={{backgroundColor: "#1D002F"}}>
+<div className="container context-container rounded-3 p-2">
 
 {/* START of TEAM Subsection */}
 <div id="team" className="row m-3">
   <div className="col-12">
     <h1 className="pb-3 gradient-txt-green fs-1 fw-bold text-center">TEAM</h1>
   </div>
-  <div className="col-12 col-md-4 col-sm-6">
+  <div className="col-12 col-md-3 col-sm-6">
     <div className="card bg-transparent shadow border border-info text-center my-2">
     <svg className="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
     <div className="card-body">
@@ -1293,7 +1293,7 @@ const App = () => {
       <div className="card-footer">LinkedIn</div>
     </div>
   </div>
-  <div className="col-12 col-md-4 col-sm-6">
+  <div className="col-12 col-md-3 col-sm-6">
     <div className="card bg-transparent shadow border border-info text-center my-2">
     <svg className="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
     <div className="card-body">
@@ -1306,7 +1306,7 @@ const App = () => {
       <div className="card-footer">Email</div>
     </div>
   </div>
-  <div className="col-12 col-md-4 col-sm-6">
+  <div className="col-12 col-md-3 col-sm-6">
     <div className="card bg-transparent shadow border border-info text-center my-2">
     <svg className="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
     <div className="card-body">
@@ -1319,31 +1319,45 @@ const App = () => {
       <div className="card-footer">LinkedIn</div>
     </div>
   </div>
+  <div className="col-12 col-md-3 col-sm-6">
+    <div className="card bg-transparent shadow border border-info text-center my-2">
+    <svg className="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+    <div className="card-body">
+        <h5 className="card-title">VEE</h5>
+        <h6 className="card-subtitle mb-3 fw-light fst-italic">Social Lead</h6>
+        <p className="card-text">Some text to build on the card title and make up the bulk of the card's content.</p>
+      </div>
+      <div className="card-footer">Twitter</div>
+      <div className="card-footer">Telegram</div>
+      <div className="card-footer">LinkedIn</div>
+    </div>
+  </div>
 </div>
 {/* End of Teams */}
 
 <div className="row">
 <div className="col-12 h-100">
-<div className="faqcard container card h-100">
-<h1 className="pb-3 gradient-txt-green fs-1 fw-bold text-center">FAQs</h1>
+<div className="faqcard container card h-100 border-0">
+<h1 className="pb-3 fs-1 fw-bold text-center">FAQs</h1>
 <div className="card-header w-100">
-  <div className="nav nav-tabs card-header-tabs" id="nav-tab" role="tablist">
-    <button className="nav-link active" id="faq-nfts-tab" data-bs-toggle="tab" data-bs-target="#faq-nfts" type="button" role="tab" aria-controls="faq-nfts" aria-selected="true">NFTs</button>
-    <button className="nav-link" id="faq-xones-tab" data-bs-toggle="tab" data-bs-target="#faq-xones" type="button" role="tab" aria-controls="faq-xones" aria-selected="false">Xones</button>
-    <button className="nav-link" id="faq-plasma-tab" data-bs-toggle="tab" data-bs-target="#faq-plasma" type="button" role="tab" aria-controls="faq-plasma" aria-selected="false">Plasma</button>
+  <div className="nav nav-tabs card-header-tabs nav-pills nav-fill" id="nav-tab" role="tablist">
+    <button className="nav-link mx-1 active" id="faq-nfts-tab" data-bs-toggle="tab" data-bs-target="#faq-nfts" type="button" role="tab" aria-controls="faq-nfts" aria-selected="true">NFTs</button>
+    <button className="nav-link mx-1" id="faq-xones-tab" data-bs-toggle="tab" data-bs-target="#faq-xones" type="button" role="tab" aria-controls="faq-xones" aria-selected="false">Xones</button>
+    <button className="nav-link mx-1" id="faq-tokens-tab" data-bs-toggle="tab" data-bs-target="#faq-tokens" type="button" role="tab" aria-controls="faq-tokens" aria-selected="false">Tokens</button>
+    <button className="nav-link mx-1" id="faq-general-tab" data-bs-toggle="tab" data-bs-target="#faq-general" type="button" role="tab" aria-controls="faq-general" aria-selected="false">Other</button>
   </div>
 </div>
-<div className="tab-content p-2 bg-white" id="nav-tabContent">
+<div className="tab-content p-2 bg-transparent rounded-3" id="nav-tabContent">
 {/* FAQ Accordion 1 : NFTs */}
 <div className="tab-pane fade show active" id="faq-nfts" role="tabpanel" aria-labelledby="faq-nfts-tab">
-<div id="faq-nfts-qna" className="accordion w-100">
+<div id="faq-nfts-qna" className="accordion w-100 text-left">
   <div className="accordion-item">
     <h2 className="accordion-header" id="faq-nfts-q1-h">
-      <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq-nfts-q1" aria-controls="faq-nfts-q1" aria-expanded="true">
+      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-nfts-q1" aria-controls="faq-nfts-q1" aria-expanded="true">
         NFTs &amp; Metaballs
       </button>
     </h2>
-    <div id="faq-nfts-q1" className="accordion-collapse collapse show" aria-labelledby="faq-nfts-q1-h" data-bs-parent="#faq-nfts-qna">
+    <div id="faq-nfts-q1" className="accordion-collapse collapse" aria-labelledby="faq-nfts-q1-h" data-bs-parent="#faq-nfts-qna">
       <div className="accordion-body">
         <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
       </div>
@@ -1363,11 +1377,11 @@ const App = () => {
   </div>
   <div className="accordion-item">
     <h2 className="accordion-header" id="faq-nfts-q3-h">
-      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-nfts-q3" aria-controls="faq-nfts-q3" aria-expanded="false">
+      <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq-nfts-q3" aria-controls="faq-nfts-q3" aria-expanded="false">
         Platform Technologies
       </button>
     </h2>
-    <div id="faq-nfts-q3" className="accordion-collapse collapse" aria-labelledby="faq-nfts-q3-h" data-bs-parent="#faq-nfts-qna">
+    <div id="faq-nfts-q3" className="accordion-collapse collapse show" aria-labelledby="faq-nfts-q3-h" data-bs-parent="#faq-nfts-qna">
       <div className="accordion-body">
         <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
       </div>
@@ -1375,16 +1389,16 @@ const App = () => {
   </div>
 </div>
 </div>
-{/* FAQ Accordion 2 : Xones */}
+{/* FAQ Accordion 2 : Metaverse-Xones */}
 <div className="tab-pane fade" id="faq-xones" role="tabpanel" aria-labelledby="faq-xones-tab">
-<div id="faq-xones-qna" className="accordion w-100">
+<div id="faq-xones-qna" className="accordion w-100 text-left">
   <div className="accordion-item">
     <h2 className="accordion-header" id="faq-xones-q1-h">
-      <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq-xones-q1" aria-controls="faq-xones-q1" aria-expanded="true">
+      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-xones-q1" aria-controls="faq-xones-q1" aria-expanded="true">
         NFTs &amp; Metaballs
       </button>
     </h2>
-    <div id="faq-xones-q1" className="accordion-collapse collapse show" aria-labelledby="faq-xones-q1-h" data-bs-parent="#faq-xones-qna">
+    <div id="faq-xones-q1" className="accordion-collapse collapse" aria-labelledby="faq-xones-q1-h" data-bs-parent="#faq-xones-qna">
       <div className="accordion-body">
         <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
       </div>
@@ -1404,11 +1418,11 @@ const App = () => {
   </div>
   <div className="accordion-item">
     <h2 className="accordion-header" id="faq-xones-q3-h">
-      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-xones-q3" aria-controls="faq-xones-q3" aria-expanded="false">
+      <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq-xones-q3" aria-controls="faq-xones-q3" aria-expanded="false">
         Platform Technologies
       </button>
     </h2>
-    <div id="faq-xones-q3" className="accordion-collapse collapse" aria-labelledby="faq-xones-q3-h" data-bs-parent="#faq-xones-qna">
+    <div id="faq-xones-q3" className="accordion-collapse collapse show" aria-labelledby="faq-xones-q3-h" data-bs-parent="#faq-xones-qna">
       <div className="accordion-body">
         <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
       </div>
@@ -1416,13 +1430,87 @@ const App = () => {
   </div>
 </div>
 </div>
-{/* FAQ Accordion 3 : Xones */}
-<div className="tab-pane fade" id="faq-plasma" role="tabpanel" aria-labelledby="faq-plasma-tab">
-  <div className="card-body">
-    <h5 className="card-title">Faq Tab 3</h5>
-    <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="/#" className="btn btn-primary">Go somewhere</a>
+{/* FAQ Accordion 3 : Tokens */}
+<div className="tab-pane fade" id="faq-tokens" role="tabpanel" aria-labelledby="faq-tokens-tab">
+<div id="faq-tokens-qna" className="accordion w-100 text-left">
+  <div className="accordion-item">
+    <h2 className="accordion-header" id="faq-tokens-q1-h">
+      <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq-tokens-q1" aria-controls="faq-tokens-q1" aria-expanded="true">
+        NFTs &amp; Metaballs
+      </button>
+    </h2>
+    <div id="faq-tokens-q1" className="accordion-collapse collapse show" aria-labelledby="faq-tokens-q1-h" data-bs-parent="#faq-tokens-qna">
+      <div className="accordion-body">
+        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
   </div>
+  <div className="accordion-item">
+    <h2 className="accordion-header" id="faq-tokens-q2-h">
+      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-tokens-q2" aria-controls="faq-tokens-q2" aria-expanded="false">
+        Ecosystem Tokens
+      </button>
+    </h2>
+    <div id="faq-tokens-q2" className="accordion-collapse collapse" aria-labelledby="faq-tokens-q2-h" data-bs-parent="#faq-tokens-qna">
+      <div className="accordion-body">
+        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div className="accordion-item">
+    <h2 className="accordion-header" id="faq-tokens-q3-h">
+      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-tokens-q3" aria-controls="faq-tokens-q3" aria-expanded="false">
+        Platform Technologies
+      </button>
+    </h2>
+    <div id="faq-tokens-q3" className="accordion-collapse collapse" aria-labelledby="faq-tokens-q3-h" data-bs-parent="#faq-tokens-qna">
+      <div className="accordion-body">
+        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+{/* FAQ Accordion 4 : Other-General */}
+<div className="tab-pane fade" id="faq-general" role="tabpanel" aria-labelledby="faq-general-tab">
+<div id="faq-general-qna" className="accordion w-100 text-left">
+  <div className="accordion-item">
+    <h2 className="accordion-header" id="faq-general-q1-h">
+      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-general-q1" aria-controls="faq-general-q1" aria-expanded="true">
+        NFTs &amp; Metaballs
+      </button>
+    </h2>
+    <div id="faq-general-q1" className="accordion-collapse collapse" aria-labelledby="faq-general-q1-h" data-bs-parent="#faq-general-qna">
+      <div className="accordion-body">
+        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div className="accordion-item">
+    <h2 className="accordion-header" id="faq-general-q2-h">
+      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-general-q2" aria-controls="faq-general-q2" aria-expanded="false">
+        Ecosystem Tokens
+      </button>
+    </h2>
+    <div id="faq-general-q2" className="accordion-collapse collapse" aria-labelledby="faq-general-q2-h" data-bs-parent="#faq-general-qna">
+      <div className="accordion-body">
+        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div className="accordion-item">
+    <h2 className="accordion-header" id="faq-general-q3-h">
+      <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq-general-q3" aria-controls="faq-general-q3" aria-expanded="false">
+        Platform Technologies
+      </button>
+    </h2>
+    <div id="faq-general-q3" className="accordion-collapse collapse show" aria-labelledby="faq-general-q3-h" data-bs-parent="#faq-general-qna">
+      <div className="accordion-body">
+        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+</div>
 </div>
 </div>
 </div>

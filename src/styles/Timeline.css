@@ -102,11 +102,25 @@
     .tl-roadmap .list-group { padding-bottom: 15px; }
 }
 
-
-
 /* FAQ section bs 4.1 - codepen.io/moso/pen/vKGxMx */
 
 /* FAQ Section - Bootstrap 5 Accordion */
+/* .card.contentcard.faqcard { background: rgba(146, 74, 173, 0.65); } */
+
+.card.faqcard {
+  background: transparent;
+  width: 100%;
+  padding: 1.5rem;
+  border-width: 1px;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.context-container {
+  background-color: transparent;
+  background: linear-gradient(rgba(29,0,47,0) 0%, rgba(29,0,47,0) 11%, rgba(29,0,47,1) 85%);
+}
+
 #faq .accordion-item {
     margin-bottom: 11px;
 }
@@ -119,14 +133,21 @@
     border-radius: 5px 5px 5px 5px;
     box-shadow: 0px 0px 0px 0px rgb(0 0 0 / 0%);
 }
-#faq .accordion-collapse { 
-    border: none;
-}
-#faq .accordion-body { 
-    color: #212529; 
-}
+#faq .accordion-collapse { border: none; }
+/* #faq .accordion-body { color: #212529; } */
 
-
+.faqcard .nav .nav-link {
+  background: linear-gradient(35deg, rgba(29,0,47, 0.3) 20%, rgba(29,0,47,0.8) 80%);
+  border: 1px solid #00c4cc;
+  border-bottom: 4px solid #00c4cc;
+  color: #ffffff;
+  transition: all 0.1s;
+}
+.faqcard .nav .nav-link:hover {
+  background: linear-gradient(35deg, rgba(29,0,47, 0.2) 20%, rgba(29,0,47,0.5) 80%);
+  border-bottom-width: 7px;
+  color: #00c4cc;
+}
 /* SERVICE SECTIONS - snippets.wrappixel.com */
 .service-btn {
     background: #22c777;
