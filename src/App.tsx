@@ -168,7 +168,7 @@ const App = () => {
   {/* <div className="bg-overlay-2"></div> */}
   <div className="row align-items-center my-auto mb-0">
   <div className="col-md-6 col-12 px-1 mt-5 pb-1">
-  <h3 className="hero-text text-secondary-color noselect">Welcome to the PlasmaVerse</h3>
+  <h3 className="hero-text text-secondary-color noselect">Welcome to the Plasmaverse</h3>
     <h1 className="hero-title pb-3 noselect"><span className="h1-engage">ENGAGE. </span><span className="h1-expand">EXPAND. </span><span className="h1-earn">EARN. </span></h1>
   <p className="hero-desc pb-0 pl-1 px-2 noselect">
   Mint a <b style={{ animation: "animate-shadow 11s ease infinite" }}>Metaball NFT avatar</b> to unlock your own <b style={{ animation: "animate-shadow 11s ease infinite" }}>Hemispheric</b>, <b style={{ animation: "animate-shadow 11s ease infinite" }}>Extended Reality</b> microverses, or <b className="badge hero-xone-badge">XONES</b>
@@ -809,7 +809,7 @@ const App = () => {
       </div>
       <div className="card-footer">
         <div className="row g-4">
-            <div className="col-6 col-lg-3 wrap-service6-box">
+            <div className="col-12 col-sm-6 col-xl-3 wrap-service6-box">
                 <div className="card techcard h-100 border-0 bg-purp-opaque text-white mb-2 bxs-green3">
                     <div className="card-body">
                         <p className="card-text">Lorem ipsum dolor sit amet, consecte tuam porttitor.</p>
@@ -818,7 +818,7 @@ const App = () => {
                 </div>
           </div>
 
-          <div className="col-6 col-lg-3 wrap-service6-box">
+          <div className="col-12 col-sm-6 col-xl-3 wrap-service6-box">
               <div className="card techcard h-100 border-0 bg-purp-opaque text-white mb-2 bxs-green3">
                   <div className="card-body">
                       <p className="card-text">Lorem ipsum dolor sit amet, consecte tuam porttitor.</p>
@@ -827,7 +827,7 @@ const App = () => {
               </div>
           </div>
 
-          <div className="col-6 col-lg-3 wrap-service6-box">
+          <div className="col-12 col-sm-6 col-xl-3 wrap-service6-box">
               <div className="card techcard h-100 border-0 bg-purp-opaque text-white mb-2 bxs-green3">
                   <div className="card-body">
                       <p className="card-text">Lorem ipsum dolor sit amet, consecte tuam porttitor.</p>
@@ -836,7 +836,7 @@ const App = () => {
               </div>
           </div>
 
-          <div className="col-6 col-lg-3 wrap-service6-box">
+          <div className="col-12 col-sm-6 col-xl-3 wrap-service6-box">
               <div className="card techcard h-100 border-0 bg-purp-opaque text-white mb-2 bxs-green3">
                   <div className="card-body">
                       <p className="card-text">Lorem ipsum dolor sit amet, consecte tuam porttitor.</p>
@@ -1341,10 +1341,11 @@ const App = () => {
 <h1 className="pb-3 fs-1 fw-bold text-center">FAQs</h1>
 <div className="card-header w-100">
   <div className="nav nav-tabs card-header-tabs nav-pills nav-fill" id="nav-tab" role="tablist">
-    <button className="nav-link mx-1 active" id="faq-nfts-tab" data-bs-toggle="tab" data-bs-target="#faq-nfts" type="button" role="tab" aria-controls="faq-nfts" aria-selected="true">NFTs</button>
-    <button className="nav-link mx-1" id="faq-xones-tab" data-bs-toggle="tab" data-bs-target="#faq-xones" type="button" role="tab" aria-controls="faq-xones" aria-selected="false">Xones</button>
-    <button className="nav-link mx-1" id="faq-tokens-tab" data-bs-toggle="tab" data-bs-target="#faq-tokens" type="button" role="tab" aria-controls="faq-tokens" aria-selected="false">Tokens</button>
-    <button className="nav-link mx-1" id="faq-general-tab" data-bs-toggle="tab" data-bs-target="#faq-general" type="button" role="tab" aria-controls="faq-general" aria-selected="false">Other</button>
+    <button className="nav-link mx-1 mb-1 active" id="faq-nfts-tab" data-bs-toggle="tab" data-bs-target="#faq-nfts" type="button" role="tab" aria-controls="faq-nfts" aria-selected="true">NFTs</button>
+    <button className="nav-link mx-1 mb-1" id="faq-tokens-tab" data-bs-toggle="tab" data-bs-target="#faq-tokens" type="button" role="tab" aria-controls="faq-tokens" aria-selected="false">Tokens</button>
+    <button className="nav-link mx-1 mb-1" id="faq-xones-tab" data-bs-toggle="tab" data-bs-target="#faq-xones" type="button" role="tab" aria-controls="faq-xones" aria-selected="false">Xones</button>
+    <button className="nav-link mx-1 mb-1" id="faq-metaverse-tab" data-bs-toggle="tab" data-bs-target="#faq-metaverse" type="button" role="tab" aria-controls="faq-metaverse" aria-selected="false">Metaverse</button>
+    <button className="nav-link mx-1 mb-1" id="faq-general-tab" data-bs-toggle="tab" data-bs-target="#faq-general" type="button" role="tab" aria-controls="faq-general" aria-selected="false">Other</button>
   </div>
 </div>
 <div className="tab-content p-2 bg-transparent rounded-3" id="nav-tabContent">
@@ -1389,7 +1390,7 @@ const App = () => {
   </div>
 </div>
 </div>
-{/* FAQ Accordion 2 : Metaverse-Xones */}
+{/* FAQ Accordion 2 : Xones */}
 <div className="tab-pane fade" id="faq-xones" role="tabpanel" aria-labelledby="faq-xones-tab">
 <div id="faq-xones-qna" className="accordion w-100 text-left">
   <div className="accordion-item">
@@ -1471,7 +1472,48 @@ const App = () => {
   </div>
 </div>
 </div>
-{/* FAQ Accordion 4 : Other-General */}
+{/* FAQ Accordion 4 : Metaverse */}
+<div className="tab-pane fade" id="faq-metaverse" role="tabpanel" aria-labelledby="faq-metaverse-tab">
+<div id="faq-metaverse-qna" className="accordion w-100 text-left">
+  <div className="accordion-item">
+    <h2 className="accordion-header" id="faq-metaverse-q1-h">
+      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-metaverse-q1" aria-controls="faq-metaverse-q1" aria-expanded="true">
+        NFTs &amp; Metaballs
+      </button>
+    </h2>
+    <div id="faq-metaverse-q1" className="accordion-collapse collapse" aria-labelledby="faq-metaverse-q1-h" data-bs-parent="#faq-metaverse-qna">
+      <div className="accordion-body">
+        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div className="accordion-item">
+    <h2 className="accordion-header" id="faq-metaverse-q2-h">
+      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-metaverse-q2" aria-controls="faq-metaverse-q2" aria-expanded="false">
+        Ecosystem Tokens
+      </button>
+    </h2>
+    <div id="faq-metaverse-q2" className="accordion-collapse collapse" aria-labelledby="faq-metaverse-q2-h" data-bs-parent="#faq-metaverse-qna">
+      <div className="accordion-body">
+        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div className="accordion-item">
+    <h2 className="accordion-header" id="faq-metaverse-q3-h">
+      <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq-metaverse-q3" aria-controls="faq-metaverse-q3" aria-expanded="false">
+        Platform Technologies
+      </button>
+    </h2>
+    <div id="faq-metaverse-q3" className="accordion-collapse collapse show" aria-labelledby="faq-metaverse-q3-h" data-bs-parent="#faq-metaverse-qna">
+      <div className="accordion-body">
+        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+{/* FAQ Accordion 5 : Other-General */}
 <div className="tab-pane fade" id="faq-general" role="tabpanel" aria-labelledby="faq-general-tab">
 <div id="faq-general-qna" className="accordion w-100 text-left">
   <div className="accordion-item">
