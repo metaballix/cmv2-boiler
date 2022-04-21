@@ -16,15 +16,16 @@ import { clusterApiUrl } from "@solana/web3.js";
 import { WalletAdapterNetwork } from "@solana/wallet-adapter-base";
 import {
   getPhantomWallet,
-  getSlopeWallet,
   getSolflareWallet,
   getSolletWallet,
-  getSolletExtensionWallet,
-  getTorusWallet,
-  getLedgerWallet,
   getMathWallet,
+  getLedgerWallet,
+  getSlopeWallet,
+  getSolletExtensionWallet,
+  getTorusWallet 
 } from "@solana/wallet-adapter-wallets";
 import { ConnectionProvider, WalletProvider } from "@solana/wallet-adapter-react";
+// import { WalletModalProvider } from '@solana/wallet-adapter-react-ui';
 import { WalletDialogProvider } from "@solana/wallet-adapter-material-ui";
 import { ThemeProvider, createTheme } from "@material-ui/core";
 
@@ -59,6 +60,9 @@ import { ThemeProvider, createTheme } from "@material-ui/core";
 // } );
 // splide.mount( {AutoScroll} ); */
 
+// Default styles that can be overridden by your app
+// require('@solana/wallet-adapter-react-ui/styles.css');
+
 const theme = createTheme({
   typography: {
     fontFamily: '"Dosis", sans-serif !important',
@@ -89,9 +93,6 @@ const App = () => {
     () => [
       getPhantomWallet(),
       getSolflareWallet(),
-      getSlopeWallet(),
-      getSolletWallet({ network }),
-      getSolletExtensionWallet({ network }),
       getTorusWallet({
         options: {
             // TODO: Get your own tor.us wallet client Id
@@ -100,11 +101,25 @@ const App = () => {
           },
         }),
       getLedgerWallet(),
+      getSolletWallet({ network }),
+      getSlopeWallet(),
+      getSolletExtensionWallet({ network }),
       getMathWallet(),
     ],
     []
   );
-
+/* 
+  const wallets = useMemo(
+    () => [
+        new PhantomWalletAdapter(),
+        new SolflareWalletAdapter({ network }),
+        new TorusWalletAdapter(),
+        new GlowWalletAdapter(),
+        new SlopeWalletAdapter(),
+    ],
+    [network]
+);
+*/
 /* 
   function toggleMenu() {
     const menu = document.getElementById("mobileNavContainer")!;
