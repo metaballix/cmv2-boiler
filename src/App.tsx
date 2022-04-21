@@ -795,9 +795,9 @@ const App = () => {
           </div>
         </div>
       </div>
-      <div className="col-12 col-md-5 pt-4 pt-md-2">
+      <div className="col-12 col-md-5 pt-4 pt-md-0">
         <div className="card bg-transparent shadow" style={{border: "3px solid #22c777", borderRadius: "10px"}}>
-          <img className="card-img-top p-1" src="https://cdn.glitch.global/37011ed6-4b84-44e8-8f53-630683dd483b/xone-builder-aframe-inspector-registry.gif?v=1647314963979" alt="metaball xones visualized" style={{borderRadius: "10px"}}/>
+          <img className="card-img-top p-1" src="xonerator-1.gif" alt="build immersive microverses in xonerator" style={{borderRadius: "10px"}}/>
           <div className="card-body">
             <p className="card-text">Quickly design and customize Xones in <b className="badge" style={{ background: "#662D91", letterSpacing: "0.02em" }}>XONERATOR</b>, an intuitive <b>A-Frame scene builder</b> with pre-built objects, customizable components, and powerful features.</p>
           </div>
